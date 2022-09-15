@@ -136,9 +136,43 @@ So, we can do it manually. For example, we could get the descriptives and write 
 |          N.Valid   |114.00  | 114.00  | 114.00|
 |        Pct.Valid   |100.00  | 100.00  | 100.00|
 
+If I wanted to calculate z-scores for the "Age" variable, for example, we could do the following: 
+
+``` 
+(X(age) - Mean(Age)) / Standard Deviation(Age)
+```
+
+This would get us what we want though we'd have to manually type these out and that gets cumbersome. 
+
+Within R, we can also type the following (we will assume our datasheet is named data)
+
+```R 
+zscore_age <- ((data$Age)-Mean(data$Age))/sd(data$Age)
+```
+
+And what the above does is, ```zscore_age <-``` within R, I want to create an object named zscore_age (that is what the <- is, I will be making this (left) by doing what is one the right). What that zscore_age contains is ```((data$Age)-Mean(data$Age))/sd(data$Age)```
+
+Or what amounts to a collection of zscores for the age variable. Try it out! 
+
+On the environment pane, you'll see an item called, "zscore_age" that we can call on in the console. Give it a shot. Type: ```zscore_age``` into the console and you'll see a collection of zscores for the Age variable. 
+
+Neat!
+
+So they're in memory now but what do we do with them? Well, we can do whatever we want, really! Let's try adding it to our existing datasheet. 
+
 ## <a id="appending"></a>Appending Data to your Data (frame, sheet, what?)
 
+
+
 ## <a id="filter"></a>Data Filtering and You
+
+For this, i'm going to send you to a tutorial that is within R. I'm doing this for 3 reasons: 
+
+1. It's super good!
+2. I can't make something better. 
+3. It requires you to navigate R and we need to get comfortable with it.
+
+![The Cheat Sheet](\images\filter.png)
 
 ## <a id="tutorial"></a>How to Start a Tutorial
 
