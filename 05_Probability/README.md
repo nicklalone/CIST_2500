@@ -20,13 +20,13 @@ To understand probability, we will be going through a number of exercises. Pleas
 4. [Addition Law](#addition)
 5. [Conditional Probability.](#conditional)
 
-[Day 2](#day21): 
+[Day 2](#day2): 
 1. [Discrete Probability Distributions](#probdis)
 2. [Uniform Probability Distributions](#uniprob)
 3. [Normal Probability Distributions](#normprob)
 4. [Exponential Probability Distributions](#exponent)
 
-# <a id="day1">Day 1:
+# <a id="day1"></a>Day 1:
 
 ## <a id="experiments"></a>Experiments: a coin toss
 
@@ -38,7 +38,7 @@ To understand probability, we will be going through a number of exercises. Pleas
 
 ## <a id="conditional"></a>Conditional Probability.
 
-# <a id="day2">Day 2: 
+# <a id="day2"></a>Day 2: 
 
 ## <a id="probdis"></a>Discrete Probability Distributions
 
