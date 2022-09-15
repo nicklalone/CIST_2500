@@ -251,3 +251,24 @@ package ‘bslib’ successfully unpacked and MD5 sums checked
 package ‘cachem’ successfully unpacked and MD5 sums checked
 package ‘shiny’ successfully unpacked and MD5 sums checked
 ```
+
+Once we install the learnr package, we see the following other packages installed: 
+
+```R
+package ‘stringi’ successfully unpacked and MD5 sums checked
+package ‘yaml’ successfully unpacked and MD5 sums checked
+package ‘highr’ successfully unpacked and MD5 sums checked
+package ‘stringr’ successfully unpacked and MD5 sums checked
+package ‘xfun’ successfully unpacked and MD5 sums checked
+package ‘tinytex’ successfully unpacked and MD5 sums checked
+package ‘backports’ successfully unpacked and MD5 sums checked
+package ‘rprojroot’ successfully unpacked and MD5 sums checked
+package ‘htmlwidgets’ successfully unpacked and MD5 sums checked
+package ‘evaluate’ successfully unpacked and MD5 sums checked
+package ‘knitr’ successfully unpacked and MD5 sums checked
+package ‘markdown’ successfully unpacked and MD5 sums checked
+package ‘rmarkdown’ successfully unpacked and MD5 sums checked
+package ‘checkmate’ successfully unpacked and MD5 sums checked
+package ‘renv’ successfully unpacked and MD5 sums checked
+package ‘learnr’ successfully unpacked and MD5 sums checked
+```
