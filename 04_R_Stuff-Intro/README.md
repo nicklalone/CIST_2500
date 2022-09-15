@@ -95,12 +95,12 @@ It is now in memory and we can start calling on it!
 
 So, this is a collection of commands for R that deal with what we've been doing for a few weeks now with regard to descriptives. Those commands are relatively straight forward! I'll copy and paste them from the documentation: https://cran.r-project.org/web/packages/summarytools/vignettes/introduction.html
 
-|Function	| Description |
-|-----------| ------------|
-| freq()	| Frequency Tables featuring counts, proportions, cumulative statistics as well as missing data reporting|
-| ctable()	| Cross-Tabulations (joint frequencies) between pairs of discrete/categorical variables, featuring marginal sums as well as row, column or total proportions|
-| descr()	| Descriptive (Univariate) Statistics for numerical data, featuring common measures of central tendency and dispersion|
-| dfSummary() |	Data Frame Summaries featuring type-specific information for all variables: univariate statistics and/or frequency distributions, bar charts or histograms, as well as missing data counts and proportions. Very useful to quickly, detect anomalies and identify trends at a glance|
+|Function	| Description | Uses|
+|-----------| ------------| ----|
+| freq()	| Frequency Tables featuring counts, proportions, cumulative statistics as well as missing data reporting| Frequency Distributions. |
+| ctable()	| Cross-Tabulations (joint frequencies) between pairs of discrete/categorical variables, featuring marginal sums as well as row, column or total proportions| This is mostly for categorical or nominal variables.|
+| descr()	| Descriptive (Univariate) Statistics for numerical data, featuring common measures of central tendency and dispersion| This will give you descriptives for your dataset |
+| dfSummary() |	Data Frame Summaries featuring type-specific information for all variables: univariate statistics and/or frequency distributions, bar charts or histograms, as well as missing data counts and proportions. Very useful to quickly, detect anomalies and identify trends at a glance| Primarily used to check on a variety of descriptives we won't be using just yet but it's neat! Check it out! |
 
 
 
