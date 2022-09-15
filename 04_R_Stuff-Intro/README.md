@@ -254,7 +254,6 @@ package ‘cachem’ successfully unpacked and MD5 sums checked
 package ‘shiny’ successfully unpacked and MD5 sums checked
 ```
 
-![Tutorial tab in the Environment Pane](/images/tutorial-2.PNG)
 
 Once we install the learnr package, we see the following other packages installed: 
 
@@ -276,3 +275,5 @@ package ‘checkmate’ successfully unpacked and MD5 sums checked
 package ‘renv’ successfully unpacked and MD5 sums checked
 package ‘learnr’ successfully unpacked and MD5 sums checked
 ```
+
+![Tutorial tab in the Environment Pane](/images/tutorial-2.PNG)
