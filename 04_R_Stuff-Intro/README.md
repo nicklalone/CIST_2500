@@ -78,9 +78,18 @@ This package is actually a collection of packages that work together for data sc
 
 Primarily, we will keep this on our machine for later; however, for right now we will be exploring our data with a few commands it contains like: dplyr which primarily allows us to manipulate our data in a few ways. 
 
-
-
 ## <a id="loading"></a>Loading Data
+
+For the most part, we will primarily be loading data via pointing and clicking in R-Studio. However, if we want to load data through scripting, it would look something like: 
+```R 
+library(readr)
+homework_5 <- read_csv("homework_5.csv")
+View(homework_5) 
+```
+
+These commands are basically, "Load the library and commands for the readr package." Once this is done, we write out a command that is essentially, "create a memory object called homework_5" that contains a csv (read_csv) called this string, "homework_5.csv". Once this is done, in the "Environment" pane, you should see your object called, "homework_5" appear with a blue arrow to the left of it. 
+
+It is now in memory and we can start calling on it!
 
 ## <a id="summarytool"></a>Summary Tools and Descriptives
 
