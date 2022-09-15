@@ -50,6 +50,8 @@ You will need the desktop version for your operating system. *Do not pay for it,
 
 And so we're up and running! Let's take a bit of a tour. You should see 4 panes (maybe 3, but the 4th will show up after you load data):
 
+![Main R-Studio Screen](/images/main.png)
+
 1. (Upper Left) - This is the pane you might not see yet. It is the data pane and it lets you click on and explore your data. In addition, you can do some rudimentary filtering with this window. If you are working in a variety of datasets, it will show them in a variety of tabs in that window. 
 
 2. (Upper Right) - This is what we can call your "environment" window or pane. Here, you will see a whole lot of stuff. From left to right, Environment is where you will see what data is loaded into memory. These will be noticable from the blue arrow to the left of the name that, once clicked, will give you some basics about your data. Clicking on the actual name will show it on the data pane. 
