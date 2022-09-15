@@ -5,10 +5,12 @@ We produce data far more than we produce waste and the gap between the amount of
 
 Among those packages, we can highlight the following: 
 
-1. SPSS - Statistics Package for Social Sciences
-2. Stata - 
-3. SAS
-4. R
+| Software | URL|
+|----------|----|
+|SPSS | https://www.ibm.com/products/spss-statistics |
+|Stata | https://www.stata.com/ |
+|SAS | https://www.sas.com/ |
+|R | https://www.r-project.org/ |
 
 And you can see where they all reside at: https://www.youtube.com/watch?v=pKPaHH7hnv8&ab_channel=DataDaft
 
