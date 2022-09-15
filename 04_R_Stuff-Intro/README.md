@@ -162,7 +162,24 @@ So they're in memory now but what do we do with them? Well, we can do whatever w
 
 ## <a id="appending"></a>Appending Data to your Data (frame, sheet, what?)
 
+At times, we need to do things like use our data to calculate or filter variables that we use for other things. This could be anything like: 
 
+1. We have a variable like Age which is numeric and quantitative but we want categories in order to better focus our data. 
+2. We want to separate variables out in order to create a variety of binary variables (these are also called dummy variables). 
+3. We want to filter out refusals to answer questions, not applicable answers, and other kinds of data that is troublesome. 
+4. We want to focus our analysis on specific people. 
+
+In each case, we either need to calculate a new variable or deal with something in our current variable and remove observations. 
+
+In this particular section, we are curious about how to add data to an existing frame.
+
+Remember that when you filter some data, you create what is called a "Data Frame." These are basically: 
+
+> A data frame is a table or a two-dimensional array-like structure in which each column contains values of one variable and each row contains one set of values from each column. - https://bookdown.org/yihui/rmarkdown/tufte-quotes.html 
+
+```R
+
+```
 
 ## <a id="filter"></a>Data Filtering and You
 
