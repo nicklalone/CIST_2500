@@ -62,8 +62,23 @@ Next to environment, there is a pane called, "History" which is what you think i
 
 ## <a id="packages"></a>Packages - What they Are, Where to Get Them, How to Load Them
 
-We will be loading 2 specific packages and their dependencies: 
-- 
+We will be downloading 2 packages and working with them. 
+
+```R
+install.packages("summarytools")
+```
+Which is basically a bunch of commands for summarizing data that can be found at: https://cran.r-project.org/web/packages/summarytools/vignettes/introduction.html
+
+The next package we will install is: 
+
+```R
+install.packages("tidyverse")
+```
+This package is actually a collection of packages that work together for data scientists. You can find documentation for this collection here: https://cran.r-project.org/web/packages/tidyverse/index.html 
+
+Primarily, we will keep this on our machine for later; however, for right now we will be exploring our data with a few commands it contains like: dplyr which primarily allows us to manipulate our data in a few ways. 
+
+
 
 ## <a id="loading"></a>Loading Data
 
