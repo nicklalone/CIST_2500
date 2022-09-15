@@ -177,11 +177,35 @@ Remember that when you filter some data, you create what is called a "Data Frame
 
 > A data frame is a table or a two-dimensional array-like structure in which each column contains values of one variable and each row contains one set of values from each column. - https://bookdown.org/yihui/rmarkdown/tufte-quotes.html 
 
-```R
+So to add data together into a new dataset, what do we do? 
 
+Well, first we need to create a variable or a dataframe or a column of data in memory. For our purposes, we will use our zscore example from previous work: 
+
+```R 
+zscore_age <- ((data$Age)-Mean(data$Age))/sd(data$Age)
 ```
 
+This command creates a ```zscore_age``` object that exists in memory and can be seen in the "Environment" pane. It can be called on by simply typing the name of the object into the console. Try it now, type ```zscore_age``` into the console. You should see a list of zscores that shows up in the console.
+
+Now, we want to add this column of information to our existing dataset. For example, this would allow us to type something like, ```data$zscore_age``` and it could be used like any other variable in the existing dataset. We could also use it, for example, to send the zscores to another package that calculates the area between the mean and the zscore. 
+
+We can approach this in a number of ways; however, we will concentrate on just one of those. The process is relatively straight forward (in as much as these things can be). For example, 
+
+We can add the dataframe or object to the dataset....but create a NEW object entirely. 
+
+For example, try the following (change the following to match your dataset names and object names): 
+
+```R
+zscore_dataset <- (homework_5,zscore_age)
+```
+
+And look what happened! We now have a new dataset called ```zscore_dataset``` and can use it for all sorts of things, including exporting it elsewhere into a new dataset. 
+
+We will stop there and come back to this in a later exercise. Next, we will get further in to filtering and dealing with selecting data within a dataset. 
+
 ## <a id="filter"></a>Data Filtering and You
+
+
 
 For this, i'm going to send you to a tutorial that is within R. I'm doing this for 3 reasons: 
 
