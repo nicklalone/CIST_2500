@@ -291,4 +291,6 @@ So from those installation notices, we should finally see the below tutorials av
 
 ![Tutorial tab in the Environment Pane](/images/tutorial-2.PNG)
 
-And for your homework, you will be going through the tutorial ```Filter observations``` in order to learn a bit more about some features of R that can be useful for you in the future. 
+And for your homework, you will be going through the tutorial ```Filter observations``` in order to learn a bit more about some features of R that can be useful for you in the future. You will find your homework in the Files portion of canvas but also in the Assignment as well as the module section. 
+
+Enjoy!
