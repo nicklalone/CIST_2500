@@ -172,9 +172,11 @@ For this, i'm going to send you to a tutorial that is within R. I'm doing this f
 2. I can't make something better. 
 3. It requires you to navigate R and we need to get comfortable with it.
 
+However, there is a super neat and useful cheat sheet we can pull up. It is essentially a graphic representation of what is selected given operators in the filter function. I really love the way it looks and it's been very useful to use. 
+
 ![The Cheat Sheet](/images/filter.png)
 
-And what these operators can do is amazing! While for this dataset, we might not use many of these, for others...they will be so, so useful.
+And what these operators can do is amazing! While for this dataset, we might not use many of these, for others...they will be so, so useful. And so, we go off to use a real dataset in the world of a tutorial.
 
 ## <a id="tutorial"></a>How to Start a Tutorial
 
