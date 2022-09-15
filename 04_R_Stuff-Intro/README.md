@@ -196,10 +196,17 @@ We can add the dataframe or object to the dataset....but create a NEW object ent
 For example, try the following (change the following to match your dataset names and object names): 
 
 ```R
-zscore_dataset <- (homework_5,zscore_age)
+homework_5$z_age <- zscore_age
 ```
 
-And look what happened! We now have a new dataset called ```zscore_dataset``` and can use it for all sorts of things, including exporting it elsewhere into a new dataset. 
+And look what happened! We now have a new column in the ```homework_5``` called ```zscore_age``` and can use it for all sorts of things, including exporting it elsewhere into a new dataset. 
+
+We can keep adding to this as well. For example: 
+
+```R
+homework_5$z_weight <- zscore_weight
+homework_5$z_iq <- zscore_iq
+```
 
 We will stop there and come back to this in a later exercise. Next, we will get further in to filtering and dealing with selecting data within a dataset. 
 
