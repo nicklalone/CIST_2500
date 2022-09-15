@@ -228,7 +228,7 @@ And what these operators can do is amazing! While for this dataset, we might not
 
 ## <a id="tutorial"></a>How to Start a Tutorial
 
-![Tutorial tab in the Environment Pane](/images/tutorial-1.png)
+![Tutorial tab in the Environment Pane](/images/tutorial-1.PNG)
 
 ```R
 package ‘fs’ successfully unpacked and MD5 sums checked
@@ -254,7 +254,7 @@ package ‘cachem’ successfully unpacked and MD5 sums checked
 package ‘shiny’ successfully unpacked and MD5 sums checked
 ```
 
-![Tutorial tab in the Environment Pane](/images/tutorial-2.png)
+![Tutorial tab in the Environment Pane](/images/tutorial-2.PNG)
 
 Once we install the learnr package, we see the following other packages installed: 
 
