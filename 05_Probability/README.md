@@ -27,3 +27,22 @@ Day 2:
 3. Normal Probability Distributions
 4. Exponential Probability Distributions
 
+## Experiments: a coin toss
+
+## Counting Rules, Combinations, and Permutations - Dealing with multi-step experiments.
+
+## Assigning probabilities.
+
+## Addition Law
+
+## Conditional Probability.
+
+# Day 2: 
+
+## Discrete Probability Distributions
+
+## Uniform Probability Distributions
+
+## Normal Probability Distributions
+
+## Exponential Probability Distributions
