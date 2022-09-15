@@ -172,7 +172,7 @@ For this, i'm going to send you to a tutorial that is within R. I'm doing this f
 2. I can't make something better. 
 3. It requires you to navigate R and we need to get comfortable with it.
 
-![The Cheat Sheet](\images\filter.png)
+![The Cheat Sheet](/images/filter.png)
 
 And what these operators can do is amazing! While for this dataset, we might not use many of these, for others...they will be so, so useful.
 
