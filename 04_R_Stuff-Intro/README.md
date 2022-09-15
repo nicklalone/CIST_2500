@@ -174,6 +174,8 @@ For this, i'm going to send you to a tutorial that is within R. I'm doing this f
 
 ![The Cheat Sheet](\images\filter.png)
 
+And what these operators can do is amazing! While for this dataset, we might not use many of these, for others...they will be so, so useful.
+
 ## <a id="tutorial"></a>How to Start a Tutorial
 
 
