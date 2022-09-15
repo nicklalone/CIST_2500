@@ -13,36 +13,37 @@ Your book then goes on to define the word probability by saying:
 
 To understand probability, we will be going through a number of exercises. Please find the table of contents below: 
 
-Day 1:
+[Day 1](#day1):
+1. [Experiments: a coin toss](#experiments)
+2. [Counting Rules, Combinations, and Permutations - Dealing with multi-step experiments.](#counting)
+3. [Assigning probabilities.](#assigning)
+4. [Addition Law](#addition)
+5. [Conditional Probability.](#conditional)
 
-1. Experiments: a coin toss
-2. Counting Rules, Combinations, and Permutations - Dealing with multi-step experiments.
-3. Assigning probabilities.
-4. Addition Law
-5. Conditional Probability.
+[Day 2](#day21): 
+1. [Discrete Probability Distributions](#probdis)
+2. [Uniform Probability Distributions](#uniprob)
+3. [Normal Probability Distributions](#normprob)
+4. [Exponential Probability Distributions](#exponent)
 
-Day 2: 
-1. Discrete Probability Distributions
-2. Uniform Probability Distributions
-3. Normal Probability Distributions
-4. Exponential Probability Distributions
+# <a id="day1">Day 1:
 
-## Experiments: a coin toss
+## <a id="experiments"></a>Experiments: a coin toss
 
-## Counting Rules, Combinations, and Permutations - Dealing with multi-step experiments.
+## <a id="counting"></a>Counting Rules, Combinations, and Permutations - Dealing with multi-step experiments.
 
-## Assigning probabilities.
+## <a id="assigning"></a>Assigning probabilities.
 
-## Addition Law
+## <a id="addition"></a>Addition Law
 
-## Conditional Probability.
+## <a id="conditional"></a>Conditional Probability.
 
-# Day 2: 
+# <a id="day2">Day 2: 
 
-## Discrete Probability Distributions
+## <a id="probdis"></a>Discrete Probability Distributions
 
-## Uniform Probability Distributions
+## <a id="uniprob"></a>Uniform Probability Distributions
 
-## Normal Probability Distributions
+## <a id="normprob"></a>Normal Probability Distributions
 
-## Exponential Probability Distributions
+## <a id="exponent"></a>Exponential Probability Distributions
