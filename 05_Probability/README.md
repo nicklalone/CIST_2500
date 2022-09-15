@@ -22,8 +22,8 @@ Day 1:
 5. Conditional Probability.
 
 Day 2: 
-6. Discrete Probability Distributions
-7. Uniform Probability Distributions
-8. Normal Probability Distributions
-9. Exponential Probability Distributions
+1. Discrete Probability Distributions
+2. Uniform Probability Distributions
+3. Normal Probability Distributions
+4. Exponential Probability Distributions
 
