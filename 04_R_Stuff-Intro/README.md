@@ -93,6 +93,17 @@ It is now in memory and we can start calling on it!
 
 ## <a id="summarytool"></a>Summary Tools and Descriptives
 
+So, this is a collection of commands for R that deal with what we've been doing for a few weeks now with regard to descriptives. Those commands are relatively straight forward! I'll copy and paste them from the documentation: https://cran.r-project.org/web/packages/summarytools/vignettes/introduction.html
+
+|Function	| Description |
+|-----------| ------------|
+| freq()	| Frequency Tables featuring counts, proportions, cumulative statistics as well as missing data reporting|
+| ctable()	| Cross-Tabulations (joint frequencies) between pairs of discrete/categorical variables, featuring marginal sums as well as row, column or total proportions|
+| descr()	| Descriptive (Univariate) Statistics for numerical data, featuring common measures of central tendency and dispersion|
+| dfSummary() |	Data Frame Summaries featuring type-specific information for all variables: univariate statistics and/or frequency distributions, bar charts or histograms, as well as missing data counts and proportions. Very useful to quickly, detect anomalies and identify trends at a glance|
+
+
+
 ## <a id="zscore"></a>Z-Scores and How to Collect Them
 
 ## <a id="appending"></a>Appending Data to your Data (frame, sheet, what?)
