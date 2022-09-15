@@ -228,6 +228,15 @@ And what these operators can do is amazing! While for this dataset, we might not
 
 ## <a id="tutorial"></a>How to Start a Tutorial
 
+So the very last thing we need to address is getting R-Studio ready for tutorials. We've been playing with a lot of fire and so this is our last opportunity to break everything. 
+
+So, the tutorials require a couple of different packages. Those packages are: ```learnr``` and ```shiny```. They are mostly meant for helping this tutorial but each package has its additional commands you can read about: 
+
+learnr: https://rstudio.github.io/learnr/
+shiny: https://shiny.rstudio.com/ 
+
+So, we need to install these two packages; however, what we will be doing with this is not typing anything in, but clicking on the two links that you should see in the tutorial tab up in the environment pane. 
+
 ![Tutorial tab in the Environment Pane](/images/tutorial-1.PNG)
 
 ```R
