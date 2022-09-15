@@ -118,23 +118,23 @@ In R, we can do all sort of things to help calculate them and it may (or may not
 
 So, we can do it manually. For example, we could get the descriptives and write down the values. Take for example: 
 
-|                |   Age  |  IQ     |Weight|
-|----------------- |-------- |-------- |--------|
-            | Mean    |29.61  | 110.63  | 189.51|
-          |Std.Dev     |7.20  |  14.79  |  31.09|
-              |Min    |19.00  |  85.00  | 130.00|
-              | Q1    |23.00  |  98.00  | 158.00|
-           |Median    |28.50  | 110.50  | 198.50|
-              | Q3    |35.00  | 124.00  | 213.00|
-              |Max    |48.00  | 136.00  | 250.00|
-             | MAD     |8.15  |  18.53  |  29.65|
-             | IQR    |12.00  |  25.50  |  54.75|
-            |   CV     |0.24  |   0.13  |   0.16|
-         |Skewness     |0.50  |  -0.03  |  -0.47|
-      |SE.Skewness     |0.23  |   0.23  |   0.23|
-        | Kurtosis    |-0.68  |  -1.27  |  -1.03|
-        |  N.Valid   |114.00  | 114.00  | 114.00|
-        |Pct.Valid   |100.00  | 100.00  | 100.00|
+| Descriptive  |   Age  |  IQ     |Weight|
+|------------- |-------- |-------- |--------|
+|             Mean    |29.61  | 110.63  | 189.51|
+|          Std.Dev     |7.20  |  14.79  |  31.09|
+|              Min    |19.00  |  85.00  | 130.00|
+|               Q1    |23.00  |  98.00  | 158.00|
+|           Median    |28.50  | 110.50  | 198.50|
+|               Q3    |35.00  | 124.00  | 213.00|
+|              Max    |48.00  | 136.00  | 250.00|
+|              MAD     |8.15  |  18.53  |  29.65|
+|              IQR    |12.00  |  25.50  |  54.75|
+|               CV     |0.24  |   0.13  |   0.16|
+|         Skewness     |0.50  |  -0.03  |  -0.47|
+|      SE.Skewness     |0.23  |   0.23  |   0.23|
+|         Kurtosis    |-0.68  |  -1.27  |  -1.03|
+|          N.Valid   |114.00  | 114.00  | 114.00|
+|        Pct.Valid   |100.00  | 100.00  | 100.00|
 
 ## <a id="appending"></a>Appending Data to your Data (frame, sheet, what?)
 
