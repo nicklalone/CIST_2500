@@ -233,11 +233,14 @@ So the very last thing we need to address is getting R-Studio ready for tutorial
 So, the tutorials require a couple of different packages. Those packages are: ```learnr``` and ```shiny```. They are mostly meant for helping this tutorial but each package has its additional commands you can read about: 
 
 learnr: https://rstudio.github.io/learnr/
+
 shiny: https://shiny.rstudio.com/ 
 
 So, we need to install these two packages; however, what we will be doing with this is not typing anything in, but clicking on the two links that you should see in the tutorial tab up in the environment pane. 
 
 ![Tutorial tab in the Environment Pane](/images/tutorial-1.PNG)
+
+When we click on those links, we should see a whole bunch of packages installed. For Shiny, we can see: 
 
 ```R
 package ‘fs’ successfully unpacked and MD5 sums checked
@@ -263,7 +266,6 @@ package ‘cachem’ successfully unpacked and MD5 sums checked
 package ‘shiny’ successfully unpacked and MD5 sums checked
 ```
 
-
 Once we install the learnr package, we see the following other packages installed: 
 
 ```R
@@ -285,4 +287,8 @@ package ‘renv’ successfully unpacked and MD5 sums checked
 package ‘learnr’ successfully unpacked and MD5 sums checked
 ```
 
+So from those installation notices, we should finally see the below tutorials available via R-Studio. 
+
 ![Tutorial tab in the Environment Pane](/images/tutorial-2.PNG)
+
+And for your homework, you will be going through the tutorial ```Filter observations``` in order to learn a bit more about some features of R that can be useful for you in the future. 
