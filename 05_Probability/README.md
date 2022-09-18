@@ -39,6 +39,8 @@ To understand probability, we will be going through a number of exercises. Pleas
 3. [Normal Probability Distributions](#normprob)
 4. [Exponential Probability Distributions](#exponent)
 
+------------------------------------------------------------
+
 # <a id="day1"></a>Day 1:
 
 Today, we will be working to understand 4 things. First, we will think about experiments and actually do one. Next, we will talk about the various ways to think about multi-step experiments. After 1 and multiple step experiments, we will discuss how to actually assign probability. Finally, we will talk about Addition Laws and Conditional Probabilities. 
