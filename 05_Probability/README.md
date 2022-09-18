@@ -18,10 +18,13 @@ For example, let's say we are working to understand the cosequences of raising p
 Think of it like this: 
 
 |------------------------------------|---------------------------------|
- 
+
 0 chances to occcur.     just as likely to occur as not.     Will definitely occur.
 
 To understand probability, we will be going through a number of exercises. Please find the table of contents below: 
+
+
+----------Table of Contents----------
 
 [Day 1](#day1):
 1. [Experiments: a coin toss](#experiments)
