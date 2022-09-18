@@ -85,11 +85,11 @@ And that might also be unsatisfactory but within those collections of words, we 
 
 So here, we can say that flipping a coin has 2 outcomes, 1 of which we'll see each time. Tossing a die and its outcomes is dependent on the number of faces that die has. A raffle ticket is dependent on the number of tickets sold resulting in the likelihood yours is pulled out. For natural hazards, we have past-based data and so that can be used to determine the likelihood. For these last two, we might also have to think about things like fracking, climate change, la nina, el nino, water temperature, and then the paths of hurricanes, the epicenter of earthquakes, and more. So these last two have a lot of different confounding variables but still results in a likleihood or probability of occuring. 
 
-To wit, we will think about experiments a little more. To do this, we're going to spend some time in some steps: 
+To wit, we will think about experiments a little more and we're going to spend some time in thinking in logical steps: 
 
-1. Gather sample spaces.
-2. Tree Diagrams.
-3. 
+1. Gather sample spaces. (think about what you're calculating the probability of)
+2. Tree Diagrams. (draw it out)
+3. Write the sample space as a mathematical figure.
 
 ### Let's Gather Some Sample Spaces: 
 
@@ -102,6 +102,10 @@ To wit, we will think about experiments a little more. To do this, we're going t
 Think about alleles. Ugh, I know. Why am I getting science in your non-math, math course? Well, alleles are an amazing example of a visualization tree. They look like this: 
 
 ![A Tree Diagram](/images/prob-tree.gif)
+
+And if we want a more specific diagram, we can think about what happens with regard to the potential outcomes for a heteronormative couple having children: 
+
+![A Tree Diagram](/images/prob-fam.png)
 
 ## <a id="counting"></a>Counting Rules, Combinations, and Permutations - Dealing with multi-step experiments.
 
