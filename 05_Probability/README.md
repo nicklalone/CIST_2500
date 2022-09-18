@@ -115,7 +115,7 @@ So, we've drawn it out, we've thought about it, but what does calculating it loo
 
 It looks like this! 
 
-![picture of classical probabilty](/image/classical-prob.png)
+![picture of classical probabilty](/image/classic-prob.png)
 
 ## <a id="experiments"></a>Experiments
 
