@@ -109,6 +109,14 @@ And that sample space is basically the bottom row. If you look back further at t
 
 These are simply visualizations. Many of you can probably count this in your head or just write it out. Let's move on to experiments. 
 
+### Math Formula.
+
+So, we've drawn it out, we've thought about it, but what does calculating it look like? 
+
+It looks like this! 
+
+[picture of classical probabilty](/image/classical-prob.png)
+
 ## <a id="experiments"></a>Experiments
 
 An experiment is essentially "A process that generates well-defined outcomes."
@@ -131,13 +139,15 @@ We can calculate probability with the following formula:
 
 [Formulas for experimental probability](/images/ex-prob.png)
 
+From this image, we can see 2 different approaches to calculating probability. One is essentially doing a thing a bunch and recording it and reporting it. The other is determining the probability based on the factors involved. So for example, we say a coin flip is 50/50. 
 
+But is it? Let's give it a shot!!!
+
+Have 5 coins. Let's see what their probabilities are after 10 flips.
 
 ## <a id="counting"></a>Counting Rules, Combinations, and Permutations - Dealing with multi-step experiments.
 
-So those trees and examples of simple probabilty can also be called, "Classic Probability." We will be moving in this section to "Experimental Probability." This does not mean that we're using experimental methods but rather, calculating probability based on experiments we perform. 
 
-From the table, your book defines. 
 
 ## <a id="assigning"></a>Assigning probabilities.
 
