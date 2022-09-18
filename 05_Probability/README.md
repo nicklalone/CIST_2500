@@ -67,14 +67,33 @@ Terms of Importance
 |Multi-step experiments | An experiment that consists of a sequence of steps|
 |Tree Diagrams | Graphic representation that helps visualize a multi-step experiment|
 
-## <a id="experiments"></a>Experiments: a coin toss
+## <a id="experiments"></a>Experiments
 
-Examples of experiments: 
+An experiment is essentially "A process that generates well-defined outcomes."
+
+What does this mean? Well, the first thing to think about is that when we say, "well defined" we mostly mean that "each time we do something, only 1 thing could occur." So from that, we can then think about an experiment essentially being the act of recording the outcomes of a particular event within which that event has multiple probable outcomes. 
+
+Or an even less fancy way, "we do stuff within which the outcome can be mathematically measured, collected, and evaluated."
+
+And that might also be unsatisfactory but within those collections of words, we have ambiguity. So let's think about actual examples. An experiment could be: 
+
 * Flipping a coin
 * Tossing dice
 * Raffle Ticket
+* Hurricane hitting my home
+* Earthquake in Virginia
 
+So here, we can say that flipping a coin has 2 outcomes, 1 of which we'll see each time. Tossing a die and its outcomes is dependent on the number of faces that die has. A raffle ticket is dependent on the number of tickets sold resulting in the likelihood yours is pulled out. For natural hazards, we have past-based data and so that can be used to determine the likelihood. For these last two, we might also have to think about things like fracking, climate change, la nina, el nino, water temperature, and then the paths of hurricanes, the epicenter of earthquakes, and more. So these last two have a lot of different confounding variables but still results in a likleihood or probability of occuring. 
 
+Within 
+
+### Let's Gather Some Sample Spaces: 
+
+1. Rolling 2 Dice, what is the sample space of all outcomes?
+2. A coin and a die, what is the sample space for rolling heads and a prime number?
+3. 2 different dice, what is the sample space of rolling a multiple of 2?
+
+### Tree Diagrams - A Good 
 
 ## <a id="counting"></a>Counting Rules, Combinations, and Permutations - Dealing with multi-step experiments.
 
