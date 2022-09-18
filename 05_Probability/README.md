@@ -117,6 +117,8 @@ It looks like this!
 
 ![picture of classical probabilty](/images/classic-prob.png)
 
+From this, we can say that we're doing some very basic division. And this makes sense as probability is literally, "the outcome we want" over "all the outcomes possible."
+
 ## <a id="experiments"></a>Experiments
 
 An experiment is essentially "A process that generates well-defined outcomes."
