@@ -67,23 +67,7 @@ Terms of Importance
 |Multi-step experiments | An experiment that consists of a sequence of steps|
 |Tree Diagrams | Graphic representation that helps visualize a multi-step experiment|
 
-## <a id="experiments"></a>Experiments
-
-An experiment is essentially "A process that generates well-defined outcomes."
-
-What does this mean? Well, the first thing to think about is that when we say, "well defined" we mostly mean that "each time we do something, only 1 thing could occur." So from that, we can then think about an experiment essentially being the act of recording the outcomes of a particular event within which that event has multiple probable outcomes. 
-
-Or an even less fancy way, "we do stuff within which the outcome can be mathematically measured, collected, and evaluated."
-
-And that might also be unsatisfactory but within those collections of words, we have ambiguity. So let's think about actual examples. An experiment could be: 
-
-* Flipping a coin
-* Tossing dice
-* Raffle Ticket
-* Hurricane hitting my home
-* Earthquake in Virginia
-
-So here, we can say that flipping a coin has 2 outcomes, 1 of which we'll see each time. Tossing a die and its outcomes is dependent on the number of faces that die has. A raffle ticket is dependent on the number of tickets sold resulting in the likelihood yours is pulled out. For natural hazards, we have past-based data and so that can be used to determine the likelihood. For these last two, we might also have to think about things like fracking, climate change, la nina, el nino, water temperature, and then the paths of hurricanes, the epicenter of earthquakes, and more. So these last two have a lot of different confounding variables but still results in a likleihood or probability of occuring. 
+Before we get into experiments, lets talk a little bit about probability and how to think about it. 
 
 To wit, we will think about experiments a little more and we're going to spend some time in thinking in logical steps: 
 
@@ -107,7 +91,53 @@ And if we want a more specific diagram, we can think about what happens with reg
 
 ![A Tree Diagram](/images/prob-fam.png)
 
+Note in this tree that in the bottom row all of the outcomes are in order from oldest to youngest and that the final row of the third generation encapsulates all of the possible outcomes. This is a feature of these and i'll repeat this a little further down.
+
+What these diagrams are good for is really visualizing the possibilities and thinking about if we need to add the outcomes together or multiply them or something else. Here is a longer definition of tree diagrams that also includes instructions on their creation: 
+
+> A tree diagram can be used to represent the outcomes of an experiment when the experiment consists of several stages. The tree begins with the possible outcomes for the first stage and then branches for each additional posssibility. Each of the elements of the last row of the tree diagram represents a unique outcome in the sample space. The number of possibilities in the bottom row of the tree is equal to the number of outcomes in the sample space.
+
+But what does that mean? Well, take for example, the family tree diagram above.
+
+If you look at the bottom of the tree, we end up with a sample space of 8 different outcomes that looks a little like: 
+
+```S = {GGG, GGB, GBG, GBB, BGG, BGB, BBG, BBB} ```
+
+And that sample space is basically the bottom row. If you look back further at the coin toss tree, you can see a sample space of: 
+
+``` S = {HH, HT, TH, TT} or Heads|Heads, Heads|Tails, Tails|Head, Tails|Tails```
+
+These are simply visualizations. Many of you can probably count this in your head or just write it out. Let's move on to experiments. 
+
+## <a id="experiments"></a>Experiments
+
+An experiment is essentially "A process that generates well-defined outcomes."
+
+What does this mean? Well, the first thing to think about is that when we say, "well defined" we mostly mean that "each time we do something, only 1 thing could occur." So from that, we can then think about an experiment essentially being the act of recording the outcomes of a particular event within which that event has multiple probable outcomes. 
+
+Or an even less fancy way, "we do stuff within which the outcome can be mathematically measured, collected, and evaluated."
+
+And that might also be unsatisfactory but within those collections of words, we have ambiguity. So let's think about actual examples. An experiment could be: 
+
+* Flipping a coin
+* Tossing dice
+* Raffle Ticket
+* Hurricane hitting my home
+* Earthquake in Virginia
+
+So here, we can say that flipping a coin has 2 outcomes, 1 of which we'll see each time. Tossing a die and its outcomes is dependent on the number of faces that die has. A raffle ticket is dependent on the number of tickets sold resulting in the likelihood yours is pulled out. For natural hazards, we have past-based data and so that can be used to determine the likelihood. For these last two, we might also have to think about things like fracking, climate change, la nina, el nino, water temperature, and then the paths of hurricanes, the epicenter of earthquakes, and more. So these last two have a lot of different confounding variables but still results in a likleihood or probability of occuring. 
+
+We can calculate probability with the following formula: 
+
+[Formulas for experimental probability](/images/ex-prob.png)
+
+
+
 ## <a id="counting"></a>Counting Rules, Combinations, and Permutations - Dealing with multi-step experiments.
+
+So those trees and examples of simple probabilty can also be called, "Classic Probability." We will be moving in this section to "Experimental Probability." This does not mean that we're using experimental methods but rather, calculating probability based on experiments we perform. 
+
+From the table, your book defines. 
 
 ## <a id="assigning"></a>Assigning probabilities.
 
