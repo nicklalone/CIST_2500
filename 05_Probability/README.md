@@ -49,20 +49,31 @@ All along the way, we will use formulas and examples to help ground us. Those fo
 
 |Objective | Page Numbers in Textbook | 
 |----------|--------------------------|
-|Identify Sample Spaces | |
+|Identify Sample Spaces | Page 182, 194 (notes) |
 |Calculate Probabilities| |
 | Mutually Exclusive | |
 | Indepdendent | |
 
-## <a id="experiments"></a>Experiments: a coin toss
+------------------
 
 Terms of Importance
 |Term    | Definition |
 |--------|------------|
-|Experiment | A process that generates well-defined outcomes|
-|Sample Space| the set of all experimental outcomes|
+|Event | a Collection of Sample points (e.g. a coin toss, a die roll, a card drawn, or something with a collection of potential outcomes that can be measured.)|
+|Outcome | Each individual result probable for an event. | 
+|Probability Experiment | A process that generates well-defined outcomes that are generated with chance|
+|Probability of an event | Equal to the sum of the probabilities of sample points in the event|
+|Sample Space| the set of all experimental outcomes that is typically marked with S. Because it contains all the experimental outcomes, it has a probability of 1 or 100%; P(S)=1|
 |Multi-step experiments | An experiment that consists of a sequence of steps|
 |Tree Diagrams | Graphic representation that helps visualize a multi-step experiment|
+
+## <a id="experiments"></a>Experiments: a coin toss
+
+Examples of experiments: 
+* Flipping a coin
+* Tossing dice
+* Raffle Ticket
+
 
 
 ## <a id="counting"></a>Counting Rules, Combinations, and Permutations - Dealing with multi-step experiments.
