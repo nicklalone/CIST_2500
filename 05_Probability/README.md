@@ -85,7 +85,11 @@ And that might also be unsatisfactory but within those collections of words, we 
 
 So here, we can say that flipping a coin has 2 outcomes, 1 of which we'll see each time. Tossing a die and its outcomes is dependent on the number of faces that die has. A raffle ticket is dependent on the number of tickets sold resulting in the likelihood yours is pulled out. For natural hazards, we have past-based data and so that can be used to determine the likelihood. For these last two, we might also have to think about things like fracking, climate change, la nina, el nino, water temperature, and then the paths of hurricanes, the epicenter of earthquakes, and more. So these last two have a lot of different confounding variables but still results in a likleihood or probability of occuring. 
 
-Within 
+To wit, we will think about experiments a little more. To do this, we're going to spend some time in some steps: 
+
+1. Gather sample spaces.
+2. Tree Diagrams.
+3. 
 
 ### Let's Gather Some Sample Spaces: 
 
@@ -93,7 +97,11 @@ Within
 2. A coin and a die, what is the sample space for rolling heads and a prime number?
 3. 2 different dice, what is the sample space of rolling a multiple of 2?
 
-### Tree Diagrams - A Good 
+### Tree Diagrams - A Good Visualization Technique
+
+Think about alleles. Ugh, I know. Why am I getting science in your non-math, math course? Well, alleles are an amazing example of a visualization tree. They look like this: 
+
+![A Tree Diagram](/images/prob-tree.gif)
 
 ## <a id="counting"></a>Counting Rules, Combinations, and Permutations - Dealing with multi-step experiments.
 
