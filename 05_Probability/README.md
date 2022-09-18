@@ -103,7 +103,7 @@ Think about alleles. Ugh, I know. Why am I getting science in your non-math, mat
 
 ![A Tree Diagram](/images/prob-tree.gif)
 
-And if we want a more specific diagram, we can think about what happens with regard to the potential outcomes for a heteronormative couple having children: 
+And if we want a more specific diagram, we can think about what happens with regard to the potential outcomes for a heteronormative couple having children ((from this excellent lecture)[https://www.youtube.com/watch?v=sbbYntt5CJk&ab_channel=Geek%27sLesson]): 
 
 ![A Tree Diagram](/images/prob-fam.png)
 
