@@ -31,8 +31,10 @@ To understand probability, we will be going through some theories, examples, and
 2. [Experiments](#experiments)
 	* [Multi-step Experiments.](#ms-exp)
 3. [Mutually Exclusive vs. Independent](#mutind)
-4. [Addition Rules](#addition)
-5. [Multiplication Rules](#multiplication)
+4. [Basic Probabilities](#basics)
+	* [Completement of an Event](#complement)
+	* [Addition Laws](#addition)
+5. [Multiplication Rules or "Conditional Probability"](#multiplication)
 6. [Exercises](#day1exercises)
 
 ------------------------------------------------------------
@@ -196,19 +198,32 @@ Generally, you can consider this wisdom from your textbook:
 
 > If an experiment can be described as a sequence of *k* steps with n<sub>1</sub> possible outcomes on the first step, n<sub>2</sub> possible outcomes on the second step, and so on, then the total number of experimental outcomes is given by (n<sub>1</sub>), (n<sub>2</sub>), ... (n<sub>k</sub>).
 
-## <a id="addition"></a>Addition Rules
-
-
-
-## <a id="conditional"></a>Multiplication Rules
-
-
-
 ## <a id="mutind"></a>Mutually Exclusive vs Independence 
 
 ![Mutually exclusive](/images/mup.png)
 
 ![Independent](/images/mup-2.png)
+
+## <a id="basics"></a>Basic Relationships
+
+Your book discusses these rules in chapter 4, section 2.3 called, "Some Basic Relationships in probability." It goes through each of these but i've tried to distill them a bit. 
+
+### <a id"complement"></a>Complement of a Set.
+
+So, sometimes we think about probability based not on the possibility of something happen but on the possibility of the opposite thing happening. 
+
+![Compelement of a Set](/images/comple.png)
+
+### <a id"addition"></a>Addition Law
+
+
+
+![Addition Laws](/images/add-law.png)
+
+## <a id="conditional"></a>Multiplication Rules
+
+
+
 
 ## <a id="day1exercises"></a>Chapter 4 Exercises
 
