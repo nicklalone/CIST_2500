@@ -26,10 +26,10 @@ To understand probability, we will be going through some theories, examples, and
 [Day 1](#day1):
 * [Law of large numbers](#largenums) 
 1. [Experiments](#experiments)
-2. [Multi-step Experiments.](#counting)
-3. [Addition Law](#addition)
-5. [Conditional Probability.](#conditional)
-6. [Exercises](#day1exercises)
+	1. [Multi-step Experiments.](#ms-exp)
+2. [Addition Law](#addition)
+3. [Conditional Probability.](#conditional)
+4. [Exercises](#day1exercises)
 
 ------------------------------------------------------------
 
@@ -108,11 +108,15 @@ Let's gather a few sample spaces:
 	- 2, 4, 6, 8, 10, 12. 
 	- But what are the the possibilities?
 
+Let's think about the dice themselves. Take for example, this item:
+
 ![Dice rolls](/images/dice.gif)
+
+So we see all sorts of potential here. In fact, we have 6 sets of 6 or 36 possibilities. But yet, is that correct? Let's look at a way to visualize the potential outcomes.
 
 ### Tree Diagrams - A Good Visualization Technique
 
-Think about alleles. Ugh, I know. Why am I getting science in your non-math, math course? Well, alleles are an amazing example of a visualization tree. They look like this: 
+So with regard to the question of a coin toss. What would it look like to throw 2 dice? Let's draw it out!
 
 ![A Tree Diagram](/images/prob-tree.gif)
 
@@ -148,7 +152,7 @@ It looks like this!
 
 From this, we can say that we're doing some very basic division. And this makes sense as probability is literally, "the outcome we want" over "all the outcomes possible."
 
-## <a id="experiments"></a>Experiments
+## <a id="experiments"></a>Experiments and Multi-Step Experiments
 
 An experiment is essentially "A process that generates well-defined outcomes."
 
@@ -176,11 +180,11 @@ But is it? Let's give it a shot!!!
 
 Have 5 coins. Let's see what their probabilities are after 10 flips.
 
-## <a id="counting"></a>Counting Rules, Combinations, and Permutations - Dealing with multi-step experiments.
+### <a id="ms-exp"></a>Multistep Experiments
 
-And so now we must enter the world of experiments that have multiple steps. So imagine something like the game Qwirkle. It has 6 shapes and 6 colors. 
+## <a id="addition"></a>Addition Rules.
 
-![Multi-step experiments](/images/ms-experiments.png)
+
 
 ## <a id="assigning"></a>Assigning probabilities.
 
