@@ -34,13 +34,6 @@ To understand probability, we will be going through some theories, examples, and
 5. [Conditional Probability.](#conditional)
 6. [Exercises](#day1exercises)
 
-[Day 2](#day2): 
-1. [Discrete Probability Distributions](#probdis)
-2. [Uniform Probability Distributions](#uniprob)
-3. [Normal Probability Distributions](#normprob)
-4. [Exponential Probability Distributions](#exponent)
-5. [Exercises](#day2exercises)
-
 ------------------------------------------------------------
 
 # <a id="day1"></a>Day 1:
@@ -191,15 +184,3 @@ Since our homeworks are just 10 questions, we will have 5 in each day. In this c
 	* 5 women
 	* 5 men
 	* at least 3 women
-
-# <a id="day2"></a>Day 2: 
-
-## <a id="probdis"></a>Discrete Probability Distributions
-
-## <a id="uniprob"></a>Uniform Probability Distributions
-
-## <a id="normprob"></a>Normal Probability Distributions
-
-## <a id="exponent"></a>Exponential Probability Distributions
-
-## <a id="day2exercises"></a>Day 2 Exercises
