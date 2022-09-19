@@ -17,27 +17,29 @@ For example, let's say we are working to understand the cosequences of raising p
 
 Think of it like this: 
 
-|------------------------------------|---------------------------------|
+|----------------------|---------------------------|
 
-0 chances to occcur.     just as likely to occur as not.     Will definitely occur.
+0           		   50                         100
 
-To understand probability, we will be going through a number of exercises. Please find the table of contents below: 
+To understand probability, we will be going through some theories, examples, and various ways to calculate probability. Please find the table of contents below: 
 
 
 ----------Table of Contents----------
 
 [Day 1](#day1):
 1. [Experiments: a coin toss](#experiments)
-2. [Counting Rules, Combinations, and Permutations - Dealing with multi-step experiments.](#counting)
+2. [Dealing with multi-step experiments.](#counting)
 3. [Assigning probabilities.](#assigning)
 4. [Addition Law](#addition)
 5. [Conditional Probability.](#conditional)
+6. [Exercises](#day1exercises)
 
 [Day 2](#day2): 
 1. [Discrete Probability Distributions](#probdis)
 2. [Uniform Probability Distributions](#uniprob)
 3. [Normal Probability Distributions](#normprob)
 4. [Exponential Probability Distributions](#exponent)
+5. [Exercises](#day2exercises)
 
 ------------------------------------------------------------
 
@@ -51,8 +53,8 @@ All along the way, we will use formulas and examples to help ground us. Those fo
 |----------|--------------------------|
 |Identify Sample Spaces | Page 182, 194 (notes) |
 |Calculate Probabilities| |
-| Mutually Exclusive | |
-| Indepdendent | |
+|Mutually Exclusive vs. Indepdendent| |
+|Bits and Bobs| |
 
 ------------------
 
@@ -67,13 +69,25 @@ Terms of Importance
 |Multi-step experiments | An experiment that consists of a sequence of steps|
 |Tree Diagrams | Graphic representation that helps visualize a multi-step experiment|
 
-Before we get into experiments, lets talk a little bit about probability and how to think about it. 
+Before we get into experiments, lets talk a little bit about what we call "classical" probability and how to think about it. 
 
-To wit, we will think about experiments a little more and we're going to spend some time in thinking in logical steps: 
+To wit, there is a series of logical steps that we can take with probability that can fit probabilistic calculations: 
 
 1. Gather sample spaces. (think about what you're calculating the probability of)
-2. Tree Diagrams. (draw it out)
-3. Write the sample space as a mathematical figure.
+2. Tree Diagrams (draw it out)
+3. Write the sample space as a mathematical figure and represent it as a fraction, decimal, or percentage (it is up to you.) 
+
+#### The Law of Large Numbers
+
+The law of large numbers states that if one performs the same experiment over and over, the results obtained will resemble the "True" probability. 
+
+What does this resemble? That's right, the Central Limit Theorm!
+
+Remember that the theorem says that if you have a population with mean μ and standard deviation σ and take sufficiently large random samples from the population with replacement, then the distribution of the sample means will approach μ.
+
+Wikipedia has a very large entry on this: https://en.wikipedia.org/wiki/Law_of_large_numbers and it's worth at least glancing at it.
+
+So let's start walking through the steps.
 
 ### Let's Gather Some Sample Spaces: 
 
@@ -149,13 +163,34 @@ Have 5 coins. Let's see what their probabilities are after 10 flips.
 
 ## <a id="counting"></a>Counting Rules, Combinations, and Permutations - Dealing with multi-step experiments.
 
+And so now we must enter the world of experiments that have multiple steps. So imagine something like the game Qwirkle. It has 6 shapes and 6 colors. 
+
+![Multi-step experiments](/images/ms-experiments.png)
+
 
 
 ## <a id="assigning"></a>Assigning probabilities.
 
+And so now we've gone through a whole bunch of math. Is it time, now, to assign values?
+
+And so we end up with a few last things to think about. 
+
 ## <a id="addition"></a>Addition Law
 
 ## <a id="conditional"></a>Conditional Probability.
+
+## <a id="day1exercises></a>"Day 1 Exercises
+
+For the most part, we will have you all doing exercises related to the content you've just been through. 
+
+Since our homeworks are just 10 questions, we will have 5 in each day. In this case, we will work off just 1 set of information.
+
+1. A committee of 5 people is to be formed randomly from a group of 10 women and 6 men. Find the probability that the committee has
+	* 3 women and 2 men
+	* 4 women and 1 men
+	* 5 women
+	* 5 men
+	* at least 3 women
 
 # <a id="day2"></a>Day 2: 
 
@@ -166,3 +201,5 @@ Have 5 coins. Let's see what their probabilities are after 10 flips.
 ## <a id="normprob"></a>Normal Probability Distributions
 
 ## <a id="exponent"></a>Exponential Probability Distributions
+
+## <a id="day2exercises"></a>Day 2 Exercises
