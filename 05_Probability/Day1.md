@@ -17,15 +17,14 @@ For example, let's say we are working to understand the cosequences of raising p
 
 Think of it like this: 
 
-|----------------------|----------------------|
-
-0           		   50                    100
+0% ---------------------- 50% ---------------------- 100%
 
 To understand probability, we will be going through some theories, examples, and various ways to calculate probability. Please find the table of contents below: 
 
 ----------  Table of Contents  ----------
 
 [Day 1](#day1):
+* [Law of large numbers](#largenums) 
 1. [Experiments](#experiments)
 2. [Multi-step Experiments.](#counting)
 3. [Addition Law](#addition)
@@ -74,7 +73,7 @@ To wit, there is a series of logical steps that we can take with probability tha
 2. Tree Diagrams (draw it out)
 3. Write the sample space as a mathematical figure and represent it as a fraction, decimal, or percentage (it is up to you.) 
 
-#### The Law of Large Numbers
+#### <a id="largenums"></a>The Law of Large Numbers
 
 The law of large numbers states that if one performs the same experiment over and over, the results obtained will resemble the "True" probability. 
 
