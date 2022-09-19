@@ -23,17 +23,21 @@ To understand probability, we will be going through some theories, examples, and
 
 ----------  Table of Contents  ----------
 
-[Day 1](#day1):
-* [Law of large numbers](#largenums) 
-1. [Experiments](#experiments)
-	1. [Multi-step Experiments.](#ms-exp)
-2. [Addition Law](#addition)
-3. [Conditional Probability.](#conditional)
-4. [Exercises](#day1exercises)
+1. [Classical Probability](#class-prob):
+	* [Law of large numbers](#largenums) 
+	* [Sample Spaces](#samplespaces)
+	* [Tree Diagrams](#tree-diags)
+	* [Classical Probability Formula](#class-form)
+2. [Experiments](#experiments)
+	* [Multi-step Experiments.](#ms-exp)
+3. [Mutually Exclusive vs. Independent](#mutind)
+4. [Addition Rules](#addition)
+5. [Multiplication Rules](#multiplication)
+6. [Exercises](#day1exercises)
 
 ------------------------------------------------------------
 
-# <a id="day1"></a>Day 1:
+# <a id="class-prob"></a>Classical Probability:
 
 Today, we will be working to understand 4 things. First, we will think about probability. The term, "Classical probability." Next, we will talk about the various ways to think about experiments as well as multi-step experiments. We will finally discuss Addition, Multiplication, and Conditional Probabilities. 
 
@@ -85,7 +89,7 @@ Wikipedia has a very large entry on this: https://en.wikipedia.org/wiki/Law_of_l
 
 So let's start walking through the steps.
 
-### Let's Gather Some Sample Spaces: 
+### <a id="samplespaces"></a>Sample Spaces: 
 
 A sample space is essentially (from above), "the set of all experimental outcomes that is typically marked with S. Because it contains all the experimental outcomes, it has a probability of 1 or 100%; P(S)=1"
 
@@ -114,7 +118,7 @@ Let's think about the dice themselves. Take for example, this item:
 
 So we see all sorts of potential here. In fact, we have 6 sets of 6 or 36 possibilities. But yet, is that correct? Let's look at a way to visualize the potential outcomes.
 
-### Tree Diagrams - A Good Visualization Technique
+### <a id="tree-diags"></a>Tree Diagrams - A Good Visualization Technique
 
 So with regard to the question of a coin toss. What would it look like to throw 2 dice? Let's draw it out!
 
@@ -142,7 +146,7 @@ And that sample space is basically the bottom row. If you look back further at t
 
 These are simply visualizations. Many of you can probably count this in your head or just write it out. Let's move on to experiments. 
 
-### Math Formula.
+### <a id="class-form"></a>Math Formula.
 
 So, we've drawn it out, we've thought about it, but what does calculating it look like? 
 
@@ -182,21 +186,29 @@ Have 5 coins. Let's see what their probabilities are after 10 flips.
 
 ### <a id="ms-exp"></a>Multistep Experiments
 
-## <a id="addition"></a>Addition Rules.
+Now, experiments are one thing but sometimes we want something more than just, "when can I draw a King out of a deck?" Sometimes we want something like, "We have 2 bags of stones. What is the probability that we get 2 blocks of a specific shape?"
+
+![Multi-step](/images/ms-experiments.png)
+
+Look at this. We need to consider this a little bit more. Let's dig a little in to Addition and Multiplication. 
+
+Generally, you can consider this wisdom from your textbook: 
+
+> If an experiment can be described as a sequence of *k* steps with n<sub>1</sub> possible outcomes on the first step, n<sub>2</sub> possible outcomes on the second step, and so on, then the total number of experimental outcomes is given by (n<sub>1</sub>), (n<sub>2</sub>), ... (n<sub>k</sub>).
+
+## <a id="addition"></a>Addition Rules
 
 
 
-## <a id="assigning"></a>Assigning probabilities.
+## <a id="conditional"></a>Multiplication Rules
 
-And so now we've gone through a whole bunch of math. Is it time, now, to assign values?
 
-And so we end up with a few last things to think about. 
 
-## <a id="addition"></a>Addition Law
+## <a id="mutind"></a>Mutually Exclusive vs Independence 
 
-## <a id="conditional"></a>Conditional Probability.
 
-## <a id="day1exercises></a>"Day 1 Exercises
+
+## <a id="day1exercises></a>"Chapter 4 Exercises
 
 For the most part, we will have you all doing exercises related to the content you've just been through. 
 
