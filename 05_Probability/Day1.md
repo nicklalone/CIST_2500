@@ -200,7 +200,33 @@ Generally, you can consider this wisdom from your textbook:
 
 ## <a id="mutind"></a>Mutually Exclusive vs Independence 
 
+Whether or not an event is exclusive or independent is what will dictate your choice of probablistic calculation. For this, we should define mutually exclusive and independent in terms of probability. 
+
+For mutually exclusive, your book defines it as: 
+
+>Two events are said to be mutually exclusive if the events have no sample points in common. 
+
+So think of this as a coin flip. EITHER HEADS OR TAILS.
+
+But these words, they make a little sense but maybe not as much as they should. So for this then, we have a graphic!
+
 ![Mutually exclusive](/images/mup.png)
+
+See how these two events can only happen exclusively? The box is the sample space (S) and each event A/B is where that exclusivity can be visualized. 
+
+When we're looking at mutually excluive events, the formula for probablity is essentially adding them together (of which we will talk about it soon.). The formula is: (P(A∪B) = P(A)+P(B).)
+
+In other words, because the events have a different probability, adding them together will result in knowing the probability of "either/or"
+
+That said, we then can move on to independent outcomes. This isn't really defined well by your book but we can borrow what it does talk about and extrapolate: 
+
+>an independent event is when a single event is uneffected by the other event occurring. 
+
+So the coin doesn't work here as it's EITHER/OR. What we can do here is actually add something to that coin flip. 
+
+For example, if I add a die roll to the coin flip, I can say that these two events are independent because flipping the coin does not really influence the die roll. 
+
+But again, words. Let's see this in graphic form:
 
 ![Independent](/images/mup-2.png)
 
