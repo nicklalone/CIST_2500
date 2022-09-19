@@ -88,9 +88,28 @@ So let's start walking through the steps.
 
 ### Let's Gather Some Sample Spaces: 
 
+A sample space is essentially (from above), "the set of all experimental outcomes that is typically marked with S. Because it contains all the experimental outcomes, it has a probability of 1 or 100%; P(S)=1"
+
+So this is where we learn a little about notation. What is that P? That's probability. S in this case is the Sample space. And there's a 1. So what does this mean?
+
+Well, basically it says, the probability of an event's sample space is equal to 1 or that all outcomes are equal to 100% (which is what that 1 is). 
+
+Let's gather a few sample spaces: 
+
 1. Rolling 2 Dice, what is the sample space of all outcomes?
+	- TT, HH, TH, HT <- why is this the same space?
 2. A coin and a die, what is the sample space for rolling heads and a prime number?
+	- (H,1), (H,2), (H,3), (H,4), (H,5), (H,6) - is the S of heads.
+ 	- (T,1), (T,2), (T,3), (T,4), (T,5), (T,6) - is the S of tails.
+ 	- To find the question though, Heads + Prime Number, it seems to be: 
+ 	- (H,1), (H,2), (H,3), (H,5) or 4/12 or 1/3.
+
 3. 2 different dice, what is the sample space of rolling a multiple of 2?
+	- let's think about the following diagram and think about what are multiples of 2? Well, 2-12 means every even number, really. 
+	- 2, 4, 6, 8, 10, 12. 
+	- But what are the the possibilities?
+
+![Dice rolls](/images/dice.gif)
 
 ### Tree Diagrams - A Good Visualization Technique
 
