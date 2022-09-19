@@ -11,7 +11,7 @@ Your book then goes on to define the word probability by saying:
 
 > probability is a numerical measure of the likelihood that an event will occur. -page 181 in your textbook.
 
-We often think of probability as something that measures the certainty an event will occur. However, in as much as we calculate certain, we also calculate uncertainty as probability is as much a calculation of how likely and how unlikely simultaneously. 
+We often think of probability as something that measures the certainty an event will occur. However, in as much as we calculate certainty, we also calculate uncertainty as probability is as much a calculation of how likely and how unlikely simultaneously. 
 
 For example, let's say we are working to understand the cosequences of raising prices on sales. Probability is calculated along a continuum of 0 > 1 or 0 > 100%. 
 
