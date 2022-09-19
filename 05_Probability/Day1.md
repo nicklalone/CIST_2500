@@ -206,9 +206,11 @@ Generally, you can consider this wisdom from your textbook:
 
 ## <a id="mutind"></a>Mutually Exclusive vs Independence 
 
+![Mutually exclusive](/images/mup.png)
 
+![Independent](/images/mup-2.png)
 
-## <a id="day1exercises></a>"Chapter 4 Exercises
+## <a id="day1exercises"></a>Chapter 4 Exercises
 
 For the most part, we will have you all doing exercises related to the content you've just been through. 
 
