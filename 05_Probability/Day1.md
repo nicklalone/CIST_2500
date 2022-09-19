@@ -17,20 +17,18 @@ For example, let's say we are working to understand the cosequences of raising p
 
 Think of it like this: 
 
-|----------------------|---------------------------|
+|----------------------|----------------------|
 
-0           		   50                         100
+0           		   50                    100
 
 To understand probability, we will be going through some theories, examples, and various ways to calculate probability. Please find the table of contents below: 
 
-
-----------Table of Contents----------
+----------  Table of Contents  ----------
 
 [Day 1](#day1):
-1. [Experiments: a coin toss](#experiments)
-2. [Dealing with multi-step experiments.](#counting)
-3. [Assigning probabilities.](#assigning)
-4. [Addition Law](#addition)
+1. [Experiments](#experiments)
+2. [Multi-step Experiments.](#counting)
+3. [Addition Law](#addition)
 5. [Conditional Probability.](#conditional)
 6. [Exercises](#day1exercises)
 
@@ -38,20 +36,24 @@ To understand probability, we will be going through some theories, examples, and
 
 # <a id="day1"></a>Day 1:
 
-Today, we will be working to understand 4 things. First, we will think about experiments and actually do one. Next, we will talk about the various ways to think about multi-step experiments. After 1 and multiple step experiments, we will discuss how to actually assign probability. Finally, we will talk about Addition Laws and Conditional Probabilities. 
+Today, we will be working to understand 4 things. First, we will think about probability. The term, "Classical probability." Next, we will talk about the various ways to think about experiments as well as multi-step experiments. We will finally discuss Addition, Multiplication, and Conditional Probabilities. 
 
-All along the way, we will use formulas and examples to help ground us. Those formulas and examples will be found below. The objectives for this particular day are: 
+All along the way, we will situate ourselves using formulas. Those formulas and examples will be found below where appropriate. 
+
+We must begin with The objectives for this particular day are: 
 
 |Objective | Page Numbers in Textbook | 
 |----------|--------------------------|
 |Identify Sample Spaces | Page 182, 194 (notes) |
-|Calculate Probabilities| |
-|Mutually Exclusive vs. Indepdendent| |
-|Bits and Bobs| |
+|Calculate Probabilities| Classical: (187-88, 194, 233) Experiments (182-83, Multi-step 182-83)|
+|Mutually Exclusive vs. Indepdendent| ME: (200,207), I: (206,207,219) |
+
+What these objectives mean are that by the end of this week, we'll have an idea about probability, how to calculate it, and when to apply different calculations.
 
 ------------------
 
-Terms of Importance
+Let's begin by identifying some Terms of Importance
+
 |Term    | Definition |
 |--------|------------|
 |Event | a Collection of Sample points (e.g. a coin toss, a die roll, a card drawn, or something with a collection of potential outcomes that can be measured.)|
@@ -61,8 +63,10 @@ Terms of Importance
 |Sample Space| the set of all experimental outcomes that is typically marked with S. Because it contains all the experimental outcomes, it has a probability of 1 or 100%; P(S)=1|
 |Multi-step experiments | An experiment that consists of a sequence of steps|
 |Tree Diagrams | Graphic representation that helps visualize a multi-step experiment|
+|Mutually Exclusive Events | the probability of both the events occurring at the same time is equal to zero. P(A and B) = 0 |
+|Independent Events | Two events are independent if the occurrence of one event does not affect the chances of the occurrence of the other event. |
 
-Before we get into experiments, lets talk a little bit about what we call "classical" probability and how to think about it. 
+Before we get into experiments, lets talk a little bit about what we call "classical" probability and how to think about it. This will establish our point of origin and then we'll build for that.
 
 To wit, there is a series of logical steps that we can take with probability that can fit probabilistic calculations: 
 
@@ -159,8 +163,6 @@ Have 5 coins. Let's see what their probabilities are after 10 flips.
 And so now we must enter the world of experiments that have multiple steps. So imagine something like the game Qwirkle. It has 6 shapes and 6 colors. 
 
 ![Multi-step experiments](/images/ms-experiments.png)
-
-
 
 ## <a id="assigning"></a>Assigning probabilities.
 
