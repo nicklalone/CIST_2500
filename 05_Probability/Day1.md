@@ -64,9 +64,6 @@ All along the way, we will situate ourselves using formulas and examples. Those 
 Classical Probability is defined by the [American Psychological Association](https://dictionary.apa.org/classical-probability) as:
 
 > an approach to the understanding of probability based on the assumptions that any random process has a given set of possible outcomes and that each possible outcome is equally likely to occur. An example often used is rolling a die, in which there are six possible outcomes and each outcome is assumed to be equally likely.
-Classical Probability is defined by the [American Psychological Association](https://dictionary.apa.org/classical-probability) as:
-
-> an approach to the understanding of probability based on the assumptions that any random process has a given set of possible outcomes and that each possible outcome is equally likely to occur. An example often used is rolling a die, in which there are six possible outcomes and each outcome is assumed to be equally likely.
 
 All along the way, we will situate ourselves using formulas. Those formulas and examples will be found below where appropriate. 
 
