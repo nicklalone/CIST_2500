@@ -131,7 +131,7 @@ Well, basically it says, the probability of an event's sample space is equal to 
 
 Let's gather a few sample spaces: 
 
-1. Rolling 2 Dice, what is the sample space of all outcomes?
+1. Rolling 2 Coins, what is the sample space of all outcomes?
 	- TT, HH, TH, HT <- why is this the same space?
 
 2. A coin and a die, what is the sample space for all outcomes?
