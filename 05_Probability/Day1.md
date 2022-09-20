@@ -57,8 +57,13 @@ To understand probability, we will be going through some theories, examples, and
 
 # <a id="class-prob"></a>Classical Probability:
 
-Today, we will be working to understand 4 things. First, we will think about probability. The term, "Classical probability." Next, we will talk about the various ways to think about experiments as well as multi-step experiments. We will finally discuss Addition, Multiplication, and Conditional Probabilities. 
+We will be working to understand 4 things over the next 2 days. First, we will take some tiny steps in introducing probability. Then, we'll talk about, "Classical probability." After getting a little into classical probability, we will talk about the various ways to think about experiments as well as multi-step experiments. We will finally discuss Addition, Multiplication, and Conditional Probabilities. 
 
+All along the way, we will situate ourselves using formulas and examples. Those formulas and examples will be found below, in your textbook, and elsewhere. 
+
+Classical Probability is defined by the [American Psychological Association](https://dictionary.apa.org/classical-probability) as:
+
+> an approach to the understanding of probability based on the assumptions that any random process has a given set of possible outcomes and that each possible outcome is equally likely to occur. An example often used is rolling a die, in which there are six possible outcomes and each outcome is assumed to be equally likely.
 Classical Probability is defined by the [American Psychological Association](https://dictionary.apa.org/classical-probability) as:
 
 > an approach to the understanding of probability based on the assumptions that any random process has a given set of possible outcomes and that each possible outcome is equally likely to occur. An example often used is rolling a die, in which there are six possible outcomes and each outcome is assumed to be equally likely.
@@ -172,13 +177,13 @@ And that sample space is basically the bottom row. If you look back further at t
 These are simply visualizations. Many of you can probably count this in your head or just write it out. Let's try a few!
 
 1. Rolling 2 Dice, what is the probability of rolling heads twice?
-	- TT, HH, TH, HT 
+	- ```TT, HH, TH, HT ```
 
 2. A coin and a die, what is the probability of rolling heads and a prime number?
-	- (H,1), (H,2), (H,3), (H,4), (H,5), (H,6) - is the S of heads.
- 	- (T,1), (T,2), (T,3), (T,4), (T,5), (T,6) - is the S of tails.
+	- ```(H,1), (H,2), (H,3), (H,4), (H,5), (H,6)``` - is the S of heads.
+ 	- ```(T,1), (T,2), (T,3), (T,4), (T,5), (T,6)``` - is the S of tails.
  	- To find the question though, Heads + Prime Number, it seems to be: 
- 	- (H,1), (H,2), (H,3), (H,5) or 4/12 or 1/3.
+ 	- ```(H,1), (H,2), (H,3), (H,5)``` or 4/12 or 1/3.
 
 3. 2 different dice, what is probability my two dice added together equal 5?
 	- Go back to that visualization of the dice. Count how many dice add up to 5.
