@@ -254,7 +254,7 @@ For example, if I add a die roll to the coin flip, I can say that these two even
 
 But again, words. Let's see this in graphic form:
 
-![Independent](/images/mup-2.png)
+![Independent](/images/mup-2.jpeg)
 
 ## <a id="basics"></a>Basic Relationships
 
