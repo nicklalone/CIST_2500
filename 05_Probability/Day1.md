@@ -48,6 +48,10 @@ To understand probability, we will be going through some theories, examples, and
 
 Today, we will be working to understand 4 things. First, we will think about probability. The term, "Classical probability." Next, we will talk about the various ways to think about experiments as well as multi-step experiments. We will finally discuss Addition, Multiplication, and Conditional Probabilities. 
 
+Classical Probability is defined by the [American Psychological Association](https://dictionary.apa.org/classical-probability) as:
+
+> an approach to the understanding of probability based on the assumptions that any random process has a given set of possible outcomes and that each possible outcome is equally likely to occur. An example often used is rolling a die, in which there are six possible outcomes and each outcome is assumed to be equally likely.
+
 All along the way, we will situate ourselves using formulas. Those formulas and examples will be found below where appropriate. 
 
 We must begin with The objectives for this particular day are: 
