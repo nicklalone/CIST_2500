@@ -1,16 +1,22 @@
 # Probability and Statistics
 
 Admin stuff: 
+- office hours
 - Test Next Week
-- R Homework Looks Good
+- R Homework Looks Good - was that enjoyable?
 - Typos vs Grammar 
+- Github vs PPT or both?
 
-From your textbook, it introduces this section in the following ways: 
+From your textbook, it introduces probability with 4 different ideas: 
 
 1. What are the chances that sales will decrease if we increase prices?
 2. What is the likleihood a new assembly method will increase productivity? 
 3. How likely is it that the project will be finished on time?
 4. What is the chance that a new investment will be profitable?
+
+What other ways do you think we need to calculate probability?
+
+-----------------
 
 Your book then goes on to define the word probability by saying: 
 
@@ -26,6 +32,8 @@ Think of it like this:
 
 To understand probability, we will be going through some theories, examples, and various ways to calculate probability. Please find the table of contents below: 
 
+------------------------------------------
+
 ----------  Table of Contents  ----------
 
 1. [Classical Probability](#class-prob):
@@ -35,6 +43,9 @@ To understand probability, we will be going through some theories, examples, and
 	* [Classical Probability Formula](#class-form)
 2. [Experiments](#experiments)
 	* [Multi-step Experiments.](#ms-exp)
+
+---------------------
+
 3. [Mutually Exclusive vs. Independent](#mutind)
 4. [Basic Probabilities](#basics)
 	* [Completement of an Event](#complement)
@@ -60,9 +71,11 @@ We must begin with The objectives for this particular day are:
 |----------|--------------------------|
 |Identify Sample Spaces | Page 182, 194 (notes) |
 |Calculate Probabilities| Classical: (187-88, 194, 233) Experiments (182-83, Multi-step 182-83)|
-|Mutually Exclusive vs. Indepdendent| ME: (200,207), I: (206,207,219) |
+|Understand Mutually Exclusive vs. Indepdendent outcomes| ME: (200,207), I: (206,207,219) |
 
 What these objectives mean are that by the end of this week, we'll have an idea about probability, how to calculate it, and when to apply different calculations.
+
+Generally, this gets in to Chapter 4. 
 
 ------------------
 
@@ -302,23 +315,23 @@ So this, how does it work? Well, let's look at a graphic!
 So let's try 1 big example. 
 
 I am looking for a new character to play in a MOBA. There are 17 available characters. Looking at their capabilities, we can list them out. 
-* 6 are offensive.
+* 6 are offense.
 * 7 are support.
 * 5 are for mid/Jungle.
 * 2 Are Gimmicks.
 
 Of this, we can additionally state that: 
-* 2 is Offensive but can do suport.
+* 2 is Offense but can do suport.
 * 1 is a gimmick and mid.
 
-If I ask the game to select 1 of these, what is the probability that the game chooses 1 that is offensive or a support?
+If I ask the game to select 1 of these, what is the probability that the game chooses 1 that is offense or a support?
 
 1. Is there actually 17? 
 2. The word "or" means a lot here. Why? It tells us that we're going to do addition rule. 
 
 So, we basically list it like this: 
 
-P(offensive or support) = P(offensive) + P(Support - (P(offensive+support))
+P(offense or support) = P(offense) + P(Support - (P(offense + support))
 
 This looks like: 6/17 + 7/17 - 2/17 or 11/17 or around 64.7%.
 
