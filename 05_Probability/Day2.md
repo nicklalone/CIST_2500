@@ -1,6 +1,6 @@
 # Day 2 - Practice Problems, Experiments, Addition, and Multiplication: 
 
-
+Today is simply practice day. We went through Classical Probability so we know what we're at least starting with. Each question will introduce something new. So, working through these should be useful, I hope! 
 
 01. [Formulas](#formulas)
 02. [Classical Probability - Throwing Axes](#1)
@@ -8,22 +8,35 @@
 04. [Experimental vs Classical - Dice](#3)
 05. [Experimental vs Classical - Coins](#4)
 06. [Experimental - MOBA Characters](#5)
-07. [Experimental - ](#6)
-08. [](#7)
-09. [](#8)
-10. [](#9)
-11. [](#10)
-12. [](#11)
-13. [](#12)
-14. [](#13)
-15. [](#14)
-16. [](#15)
+07. [Complement of a Set - Passing](#6)
+08. [Complement of a Set - ](#7)
+09. [Experimental - Colors and a 4-Sided Die](#8)
+10. [Addition Rules - Mutually Exclusive](#9)
+11. [Addition Rules - Indepdendent](#10)
+12. [Multiplication Rules - ](#11)
+13. [Multiplication Rules - ](#12)
 
 ## <a id="formulas"></a>Formulas
 
+There are so many formulas for Probability. I found a reasonable example of them at: 
+
+https://medium.com/data-comet/probability-rules-cheat-sheet-e24b92a9017f
+
+And the cheat sheet is below: 
+
+![Cheat Sheet for Probability](/images/formulas.png)
+
 ## <a id="1"></a>Classical Probability - Throwing Axes
 
-## <a id="2"></a>Classical Probability - Throwing Dice
+I am throwing axes at the local axe throwing bar. My friends and I begin betting and decided to base a multiplier of our throws as the probability of an event occurring. 
+
+If I throw an axe at numbers 1-12 (S = {1,2,3,4,5,6,7,8,9,10,11,12}), what is the probability I will hit an even number?
+
+How do we approach this?
+
+## <a id="2"></a>Classical Probability - Selecting a Tribute
+
+It is the apocalypse and we are trying to rebuild society. Each year, we select a person from each region to represent that region in the games. Given random selection of 30,000 men and 39,000 women, what is the probability than the selected tribute will be a man?
 
 ## <a id="3"></a>Experimental vs Classical - Dice
 
@@ -33,20 +46,42 @@
 
 ## <a id="6"></a>Complement of a Set - Passing
 
-## <a id="7"></a>Complement
+## <a id="7"></a>Complement of a Set - 
 
-## <a id="8"></a>Addition Rules
+## <a id="8"></a>Experimental - Colors and a 4-Sided Die
 
-## <a id="9"></a>Addition Rules
+|Color | Number of Results |
+|------|-------------------|
+|Brown|21|
+|Orange|10|
+|Green|13|
+|Yellow|26|
 
-## <a id="10"></a>Multiplication Rules
+Given the above results, what is the experimental probability of spinning the color Orange?
 
-## <a id="11"></a>Multiplication Rules
 
-## <a id="12"></a>Multiplication Rules
+## <a id="9"></a>Addition Rules - Sticky Hands
 
-## <a id="13"></a>Multiplication Rules
+So this came from CodeAcademy and it's amazing so i'll paste it in here: 
 
-## <a id="14"></a>Multiplication Rules
+![Addition Rule](/images/add-law.gif)
 
-## <a id="15"></a>Multiplication Rules
+In a bag, there are a huge number of sticky hands - those rubber strings with a hand on the end. Inside the bag, there are 24 blue hands and 21 Orange Hands. Of those, 9 of the blue hands and and 14 of the orange hands are skeletal. If we reach into the bag and pick up 1 hand at random, what is the probability of choosing an Orange Hand OR a Skeletal Hand.
+
+How do we approach this?
+
+## <a id="10"></a>Addition Rules - Mutual Exclusivity
+
+For this approach, we need to think about what it means to be mutually exclusive. Remember this: 
+
+![Mutually Exclusive](/images/mup.png)
+
+So think about this, we have a 16-sided die. If I roll that die, what is the probability of rolling a 15 or a 7?
+
+How do we approach this?
+
+## <a id="11"></a>Multiplication Rules - Joint Probability + Dependence
+
+
+
+## <a id="12"></a>Multiplication Rules - Joint Probability + Independence
