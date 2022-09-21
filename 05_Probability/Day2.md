@@ -38,13 +38,37 @@ How do we approach this?
 
 It is the apocalypse and we are trying to rebuild society. Each year, we select a person from each region to represent that region in the games. Given random selection of 30,000 men and 39,000 women, what is the probability than the selected tribute will be a man?
 
+How do we approach this?
+
 ## <a id="3"></a>Experimental vs Classical - Dice
+
+Roll a coin 14 times and record your roles. 
 
 ## <a id="4"></a>Experimental vs Classical - Coins
 
+Flip a coin 50 times and record your results.
+
 ## <a id="5"></a>Experimental - MOBA Characters
 
+	I am looking for a new character to play in a MOBA. There are 52 available characters. Looking at their capabilities, we can list them out. 
+	* 16 are offense.
+	* 17 are support.
+	* 15 are for mid/Jungle.
+	* 12 Are Gimmicks.
+
+	Of this, we can additionally state that: 
+	* 5 is Offense but can do suport.
+	* 3 is a gimmick and mid.
+
+	If I ask the game to select 1 of these, what is the probability that the game chooses 1 that is offense or a support?
+
+	How do we approach this?
+
 ## <a id="6"></a>Complement of a Set - Passing
+
+	There is an 87% chance that a student will pass this class. What is the likelihood that a student will fail? Please provide your answer in a complete sentence explaining why you made the choice you did as well as showing your work.
+
+	For example, "Given an 87% chance of passing, we would expect to use the complement of the set to answer this question or the formula XXXX. With that in mind, the math of this is (formula + math answer here)."
 
 ## <a id="7"></a>Complement of a Set - 
 
