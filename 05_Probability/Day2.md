@@ -38,7 +38,7 @@ How do we approach this?
 
 It is the apocalypse and we are trying to rebuild society. Each year, we select a person from each region to represent that region in the games. Given random selection of 30,000 men and 39,000 women, what is the probability than the selected tribute will be a man?
 
-How do we approach this?
+How do we approach this? What is the Solution?
 
 ## <a id="3"></a>Experimental vs Classical - Dice
 
@@ -62,9 +62,11 @@ On a theoretical, perfect die, what is the probability to roll a 5?
 
 On your die you have rolled, what is the probability to roll a 5?
 
+How do we approach this? What is the Solution?
+
 ## <a id="4"></a>Experimental vs Classical - Coins
 
-Flip a coin 27 times and record your results.
+Flip a coin 27 times and record your results. Be consistent with what you call heads and tails.
 
 |Coin Face|Result|
 |---------|------|
@@ -85,7 +87,7 @@ Of this, we can additionally state that:
 
 If I ask the game to select 1 of these, what is the probability that the game chooses 1 that is offense or a support?
 
-How do we approach this?
+How do we approach this? What is the Solution?
 
 ## <a id="6"></a>Complement of a Set - Passing
 
@@ -93,11 +95,15 @@ There is an 87% chance that a student will pass this class. What is the likeliho
 
 For example, "Given an 87% chance of passing, we would expect to use the complement of the set to answer this question or the formula XXXX. With that in mind, the math of this is (formula + math answer here)."
 
+How do we approach this? What is the Solution?
+
 ## <a id="7"></a>Complement of a Set - 7-sided Die
 
 I have a 7-sided die. We can assume that each face on the die has an equal chance to be rolled. If I roll the dice, what is the probability of rolling a 5 or a 7? What is its complement? 
 
-State your answers in percentages and then show me a verifcation of your answer. 
+State your answers in percentages and then show me a verifcation of your answer.
+
+How do we approach this? What is the Solution? 
 
 ## <a id="8"></a>Experimental - Colors and a 4-Sided Die
 
@@ -110,6 +116,8 @@ State your answers in percentages and then show me a verifcation of your answer.
 
 Given the above results, what is the experimental probability of spinning the color Orange?
 
+How do we approach this? What is the Solution?
+
 ## <a id="9"></a>Addition Rules - Sticky Hands
 
 So this came from CodeAcademy and it's amazing so i'll paste it in here: 
@@ -118,7 +126,7 @@ So this came from CodeAcademy and it's amazing so i'll paste it in here:
 
 In a bag, there are a huge number of sticky hands - those rubber strings with a hand on the end. Inside the bag, there are 24 blue hands and 21 Orange Hands. Of those, 9 of the blue hands and and 14 of the orange hands are skeletal. If we reach into the bag and pick up 1 hand at random, what is the probability of choosing an Orange Hand OR a Skeletal Hand.
 
-How do we approach this?
+How do we approach this? What is the Solution?
 
 ## <a id="10"></a>Addition Rules - Mutual Exclusivity
 
@@ -126,12 +134,21 @@ For this approach, we need to think about what it means to be mutually exclusive
 
 ![Mutually Exclusive](/images/mup.png)
 
-So think about this, we have a 16-sided die. If I roll that die, what is the probability of rolling a 15 or a 7?
+So think about this, we have a 16-sided die. If I roll that die, what is the probability of rolling a 15 or a 7? Why did you calculate it that way?
 
-How do we approach this?
+How do we approach this? What is the Solution?
 
 ## <a id="11"></a>Multiplication Rules - Joint Probability + Dependence
 
+I have 3 decks of traditional playing cards. Each deck consists of 4 of each card from Ace to King. Each card is split into 4 suits (Diamonds, Hearts, Spades, and Clubs) and 2 colors (red and black).
 
+Through the discussion of Dependence, think about the formula. What is P(F|E). 
+
+If I combine all of the cards together, what is the probability I would draw a Face Card? And then without replacing that card, what is the probability I would draw a a 9?
+
+
+
+How do we approach this? What is the Solution?
 
 ## <a id="12"></a>Multiplication Rules - Joint Probability + Independence
+
