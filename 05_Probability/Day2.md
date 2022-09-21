@@ -4,17 +4,17 @@ Today is simply practice day. We went through Classical Probability so we know w
 
 01. [Formulas](#formulas)
 02. [Classical Probability - Throwing Axes](#1)
-03. [Classical Probability - Throwing Dice](#2)
+03. [Classical Probability - Selecting a Tribute](#2)
 04. [Experimental vs Classical - Dice](#3)
 05. [Experimental vs Classical - Coins](#4)
 06. [Experimental - MOBA Characters](#5)
 07. [Complement of a Set - Passing](#6)
-08. [Complement of a Set - ](#7)
+08. [Complement of a Set - 7-sided die](#7)
 09. [Experimental - Colors and a 4-Sided Die](#8)
-10. [Addition Rules - Mutually Exclusive](#9)
-11. [Addition Rules - Indepdendent](#10)
-12. [Multiplication Rules - ](#11)
-13. [Multiplication Rules - ](#12)
+10. [Addition Rules - Sticky Hands](#9)
+11. [Addition Rules - Mutual Exclusivity](#10)
+12. [Multiplication Rules - Joint Probability + Dependence](#11)
+13. [Multiplication Rules - Joint Probability + Independence](#12)
 
 ## <a id="formulas"></a>Formulas
 
