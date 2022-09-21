@@ -73,6 +73,10 @@ Flip a coin 27 times and record your results. Be consistent with what you call h
 |Heads||
 |Tails||
 
+What is the probability of your coin that i'll roll a Tails?
+
+How do we approach this? What is the Solution?
+
 ## <a id="5"></a>Experimental - MOBA Characters
 
 I am looking for a new character to play in a MOBA. There are 52 available characters. Looking at their capabilities, we can list them out. 
@@ -146,9 +150,21 @@ Through the discussion of Dependence, think about the formula. What is P(F|E).
 
 If I combine all of the cards together, what is the probability I would draw a Face Card? And then without replacing that card, what is the probability I would draw a a 9?
 
-
-
 How do we approach this? What is the Solution?
 
 ## <a id="12"></a>Multiplication Rules - Joint Probability + Independence
 
+A study of students in undergraduate stats courses found the probabilities that a student will fail the course for the following reasons. 
+
+|Probabilities of Failing a Stats Course|
+|Reason|Probability|
+|------|-----------|
+|Attendance under 70%|.1356|
+|Did not read outside of class|.2478|
+|Thinks they know better and acts on it|.1026|
+|Caught Cheating|.1954|
+|Majority of assignments late or not submitted|.3186|
+
+What is the probability that a student fails stats for Attendance under 70%, Caught Cheating, and that the majority of assignments late or not submitted?
+
+How do we approach this? What is the Solution?
