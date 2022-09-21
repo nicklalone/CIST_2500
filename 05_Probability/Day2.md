@@ -43,6 +43,8 @@ How do we approach this?
 ## <a id="3"></a>Experimental vs Classical - Dice
 
 Roll a die 28 times and record your roles. 
+(If you don't have dice, please go here:
+http://www.randomservices.org/random/apps/Dice.html)
 
 Place those data in here: 
 
@@ -54,6 +56,7 @@ Place those data in here:
 |4||
 |5||
 |6||
+|7||
 
 On a theoretical, perfect die, what is the probability to roll a 5?
 
@@ -63,7 +66,10 @@ On your die you have rolled, what is the probability to roll a 5?
 
 Flip a coin 27 times and record your results.
 
-
+|Coin Face|Result|
+|---------|------|
+|Heads||
+|Tails||
 
 ## <a id="5"></a>Experimental - MOBA Characters
 
@@ -103,7 +109,6 @@ State your answers in percentages and then show me a verifcation of your answer.
 |Yellow|26|
 
 Given the above results, what is the experimental probability of spinning the color Orange?
-
 
 ## <a id="9"></a>Addition Rules - Sticky Hands
 
