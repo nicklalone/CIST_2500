@@ -302,7 +302,7 @@ Let's use the formula. (P(Ec) = n(Ec)/n(S)) = 11/36. Here, we need to actually s
 
 Does that make sense?
 
-### <a id"addition"></a>Addition Law
+### <a id="addition"></a>Addition Law
 
 Addition law is essentially adding two probabilities together but because you're looking for a UNION (vocab here!) of those two events and subtract the INTERSECTION (vocab here!) of those two events. 
 
