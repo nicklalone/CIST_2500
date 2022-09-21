@@ -156,7 +156,6 @@ How do we approach this? What is the Solution?
 
 A study of students in undergraduate stats courses found the probabilities that a student will fail the course for the following reasons. 
 
-|Probabilities of Failing a Stats Course|
 |Reason|Probability|
 |------|-----------|
 |Attendance under 70%|.1356|
