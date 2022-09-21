@@ -42,35 +42,56 @@ How do we approach this?
 
 ## <a id="3"></a>Experimental vs Classical - Dice
 
-Roll a coin 14 times and record your roles. 
+Roll a die 28 times and record your roles. 
+
+Place those data in here: 
+
+|Dice Face|Result|
+|---------|------|
+|1||
+|2||
+|3||
+|4||
+|5||
+|6||
+
+On a theoretical, perfect die, what is the probability to roll a 5?
+
+On your die you have rolled, what is the probability to roll a 5?
 
 ## <a id="4"></a>Experimental vs Classical - Coins
 
-Flip a coin 50 times and record your results.
+Flip a coin 27 times and record your results.
+
+
 
 ## <a id="5"></a>Experimental - MOBA Characters
 
-	I am looking for a new character to play in a MOBA. There are 52 available characters. Looking at their capabilities, we can list them out. 
-	* 16 are offense.
-	* 17 are support.
-	* 15 are for mid/Jungle.
-	* 12 Are Gimmicks.
+I am looking for a new character to play in a MOBA. There are 52 available characters. Looking at their capabilities, we can list them out. 
+* 16 are offense.
+* 17 are support.
+* 15 are for mid/Jungle.
+* 12 Are Gimmicks.
 
-	Of this, we can additionally state that: 
-	* 5 is Offense but can do suport.
-	* 3 is a gimmick and mid.
+Of this, we can additionally state that: 
+* 5 is Offense but can do suport.
+* 3 is a gimmick and mid.
 
-	If I ask the game to select 1 of these, what is the probability that the game chooses 1 that is offense or a support?
+If I ask the game to select 1 of these, what is the probability that the game chooses 1 that is offense or a support?
 
-	How do we approach this?
+How do we approach this?
 
 ## <a id="6"></a>Complement of a Set - Passing
 
-	There is an 87% chance that a student will pass this class. What is the likelihood that a student will fail? Please provide your answer in a complete sentence explaining why you made the choice you did as well as showing your work.
+There is an 87% chance that a student will pass this class. What is the likelihood that a student will fail? Please provide your answer in a complete sentence explaining why you made the choice you did as well as showing your work.
 
-	For example, "Given an 87% chance of passing, we would expect to use the complement of the set to answer this question or the formula XXXX. With that in mind, the math of this is (formula + math answer here)."
+For example, "Given an 87% chance of passing, we would expect to use the complement of the set to answer this question or the formula XXXX. With that in mind, the math of this is (formula + math answer here)."
 
-## <a id="7"></a>Complement of a Set - 
+## <a id="7"></a>Complement of a Set - 7-sided Die
+
+I have a 7-sided die. We can assume that each face on the die has an equal chance to be rolled. If I roll the dice, what is the probability of rolling a 5 or a 7? What is its complement? 
+
+State your answers in percentages and then show me a verifcation of your answer. 
 
 ## <a id="8"></a>Experimental - Colors and a 4-Sided Die
 
