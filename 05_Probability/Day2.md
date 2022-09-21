@@ -1,53 +1,52 @@
-# Probability and Statistics
-
-From your textbook, it introduces this section in the following ways: 
-
-1. What are the chances that sales will decrease if we increase prices?
-2. What is the likleihood a new assembly method will increase productivity? 
-3. How likely is it that the project will be finished on time?
-4. What is the chance that a new investment will be profitable?
-
-Your book then goes on to define the word probability by saying: 
-
-> probability is a numerical measure of the likelihood that an event will occur. -page 181 in your textbook.
-
-We often think of probability as something that measures the certainty an event will occur. However, in as much as we calculate certain, we also calculate uncertainty as probability is as much a calculation of how likely and how unlikely simultaneously. 
-
-For example, let's say we are working to understand the cosequences of raising prices on sales. Probability is calculated along a continuum of 0 > 1 or 0 > 100%. 
-
-Think of it like this: 
-
-|----------------------|---------------------------|
-
-0           		   50                         100
-
-To understand probability, we will be going through some theories, examples, and various ways to calculate probability. Please find the table of contents below: 
-
-
-----------Table of Contents----------
-
-[Day 2](#day2): 
-1. [Discrete Probability Distributions](#probdis)
-2. [Uniform Probability Distributions](#uniprob)
-3. [Normal Probability Distributions](#normprob)
-4. [Exponential Probability Distributions](#exponent)
-5. [Exercises](#day2exercises)
-
-------------------------------------------------------------
-
-# <a id="day2"></a>Day 2: 
+# Day 2 - Practice Problems, Experiments, Addition, and Multiplication: 
 
 
 
------------------
+01. [Formulas](#formulas)
+02. [Classical Probability - Throwing Axes](#1)
+03. [Classical Probability - Throwing Dice](#2)
+04. [Experimental vs Classical - Dice](#3)
+05. [Experimental vs Classical - Coins](#4)
+06. [Experimental - MOBA Characters](#5)
+07. [Experimental - ](#6)
+08. [](#7)
+09. [](#8)
+10. [](#9)
+11. [](#10)
+12. [](#11)
+13. [](#12)
+14. [](#13)
+15. [](#14)
+16. [](#15)
 
+## <a id="formulas"></a>Formulas
 
-## <a id="probdis"></a>Discrete Probability Distributions
+## <a id="1"></a>Classical Probability - Throwing Axes
 
-## <a id="uniprob"></a>Uniform Probability Distributions
+## <a id="2"></a>Classical Probability - Throwing Dice
 
-## <a id="normprob"></a>Normal Probability Distributions
+## <a id="3"></a>Experimental vs Classical - Dice
 
-## <a id="exponent"></a>Exponential Probability Distributions
+## <a id="4"></a>Experimental vs Classical - Coins
 
-## <a id="day2exercises"></a>Day 2 Exercises
+## <a id="5"></a>Experimental - MOBA Characters
+
+## <a id="6"></a>Complement of a Set - Passing
+
+## <a id="7"></a>Complement
+
+## <a id="8"></a>Addition Rules
+
+## <a id="9"></a>Addition Rules
+
+## <a id="10"></a>Multiplication Rules
+
+## <a id="11"></a>Multiplication Rules
+
+## <a id="12"></a>Multiplication Rules
+
+## <a id="13"></a>Multiplication Rules
+
+## <a id="14"></a>Multiplication Rules
+
+## <a id="15"></a>Multiplication Rules
