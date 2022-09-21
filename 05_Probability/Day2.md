@@ -126,7 +126,7 @@ How do we approach this? What is the Solution?
 
 So this came from CodeAcademy and it's amazing so i'll paste it in here: 
 
-![Addition Rule](/images/add-law.gif)
+![Addition Rule](/images/add-rule.gif)
 
 In a bag, there are a huge number of sticky hands - those rubber strings with a hand on the end. Inside the bag, there are 24 blue hands and 21 Orange Hands. Of those, 9 of the blue hands and and 14 of the orange hands are skeletal. If we reach into the bag and pick up 1 hand at random, what is the probability of choosing an Orange Hand OR a Skeletal Hand.
 
