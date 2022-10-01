@@ -11,16 +11,42 @@ Since samples are so important, we're going to spend some time adding some new i
 
 ---------------- Table of Contents ---------------- 
 
-1. [Point Estimation]()
-1. [Population Type]()
-1. [Data Frames]()
-1. [Sampling Types]()
-	* [Simple Random Sample]()
-	* [Random Sample]()
-	* [Stratified Random Sampling]()
-	* [Cluster Sampling]()
-	* [Systematic Sampling]()
-	* [Convenience Sampling]()
-	* [Judgement Sampling]()
-1. [Differences Between Finite and Infinite Populations]()
+1. [Point Estimation](#pe)
+1. [Population Type](#pt)
+1. [Data Frames](#df)
+1. [Sampling Types](#st)
+	* [Simple Random Sample](#srs)
+	* [Random Sample](#rs)
+	* [Stratified Random Sampling](#strs)
+	* [Cluster Sampling](#cs)
+	* [Systematic Sampling](#ss)
+	* [Convenience Sampling](#cons)
+	* [Judgement Sampling](#js)
+1. [Differences Between Finite and Infinite Populations](#fin-infin)
 1. []()
+
+# <a id="pe"></a>Point Estimation
+
+# <a id="pt"></a>Population Type
+
+# <a id="df"></a>Data Frames
+
+# <a id="st"></a>Sampling Types
+
+## <a id="srs"></a>Simple Random Sample
+
+## <a id="rs"></a>Random Sample
+
+## <a id="strs"></a>Stratified Random Sampling
+
+## <a id="cs"></a>Cluster Sampling
+
+## <a id="ss"></a>Systematic Sampling
+
+## <a id="cons"></a>Convenience Sampling
+
+## <a id="js"></a>Judgement Sampling
+
+# <a id="fin-infin"></a>Differences Between Finite and Infinite Populations
+
+
