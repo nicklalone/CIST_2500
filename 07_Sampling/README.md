@@ -29,38 +29,44 @@ In this section of class, we're going to concentrate not on the experiment, but 
 	* [Convenience Sampling](#cons)
 	* [Judgement Sampling](#js)
 1. [Differences Between Finite and Infinite Populations](#fin-infin)
-1. []()
+1. [Samping Error](#samper)
 
-# <a id="pe"></a>Point Estimation
+---------------- Table of Contents ---------------- 
 
-One of the easiest ways to describe this concept is to use a different definition of the same thing: central tendency. 
+## <a id="pe"></a>Point Estimation
+
+In general, we can say that within frequentist statistics we can generally do 2 things, describe and make an inference. In this section of class, we will be generally approaching single values and those single values are called Point Estimates. In the future, we will be taking this idea of point estimation and expand it into, "interval estimation."
+
+We should connect this back to the normal curve since this is our home now. It is where we live. And so, one of the easiest ways to describe point estimation is to use a different definition of the same thing: central tendency. 
 
 Do you remember calculating all of the modes of central tendency? Mean, Median, Mode? These are all estimates of population parameters.
 
 Why? What? Huh?
 
- 
+ These point estimations are just what we've been doing with Z-Scores. We use single points as estimates of population parameters. 
 
-# <a id="pt"></a>Population Type
+## <a id="pt"></a>Population Type
 
-# <a id="df"></a>Data Frames
+## <a id="df"></a>Data Frames
 
-# <a id="st"></a>Sampling Types
+## <a id="st"></a>Sampling Types
 
-## <a id="srs"></a>Simple Random Sample
+### <a id="srs"></a>Simple Random Sample
 
-## <a id="rs"></a>Random Sample
+### <a id="rs"></a>Random Sample
 
-## <a id="strs"></a>Stratified Random Sampling
+### <a id="strs"></a>Stratified Random Sampling
 
-## <a id="cs"></a>Cluster Sampling
+### <a id="cs"></a>Cluster Sampling
 
-## <a id="ss"></a>Systematic Sampling
+### <a id="ss"></a>Systematic Sampling
 
-## <a id="cons"></a>Convenience Sampling
+### <a id="cons"></a>Convenience Sampling
 
-## <a id="js"></a>Judgement Sampling
+### <a id="js"></a>Judgement Sampling
 
-# <a id="fin-infin"></a>Differences Between Finite and Infinite Populations
+## <a id="fin-infin"></a>Differences Between Finite and Infinite Populations
+
+## <a id="samper"></a>Sampling Error
 
 
