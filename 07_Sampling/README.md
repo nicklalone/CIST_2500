@@ -20,7 +20,9 @@ In this part of the class, we're going to concentrate not on the experiment, but
 1. [Point Estimation](#pe)
 	* Parameter vs Statistic(#pvs)
 1. [Population Type](#pt)
+	* [Differences Between Finite and Infinite Populations](#fin-infin)
 1. [Data Frames](#df)
+1. [Samping Error](#samper)
 1. [Sampling Types](#st)
 	* [Simple Random Sample](#srs)
 	* [Random Sample](#rs)
@@ -29,8 +31,7 @@ In this part of the class, we're going to concentrate not on the experiment, but
 	* [Systematic Sampling](#ss)
 	* [Convenience Sampling](#cons)
 	* [Judgement Sampling](#js)
-1. [Differences Between Finite and Infinite Populations](#fin-infin)
-1. [Samping Error](#samper)
+
 
 ---------------- Table of Contents ---------------- 
 
@@ -50,7 +51,9 @@ Of the different kinds of point estimation, we have:
 * Mean
 * Median
 * Mode
-* 
+* Points
+
+And we're discussing points but we probably should take a moment to reinforce what we're doing. *And what are we doing?* Well, we're taking samples, calculating sample statistics, and using those data to make inferences about the parameters a population continues.
 
 ### <a id="pvs"></a>Parameter vs Statistic
 
@@ -73,7 +76,29 @@ Who our population is, what our sample is, who our sample is, how to get at them
 
 We have to have a bit of a discussion about populations. Populations can be infinity and with this, you could never possibly grab an opinion or whatever from all of them. Alternatively, there are what are called, "Finite" populations or those populations within which you can know exactly how many there are. 
 
+## <a id="fin-infin"></a>Differences Between Finite and Infinite Populations
+
+This might be easier to describe with pictures. 
+
+![An image of populations vs samples](/images/finite.jpg)
+![An image of populations vs samples](/images/infinite.png)
+
+
 ## <a id="df"></a>Data Frames
+
+Data Frames are simple to define yet obsesively difficult to understand. This is maybe one of those concepts that will be easily overthought. In light of that, I wanted to offer a few different definitions. 
+
+Elements: 
+> A unit of data for which the definition, identification, representation, and permissible values are specified by means of a set of attributes. [OECD](https://stats.oecd.org/glossary/detail.asp?ID=538#:~:text=A%20data%20element%20is%20a,of%20a%20set%20of%20attributes.)
+
+> the definition of the population elements is its explicit definition so that members of a field crew can determine whether the site visited is a member of the target population. [Salmon Monitoring](https://groups.nceas.ucsb.edu/monitoring-kb/resources/statistical-definitions/element-of-a-population.html)
+
+> A basic unit of information that has a unique meaning and subcategories (data items) of distinct value. Examples of data elements include gender, race, and geographic location. [NIST](https://csrc.nist.gov/glossary/term/data_element)
+Data Frame: A list of elements from which the sample will be selected.
+
+Elements are basically that thing you are studying. You have to be mindful of this concept as this could be a source of potential errors. Speaking of errors, lets talk a little about this. 
+
+## <a id="samper"></a>Sampling Error
 
 ## <a id="st"></a>Sampling Types
 
@@ -91,8 +116,6 @@ We have to have a bit of a discussion about populations. Populations can be infi
 
 ### <a id="js"></a>Judgement Sampling
 
-## <a id="fin-infin"></a>Differences Between Finite and Infinite Populations
 
-## <a id="samper"></a>Sampling Error
 
 
