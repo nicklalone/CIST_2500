@@ -10,14 +10,15 @@ There are implications for this. 1. We can predict human activities to a certain
 Since samples are so important, we're going to spend some time adding some new ideas. 
 
 Every single time we take a sample and use it to understand a population, we're making estimates, we're doing probabilities. Everything begins with 2 things: 
-1. What is the experiment?
+1. What is the experiment (Another way to say this is, 'what is our research question?' More on these next week!)?
 1. What is our sampling approach?
 
-In this section of class, we're going to concentrate not on the experiment, but on the sampling approach. We need to learn approaches to collecting data so that we can learn approaches to writing hypotheses we can solve with those sampling methods. 
+In this part of the class, we're going to concentrate not on the experiment, but on the sampling approach. We need to learn approaches to collecting data so that we can learn approaches to writing hypotheses we can solve with those sampling methods. 
 
 ---------------- Table of Contents ---------------- 
 
 1. [Point Estimation](#pe)
+	* Parameter vs Statistic(#pvs)
 1. [Population Type](#pt)
 1. [Data Frames](#df)
 1. [Sampling Types](#st)
@@ -43,9 +44,34 @@ Do you remember calculating all of the modes of central tendency? Mean, Median, 
 
 Why? What? Huh?
 
- These point estimations are just what we've been doing with Z-Scores. We use single points as estimates of population parameters. 
+These point estimations are just what we've been doing with Z-Scores. We use single points as estimates of population parameters. We are essentially offering an 'educated guess' about one aspect of the population given the sample we've collected. 
+
+Of the different kinds of point estimation, we have: 
+* Mean
+* Median
+* Mode
+* 
+
+### <a id="pvs"></a>Parameter vs Statistic
+
+Before we leave point estimation, we should reiterate an important point about everything we'll do. 
+
+We seek to understand the population's parameters. This is the whole point of statistics. We want to examine a sample of data (or population if we can get it) and make an inference about that population. We are always going to try and do this. 
+
+And yet, the best we can do is to make an estimation of points or an estimation of interval. These are essentially, "1-point" like a mean or a z-score, or something. Or we use a confidence interval or deal with the idea that we can be more accurate by widening our interval (which in turn isn't that powerful, more on this later). 
+
+To this, we must state two terms: 
+
+> A **statistic** (those things we generate with sample data) will *change a lot*. For example, if I compare the average student debt of new, established, and retirement age faculty members in the US. 
+
+> A **parameter** is what we're going for. We know through the law of large numbers, the central limit theorem, that the more samples we take, if we average those samples, that, once we got enough, we'd know the values for the population, the parameters. *Parameters do not change* once known (aside from drifting as all things do over time).
+
+Who our population is, what our sample is, who our sample is, how to get at them, and what you want to learn from them is what we'll talk about.
+
 
 ## <a id="pt"></a>Population Type
+
+We have to have a bit of a discussion about populations. Populations can be infinity and with this, you could never possibly grab an opinion or whatever from all of them. Alternatively, there are what are called, "Finite" populations or those populations within which you can know exactly how many there are. 
 
 ## <a id="df"></a>Data Frames
 
