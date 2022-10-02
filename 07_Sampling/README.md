@@ -100,6 +100,8 @@ Elements are basically that thing you are studying. You have to be mindful of th
 
 ## <a id="samper"></a>Sampling Error
 
+![This is the easiest way to consider things](/images/samper.png)
+
 ## <a id="st"></a>Sampling Types
 
 ### <a id="srs"></a>Simple Random Sample
