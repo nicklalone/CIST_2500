@@ -18,7 +18,7 @@ In this part of the class, we're going to concentrate not on the experiment, but
 ---------------- Table of Contents ---------------- 
 
 1. [Point Estimation](#pe)
-	* Parameter vs Statistic(#pvs)
+	* [Parameter vs Statistic](#pvs)
 1. [Population Type](#pt)
 	* [Differences Between Finite and Infinite Populations](#fin-infin)
 1. [Data Frames](#df)
@@ -79,7 +79,9 @@ We have to have a bit of a discussion about populations. Populations can be infi
 
 ## <a id="fin-infin"></a>Differences Between Finite and Infinite Populations
 
-This might be easier to describe with pictures. 
+This might be easier to describe with pictures. In essence, there are times in Finite sampling where N and n are the same number. This is versus N vs n in an infinite sample wherein you could never approach the population number. 
+
+How and where and why this tends to differ is extremely varied. On Thursday, we will be dealing with a lot of that. 
 
 ![An image of populations vs samples](/images/finite.jpg)
 ![An image of populations vs samples](/images/infinite.png)
