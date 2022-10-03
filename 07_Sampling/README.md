@@ -29,7 +29,7 @@ In this part of the class, we're going to concentrate not on the experiment, but
 	* [Stratified Random Sampling](#strs)
 	* [Cluster Sampling](#cs)
 	* [Systematic Sampling](#ss)
-1. Non-probabilistic Sampling(#nps)
+1. [Non-probabilistic Sampling](#nps)
 	* [Convenience Sampling](#cons)
 	* [Judgement Sampling](#js)
 
@@ -84,8 +84,12 @@ This might be easier to describe with pictures. In essence, there are times in F
 How and where and why this tends to differ is extremely varied. On Thursday, we will be dealing with a lot of that. 
 
 ![An image of populations vs samples](/images/finite.jpg)
+
+So notice here that all of these things are not only able to be known but could change at any moment. Some days there will be more or less traffic, some years will have more of less births. Very few books have exactly the same number of words, even editions will differ in this regard. Next, note that all of the registered voters will change periodically as municipalities change rules, people are born, come of age, die, or leave the country. In all of these circumstances, a finite population often works exactly like a sample. 
+
 ![An image of populations vs samples](/images/infinite.png)
 
+Imagine trying to count all the grains on a beach. Or, count all the people in the world at once. Could you? Stars in the universe? Cells in a body? The number of times I say, "yeah?" in class? Incalculable, unrecordable. And so through this concept, we have to take a sample or many samples, to begin to understand.
 
 ## <a id="df"></a>Data Frames
 
