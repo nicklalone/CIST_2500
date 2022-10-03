@@ -29,6 +29,7 @@ In this part of the class, we're going to concentrate not on the experiment, but
 	* [Stratified Random Sampling](#strs)
 	* [Cluster Sampling](#cs)
 	* [Systematic Sampling](#ss)
+1. Non-probabilistic Sampling(#nps)
 	* [Convenience Sampling](#cons)
 	* [Judgement Sampling](#js)
 
@@ -142,10 +143,36 @@ I cannot say it better than [this website](https://www.scribbr.com/methodology/c
 
 ### <a id="ss"></a>Systematic Sampling
 
+Your book defines systematic sampling as: 
+
+> a probability sampling method in which we randomly select one of the first k elements and then select every kth element thereafter. 
+
+Or to put this in more useful terms, we start somewhere, decide an interval, and go from there.
+
+I'll place an image here that visually shows how these sampling methods work. From this point, we'll be able to better understand how and where to use these. 
+
+![Various sampling methods](/images/samp-col.png)
+
+## <a id="nps"></a>Non-probabilistic Sampling
+
 ### <a id="cons"></a>Convenience Sampling
+
+This is a sampling method that is used quite a bit and is appropriate when your population is incredibly difficult to access in a specific way (e.g. they are spread out geographically, they are hyper-specialized and only the specialists can find others like them, or it is a specialized job you have to ask others about). We make a distinction here from snowball sampling (ask friends to take survey, ask their friends to take survey, and so on. Sample gets bigger as it rolls down hill). 
+
+Your book defines this concept as: 
+
+> a non-probability method of sampling whereby elements are selected for the sample on the basis of convenience.
+
+But this is an unsatisfying definition as it uses the term to define itself. We could replace that word 'convenience' with a different phrase that might help it make more sense. For example: 
+
+> a non-probability method of sampling whereby elements are selected for the sample based on the population that is close at hand.
+
+This is often how we test alphas or betas in software design. We find some folks we know, or other designers, and have them test our product not because it's rigorous, but because it's easier. Often for convenience sampling, it's about ease moreso than dealing with math. 
 
 ### <a id="js"></a>Judgement Sampling
 
+This last one sounds pretty straight forward. We essentially, "select based on the opinion of an expert." For example, for my survey of technology use in emergency management, my survey was intentionally based on judgement. As a practitioner in this space, I needed to understand how and why certain kinds of people are the way that they are. And so, I went around a variety of cities, states, regions, and federal agencies intentionally sampling from the population until I had a wide enough group that I could say it was representative. 
 
+No one else in my field could replicate this survey because i've spent a good 5-6 years establishing my pressence in the field. This is perhaps an important aspect of this type of sampling, your judgement and your capacity need to be known in the field in order for folks to accept their part in the survey.
 
 
