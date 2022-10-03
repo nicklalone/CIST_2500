@@ -22,6 +22,14 @@ For interval estimates, this is how we begin to take into account the infinite v
 
 > An estimate of a population parameters that provides an interval believed to contain the value of a parameter. For the interval estimates in this chapter, it has the form: (point estimate ± margin of error). 
 
+We can also refer to this as a Confidence Interval in that: 
+
+> The confidence associated with an interval estimate. For example, if an interval estimation procedure provides intervals such that 95% of the intervals formed using the procedure will include the population parameter, the interval estimate is said to be constructed at the 95% confidence level. 
+
+And this is where we have assembled the sport, the rules, the implements (ball, puck, hockey stick, whatever), and how scoring works. We now have our entire toolkit.
+
+But let's explore this a bit first. 
+
 ### <a id="popk"></a>Population Known
 
 ![](/images/cio2known.jpeg)
