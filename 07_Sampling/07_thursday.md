@@ -60,4 +60,22 @@ What this tends to do is offer you a level of accuracy you can associate with yo
 
 ### <a id="df"></a>Degrees of Freedom
 
+Degrees of freedom (often abbreviated as df) are another aspect of stats that are difficult to understand because they're super simple. [One page says that df are](https://statisticsbyjim.com/hypothesis-testing/degrees-freedom-statistics/), "the number of independent values that a statistical analysis can estimate." Another way to think about this is that there are going to be variances in your data that changes as you try and move from sample to parameter. 
+
+It is an intensely weird thing to describe. Your book kind of goes nuts with its definition in that it says, 
+
+> A parameter of the t-distribution. When the t distribution is used in the computation of an interval estimate of a population mean, the appropriate t distribution has n-1 df where n is the size of the sample.
+
+What is the t distribution, you might ask. Well, according to your text, a t distribution is: 
+
+> a family of probability distributions that can be used to develop an interval estimate of a population mean whenever the population standard deviation is unknown and is estimated by the sample standard deviation.
+
+or in other words, the t-distribution is basically everything in chapter 8. 
+
+What DF is essentially doing is that it is meant to reflect the amount of independent information you have limits the number of parameters that you can estimate. Or in essence, you cannot use a sample to calculate an infinity of parameters, you are instead limited to your sample size. 
+
+[This page goes on to say that](https://statisticsbyjim.com/hypothesis-testing/degrees-freedom-statistics/), "Typically, the degrees of freedom equals your sample size minus the number of parameters you need to calculate during an analysis. It is usually a positive whole number."
+
+And your book (of course), has a chart!!!
+
 ## <a id="examp"></a>Examples, Exercises, Excel
