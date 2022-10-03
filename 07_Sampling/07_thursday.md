@@ -32,19 +32,19 @@ But let's explore this a bit first.
 
 ### <a id="popk"></a>Population Known
 
-![](/images/cio2known.jpeg)
+![Interval Estimate Population Known](/images/cio2known.jpeg)
 
 ### <a id="popunk"></a>Population Unknown
 
-![](/images/cio2unknown.jpeg)
+![Interval Estimate Population Unknown](/images/cio2unknown.jpeg)
 
 ### <a id="iepm"></a>Interval Estimate of a Population Mean
 
-
+![Interval Estimate of a Population Mean](/images/ciep.jpeg)
 
 ### <a id="iepp"></a>Interval Estimate of a Population Proportion
 
-![](/images/cipp.png)
+![Interval Estimate of a Population Proportion](/images/cipp.png)
 
 ### <a id="conf"></a>Confidence Intervals
 
