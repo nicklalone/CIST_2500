@@ -13,5 +13,4 @@
 
 ---------------- Table of Contents ---------------- 
 
-
 ## <a id="examp"></a>Examples, Exercises, Excel
