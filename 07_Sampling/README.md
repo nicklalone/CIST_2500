@@ -104,13 +104,41 @@ Elements are basically that thing you are studying. You have to be mindful of th
 
 ## <a id="st"></a>Sampling Types
 
-### <a id="srs"></a>Simple Random Sample
+How we approach our sample is all over the place in terms of wisdom. For the most part, we just sort of allow the population to dictate how we can access them. For example, if I wanted to access y'all, I just survey all of you and I can make you do it for class points if I want. For some, like those in jail, getting access to this population takes so much effort that whole careers can be made with access to just 1 jail population.
 
-### <a id="rs"></a>Random Sample
+So what do we mean by sampling types?
+
+### <a id="srs"></a>Simple Random Sample - Finite Population
+
+![Simple Random Sample](/images/srs.jpg)
+
+So simple random sample sounds simple but...it can be nuts. The issue at hand is this, the basic nature of SRS is to ensure that *everyone* in the population has an *equal* probability of being selected. Given the infinite variance of humanity, how cna you ensure this? Consider [the following](https://www.investopedia.com/terms/s/simple-random-sample.asp): "A sampling error can occur with a simple random sample if the sample does not end up accurately reflecting the population it is supposed to represent." 
+
+How do you approach this in a way to ensure equitable distribution?
+
+### <a id="rs"></a>Random Sample - Infinite Pop
+
+This, like the above, is *deceptively* simple. Consider this: 
+
+A random sample of size n from an infinite population is a sample selected such that the following conditions are satisfied: 
+1. Each element selected comes from the same population.
+1. Each element is selected independently. 
+
+Notice here, over SRS, random sampling is just randomly going around. Something to keep in mind is that, "A simple random sample from a very large finite population is approximately the same as a random sample from an infinite population" [Great read here](https://amsi.org.au/ESA_Senior_Years/SeniorTopic4/4b/4b_2content_5.html)
 
 ### <a id="strs"></a>Stratified Random Sampling
 
+Strata is the word here. The most basic definition is that you form what amounts to categories of something people share within your population. This could be something like income, education, nationality, religion, political party, ethnicity, or something like "gamers."
+
+The issue at hand [is this though](https://www.simplypsychology.org/stratified-random-sampling.html), "When stratifying, researchers tend to use proportionate sampling where they maintain the correct proportions to represent the population as a whole." 
+
 ### <a id="cs"></a>Cluster Sampling
+
+I cannot say it better than [this website](https://www.scribbr.com/methodology/cluster-sampling/): 
+
+>In cluster sampling, researchers divide a population into smaller groups known as clusters.  They then randomly select among these clusters to form a sample.
+
+>Cluster sampling is a method of probability sampling that is often used to study large populations, particularly those that are widely geographically dispersed. Researchers usually use pre-existing units such as schools or cities as their clusters.
 
 ### <a id="ss"></a>Systematic Sampling
 
