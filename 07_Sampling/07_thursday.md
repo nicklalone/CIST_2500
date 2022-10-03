@@ -76,6 +76,5 @@ What DF is essentially doing is that it is meant to reflect the amount of indepe
 
 [This page goes on to say that](https://statisticsbyjim.com/hypothesis-testing/degrees-freedom-statistics/), "Typically, the degrees of freedom equals your sample size minus the number of parameters you need to calculate during an analysis. It is usually a positive whole number."
 
-And your book (of course), has a chart!!!
+And your book (of course), has a chart!!! It is on page: 
 
-## <a id="examp"></a>Examples, Exercises, Excel
