@@ -42,7 +42,7 @@ For interval estimates, this is how we begin to take into account the infinite v
 
 What this tends to do is offer you a level of accuracy you can associate with your calculated measures. How confident you are is based on what amounts to 1 of 3 levels. 
 
-|Confidence Level|α|α^2|z<sub>α/2</sub>|
+|Confidence Level|α|α<sup>2</sup>|z<sub>α/2</sub>|
 |----------------|-|---|---------------|
 | 90 |.10|.05|1.645|
 | 95 |.05|.025|1.960|
