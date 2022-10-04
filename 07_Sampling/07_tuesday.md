@@ -34,7 +34,6 @@ In this part of the class, we're going to concentrate not on the experiment, but
 	* [Judgement Sampling](#js)
 1. [Sampling Distributions](#sds)
 
-
 ---------------- Table of Contents ---------------- 
 
 ## <a id="pe"></a>Point Estimation
