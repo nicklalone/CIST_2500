@@ -36,7 +36,7 @@ x̅ = 150, σ = 12, n = 25
 
 The mean for the verbal component of the SAT is reported as 500, with a standard deviation (σ) of 100. A sample of 900 students throughout a particular school district reveals a mean (x̅) score of 522. Estimate the mean score for all the students in the district, using a 95% confidence interval.
 
-<a id="popunk"></a>CI with σ unknown
+## <a id="popunk"></a>CI with σ unknown
 
 Estimate the standard error of the mean given the folliwing values for s (sample standard deviation) and n (sample size).
 * s = 5, n = 16
@@ -51,7 +51,7 @@ x̅ = 402, s = 110, n = 30
 
 A sample of 25 participants in a parenting skills class are administered a test to measure their skill levels on a 200 point skills test before entering the class. Results indicate that the mean (x̅) skill level for the sample is 86, with a standard deviation of (s) of 12. Based on that information, develop a 95% confidence interval to provide an estimate of the mean skill level for the entire population of program participants. 
 
-<a id="iepp"></a>Confidence Interval Problems for a Proportion
+## <a id="iepp"></a>Confidence Interval Problems for a Proportion
 
 Of a sample of 150 customers at a local bank, 15% report that they are likely to request a bank loan within the next year. Using a 99% confidence interval, estimate the percentage likely to request a loan within the population of all customers. 
 
