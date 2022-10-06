@@ -4,17 +4,14 @@ For the following, you will need these formulas.
 
 ![Formulas you'll need for this](/images/ci-forms.png)
 
-Each of these should be relatively straight forward but I will mark what formula goes where.
-
+Each of these should be relatively straight forward but I will mark what formula goes where. You can refer to the thursday notes for a bit more context in addition to chapter 7&8.
 
 ---------------- Table of Contents ---------------- 
 
 1. [Confidence Intervals](#InEs)
 	* [Population Known](#popk)
 	* [Population Unknown](#popunk)
-	* [Interval Estimate of a Population Mean](#iepm)
-	* [Interval Estimate of a Population Proportion](#iepp)
-	* [Confidence Interval](#conf)
+	* [Confidence Interval Problems for a Proportion](#iepp)
 
 ---------------- Table of Contents ---------------- 
 
@@ -48,7 +45,7 @@ Estimate the standard error of the mean given the folliwing values for s (sample
 * s = 35.5, n = 30
 
 Given the following: 
-x̅ = 150, s = 12, n = 25
+x̅ = 402, s = 110, n = 30
 	* Estimate the mean of the population by constructing a 95% confidence interval.
 	* Estimate the mean of the population by constructing a 99% confidence interval.
 
