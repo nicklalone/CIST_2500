@@ -57,9 +57,9 @@ What this tends to do is offer you a level of accuracy you can associate with yo
 
 |Confidence Level|α|α<sup>2</sup>|z<sub>α/2</sub>|
 |----------------|-|---|---------------|
-| 90 |.10|.05|1.645|
-| 95 |.05|.025|1.960|
-| 99 |.01|.005|2.576|
+| 90 |.10|.05|1.65|
+| 95 |.05|.025|1.96|
+| 99 |.01|.005|2.58|
 
 ## <a id="sampsize"></a>What sample size is right?
 
