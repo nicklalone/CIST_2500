@@ -59,7 +59,7 @@ What this tends to do is offer you a level of accuracy you can associate with yo
 |----------------|-|---|---------------|
 | 90 |.10|.05|1.645|
 | 95 |.05|.025|1.960|
-| 90 |.01|.005|2.576|
+| 99 |.01|.005|2.576|
 
 ## <a id="sampsize"></a>What sample size is right?
 
