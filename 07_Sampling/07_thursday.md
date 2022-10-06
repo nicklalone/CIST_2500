@@ -4,6 +4,7 @@ On Tuesday, we got into sampling methods and point estimations as we move from s
 ---------------- Table of Contents ---------------- 
 
 1. [Interval Estimation](#InEs)
+	* [Standard Error](#ster)
 	* [Population Known](#popk)
 	* [Population Unknown](#popunk)
 	* [Interval Estimate of a Population Mean](#iepm)
@@ -29,6 +30,10 @@ We can also refer to this as a Confidence Interval in that:
 And this is where we have assembled the sport, the rules, the implements (ball, puck, hockey stick, whatever), and how scoring works. We now have our entire toolkit.
 
 But let's explore this a bit first. 
+
+### <a id="ster"></a>Standard Error
+
+
 
 ### <a id="popk"></a>Population Known
 
