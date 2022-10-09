@@ -41,10 +41,17 @@ Chapter 9 is all about how hypothesis tests can be conducted about a population 
 
 As a reminder, when we mention population proportions. These are essentially how many people in a population share a certain characteristic. Here, we'll talk about the two hypotheses that we need to consider today: the Null (H<sub>o</sub>) and the Alternate (H<sub>a</sub>). 
 
-#### TLDR: When we write a hypothesis (H<sub>a</sub>), we begin or have to end with the inverse of the thing we want to prove (H<sub>o</sub>). 
+#### TLDR: When we write a hypothesis (H<sub>o</sub> or H<sub>a</sub>), we begin or have to end with the inverse of the thing we want to prove (H<sub>o</sub> or H<sub>a</sub>). 
 
 ### <a id="null"></a> The Null and You
 
+Your book on page 407 makes this example: 
+
+> Several new fuel injection units will be manufactured, installed in test automobiles, and subjected to research-controlled driving conditions. The sample mean miles per gallon for these automobiles will be computer and used in a hypothesis test to determine whether it can be concluded that the new system provides more than 24 miles per gallon. In terms of the population mean miles per gallon μ, the *research hypothesis* μ > 24 becomes the *alternative hypothesis*. Since the current system provides an average or mean of 24 miles per gallon, we will make the tentative assumption that the new systemis not any better than the current system and choose μ ≤ 24 as the null hypothesis. 
+
+So how we'd write this on a board, in a research report, or in a white paper of some kind is basically: 
+> H<sub>o</sub>: μ ≤ 24
+> H<sub>a</sub>: μ ≥ 24
 
 
 ### <a id="alternate"></a> What do you mean, Alternate?
