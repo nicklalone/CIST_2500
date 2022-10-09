@@ -41,7 +41,7 @@ Chapter 9 is all about how hypothesis tests can be conducted about a population 
 
 As a reminder, when we mention population proportions. These are essentially how many people in a population share a certain characteristic. Here, we'll talk about the two hypotheses that we need to consider today: the Null (H<sub>o</sub>) and the Alternate (H<sub>a</sub>). 
 
-#### TLDR: When we write a hypothesis (H<sub>a</sub>), we begin, end, or have to end with the inverse of the thing we want to prove (H<sub>o</sub>). 
+#### TLDR: When we write a hypothesis (H<sub>a</sub>), we begin or have to end with the inverse of the thing we want to prove (H<sub>o</sub>). 
 
 ### <a id="null"></a> The Null and You
 
