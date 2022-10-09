@@ -50,7 +50,7 @@ Your book on page 407 makes this example:
 > Several new fuel injection units will be manufactured, installed in test automobiles, and subjected to research-controlled driving conditions. The sample mean miles per gallon for these automobiles will be computer and used in a hypothesis test to determine whether it can be concluded that the new system provides more than 24 miles per gallon. In terms of the population mean miles per gallon μ, the *research hypothesis* μ > 24 becomes the *alternative hypothesis*. Since the current system provides an average or mean of 24 miles per gallon, we will make the tentative assumption that the new systemis not any better than the current system and choose μ ≤ 24 as the null hypothesis. 
 
 So how we'd write this on a board, in a research report, or in a white paper of some kind is basically: 
-> H<sub>o</sub>: μ ≤ 24
+> H<sub>o</sub>: μ ≤ 24 \\
 > H<sub>a</sub>: μ ≥ 24
 
 
