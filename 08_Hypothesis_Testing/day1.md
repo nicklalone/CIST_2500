@@ -51,12 +51,34 @@ Your book on page 407 makes this example:
 
 So how we'd write this on a board, in a research report, or in a white paper of some kind is basically: 
 * H<sub>o</sub>: μ ≤ 24 
-* H<sub>a</sub>: μ ≥ 24
+* H<sub>a</sub>: μ > 24
 
+Do you see what these are suggesting? 
+
+* H<sub>o</sub>: μ ≤ 24 
+
+My hope is that you can read this statement from left to right. How do we state this. Well, it's a little like this: 
+
+The null hypothesis in this case would be something like, "The new fuel injection units will get less than or exactly 24 miles per gallon." And this is the essential quality of the null, "there is no effect" or "nothing changed" or "we didn't see a statistically significant shift."
+
+Let's take a look at the alternate hypothesis. At times, we call this a "research hypothesis" though for the purposes of class, the homeworks, and the tests I will only ask you about alternate hypothesis.
 
 ### <a id="alternate"></a> What do you mean, Alternate?
 
+We often define the alternate hypothesis as: 
 
+> an theory inverse to the null that a researcher is testing.
+
+We basically cannot really just sit down and write a research statement or a thing we're going to do. Instead, we have to: 
+* Think about the data we need to collect.
+* Think about how we asked those questions.
+* Think about the ethics of what you are doing.
+
+* H<sub>a</sub>: μ > 24
+
+So with the alternate hypothesis (H<sub>a</sub>), we can begin or end here. In fact, at times we will be placing H<sub>o</sub> as a challenge to common sense, a challenge to assumptions we all make, or an actual research hypothesis. And so, we write it out in this circumstance. 
+
+And we would say it like this, "The new fuel injection units will get more than 24 miles per gallon." And so, we have this thing we're doing research on. And here's where the details can get you.
 
 ## <a id="errors"></a> What could possibly go wrong?
 
