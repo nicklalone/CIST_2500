@@ -23,12 +23,25 @@ Well, that is about to change.
 
 ## <a id="gs"></a> Getting Started
 
-H<sub>a</sub>
-H<sub>o</sub>
+So at this point, we've essentially fiddled with every piece of information you could imagine. Raw scores, we've looked at means, medians, modes, and done what amounts to some exploratory analysis. We've basically been playing some catch or kicking the ball back and forth. 
+
+It's time now to learn the sport we're going to play and *the sport is called hypothesis testing.* Now, there are other sorts of things we do in statistics (namely experiments) but we'll get to that later as they're essentially plays and strategies so that you can win (or lose) the game. 
+
+The two pieces we need to cocentrate on is: 
+* The Null Hypothesis (often notated as H<sub>o</sub>)
+* The Alternate Hypothesis (often notated as H<sub>a</sub>)
+
+But what do these mean? Well, for the most part (as you should know by now and if you don't, pay special attention to the next few words), we make assumptions about a population parameter. That assumption is tentative, not absolute because we honestly can't know for sure, but in the midst and between the tentativeness and actually making that assertion officially (via a report or a paper or a report). Until it reaches that space though, we call it a hypothesis.
+
+But hypotheses in statistics are a little different.
 
 ## <a id="hyp"></a> Hypotheses and You
 
+Chapter 9 is all about how hypothesis tests can be conducted about a population mean and a population proportion. We begin by providing examples that illustrate approaches to developing null and alternative hypotheses. 
 
+As a reminder, when we mention population proportions. These are essentially how many people in a population share a certain characteristic. Here, we'll talk about the two hypotheses that we need to consider today: the Null (H<sub>o</sub>) and the Alternate (H<sub>a</sub>). 
+
+#### TLDR: When we write a hypothesis (H<sub>a</sub>), we begin, end, or have to end with the inverse of the thing we want to prove (H<sub>o</sub>). 
 
 ### <a id="null"></a> The Null and You
 
