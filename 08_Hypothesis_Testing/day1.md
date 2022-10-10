@@ -80,17 +80,33 @@ So with the alternate hypothesis (H<sub>a</sub>), we can begin or end here. In f
 
 And we would say it like this, "The new fuel injection units will get more than 24 miles per gallon." And so, we have this thing we're doing research on. And here's where the details can get you.
 
+Generally, with any sort of research project like this, you want to consider the following: 
+
+1. You have to make sure you can measure what you need.
+1. If possible, take the easier route and use standardized, validated, or well-vetted instruments.
+1. For most of our work, we need to assume a normal Distribution
+1. As you write and gather data, consider how you're going to present it (how you going to make it pretty and easy to understand?)
+1. If possible (sometimes it just isn't) remember to use a method others can re-create, especially if you're justifying some assertion that might go against common sense.
+1. If creating a hypothesis that involves something you can use to predict some other thing, replicability and transparency is key unless it is internal.
+1. When needed, rely on an instrument or device to gather your data (sensor data, etc.)
+
+Some of this won't make sense right now and that's fine. As you move forward (for example, if you're going to become an analyst), they will start to. 
+
 ## <a id="errors"></a> What could possibly go wrong?
 
+So now we've got a hypothesis, we've got a null hypothesis, and so what's left? Well, now as we move from hypotheses, to data collection, to analysis, we have to think about how we might make a mistake. And these happen all the time...*all the time*. For example, have you ever noticed someone predict a snow day but instead of a snow day, it becomes a rain day? Have you ever gone to the doctor, gotten a diagnosis, only to learn that that diagnosis was incorrect? (it happens more at a veterinarian office as they cannot ask their patients what might be wrong and owners of animals will never be as honest as they should be).
 
+And so this is where we are going! Errors! Of errors in stats, we tend to categorize them into 2 specific categories: Type 1 and Type 2. This illustration might help make them make sense before I confuse you: 
+
+![Type 1 and Type 2 Errors](/images/errors.png)
 
 ### <a id="t1er"></a> Type 1 Errors
 
-
+> False Positive.
 
 ### <a id="t2er"></a> Type 2 Errors
 
-
+> False Negative.
 
 ## <a id="tails"></a> Let's talk about Tails
 
