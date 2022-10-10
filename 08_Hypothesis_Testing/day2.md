@@ -14,8 +14,6 @@ Well, that is about to change.
 
 ---------------- Table of Contents ---------------- 
 
-
-
 ## <a id="tails"></a> Let's talk about Tails
 
 
