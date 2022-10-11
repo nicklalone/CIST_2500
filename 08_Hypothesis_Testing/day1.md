@@ -11,7 +11,7 @@ Well, that is about to change.
 1. [Getting Started](#gs)
 1. [Hypotheses and You](#hyp)
 	* [TLDR: When we write a hypothesis](#tldr)
-	* [Important for Thursday](<#import)
+	* [Important for Thursday](#import)
 	* [The Null and You](#null)
 	* [What do you mean, Alternate?](#alternate)
 1. [What could possibly go wrong?](#errors)
