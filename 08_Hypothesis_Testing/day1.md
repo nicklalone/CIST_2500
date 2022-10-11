@@ -10,20 +10,18 @@ Well, that is about to change.
 
 1. [Getting Started](#gs)
 1. [Hypotheses and You](#hyp)
+	* [TLDR: When we write a hypothesis](#tldr)
 	* [The Null and You](#null)
 	* [What do you mean, Alternate?](#alternate)
 1. [What could possibly go wrong?](#errors)
 	* [Type 1 Errors](#t1er)
 	* [Type 2 Errors](#t2er)
-1. [Let's talk about Tails](#tails)
-	* [1-Tail - With and Without Parameters](#1t)
-	* [2-Tail - With and Without Parameters](#2t)
 
 ---------------- Table of Contents ---------------- 
 
 ## <a id="gs"></a> Getting Started
 
-So at this point, we've essentially fiddled with every piece of information you could imagine. Raw scores, we've looked at means, medians, modes, and done what amounts to some exploratory analysis. We've basically been playing some catch or kicking the ball back and forth. 
+So at this point, we've fiddled with every piece of data you could imagine without actually *doing* statistical inference. We've looked at raw values, variable types, we've looked at the central tendency measures of means, medians, modes, and done what amounts to some exploratory analysis with points and intervals as we work on moving from samples to populations. We've basically been playing some catch or kicking the ball back and forth or playing a tutorial level.
 
 It's time now to learn the sport we're going to play and *the sport is called hypothesis testing.* Now, there are other sorts of things we do in statistics (namely experiments) but we'll get to that later as they're essentially plays and strategies so that you can win (or lose) the game. 
 
@@ -33,7 +31,7 @@ The two pieces we need to cocentrate on is:
 
 But what do these mean? Well, for the most part (as you should know by now and if you don't, pay special attention to the next few words), we make assumptions about a population parameter. That assumption is tentative, not absolute because we honestly can't know for sure, but in the midst and between the tentativeness and actually making that assertion officially (via a report or a paper or a report). Until it reaches that space though, we call it a hypothesis.
 
-But hypotheses in statistics are a little different.
+But hypotheses in statistics are a *little* different.
 
 ## <a id="hyp"></a> Hypotheses and You
 
@@ -41,7 +39,7 @@ Chapter 9 is all about how hypothesis tests can be conducted about a population 
 
 As a reminder, when we mention population proportions. These are essentially how many people in a population share a certain characteristic. Here, we'll talk about the two hypotheses that we need to consider today: the Null (H<sub>o</sub>) and the Alternate (H<sub>a</sub>). 
 
-#### TLDR: When we write a hypothesis (H<sub>o</sub> or H<sub>a</sub>), we begin or have to end with the inverse of the thing we want to prove (H<sub>o</sub> or H<sub>a</sub>). 
+#### <a id="tldr"></a>TLDR: When we write a hypothesis (H<sub>o</sub> or H<sub>a</sub>), we begin or have to end with the inverse of the thing we want to prove (H<sub>o</sub> or H<sub>a</sub>). 
 
 ### <a id="null"></a> The Null and You
 
@@ -100,23 +98,31 @@ And so this is where we are going! Errors! Of errors in stats, we tend to catego
 
 ![Type 1 and Type 2 Errors](/images/errors.png)
 
+Or we might also consider a table from your text book (table 9.1 on page 411):
+
+||H<sub>o</sub> True | H<sub>o</sub> True |
+||-------------------|--------------------|
+|Accept H<sub>o</sub>| Correct Conclusion | Type II Error|
+|Reject H<sub>o</sub>| Type I error | Correct Conclusion|
+
+
 ### <a id="t1er"></a> Type 1 Errors
 
-> False Positive.
+> False Positive or sometimes called an α error.
 
+A type 1 error is a rejection of the null when the null is true. This error is difficult to understand or notice as sampling error can be the case here rather than an error of interpretation. 
 
+There is always a possibility that, just by chance, we were working with a sample that didn't really represent the population. 
+
+α and what our confidence interval is really reflects is the possibility that we've made a Type 1 error. For example, at an α of < .05, we can expect to make a type 1 error 5% of the time. This could also be reflected by an α of .01 or 1% of an error. In essence, when we make conclusions about an analysis, we might state something like, "Given a confidence interval of 95 out of 100, we can say that we reject the null hypothesis with a 5% chance of a type 1 error."
 
 ### <a id="t2er"></a> Type 2 Errors
 
-> False Negative.
+> False Negative or what we might call a β error.
 
-## <a id="tails"></a> Let's talk about Tails
+What's this? A greek letter we've never seen before! What is β? Well, this character literally represents the probability of a Type II error or "false negative." What this is essentially looking at is, "just how powerful is this significance?" And through this, we can look at our data and outcomes through a lens of, "is this just math or is this legitimately a statistically relevant concept?"
 
-
-
-### <a id="1t"></a> 1-Tail - With and Without Parameters
+We will cover power later (and mention it again on Thursday when we walk through some t-tests.)
 
 
-
-### <a id="2t"></a> 2-Tail - With and Without Parameters
 
