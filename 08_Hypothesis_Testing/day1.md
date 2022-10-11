@@ -116,11 +116,23 @@ There is always a possibility that, just by chance, we were working with a sampl
 
 α and what our confidence interval is really reflects is the possibility that we've made a Type 1 error. For example, at an α of < .05, we can expect to make a type 1 error 5% of the time. This could also be reflected by an α of .01 or 1% of an error. In essence, when we make conclusions about an analysis, we might state something like, "Given a confidence interval of 95 out of 100, we can say that we reject the null hypothesis with a 5% chance of a type 1 error."
 
+So let's think about an example of a type I error: 
+
+> the test reveals you do not have COVID, but you actually don’t.
+
+This one happened to me.
+
 ### <a id="t2er"></a> Type 2 Errors
 
 > False Negative or what we might call a β error.
 
 What's this? A greek letter we've never seen before! What is β? Well, this character literally represents the probability of a Type II error or "false negative." What this is essentially looking at is, "just how powerful is this significance?" And through this, we can look at our data and outcomes through a lens of, "is this just math or is this legitimately a statistically relevant concept?"
+
+So let's think about an example of a type II error: 
+
+> the test reveals you do not have COVID, but you actually do.
+
+This one happened to me.
 
 We will cover power later (and mention it again on Thursday when we walk through some t-tests.)
 
