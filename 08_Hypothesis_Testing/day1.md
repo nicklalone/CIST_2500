@@ -11,6 +11,7 @@ Well, that is about to change.
 1. [Getting Started](#gs)
 1. [Hypotheses and You](#hyp)
 	* [TLDR: When we write a hypothesis](#tldr)
+	* [Important for Thursday](<#import)
 	* [The Null and You](#null)
 	* [What do you mean, Alternate?](#alternate)
 1. [What could possibly go wrong?](#errors)
@@ -40,6 +41,8 @@ Chapter 9 is all about how hypothesis tests can be conducted about a population 
 As a reminder, when we mention population proportions. These are essentially how many people in a population share a certain characteristic. Here, we'll talk about the two hypotheses that we need to consider today: the Null (H<sub>o</sub>) and the Alternate (H<sub>a</sub>). 
 
 #### <a id="tldr"></a>TLDR: When we write a hypothesis (H<sub>o</sub> or H<sub>a</sub>), we begin or have to end with the inverse of the thing we want to prove (H<sub>o</sub> or H<sub>a</sub>). 
+
+### <a id="import"></a> An important concept for for Thursday is this, when we want to see if something has "improved" we tend to focus on a 1-tailed test. When we want to compare things, we tend to use a 2-tailed test. I will repeat this on Thursday.
 
 ### <a id="null"></a> The Null and You
 
@@ -102,7 +105,7 @@ Or we might also consider a table from your text book (table 9.1 on page 411):
 
 |                    |H<sub>o</sub> True | H<sub>a</sub> True |
 |--------------------|-------------------|--------------------|
-|Accept H<sub>o</sub>| Correct Conclusion | Type II Error|
+|Accept H<sub>o</sub>| Correct Conclusion | Type II Error |
 |Reject H<sub>o</sub>| Type I error | Correct Conclusion|
 
 
