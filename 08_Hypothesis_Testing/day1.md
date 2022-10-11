@@ -104,6 +104,8 @@ And so this is where we are going! Errors! Of errors in stats, we tend to catego
 
 > False Positive.
 
+
+
 ### <a id="t2er"></a> Type 2 Errors
 
 > False Negative.
