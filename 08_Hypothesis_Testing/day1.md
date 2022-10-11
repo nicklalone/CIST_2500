@@ -100,8 +100,8 @@ And so this is where we are going! Errors! Of errors in stats, we tend to catego
 
 Or we might also consider a table from your text book (table 9.1 on page 411):
 
-||H<sub>o</sub> True | H<sub>o</sub> True |
-||-------------------|--------------------|
+|                    |H<sub>o</sub> True | H<sub>o</sub> True |
+|--------------------|-------------------|--------------------|
 |Accept H<sub>o</sub>| Correct Conclusion | Type II Error|
 |Reject H<sub>o</sub>| Type I error | Correct Conclusion|
 
