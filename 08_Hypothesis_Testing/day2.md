@@ -95,7 +95,7 @@ How do we begin?
 
 ____________
 
-Meta believes that 70% of all people have a facebook account. A news reporter believes this value to be different. The reporter conducts a survey of 200 people across the country and fings that only 130 of them have an account. What is the null/Alternate? CI = 95%.
+Meta believes that 70% of all people have a facebook account. A news reporter believes this value to be different. The reporter conducts a survey of 200 people across the country and finds that only 130 of them have an account. What is the null/Alternate? CI = 95%.
 
 How do we begin?
 
