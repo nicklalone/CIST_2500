@@ -22,7 +22,7 @@ We learned on Tuesdays about Hypotheses. In specific, we learned about the null 
 
 I really like this image and so I want you to look at it: 
 
-![Null Hypothesis vs the Alternate Hypothesis](/images/nullvalt.jpg)
+![Null Hypothesis vs the Alternate Hypothesis](/images/nullvalt.png)
 
 When in doubt, come back to this image and especially pay attention to the bottom lines.
 
