@@ -53,6 +53,10 @@ These are all from your textbook.
 ![Table 9.3](/images/93.png)
 ![Table 9.4](/images/94.png)
 
+As a basic rule of thumb, let's get an illustration in here to let you know about the difference between a 1-tailed and a 2-tailed test.
+
+![1v2 tailed tests](/images/1v2.jpeg)
+
 ### <a id="thumb"></a> Rules of Thumb
 
 So, we're going to compare some values. What we compare and what we think about comparing can generally be considered through a variety of concepts but there are some rules of thumb to consider (some of them are in that image above.)
