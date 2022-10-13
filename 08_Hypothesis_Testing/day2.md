@@ -1,4 +1,4 @@
-# Hypothesis Testing - Tests and t-tests
+# Hypothesis Testing - Tests, with Parameters known and Unknown.
 
 In chapters 7 and 8 (last week), we did some work in and around expanding our toolkit. However, we don't really have anything to put all of our tools into. As a result, we have a giant mess to think about. 
 
