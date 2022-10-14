@@ -71,6 +71,20 @@ At 7-11, there is a machine that dispenses 80ml of fluid into a container that c
 
 Values of note here: Mean = 78, population mean or the null or hypothesized mean of 80, a standard deviation of 2.5 and an n of 40. Confidence should be 95% level. How do we solve this?
 
+Answer: 
+This is a 2-tailed test because it's about if something has changed, not what direction is might have changed.
+
+H<sub>o</sub>: μ = 80
+H<sub>a</sub>: μ ≠ 80
+
+We use the formula from table 9.2. It looks something like this: 
+
+Z = 78-80 / 2.5/√40
+Z = -2 / .39528 
+Z = -5.06 which takes us far into rejecting the null.
+
+In this case, we can say that the machine seems to have a lower value it is spitting out than it is claimed to. 
+
 ______
 
 Twitch is evaluating the mental health and lifespan of your average streamer. They believe from their data that the average lifespan of a streamer before the mental drain sinks in is around 2 or more years. And so the researcher who is evaluating the accuracy of these data is placed against this hypothesis in that the average life span would be less than 2. They use around 10 samples, and after calculating, finds that 1.8 years is more accurate and yet there is a standard deviation of .15. They place a goal of around 99% as their confidence level.
@@ -78,6 +92,20 @@ Twitch is evaluating the mental health and lifespan of your average streamer. Th
 How do we go about this? 
 
 This seems like a 1-tailed test, right? Equal to or greater than 2 versus less than 2. Alpha .01, CI @ .99 = 2.58. But it seems like we shouldn't be this because we don't actually have population parameters. As such, we need to look on the 1-tailed df table. 2.82 is what we end up with but what are we doing? Well, it's less than so it's -2.82.
+
+Answer
+This is a 1-tailed test on the lower side. We have to use a t-statistic because we have an N < 30 and our standard deviation is from the sample, not the population. 
+
+H<sub>o</sub>: μ > or = to 2
+H<sub>a</sub>: μ < 2
+
+For this we have to also calculate our degrees of freedom: df = 9 (n-1) which then allows us to go look at the t-table and get a value, 2.82. 
+
+What is looks like is this: 
+
+t = 1.8-2 / .15/√10
+t = -.2/.047434
+t = -4.22 which is far greater than our critical value of 2.82.
 
 _________
 
@@ -87,15 +115,35 @@ David Goggins wants to know how heavy the boats are. When he grabs data about th
 
 How do we approach this? Let's do the z-method first!
 
+Answer
+This is a 2-tailed test.  
+
+H<sub>o</sub>: μ = 168
+H<sub>a</sub>: μ ≠ 168
+
+
+
 ________
 
 A toy manufacturer places a warranty of 5 years on their toys. Despite this rather aggressive warranty, one of the toy makers believes that the toy will not last 5 years. They test a sample of 40 toys and find that the average time to destruction is 4.8 years with a standard deviation of .5. Use a 2% CI.
 
 How do we begin?
 
+Answer
+This is a 1-tailed test on the lower side (expect negative numbers).  
+
+H<sub>o</sub>: μ > or = to 5
+H<sub>a</sub>: μ < 5
+
 ____________
 
 Meta believes that 70% of all people have a facebook account. A news reporter believes this value to be different. The reporter conducts a survey of 200 people across the country and finds that only 130 of them have an account. What is the null/Alternate? CI = 95%.
 
 How do we begin?
+
+Answer
+This is a 2-tailed test of proportion (table 9.4). 
+
+H<sub>o</sub>: p = .7
+H<sub>a</sub>: p ≠ .7	
 
