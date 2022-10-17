@@ -138,9 +138,12 @@ We will first try an problem without any context at all. After that, we'll add s
 * Step 1: Gather your datapoints
 	* x̄<sub>1</sub> = 82, s<sub>1</sub> = 2.4, n<sub>1</sub> = 15
 	* x̄<sub>2</sub> = 84, s<sub>2</sub> = 1.7, n<sub>2</sub> = 12
+* Step 2: Get your degree of freedom: <img src="/images/df2st.png" width="100" align=middle>]
 * Step 2: Generate your critical values with the formula: <img src="/images/tspu.png" width="100" align=middle>
-	* and so that looks like: 
+	* and so that looks like: t = (x̄<sub>1</sub> - x̄<sub>2</sub>) - D<sub>o</sub> / √((s<sub>1</sub>)<sup>2</sup>/n<sub>1</sub>)+((s<sub>2</sub>)<sup>2</sup>/n<sub>2</sub>)
+	* and if we fill out our data: t = 82-84-0// √((2.4)<sup>2</sup>/15)+((84)<sup>2</sup>/12) or 
 * Step 3: Fill out your formula: <img src="/images/iepu.png" width="100" align=middle>
+	* x̄<sub>1</sub> - x̄<sub>2</sub> ± t√((σ<sub>1</sub>)<sup>2</sup>/n<sub>1</sub>)+((σ<sub>2</sub>)<sup>2</sup>/n<sub>2</sub>)
 
 	<!-- Calculate this question multiple times -->
 
