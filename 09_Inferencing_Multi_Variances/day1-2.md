@@ -119,6 +119,8 @@ We will first try an problem without any context at all. After that, we'll add s
 	* x̄<sub>1</sub> - x̄<sub>2</sub> ± 1.96√((σ<sub>1</sub>)<sup>2</sup>/n<sub>1</sub>)+((σ<sub>2</sub>)<sup>2</sup>/n<sub>2</sub>)
 	* 82-84 ± 1.96√((2.4)<sup>2</sup>/15)+((1.7)<sup>2</sup>/12)
 
+	<!-- Calculate this question multiple times -->
+
 ## <a id="inf2unkno"></a>Inferences about two populations with parameters unknown
 
 ### <a id="unkno-1"></a> 
@@ -126,6 +128,22 @@ We will first try an problem without any context at all. After that, we'll add s
 > A business owner is in the process of deciding whether or not to invest in a new factory that refines oil in order to meet the high demand for that commodity. A test showed that the old factor refines oil at a mean rate of 3.1L per second at a std of 1.0 using a sample size of 40. The new factor was measured to refine oil at a mean rate of 3.8L per second at a standard deviation of 1.5 using sample size of 36. 
 
 * Determine if there is any major difference at the 10% significance level.
+
+<a id="unkno-2"></a> Problem 2: Test Scores but this time we pretend its just sample stats.
+
+> A test was confucted on two difference classes to see if there was any significant difference between the performance of two teachers. The final exam scores of 15 students were sampled in the 1st class yielding a mean of 82 and a std of 2.4. The mean final exam score of the 2nd class was 84 with a std of 1.7 with a sample of 12 students. 
+
+* Determine if there is any major difference at a 5% signficance level.
+
+* Step 1: Gather your datapoints
+	* x̄<sub>1</sub> = 82, s<sub>1</sub> = 2.4, n<sub>1</sub> = 15
+	* x̄<sub>2</sub> = 84, s<sub>2</sub> = 1.7, n<sub>2</sub> = 12
+* Step 2: Generate your critical values with the formula: <img src="/images/tspu.png" width="100" align=middle>
+	* and so that looks like: 
+* Step 3: Fill out your formula: <img src="/images/iepu.png" width="100" align=middle>
+
+	<!-- Calculate this question multiple times -->
+
 
 ## <a id="inf2pop"></a>Inferences about two populations with only proportions
 
