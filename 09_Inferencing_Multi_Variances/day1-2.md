@@ -75,9 +75,11 @@ We will first try an problem without any context at all. After that, we'll add s
 	* 2±1.96√((2.2)<sup>2</sup>/50)+((3)<sup>2</sup>/35)
 	* 2±1.17 or .83 to 3.17
 
-### <a id="ppk-2"></a> 
+### <a id="ppk-2"></a> Let's Connect this to an actual example with consequences.
 
-> A test was confucted on two difference classes to see if there was any significant difference between the performance of two teachers. The final exam scores of 15 students were sampled in the 1st class yielding a mean of 82 and a std of 2.5. The mean final exam score of the 2nd class was 84 with a std of 1.7 with a sample of 12 students. Determine if there is any major difference at a 5% signficance level.
+> A test was confucted on two difference classes to see if there was any significant difference between the performance of two teachers. The final exam scores of 15 students were sampled in the 1st class yielding a mean of 82 and a std of 2.5. The mean final exam score of the 2nd class was 84 with a std of 1.7 with a sample of 12 students. 
+
+* Determine if there is any major difference at a 5% signficance level.
 
 
 
