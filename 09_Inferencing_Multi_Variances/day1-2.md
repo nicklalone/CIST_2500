@@ -111,7 +111,12 @@ We will first try an problem without any context at all. After that, we'll add s
 
 * Determine if there is any major difference at a 5% signficance level.
 
-
+* Step 1: Gather your datapoints
+	* x̄<sub>1</sub> = 82, σ<sub>1</sub> = 2.5, n<sub>1</sub> = 15
+	* x̄<sub>2</sub> = 84, σ<sub>2</sub> = 1.7, n<sub>2</sub> = 12
+* Step 2: Grab your critical values: In this case, it's 5% or 95% or 1.96
+* Step 3: Fill out your formula: <img src="/images/iedb2pm.png" width="100" align=middle>
+	* 
 
 ## <a id="inf2unkno"></a>Inferences about two populations with parameters unknown
 
