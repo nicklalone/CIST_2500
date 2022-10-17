@@ -69,9 +69,8 @@ We'll consider the steps here:
 
 1. Get your interval, or: x̄<sub>1</sub> - x̄<sub>2</sub>. This is the start of your interval.
 1. Calculate standard error of x̄<sub>1</sub> - x̄<sub>2</sub> which is essentially: <img src="/images/std-bet.png" width="100" align=middle>
-
-<!-- ![<img src="/images/std-bet.png" width="50"/>](/images/std-bet.png)
- -->
+1. From here, we need to consider our confident coefficient. Remember that .05 is 1.96 and .01 is 2.58. If you need to calculate more, use this formula: <img src="/images/tsdbm.png" width="100" align=middle>
+1. Calculate the Interval Estimate of the Difference Between 2 Population Means: <img src="/images/iedb2pm.png" width="100" align=middle>
 
 
 ### <a id="ppk-1"></a> 
