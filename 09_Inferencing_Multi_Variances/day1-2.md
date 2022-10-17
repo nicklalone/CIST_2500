@@ -22,6 +22,7 @@ And that freshness is matched-sample t-tests. YAY! Let's walk through these.
 1. [Formulas for this chapter](#formulas)
 1. [Inferences about two populations with parameters known](#inf2kno)
 	* [Problem 1 - Test Scores](#ppk-1)
+	* [Problem 2 - Test Scores](#ppk-2)
 1. [Inferences about two populations with parameters unknown](#inf2unkno)
 	* [Problem 1 - ](#unkno-1)
 1. [Inferences about two populations with only proportions](#inf2pop)
@@ -39,8 +40,6 @@ And that freshness is matched-sample t-tests. YAY! Let's walk through these.
 
 * Pooled Estimator of p:
 
-
-
 ## <a id="formulas"></a>Formulas for this chapter
 
 ![Formulas for this Chapter](/images/dbm-1.png)
@@ -50,6 +49,29 @@ And that freshness is matched-sample t-tests. YAY! Let's walk through these.
 
 
 ### <a id="ppk-1"></a> 
+We will first try an problem without any context at all. After that, we'll add some humans in there.
+
+|Sample 1|Sample 2|
+|--------|--------|
+|n<sub>1</sub> = 50|n<sub>2</sub> = 35|
+|x̄<sub>1</sub> = 11.6|x̄<sub>2</sub> = 11.6|
+|σ<sub>1</sub> = 2.2|σ<sub>2</sub> = 3.0|
+
+1. What is the point estimate of the difference between the two populations?
+
+	* x̄<sub>1</sub> = 11.6|x̄<sub>2</sub> = 13.6 – 11.6 = 2
+
+1. Provide a 90% CI for the difference between the two population means.
+
+	* Z<sub>σ/2</sub> = 1.645 (90% CI results in this.)
+	* x̄<sub>1</sub> - x̄<sub>2</sub> ± 1.645√(σ<sup>2</sup><sub>1</sub>/n)+(σ<sup>2</sup>) 
+
+
+1. Provide a 95% CU for the difference between the two population means.
+
+
+
+### <a id="ppk-2"></a> 
 
 > A test was confucted on two difference classes to see if there was any significant difference between the performance of two teachers. The final exam scores of 15 students were sampled in the 1st class yielding a mean of 82 and a std of 2.5. The mean final exam score of the 2nd class was 84 with a std of 1.7 with a sample of 12 students. Determine if there is any major difference at a 5% signficance level.
 
