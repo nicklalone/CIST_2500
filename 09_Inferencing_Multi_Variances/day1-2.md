@@ -32,20 +32,44 @@ And that freshness is matched-sample t-tests. YAY! Let's walk through these.
 
 ---------------- Table of Contents ---------------- 
 
-## <a id"terms"></a> Terms for the Chapter
+## <a id="terms"></a> Terms for the Chapter
 
-* Independent Random Samples:
+* Independent Random Samples: Samples selected from two populations in such a way that the elements making up one sample are chosen indepdently of the elements making up the other sample.
 
-* Matched Samples:
+* Matched Samples: Samples in which each data value of one sample is matched with a corresponding data value of the other sample.
 
-* Pooled Estimator of p:
+* Pooled Estimator of p: An estimator of a population proportion obtained by computing a weighted average of the point estimators obtained from two independent samples.
 
 ## <a id="formulas"></a>Formulas for this chapter
+
+Generally this chapter is all about how to compare 2 populations. Everything inside of this chapter is just an augmentation of what we've already been doing. Like I said above, each of the last few chapters tend to correspond with: 
+
+1. Inferences with population parameters known.
+1. Inferences with only sample statistics.
+1. Inferences with only proportions.
+
+Or if we think about this another way: 
+
+1. Inferences when you are sampling a known population.
+1. Inferences from just a sample/
+1. Inferences with just a sample statistic or ratio.
+
+You will see the same concepts here as all the others: z, t, standard error, test statistics, degrees of freedom, and p values. In each circumstance, there is a corresponding formula. 
+
+Below, I will walk through a number of problems. Each problem will be explained in class.
 
 ![Formulas for this Chapter](/images/dbm-1.png)
 ![Formulas for this Chapter](/images/dbm-2.png)
 
 ## <a id="inf2kno"></a>Inferences about two populations with parameters known
+
+This is our first collection to consider. We're comparing 2 populations and actually know some of the population parameters. We'll do a problem that doesn't have any context, and then we'll try one with context. 
+
+We'll consider the steps here: 
+
+1. Get your interval, or: x̄<sub>1</sub> - x̄<sub>2</sub>. This is the start of your interval.
+1. Calculate standard error of x̄<sub>1</sub> - x̄<sub>2</sub> which is essentially: ![Standard Error of the Difference Between Means](/images/std-bet.png)
+
 
 
 ### <a id="ppk-1"></a> 
