@@ -28,7 +28,7 @@ And that freshness is matched-sample t-tests. YAY! Let's walk through these.
 1. [Inferences about two populations with only proportions](#inf2pop)
 	* [Problem 1 - ](#inf2pop-1)
 1. [Matched Sample t-tests](#matsampt)
-	* [Problem 1 - ](#matsampt-1)
+	* [Problem 1 - Weight Loss](#matsampt-1)
 
 ---------------- Table of Contents ---------------- 
 
@@ -87,19 +87,25 @@ We will first try an problem without any context at all. After that, we'll add s
 
 ### <a id="unkno-1"></a> 
 
-> A business owner is in the process of deciding whether or not to invest in a new factory that refines oil in order to meet the high demand for that commodity. A test showed that the old factor refines oil at a mean rate of 3.1L per second at a std of 1.0 using a sample size of 40. The new factor was measured to refine oil at a mean rate of 3.8L per second at a standard deviation of 1.5 using sample size of 36. Determine if there is any major difference at the 10% significance level.
+> A business owner is in the process of deciding whether or not to invest in a new factory that refines oil in order to meet the high demand for that commodity. A test showed that the old factor refines oil at a mean rate of 3.1L per second at a std of 1.0 using a sample size of 40. The new factor was measured to refine oil at a mean rate of 3.8L per second at a standard deviation of 1.5 using sample size of 36. 
+
+* Determine if there is any major difference at the 10% significance level.
 
 ## <a id="inf2pop"></a>Inferences about two populations with only proportions
 
+So much like the other chapters, we have run in to the issue of only having proportion data. 
+
 ### <a id="inf2pop-1"></a> 
 
-> Company XYZ manufactures laptops. For quality control, two sets of laptops were tested. In the first group. 32 out of 800 were found to contain some sort of defect. In the second group, 30 out of 500 were found to have a defect. Is the difference between the two groups significant? Use 95%.
+> Quantum Computing relies on the use of helium 3 and as such, requires specialized cables produced by only one company in the world. There has been a recent rash of issues in and around quality control. The company, Coax in Japan has 2 different manufacturing processes it is trying to test. They are concerned about efficacy and QA and just want to know if there is a difference. In the first process. 32 out of 800 cables were found to contain some sort of defect. In the second group, 30 out of 500 cables were found to have a defect. 
+
+* Is the difference between the two groups significant? Use 95%.
 
 ## <a id="matsampt"></a>Matched Sample t-tests
 
 
 
-### <a id="matsampt-1"></a> Problem 1 - 
+### <a id="matsampt-1"></a> Problem 1 - Weight Loss
 
 > A study was conducted to determine the effectiveness of a weight loss program. The table below shows the before and after weights of 10 subjects in the program. Is this program effective for reducing weight? 95% CI/MoE.
 
