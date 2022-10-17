@@ -18,6 +18,7 @@ And that freshness is matched-sample t-tests. YAY! Let's walk through these.
 
 ---------------- Table of Contents ---------------- 
 
+1. [Terms for the Chapter](#terms)
 1. [Formulas for this chapter](#formulas)
 1. [Inferences about two populations with parameters known](#inf2kno)
 	* [Problem 1 - Test Scores](#ppk-1)
@@ -29,6 +30,16 @@ And that freshness is matched-sample t-tests. YAY! Let's walk through these.
 	* [Problem 1 - ](#matsampt-1)
 
 ---------------- Table of Contents ---------------- 
+
+## <a id"terms"></a> Terms for the Chapter
+
+* Independent Random Samples:
+
+* Matched Samples:
+
+* Pooled Estimator of p:
+
+
 
 ## <a id="formulas"></a>Formulas for this chapter
 
@@ -62,4 +73,17 @@ And that freshness is matched-sample t-tests. YAY! Let's walk through these.
 
 ### <a id="matsampt-1"></a> Problem 1 - 
 
->
+> A study was conducted to determine the effectiveness of a weight loss program. The table below shows the before and after weights of 10 subjects in the program. Is this program effective for reducing weight? 95% CI/MoE.
+
+|No|Before|After|
+|--|------|-----|
+|01|185|169|
+|02|192|187|
+|03|206|193|
+|04|177|176|
+|05|225|194|
+|06|168|171|
+|07|256|228|
+|08|239|217|
+|09|199|204|
+|10|218|195|
