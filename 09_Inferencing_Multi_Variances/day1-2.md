@@ -65,11 +65,15 @@ We will first try an problem without any context at all. After that, we'll add s
 
 	* Z<sub>σ/2</sub> = 1.645 (90% CI results in this.)
 	* x̄<sub>1</sub> - x̄<sub>2</sub> ± 1.645√((σ<sub>1</sub>)<sup>2</sup>/n<sub>1</sub>)+((σ<sub>2</sub>)<sup>2</sup>/n<sub>2</sub>) 
-
+	* 2±1.645√((2.2)<sup>2</sup>/50)+((3)<sup>2</sup>/35)
+	* 2±.98 or 1.02 to 2.98
 
 1. Provide a 95% CU for the difference between the two population means.
 
-
+	* Z<sub>σ/2</sub> = 1.96 (90% CI results in this.)
+	* x̄<sub>1</sub> - x̄<sub>2</sub> ± 1.96√((σ<sub>1</sub>)<sup>2</sup>/n<sub>1</sub>)+((σ<sub>2</sub>)<sup>2</sup>/n<sub>2</sub>) 
+	* 2±1.96√((2.2)<sup>2</sup>/50)+((3)<sup>2</sup>/35)
+	* 2±1.17 or .83 to 3.17
 
 ### <a id="ppk-2"></a> 
 
