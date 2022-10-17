@@ -107,17 +107,17 @@ We will first try an problem without any context at all. After that, we'll add s
 
 ### <a id="ppk-2"></a> Problem 2: Let's Connect this to an actual example with consequences.
 
-> A test was confucted on two difference classes to see if there was any significant difference between the performance of two teachers. The final exam scores of 15 students were sampled in the 1st class yielding a mean of 82 and a std of 2.5. The mean final exam score of the 2nd class was 84 with a std of 1.7 with a sample of 12 students. 
+> A test was confucted on two difference classes to see if there was any significant difference between the performance of two teachers. The final exam scores of 15 students were sampled in the 1st class yielding a mean of 82 and a std of 2.4. The mean final exam score of the 2nd class was 84 with a std of 1.7 with a sample of 12 students. 
 
 * Determine if there is any major difference at a 5% signficance level.
 
 * Step 1: Gather your datapoints
-	* x̄<sub>1</sub> = 82, σ<sub>1</sub> = 2.5, n<sub>1</sub> = 15
+	* x̄<sub>1</sub> = 82, σ<sub>1</sub> = 2.4, n<sub>1</sub> = 15
 	* x̄<sub>2</sub> = 84, σ<sub>2</sub> = 1.7, n<sub>2</sub> = 12
 * Step 2: Grab your critical values: In this case, it's 5% or 95% or 1.96
 * Step 3: Fill out your formula: <img src="/images/iedb2pm.png" width="100" align=middle>
 	* x̄<sub>1</sub> - x̄<sub>2</sub> ± 1.96√((σ<sub>1</sub>)<sup>2</sup>/n<sub>1</sub>)+((σ<sub>2</sub>)<sup>2</sup>/n<sub>2</sub>)
-	* 82-84 ± 1.96√((2.5)<sup>2</sup>/15)+((1.7)<sup>2</sup>/12)
+	* 82-84 ± 1.96√((2.4)<sup>2</sup>/15)+((1.7)<sup>2</sup>/12)
 
 ## <a id="inf2unkno"></a>Inferences about two populations with parameters unknown
 
