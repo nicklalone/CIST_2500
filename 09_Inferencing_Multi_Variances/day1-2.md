@@ -68,8 +68,10 @@ This is our first collection to consider. We're comparing 2 populations and actu
 We'll consider the steps here: 
 
 1. Get your interval, or: x̄<sub>1</sub> - x̄<sub>2</sub>. This is the start of your interval.
-1. Calculate standard error of x̄<sub>1</sub> - x̄<sub>2</sub> which is essentially: ![<img src="/images/std-bet.png" width="50"/>](/images/std-bet.png)
+1. Calculate standard error of x̄<sub>1</sub> - x̄<sub>2</sub> which is essentially: <img src="/images/std-bet.png" width="100"/>
 
+<!-- ![<img src="/images/std-bet.png" width="50"/>](/images/std-bet.png)
+ -->
 
 
 ### <a id="ppk-1"></a> 
