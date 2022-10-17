@@ -116,7 +116,8 @@ We will first try an problem without any context at all. After that, we'll add s
 	* x̄<sub>2</sub> = 84, σ<sub>2</sub> = 1.7, n<sub>2</sub> = 12
 * Step 2: Grab your critical values: In this case, it's 5% or 95% or 1.96
 * Step 3: Fill out your formula: <img src="/images/iedb2pm.png" width="100" align=middle>
-	* 
+	* x̄<sub>1</sub> - x̄<sub>2</sub> ± 1.96√((σ<sub>1</sub>)<sup>2</sup>/n<sub>1</sub>)+((σ<sub>2</sub>)<sup>2</sup>/n<sub>2</sub>)
+	* 82-84 ± 1.96√((2.5)<sup>2</sup>/15)+((1.7)<sup>2</sup>/12)
 
 ## <a id="inf2unkno"></a>Inferences about two populations with parameters unknown
 
