@@ -64,7 +64,7 @@ We will first try an problem without any context at all. After that, we'll add s
 1. Provide a 90% CI for the difference between the two population means.
 
 	* Z<sub>σ/2</sub> = 1.645 (90% CI results in this.)
-	* x̄<sub>1</sub> - x̄<sub>2</sub> ± 1.645√(σ<sub>1</sub><sup>2</sup>/n<sub>1</sub>)+(σ<sub>2</sub><sup>2</sup>/n<sub>2</sub>) 
+	* x̄<sub>1</sub> - x̄<sub>2</sub> ± 1.645√((σ<sub>1</sub>)<sup>2</sup>/n<sub>1</sub>)+((σ<sub>2</sub>)<sup>2</sup>/n<sub>2</sub>) 
 
 
 1. Provide a 95% CU for the difference between the two population means.
