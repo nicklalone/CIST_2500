@@ -25,6 +25,9 @@ That trend continues.
 
 ## <a id="formulas"></a>Formulas for this chapter
 
+![Formulas for this Chapter](/images/dbm-1.png)
+![Formulas for this Chapter](/images/dbm-2.png)
+
 ## <a id="inf2kno"></a>Inferences about two populations with parameters known
 
 ## <a id="inf2unkno"></a>Inferences about two populations with parameters unknown
