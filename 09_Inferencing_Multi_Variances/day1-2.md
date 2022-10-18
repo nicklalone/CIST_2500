@@ -95,29 +95,35 @@ We will first try an problem without any context at all. After that, we'll add s
 
 	* Z<sub>σ/2</sub> = 1.645 (90% CI results in this.)
 	* x̄<sub>1</sub> - x̄<sub>2</sub> ± 1.645√((σ<sub>1</sub>)<sup>2</sup>/n<sub>1</sub>)+((σ<sub>2</sub>)<sup>2</sup>/n<sub>2</sub>) 
-	* 2±1.645√((2.2)<sup>2</sup>/50)+((3)<sup>2</sup>/35)
-	* 2±.98 or 1.02 to 2.98
+	* 2 ± 1.645√((2.2)<sup>2</sup>/50)+((3)<sup>2</sup>/35)
+	* 2 ± .98 or 1.02 to 2.98
 
 1. Provide a 95% CU for the difference between the two population means.
 
-	* Z<sub>σ/2</sub> = 1.96 (90% CI results in this.)
+	* Z<sub>σ/2</sub> = 1.96 (95% CI results in this.)
 	* x̄<sub>1</sub> - x̄<sub>2</sub> ± 1.96√((σ<sub>1</sub>)<sup>2</sup>/n<sub>1</sub>)+((σ<sub>2</sub>)<sup>2</sup>/n<sub>2</sub>) 
 	* 2±1.96√((2.2)<sup>2</sup>/50)+((3)<sup>2</sup>/35)
 	* 2±1.17 or .83 to 3.17
 
 ### <a id="ppk-2"></a> Problem 2: Let's Connect this to an actual example with consequences.
 
-> A test was confucted on two difference classes to see if there was any significant difference between the performance of two teachers. The final exam scores of 15 students were sampled in the 1st class yielding a mean of 82 and a std of 2.4. The mean final exam score of the 2nd class was 84 with a std of 1.7 with a sample of 12 students. 
+> A test was confucted on two difference classes to see if there was any significant difference between the performance of two teachers. The final exam scores of 35 students in the 1st class yielding a mean of 82 and a σ of 2.4. The mean final exam score of the 2nd class was 84 with a σ of 1.7 with a sample of 46 students. 
 
 * Determine if there is any major difference at a 5% signficance level.
 
+* Step 0: Write your hypotheses. For this one, we are looking for a difference and so we're working on = or ≠. 
+	* H<sub>o</sub>: µ<sub>1</sub> = µ<sub>2</sub>
+	* H<sub>a</sub>: µ<sub>1</sub> ≠ µ<sub>2</sub>
+
 * Step 1: Gather your datapoints
-	* x̄<sub>1</sub> = 82, σ<sub>1</sub> = 2.4, n<sub>1</sub> = 15
-	* x̄<sub>2</sub> = 84, σ<sub>2</sub> = 1.7, n<sub>2</sub> = 12
+	* x̄<sub>1</sub> = 82, σ<sub>1</sub> = 2.4, n<sub>1</sub> = 35
+	* x̄<sub>2</sub> = 84, σ<sub>2</sub> = 1.7, n<sub>2</sub> = 46
+
 * Step 2: Grab your critical values: In this case, it's 5% or 95% or 1.96
+
 * Step 3: Fill out your formula: <img src="/images/iedb2pm.png" width="100" align=middle>
 	* x̄<sub>1</sub> - x̄<sub>2</sub> ± 1.96√((σ<sub>1</sub>)<sup>2</sup>/n<sub>1</sub>)+((σ<sub>2</sub>)<sup>2</sup>/n<sub>2</sub>)
-	* 82-84 ± 1.96√((2.4)<sup>2</sup>/15)+((1.7)<sup>2</sup>/12)
+	* 82-84 ± 1.96√((2.4)<sup>2</sup>/35)+((1.7)<sup>2</sup>/46)
 
 	<!-- Calculate this question multiple times -->
 
