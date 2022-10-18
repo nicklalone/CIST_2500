@@ -84,12 +84,12 @@ We will first try an problem without any context at all. After that, we'll add s
 |Sample 1|Sample 2|
 |--------|--------|
 |n<sub>1</sub> = 50|n<sub>2</sub> = 35|
-|x̄<sub>1</sub> = 11.6|x̄<sub>2</sub> = 11.6|
+|x̄<sub>1</sub> = 13.6|x̄<sub>2</sub> = 11.6|
 |σ<sub>1</sub> = 2.2|σ<sub>2</sub> = 3.0|
 
 1. What is the point estimate of the difference between the two populations?
 
-	* x̄<sub>1</sub> = 11.6|x̄<sub>2</sub> = 13.6 – 11.6 = 2
+	* x̄<sub>1</sub> - x̄<sub>2</sub> = 13.6 – 11.6 = 2
 
 1. Provide a 90% CI for the difference between the two population means.
 
