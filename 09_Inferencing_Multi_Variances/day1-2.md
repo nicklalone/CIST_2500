@@ -158,9 +158,6 @@ We will first try an problem without any context at all. After that, we'll add s
 	* x̄<sub>1</sub> - x̄<sub>2</sub> ± t√((σ<sub>1</sub>)<sup>2</sup>/n<sub>1</sub>)+((σ<sub>2</sub>)<sup>2</sup>/n<sub>2</sub>)
 	* numbers here.
 
-	<!-- Calculate this question multiple times -->
-
-
 ## <a id="inf2pop"></a>Inferences about two populations with only proportions
 
 So much like the other chapters, we have run in to the issue of only having proportion data. 
@@ -171,6 +168,22 @@ So much like the other chapters, we have run in to the issue of only having prop
 
 * Is the difference between the two groups significant? Use 95%.
 
+* So now we need to set up our nulls:
+	* p̂<sub>1</sub> = p̂<sub>2</sub>
+	* p̂<sub>1</sub> ≠ p̂<sub>2</sub>
+
+* Now we need our proportions we'll be using to calculate things: 
+	* p̂<sub>1</sub> = 32/800 = p̂<sub>1</sub> = .04 or 4%
+	* p̂<sub>2</sub> = 30/500 = p̂<sub>2</sub> = .06 or 6%
+
+* Find our area / z-score to care about: α = 100-95 = (.05/2) = A<sub>L</sub> = .975 or 1.96
+
+* and now we consider the formula for p̂ vs z. That formula is: <img src="/images/propvz.png" width="100" align=middle>
+
+So what does it look like? Well, we plug the numbers in. 
+
+* 
+
 ## <a id="matsampt"></a>Matched Sample t-tests
 
 
@@ -179,15 +192,37 @@ So much like the other chapters, we have run in to the issue of only having prop
 
 > A study was conducted to determine the effectiveness of a weight loss program. The table below shows the before and after weights of 10 subjects in the program. Is this program effective for reducing weight? 95% CI/MoE.
 
-|No|Before|After|
-|--|------|-----|
-|01|185|169|
-|02|192|187|
-|03|206|193|
-|04|177|176|
-|05|225|194|
-|06|168|171|
-|07|256|228|
-|08|239|217|
-|09|199|204|
-|10|218|195|
+|No|Before|After|A-B|
+|--|------|-----|---|
+|01|185|169|-16|
+|02|192|187|-5|
+|03|206|193|-13|
+|04|177|176|-1|
+|05|225|194|-31|
+|06|168|171|3|
+|07|256|228|-28|
+|08|239|217|-22|
+|09|199|204|5|
+|10|218|195|-23|
+
+* Getting Started: 
+	* Our first order of business is to generate our important data: Mean, Std, our critical value, and our test statistic. 
+	* x̄<sub>d</sub> is going to be related to the impact of the program. We need to add up the differences between A and B. Since we want to measure how much of a change the after has had, we are doing A (after) - B (before). This will give us the amount of change and its direction. The change is in the column (A-B). Add those up and divide by 10. It gives us a value of about -13.1. 
+	* In this way, we can say that the average difference after the program is -13.1 lbs. 
+	* s is added up just as normal (remember back to modes of central tendency). Take each difference, subtract it from the mean, and square it. Then add all of those up and divide by n. The formula for this is: <img src="/images/stddif.png" width="100" align=middle>
+
+* Write our hypotheses: 
+	* H<sub>o</sub>: µ<sub>d</sub> ≥ µ<sub>d</sub>
+	* H<sub>a</sub>: µ<sub>d</sub> < µ<sub>d</sub>
+
+* Assembling the Data Points: 
+	* x̄<sub>d</sub> (sometimes referred to as d-bar): -13.1
+	* s<sub>d</sub>: 13.025
+	* 95% CI which means α = .05/2 or α = .025 or whatever the df dictate.
+	* df = 9
+	* t<sub>d</sub>: -1.833 (This is found on our chart and we're calculating it this way because of our sample). 
+
+* Calculate our t-statistic. 
+	* The formula we need to use for this is: <img src="/images/dbar.png" width="100" align=middle>
+	* The value we calculate is: -3.18 so we can say we reject the null.
+
