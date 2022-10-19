@@ -65,7 +65,8 @@ Below, I will walk through a number of problems. Each problem will be explained 
 ## <a id="torz"></a> How do we decide on t or z?
 
 Use this handy flow chart!
-<img src="/images/zort.png" width="100" align=middle>
+
+<img src="/images/zort.png" width="250" align=middle>
 
 ## <a id="inf2kno"></a>Inferences about two populations with parameters known
 
