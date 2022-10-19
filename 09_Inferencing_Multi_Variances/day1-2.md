@@ -20,6 +20,7 @@ And that freshness is matched-sample t-tests. YAY! Let's walk through these.
 
 1. [Terms for the Chapter](#terms)
 1. [Formulas for this chapter](#formulas)
+1. [T or Z? How do you decide?](#torz)
 1. [Inferences about two populations with parameters known](#inf2kno)
 	* [Problem 1 - Test Scores](#ppk-1)
 	* [Problem 2 - Test Scores](#ppk-2)
@@ -60,6 +61,11 @@ Below, I will walk through a number of problems. Each problem will be explained 
 
 ![Formulas for this Chapter](/images/dbm-1.png)
 ![Formulas for this Chapter](/images/dbm-2.png)
+
+## <a id="torz"></a> How do we decide on t or z?
+
+Use this handy flow chart!
+<img src="/images/stddif.png" width="100" align=middle>
 
 ## <a id="inf2kno"></a>Inferences about two populations with parameters known
 
