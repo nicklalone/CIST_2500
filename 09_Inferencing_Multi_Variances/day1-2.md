@@ -240,3 +240,16 @@ It's important here to look at these. Since the question is about weight *loss* 
 	* The formula we need to use for this is: <img src="/images/dbar.png" width="100" align=middle>
 	* The value we calculate is: -3.18 so we can say we reject the null.
 
+But this isn't *only* what the question asks, is it? It also says, "calculate the margin of error."
+
+We haven't really done this too much but if you remember back to chapter 8, we did a bunch of work on Interval Estimation. 
+
+* Calculate our Margin of Error: 
+We use this formula. 
+
+<img src="/images/tmoe.png" width="100" align=middle>
+
+While we use x-bar here, we can also write it as d-bar, and your book does.
+
+Once calculated, this stat is: -13.1 ± 7.55.
+
