@@ -226,8 +226,8 @@ So what does it look like? Well, we plug the numbers in.
 
 It's important here to look at these. Since the question is about weight *loss* and so we are interested in the idea that a change occurred and that that change was negative. The result here is a 1-sided test and so we'll be primarily working on negative numbers.
 
-	* H<sub>o</sub>: µ<sub>d</sub> ≥ µ<sub>d</sub>
-	* H<sub>a</sub>: µ<sub>d</sub> < µ<sub>d</sub>
+* H<sub>o</sub>: µ<sub>d</sub> ≥ µ<sub>d</sub>
+* H<sub>a</sub>: µ<sub>d</sub> < µ<sub>d</sub>
 
 * Assembling the Data Points: 
 	* x̄<sub>d</sub> (sometimes referred to as d-bar): -13.1
