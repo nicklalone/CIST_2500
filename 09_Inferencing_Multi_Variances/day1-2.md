@@ -253,3 +253,5 @@ While we use x-bar here, we can also write it as d-bar, and your book does.
 
 Once calculated, this stat is: -13.1 ± 7.55.
 
+So while we reject the null, we can talk a lot about the MoE. That MoE basically says that at a little over half of the value itself, we need to think about just how robust that MoE is. It is also repeating the issue that the standard error provided. While this error is essentially saying that the weight loss *could* be as such to negate the statistical significance, we have to do more work to understand it.
+
