@@ -68,6 +68,10 @@ Use this handy flow chart!
 
 <img src="/images/zort.png" width="250" align=middle>
 
+And so we can boil this down pretty quickly.
+* Is n > 30 and do we know σ? If so, that's a z!
+* If either of these are false, then it's a t!
+
 ## <a id="inf2kno"></a>Inferences about two populations with parameters known
 
 This is our first collection to consider. We're comparing 2 populations and actually know some of the population parameters. We'll do a problem that doesn't have any context, and then we'll try one with context. 
