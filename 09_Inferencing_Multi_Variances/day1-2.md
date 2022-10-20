@@ -181,11 +181,11 @@ Determine what test you're going for. In this case, we don't really need a df be
 	* x̄<sub>1</sub> - x̄<sub>2</sub> ± t√((σ<sub>1</sub>)<sup>2</sup>/n<sub>1</sub>)+((σ<sub>2</sub>)<sup>2</sup>/n<sub>2</sub>)
 	* numbers here.
 
-## <a id="inf2pop"></a>Inferences about two populations with only proportions
+## <a id="inf2pop"></a> Inferences about two populations with only proportions
 
 So much like the other chapters, we have run in to the issue of only having proportion data. 
 
-### <a id="inf2pop-1"></a> 
+### <a id="inf2pop-1"></a> Problem 1: Quantum Computing
 
 > Quantum Computing relies on the use of helium 3 and as such, requires specialized cables produced by only one company in the world. There has been a recent rash of issues in and around quality control. The company, Coax in Japan has 2 different manufacturing processes it is trying to test. They are concerned about efficacy and QA and just want to know if there is a difference. In the first process. 32 out of 800 cables were found to contain some sort of defect. In the second group, 30 out of 500 cables were found to have a defect. 
 
