@@ -191,6 +191,8 @@ So much like the other chapters, we have run in to the issue of only having prop
 
 * Next, we need to find our "Pool Estimator" or the correction we make to deal with the fact that we need to standardize our calculations. You can notice that in the formula in the next bullet that doesn't have a <sub>1</sub> or <sub>2</sub>. That formula can be found: <img src="/images/pestimator.png" width="100" align=middle>
 
+It is important to note that wherein you see us re-inflating the proportions on the top row, we can also just use X<sub>1</sub> and X<sub>2</sub>.
+
 * and now we consider the formula for p̂ vs z. That formula is: <img src="/images/propvz.png" width="100" align=middle>
 
 So what does it look like? Well, we plug the numbers in. 
