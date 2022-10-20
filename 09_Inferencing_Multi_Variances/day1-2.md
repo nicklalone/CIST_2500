@@ -259,5 +259,5 @@ So while we reject the null, we can talk a lot about the MoE. That MoE basically
 
 * We can actually use the Margin of Error to make more sense of our data. We'll call this, "Weight." For the cases of matched sample t-tests, we can say that the the margin of error component can teach us a bit about what our data are saying. For example, if we take the mean difference and place it next to our t-critical value and standard error, we have something like this: <img src="/images/moe-match.png" width="100" align=middle>.
 
-And from that, we can use this formula to seed the value of our sample statistic of -1.833. That is: d-bar - 1.833(13.025/3.1622) or d-bar-1.833(4.11).
+And from that, we can use this formula to seed the value of our sample statistic of -1.833. That is: d-bar - 1.833(13.025/3.1622) or d-bar-1.833(4.11). Interpreting this, we can make a claim that d-bar - 7.53363 or take our mean difference and slap it in there, -13.1 + 7.533 or that our critical value of -1.833 corresponds to a value of -5.567lbs lost needs to be expected at a .05 level.
 
