@@ -272,3 +272,9 @@ So while we reject the null, we can talk a lot about the MoE. That MoE basically
 
 And from that, we can use this formula to seed the value of our sample statistic of -1.833. That is: d-bar - 1.833(13.025/3.1622) or d-bar-1.833(4.11). Interpreting this, we can make a claim that d-bar - 7.53363 or take our mean difference and slap it in there, -13.1 + 7.533 or that our critical value of -1.833 corresponds to a value of -5.567lbs lost needs to be expected at a .05 level.
 
+* Write it out.
+
+For the above, we could write something like:
+
+> We reject the null hypothesis (H<sub>o</sub>) that the mean of the before/after weight differences is zero. The test statistic and *d* are both beyond t<sub>crit</sub> for df = 9. Therefore based on this data it appears the diet works.
+
