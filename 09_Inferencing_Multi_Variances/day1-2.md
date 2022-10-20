@@ -209,7 +209,7 @@ It is important to note that wherein you see us re-inflating the proportions on 
 
 So what does it look like? Well, we plug the numbers in. 
 
-* 
+* And here I need to write it up in markdown...
 
 ## <a id="matsampt"></a>Matched Sample t-tests - Weight Loss
 
