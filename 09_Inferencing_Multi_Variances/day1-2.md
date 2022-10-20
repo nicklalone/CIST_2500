@@ -35,11 +35,11 @@ And that freshness is matched-sample t-tests. YAY! Let's walk through these.
 
 ## <a id="terms"></a> Terms for the Chapter
 
-* Independent Random Samples: Samples selected from two populations in such a way that the elements making up one sample are chosen indepdently of the elements making up the other sample.
+* **Independent Random Samples**: Samples selected from two populations in such a way that the elements making up one sample are chosen indepdently of the elements making up the other sample.
 
-* Matched Samples: Samples in which each data value of one sample is matched with a corresponding data value of the other sample.
+* **Matched Samples**: Samples in which each data value of one sample is matched with a corresponding data value of the other sample.
 
-* Pooled Estimator of p: An estimator of a population proportion obtained by computing a weighted average of the point estimators obtained from two independent samples.
+* **Pooled Estimator of p**: An estimator of a population proportion obtained by computing a weighted average of the point estimators obtained from two independent samples.
 
 ## <a id="formulas"></a>Formulas for this chapter
 
@@ -258,4 +258,8 @@ While we use x-bar here, we can also write it as d-bar, and your book does.
 Once calculated, this stat is: -13.1 ± 7.55.
 
 So while we reject the null, we can talk a lot about the MoE. That MoE basically says that at a little over half of the value itself, we need to think about just how robust that MoE is. It is also repeating the issue that the standard error provided. While this error is essentially saying that the weight loss *could* be as such to negate the statistical significance, we have to do more work to understand it.
+
+* We can actually make the thing that is often not sensical make more sense. We'll call this, "Weight." For the cases of matched sample t-tests, we can say that the the margin of error component can teach us a bit about what our data are saying. For example, if we take the mean difference and place it next to our t-critical value and standard error, we have something like this: <img src="/images/moe-match.png" width="100" align=middle>.
+
+And from that, we can use this formula to seed the value of our sample statistic of -1.833. That is: d-bar - 1.833(13.025/3.1622) or d-bar-1.833(4.11).
 
