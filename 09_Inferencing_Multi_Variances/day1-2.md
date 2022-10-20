@@ -129,7 +129,7 @@ We will first try an problem without any context at all. After that, we'll add s
 
 ### <a id="ppk-2"></a> Problem 2: Let's Connect this to an actual example with consequences.
 
-> A test was confucted on two difference classes to see if there was any significant difference between the performance of two teachers. The final exam scores of 35 students in the 1st class yielding a mean of 82 and a σ of 2.4. The mean final exam score of the 2nd class was 84 with a σ of 1.7 with a sample of 46 students. 
+> A test was conducted on two difference classes to see if there was any significant difference between the performance of two teachers. The final exam scores of 35 students in the 1st class yielding a mean of 82 and a σ of 2.4. The mean final exam score of the 2nd class was 84 with a σ of 1.7 with a sample of 46 students. 
 
 * Determine if there is any major difference at a 5% signficance level.
 
