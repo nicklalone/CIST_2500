@@ -189,6 +189,8 @@ So much like the other chapters, we have run in to the issue of only having prop
 
 * Find our area / z-score to care about: α = 100-95 = (.05/2) = A<sub>L</sub> = .975 or 1.96
 
+* Next, we need to find our "Pool Estimator" or the correction we make to deal with the fact that we need to standardize our calculations. You can notice that in the formula in the next bullet that doesn't have a <sub>1</sub> or <sub>2</sub>. That formula can be found: <img src="/images/pestimator.png" width="100" align=middle>
+
 * and now we consider the formula for p̂ vs z. That formula is: <img src="/images/propvz.png" width="100" align=middle>
 
 So what does it look like? Well, we plug the numbers in. 
