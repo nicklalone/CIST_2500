@@ -21,13 +21,14 @@ And that freshness is matched-sample t-tests. YAY! Let's walk through these.
 1. [Terms for the Chapter](#terms)
 1. [Formulas for this chapter](#formulas)
 1. [T or Z? How do you decide?](#torz)
+1. [One or Two Tailed: How do you decide?](#1or2)
 1. [Inferences about two populations with parameters known](#inf2kno)
 	* [Problem 1 - Test Scores](#ppk-1)
 	* [Problem 2 - Test Scores](#ppk-2)
 1. [Inferences about two populations with parameters unknown](#inf2unkno)
-	* [Problem 1 - ](#unkno-1)
+	* [Problem 1 - Test Scores](#unkno-1)
 1. [Inferences about two populations with only proportions](#inf2pop)
-	* [Problem 1 - ](#inf2pop-1)
+	* [Problem 1 - Quantum Computing](#inf2pop-1)
 1. [Matched Sample t-tests](#matsampt)
 	* [Problem 1 - Weight Loss](#matsampt-1)
 
@@ -35,11 +36,11 @@ And that freshness is matched-sample t-tests. YAY! Let's walk through these.
 
 ## <a id="terms"></a> Terms for the Chapter
 
-* Independent Random Samples: Samples selected from two populations in such a way that the elements making up one sample are chosen indepdently of the elements making up the other sample.
+* **Independent Random Samples**: Samples selected from two populations in such a way that the elements making up one sample are chosen indepdently of the elements making up the other sample.
 
-* Matched Samples: Samples in which each data value of one sample is matched with a corresponding data value of the other sample.
+* **Matched Samples**: Samples in which each data value of one sample is matched with a corresponding data value of the other sample.
 
-* Pooled Estimator of p: An estimator of a population proportion obtained by computing a weighted average of the point estimators obtained from two independent samples.
+* **Pooled Estimator of p**: An estimator of a population proportion obtained by computing a weighted average of the point estimators obtained from two independent samples.
 
 ## <a id="formulas"></a> Formulas for this chapter
 
@@ -71,6 +72,16 @@ Use this handy flow chart!
 And so we can boil this down pretty quickly.
 * Is n > 30 and do we know σ? If so, that's a z!
 * If either of these are false, then it's a t!
+
+## <a id="1or2"></a>One or Two Tailed: How do you decide?
+
+For the most part, deciding what sorts of test to perform is perhaps the most important aspect of the school.
+
+The question here that is important is, "How do I decide between One-sample, two-sample, or paired t-test?" and to this, we can state the following: 
+* If your samples come from a single population (e.g. measuring before and after an experimental treatment), then the recommended concept is a matched sample t-test.
+	* One-tailed or two-tailed t-test?
+* If you only care whether the two populations are different from one another, perform a two-tailed t-test.
+* If you want to know whether one population mean is greater than or less than the other, perform a one-tailed t-test.
 
 ## <a id="inf2kno"></a>Inferences about two populations with parameters known
 
@@ -200,9 +211,9 @@ So what does it look like? Well, we plug the numbers in.
 
 * 
 
-## <a id="matsampt"></a>Matched Sample t-tests
+## <a id="matsampt"></a>Matched Sample t-tests - Weight Loss
 
-
+A t-test allows us to compare two groups that are engaged in the same activity. We could do something like evaluate two groups taking the same test or two students with the same teachers. In this case below, we're looking at the impact of a weight loss prograrm. We follow many of the same processes as the previous tests, but adjust ourselves in looking specifically at differences rather than others.
 
 ### <a id="matsampt-1"></a> Problem 1 - Weight Loss
 
@@ -249,9 +260,7 @@ But this isn't *only* what the question asks, is it? It also says, "calculate th
 
 We haven't really done this too much but if you remember back to chapter 8, we did a bunch of work on Interval Estimation. 
 
-* Calculate our Margin of Error: 
-We use this formula. 
-
+* Calculate our Margin of Error:
 <img src="/images/tmoe.png" width="100" align=middle>
 
 While we use x-bar here, we can also write it as d-bar, and your book does.
@@ -259,4 +268,14 @@ While we use x-bar here, we can also write it as d-bar, and your book does.
 Once calculated, this stat is: -13.1 ± 7.55.
 
 So while we reject the null, we can talk a lot about the MoE. That MoE basically says that at a little over half of the value itself, we need to think about just how robust that MoE is. It is also repeating the issue that the standard error provided. While this error is essentially saying that the weight loss *could* be as such to negate the statistical significance, we have to do more work to understand it.
+
+* We can actually use the Margin of Error to make more sense of our data. We'll call this, "Weight." For the cases of matched sample t-tests, we can say that the the margin of error component can teach us a bit about what our data are saying. For example, if we take the mean difference and place it next to our t-critical value and standard error, we have something like this: <img src="/images/moe-match.PNG" width="100" align=middle>.
+
+And from that, we can use this formula to seed the value of our sample statistic of -1.833. That is: d-bar - 1.833(13.025/3.1622) or d-bar-1.833(4.11). Interpreting this, we can make a claim that d-bar - 7.53363 or take our mean difference and slap it in there, -13.1 + 7.533 or that our critical value of -1.833 corresponds to a value of -5.567lbs lost needs to be expected at a .05 level.
+
+* Write it out.
+
+For the above, we could write something like:
+
+> We reject the null hypothesis (H<sub>o</sub>) that the mean of the before/after weight differences is zero. The test statistic and *d* are both beyond t<sub>crit</sub> for df = 9. Therefore based on this data it appears the diet works.
 
