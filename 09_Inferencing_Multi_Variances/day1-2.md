@@ -21,6 +21,7 @@ And that freshness is matched-sample t-tests. YAY! Let's walk through these.
 1. [Terms for the Chapter](#terms)
 1. [Formulas for this chapter](#formulas)
 1. [T or Z? How do you decide?](#torz)
+1. [One or Two Tailed: How do you decide?](#1or2)
 1. [Inferences about two populations with parameters known](#inf2kno)
 	* [Problem 1 - Test Scores](#ppk-1)
 	* [Problem 2 - Test Scores](#ppk-2)
@@ -71,6 +72,16 @@ Use this handy flow chart!
 And so we can boil this down pretty quickly.
 * Is n > 30 and do we know σ? If so, that's a z!
 * If either of these are false, then it's a t!
+
+## <a id="1or2"></a>One or Two Tailed: How do you decide?
+
+For the most part, deciding what sorts of test to perform is perhaps the most important aspect of the school.
+
+The question here that is important is, "How do I decide between One-sample, two-sample, or paired t-test?" and to this, we can state the following: 
+* If your samples come from a single population (e.g. measuring before and after an experimental treatment), then the recommended concept is a matched sample t-test.
+	* One-tailed or two-tailed t-test?
+* If you only care whether the two populations are different from one another, perform a two-tailed t-test.
+* If you want to know whether one population mean is greater than or less than the other, perform a one-tailed t-test.
 
 ## <a id="inf2kno"></a>Inferences about two populations with parameters known
 
