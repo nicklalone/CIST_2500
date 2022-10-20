@@ -248,9 +248,7 @@ But this isn't *only* what the question asks, is it? It also says, "calculate th
 
 We haven't really done this too much but if you remember back to chapter 8, we did a bunch of work on Interval Estimation. 
 
-* Calculate our Margin of Error: 
-We use this formula. 
-
+* Calculate our Margin of Error:
 <img src="/images/tmoe.png" width="100" align=middle>
 
 While we use x-bar here, we can also write it as d-bar, and your book does.
@@ -259,7 +257,7 @@ Once calculated, this stat is: -13.1 ± 7.55.
 
 So while we reject the null, we can talk a lot about the MoE. That MoE basically says that at a little over half of the value itself, we need to think about just how robust that MoE is. It is also repeating the issue that the standard error provided. While this error is essentially saying that the weight loss *could* be as such to negate the statistical significance, we have to do more work to understand it.
 
-* We can actually make the thing that is often not sensical make more sense. We'll call this, "Weight." For the cases of matched sample t-tests, we can say that the the margin of error component can teach us a bit about what our data are saying. For example, if we take the mean difference and place it next to our t-critical value and standard error, we have something like this: <img src="/images/moe-match.png" width="100" align=middle>.
+* We can actually use the Margin of Error to make more sense of our data. We'll call this, "Weight." For the cases of matched sample t-tests, we can say that the the margin of error component can teach us a bit about what our data are saying. For example, if we take the mean difference and place it next to our t-critical value and standard error, we have something like this: <img src="/images/moe-match.png" width="100" align=middle>.
 
 And from that, we can use this formula to seed the value of our sample statistic of -1.833. That is: d-bar - 1.833(13.025/3.1622) or d-bar-1.833(4.11).
 
