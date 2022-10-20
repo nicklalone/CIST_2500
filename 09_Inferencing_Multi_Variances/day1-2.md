@@ -41,7 +41,7 @@ And that freshness is matched-sample t-tests. YAY! Let's walk through these.
 
 * Pooled Estimator of p: An estimator of a population proportion obtained by computing a weighted average of the point estimators obtained from two independent samples.
 
-## <a id="formulas"></a>Formulas for this chapter
+## <a id="formulas"></a> Formulas for this chapter
 
 Generally this chapter is all about how to compare 2 populations. Everything inside of this chapter is just an augmentation of what we've already been doing. Like I said above, each of the last few chapters tend to correspond with: 
 
@@ -122,17 +122,17 @@ We will first try an problem without any context at all. After that, we'll add s
 
 * Determine if there is any major difference at a 5% signficance level.
 
-* Step 0: Write your hypotheses. For this one, we are looking for a difference and so we're working on = or ≠. 
+* **Step 0**: Write your hypotheses. For this one, we are looking for a difference and so we're working on = or ≠. 
 	* H<sub>o</sub>: µ<sub>1</sub> = µ<sub>2</sub>
 	* H<sub>a</sub>: µ<sub>1</sub> ≠ µ<sub>2</sub>
 
-* Step 1: Gather your datapoints
+* **Step 1**: Gather your datapoints
 	* x̄<sub>1</sub> = 82, σ<sub>1</sub> = 2.4, n<sub>1</sub> = 35
 	* x̄<sub>2</sub> = 84, σ<sub>2</sub> = 1.7, n<sub>2</sub> = 46
 
-* Step 2: Grab your critical values: In this case, it's 5% or 95% or 1.96
+* **Step 2**: Grab your critical values: In this case, it's 5% or 95% or 1.96
 
-* Step 3: Fill out your formula: <img src="/images/iedb2pm.png" width="100" align=middle>
+* **Step 3**: Fill out your formula: <img src="/images/iedb2pm.png" width="100" align=middle>
 	* x̄<sub>1</sub> - x̄<sub>2</sub> ± 1.96√((σ<sub>1</sub>)<sup>2</sup>/n<sub>1</sub>)+((σ<sub>2</sub>)<sup>2</sup>/n<sub>2</sub>)
 	* 82-84 ± 1.96√((2.4)<sup>2</sup>/35)+((1.7)<sup>2</sup>/46)
 
@@ -146,26 +146,27 @@ We will first try an problem without any context at all. After that, we'll add s
 
 * Determine if there is any major difference at the 10% significance level.
 
-1.  Step 1: Gather your datapoints
+1.  **Step 1**: Gather your datapoints
 	* x̄<sub>1</sub> = 3.1, s<sub>1</sub> = 1.0, n<sub>1</sub> = 40
 	* x̄<sub>2</sub> = 3.8, s<sub>2</sub> = 1.5, n<sub>2</sub> = 36
-1. Determine what test you're going for. In this case, we don't really need a df because why? This is a 2-tailed test and is seeking *any* difference. As a result, we would expect to use: <img src="/images/tsdbm.png" width="100" align=middle>
+1. **Step 2: Determine your critical value:** 
+Determine what test you're going for. In this case, we don't really need a df because why? This is a 2-tailed test and is seeking *any* difference. As a result, we would expect to use: <img src="/images/tsdbm.png" width="100" align=middle>
 1. And then we move forward.
 
-<a id="unkno-2"></a> Problem 2: Test Scores but this time we pretend its just sample stats.
+<a id="unkno-2"></a> **Problem 2: Test Scores but this time we pretend its just sample stats.**
 
 > A test was confucted on two difference classes to see if there was any significant difference between the performance of two teachers. The final exam scores of 15 students were sampled in the 1st class yielding a mean of 82 and a std of 2.4. The mean final exam score of the 2nd class was 84 with a std of 1.7 with a sample of 12 students. 
 
 * Determine if there is any major difference at a 5% signficance level.
 
-* Step 1: Gather your datapoints
+* **Step 1**: Gather your datapoints
 	* x̄<sub>1</sub> = 82, s<sub>1</sub> = 2.4, n<sub>1</sub> = 15
 	* x̄<sub>2</sub> = 84, s<sub>2</sub> = 1.7, n<sub>2</sub> = 12
-* Step 2: Get your degrees of freedom: <img src="/images/df2st.png" width="100" align=middle>.
+* **Step 2**: Get your degrees of freedom: <img src="/images/df2st.png" width="100" align=middle>.
 	* In this case, df = 25, t-value = 2.0595
 * Step 2: Generate your critical values with the formula if needed: <img src="/images/tspu.png" width="100" align=middle>
 	* for this problem, it is not needed as we're using df.
-* Step 3: Fill out your formula: <img src="/images/iepu.png" width="100" align=middle>
+* **Step 3**: Fill out your formula: <img src="/images/iepu.png" width="100" align=middle>
 	* x̄<sub>1</sub> - x̄<sub>2</sub> ± t√((σ<sub>1</sub>)<sup>2</sup>/n<sub>1</sub>)+((σ<sub>2</sub>)<sup>2</sup>/n<sub>2</sub>)
 	* numbers here.
 
