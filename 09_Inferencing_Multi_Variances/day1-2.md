@@ -25,9 +25,9 @@ And that freshness is matched-sample t-tests. YAY! Let's walk through these.
 	* [Problem 1 - Test Scores](#ppk-1)
 	* [Problem 2 - Test Scores](#ppk-2)
 1. [Inferences about two populations with parameters unknown](#inf2unkno)
-	* [Problem 1 - ](#unkno-1)
+	* [Problem 1 - Test Scores](#unkno-1)
 1. [Inferences about two populations with only proportions](#inf2pop)
-	* [Problem 1 - ](#inf2pop-1)
+	* [Problem 1 - Quantum Computing](#inf2pop-1)
 1. [Matched Sample t-tests](#matsampt)
 	* [Problem 1 - Weight Loss](#matsampt-1)
 
@@ -199,9 +199,9 @@ So what does it look like? Well, we plug the numbers in.
 
 * 
 
-## <a id="matsampt"></a>Matched Sample t-tests
+## <a id="matsampt"></a>Matched Sample t-tests - Weight Loss
 
-
+A t-test allows us to compare two groups that are engaged in the same activity. We could do something like evaluate two groups taking the same test or two students with the same teachers. In this case below, we're looking at the impact of a weight loss prograrm. We follow many of the same processes as the previous tests, but adjust ourselves in looking specifically at differences rather than others.
 
 ### <a id="matsampt-1"></a> Problem 1 - Weight Loss
 
