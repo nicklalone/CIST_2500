@@ -87,9 +87,9 @@ The question here that is important is, "How do I decide between One-sample, two
 
 This is our first collection to consider. We're comparing 2 populations and actually know some of the population parameters. We'll do a problem that doesn't have any context, and then we'll try one with context. 
 
-We'll consider the steps here: 
+We'll consider the steps here and we'll be moving from left to right: 
 
-1. Get your interval, or: x̄<sub>1</sub> - x̄<sub>2</sub>. This is the start of your interval.
+1. The very first thing is to get what your book refers to as the "point estimate of the difference between the two populations" or: x̄<sub>1</sub> - x̄<sub>2</sub>. This is the start of your interval. We then need to fill out the stuff to the right of the formula.
 1. Calculate standard error of x̄<sub>1</sub> - x̄<sub>2</sub> which is essentially: <img src="/images/std-bet.png" width="100" align=middle>
 1. Calculate the Interval Estimate of the Difference Between 2 Population Means. Remember that .05 is 1.96 and .01 is 2.58. The formula is: <img src="/images/iedb2pm.png" width="100" align=middle>
 
