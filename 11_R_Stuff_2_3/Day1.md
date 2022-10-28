@@ -47,11 +47,13 @@ Mostly, we can say that there are "2" kinds of  χ² tests. These are based on t
 1. Next, we need degrees of freedom:
 	* For Chi-Square Goodness of Fit Test since it is 1 variable, it is calculated by: 
 	* For Chi-Square Test of Independence, this is comparing 2 variables, it is calculated by taking the row total, multiplying by the column total, and dividing by the table total for each cell. Let me write 2 tables: 
+	
 	|UG|G|Totals||UG|G|Total|
 	|--|-|------||--|-|-----|
 	|(55 * 60)/100|(55 * 40)/100|55||33|22|55| 
 	|(45 * 60)/100|(45 * 40)/100|45||33|22|45| 
-	|60|40|100||60|40|100| 
+	|60|40|100||60|40|100|
+
 There are other Chi-square tests; however, these two are the most commonly performed.
 
 ### <a id="hypos"></a> Hypotheses in χ² tests
