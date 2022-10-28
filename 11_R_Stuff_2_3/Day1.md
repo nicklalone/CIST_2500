@@ -14,7 +14,7 @@ There are 2 rules to remember for χ²:
 	1. [What is a Chi-square test?](#what)
 	1. [A List of Ingredients](#ingreds)
 	1. [Hypotheses in χ² tests](#hypos)
-	1. [Types of χ² tests]
+	1. **Types of χ² tests**
 		1. [Goodness of Fit Hypotheses](#gfhypo)
 		1. [Chi-Square Test of Independence](#toi)
 
