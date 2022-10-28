@@ -1,0 +1,66 @@
+Today, we have 2 goals: 
+1. We will learn about CHI-Square Tests
+1. We will learn about how to do CHI-Square analyses in R.
+
+So before we begin, let's get some basics.
+
+**What is a Chi-square test?**
+We can use the phrase, "Chi-Square Test" or abbreviate it with the greek letter, "CHI" or χ². In this test, we are interested in the discrepancy between what is expected to be observed and what is actually observed. Because we're looking at what should be versus what is, this is a perfect example of a method we can use to test hypotheses.
+
+**A List of Ingredients**
+Mostly, we can say that there are "2" kinds of  χ² tests. These are based on the following list of needs: 
+1. Chi-Square Goodness of Fit Test
+	* For this test, we can assume that it will be used to figure out if the variable in question actually represents the population
+1. Chi-Square Test of Independence
+	* This test is a bit more simple. It checks whether two variables are related or not.
+
+There are other Chi-square tests; however, these two are the most commonly performed.
+
+**Hypotheses in χ² tests**
+So, we've done a ton of hypotheses and χ² tests are no exception to the hypotheses. And yet, if we have 2 kinds of tests, do we have 2 kinds of hypotheses to test? Yes!
+
+**Goodness of Fit Hypotheses**
+*Kinds of questions we focus on with this test:* Decide if boxes of nerds have the same number of pieces of each color or not
+
+* H<sub>o</sub>: proportion of color of nerd are the same
+* H<sub>a</sub>: proportions of colors are not the same
+
+And so what is this doing? Well, it's messing with our box of nerds but it's also giving us a question to test what we are observing over what we would expect in terms of a proportion of different flavors of nerds.
+
+**Chi-Square Test of Independence**
+*Kinds of questions we focus on:* Decide if movie goers' decision to buy snacks is related to the type of movie they plan to watch
+H<sub>o</sub>: proportion of people who buy snacks is independent of the movie type
+H<sub>a</sub>: proportion of people who buy snacks is different for different types of movies
+
+And so what is this doing? Well, it is essentially setting up a test to see what we would expect versus what we are seeing. In this case, the assertion is that there could be a relationship between movies and snacks and so we're seeing if there is.
+
+Both Chi-square tests in the table above involve calculating a test statistic.
+
+---------------- Table of Contents ---------------- 
+
+1. [Getting Started](#gs)
+1. [Goodness of Fit Hypotheses](#gfh)
+	1. [Degrees of Freedom](#gfdfx2)
+	1. [P-Value Approach to χ²](#gfpvap)
+	1. [Critical Value Approach to χ²](#gfcvap)
+	1. [Interpreting](#gfinter)
+1. [Goodness of Fit Hypotheses](#hti)
+	1. [Degrees of Freedom](#tidfx2)
+	1. [P-Value Approach to χ²](#tipvap)
+	1. [Critical Value Approach to χ²](#ticvap)
+	1. [Interpreting](#tiinter)
+
+---------------- Table of Contents ---------------- 
+
+## <a id="gs"></a> Getting Started
+### <a id="gfh"></a> Goodness of Fit Hypotheses
+### <a id="gfdfx2"></a> Degrees of Freedom
+### <a id="gfpvap"></a> P-Value Approach to χ²
+### <a id="gfcvap"></a> Critical Value Approach to χ²
+### <a id="gfinter"></a> Interpreting
+
+## <a id="hti"></a> Goodness of Fit Hypotheses
+### <a id="tidfx2"></a> Degrees of Freedom
+### <a id="tipvap"></a> P-Value Approach to χ²
+### <a id="ticvap"></a> Critical Value Approach to χ²
+### <a id="tiinter"></a> Interpreting
