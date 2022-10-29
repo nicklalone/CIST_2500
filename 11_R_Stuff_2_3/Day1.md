@@ -6,7 +6,7 @@ At its most basic, the χ² test allows us to test if a specific variable derive
 
 There are 2 rules to remember for χ²:
 1. Expected values are calculated with the assertion that H<sub>o</sub> is true
-1. This test is basically allowing you to test what you're seeing against what you'd expect (think of it as a common sense verifier like the rest of these methods.)
+1. While you are seeking a relationship, the math provides us with a variety of ways variables relate mathematically. You can use another measure to understand the impact.
 
 ---------------- Table of Contents ---------------- 
 
@@ -24,7 +24,7 @@ There are 2 rules to remember for χ²:
 	1. [Critical Value Approach to χ²](#gfcvap)
 	1. [Interpreting](#gfinter)
 
-1. [Goodness of Fit Hypotheses](#hti)
+1. [Chi-Square Test of Independence](#hti)
 	1. [Degrees of Freedom](#tidfx2)
 	1. [P-Value Approach to χ²](#tipvap)
 	1. [Critical Value Approach to χ²](#ticvap)
@@ -34,6 +34,8 @@ There are 2 rules to remember for χ²:
 
 ## <a id="gs"></a> Getting Started
 So before we begin, let's get some basics.
+
+Chi Square or χ² is essentially a test that works with nominal data, not (numeric. It allows us to understand if there is a relationship between variables. 
 
 ### <a id="what"></a> What is a Chi-square test?
 We can use the phrase, "Chi-Square Test" or abbreviate it with the greek letter, "CHI" or χ². In this test, we are interested in the discrepancy between what is expected to be observed and what is actually observed. Because we're looking at what should be versus what is, this is a perfect example of a method we can use to test hypotheses.
@@ -69,18 +71,17 @@ So, we've done a ton of hypotheses and χ² tests are no exception to the hypoth
 
 And so what is this doing? Well, it's messing with our box of nerds but it's also giving us a question to test what we are observing over what we would expect in terms of a proportion of different flavors of nerds.
 
-### <a id="toi"></a> Chi-Square Test of Independence
-*Kinds of questions we focus on:* Decide if movie goers' decision to buy snacks is related to the type of movie they plan to watch
-H<sub>o</sub>: proportion of people who buy snacks is independent of the movie type
-H<sub>a</sub>: proportion of people who buy snacks is different for different types of movies
-
-And so what is this doing? Well, it is essentially setting up a test to see what we would expect versus what we are seeing. In this case, the assertion is that there could be a relationship between movies and snacks and so we're seeing if there is.
-
-Both Chi-square tests in the table above involve calculating a test statistic.
-
 -------------
 
 ## <a id="gfh"></a> Goodness of Fit Hypotheses
+
+*Kinds of questions we focus on with this test:* Decide if boxes of nerds have the same number of pieces of each color or not
+
+* H<sub>o</sub>: proportion of color of nerd are the same
+* H<sub>a</sub>: proportions of colors are not the same
+
+And so what is this doing? Well, it's messing with our box of nerds but it's also giving us a question to test what we are observing over what we would expect in terms of a proportion of different flavors of nerds.
+
 ### <a id="gfdfx2"></a> Degrees of Freedom
 ### <a id="gfpvap"></a> P-Value Approach to χ²
 ### <a id="gfcvap"></a> Critical Value Approach to χ²
@@ -88,7 +89,22 @@ Both Chi-square tests in the table above involve calculating a test statistic.
 
 -------------
 
-## <a id="hti"></a> Goodness of Fit Hypotheses
+## <a id="hti"></a> Tests of Independence
+
+*Kinds of questions we focus on:* Decide if movie goers' decision to buy snacks is related to the type of movie they plan to watch
+H<sub>o</sub>: proportion of people who buy snacks is independent of the movie type
+H<sub>a</sub>: proportion of people who buy snacks is different for different types of movies
+
+A more generic example, maybe a little too on the nose.
+
+H<sub>o</sub>: X and Y are independent.
+H<sub>a</sub>: X and Y are dependent.
+
+And so what is this doing? Well, it is essentially setting up a test to see what we would expect versus what we are seeing. In this case, the assertion is that there could be a relationship between movies and snacks and so we're seeing if there is.
+
+Both Chi-square tests in the table above involve calculating a test statistic.
+
+
 ### <a id="tidfx2"></a> Degrees of Freedom
 ### <a id="tipvap"></a> P-Value Approach to χ²
 ### <a id="ticvap"></a> Critical Value Approach to χ²
