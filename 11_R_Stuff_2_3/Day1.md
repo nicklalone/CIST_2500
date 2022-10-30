@@ -14,6 +14,7 @@ There are 2 rules to remember for χ²:
 	1. [What is a Chi-square test?](#what)
 	1. [A List of Ingredients](#ingreds)
 	1. [Hypotheses in χ² tests](#hypos)
+
 	1. **Types of χ² tests**
 		1. [Goodness of Fit Hypotheses](#gfhypo)
 		1. [Chi-Square Test of Independence](#toi)
@@ -22,12 +23,14 @@ There are 2 rules to remember for χ²:
 	1. [Degrees of Freedom](#gfdfx2)
 	1. [P-Value Approach to χ²](#gfpvap)
 	1. [Critical Value Approach to χ²](#gfcvap)
+	1. [Cramer's V](#gfcv)
 	1. [Interpreting](#gfinter)
 
 1. [Chi-Square Test of Independence](#hti)
 	1. [Degrees of Freedom](#tidfx2)
 	1. [P-Value Approach to χ²](#tipvap)
 	1. [Critical Value Approach to χ²](#ticvap)
+	1. [Cramer's V](#ticv)
 	1. [Interpreting](#tiinter)
 
 ---------------- Table of Contents ---------------- 
@@ -83,9 +86,24 @@ And so what is this doing? Well, it's messing with our box of nerds but it's als
 And so what is this doing? Well, it's messing with our box of nerds but it's also giving us a question to test what we are observing over what we would expect in terms of a proportion of different flavors of nerds.
 
 ### <a id="gfdfx2"></a> Degrees of Freedom
+
+df=(number of categories−1)
+
 ### <a id="gfpvap"></a> P-Value Approach to χ²
+
+
+
 ### <a id="gfcvap"></a> Critical Value Approach to χ²
+
+
+
+### <a id="ticv"></a> Cramer's 
+
+
+
 ### <a id="gfinter"></a> Interpreting
+
+
 
 -------------
 
@@ -102,10 +120,17 @@ H<sub>a</sub>: X and Y are dependent.
 
 And so what is this doing? Well, it is essentially setting up a test to see what we would expect versus what we are seeing. In this case, the assertion is that there could be a relationship between movies and snacks and so we're seeing if there is.
 
-Both Chi-square tests in the table above involve calculating a test statistic.
-
+Both Chi-square tests in the table above involve calculating a test statistic called a χ² coefficient. We then move on to p-values and can add a test called, "cramer's V" to understand just how powerful the relationship is.
 
 ### <a id="tidfx2"></a> Degrees of Freedom
+
+Degrees of freedom, of course, come from a chart. For the Tests of Independence, since we're working with multiple variables, the formula looks a bit different: 
+
+``` (# of rows - 1) * (# of columns - 1)```
+
+And this is used everywhere.
+
 ### <a id="tipvap"></a> P-Value Approach to χ²
 ### <a id="ticvap"></a> Critical Value Approach to χ²
+### <a id="ticv"></a> Cramer's V
 ### <a id="tiinter"></a> Interpreting

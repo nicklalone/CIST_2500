@@ -13,7 +13,7 @@ Remember that there are 2 rules to remember for χ²:
 1. [Getting Started](#gs)
 	1. [Dealing with Data](#dwd)
 		1. [Categorical Data in R](#catr)
-		1. [Shifting from Text to Numbers](#shift)
+		1. [Shifting from Text to Numbers or Vice Versa](#shift)
 		1. [Filtering / Layers](#filt)
 		1. [Exporting](#export)
 	1. [χ² in R](#chir)
@@ -27,13 +27,24 @@ Chi Square or χ²
 
 ### <a id="dwd"></a> Dealing with Data
 
-Here, we'll import a dataset. The dataset we're working on is, "Student" and can be found on Canvas.
+Here, we'll import a dataset. The dataset we're working on is, "Student" and can be found on Canvas. As we have in the past, point your working directory toward that folder and right click on it, import it. 
+
+Once this is done, you'll have your data import screen. Here, you need to worry about some very important things: 
+1. Set your delimiter to semi-colons.
+1. Rename your dataframe into something that is useful for you.
+1. Click import. 
+
+Once the data frame is loaded. Do the following: 
+1. Make sure lsr, tidyverse, summarytools, ggplot, tidyr, and rcompanion are loaded with the command ```Library(packagenamehere)```.
+1. Once these are all loaded. I would recommend the following to run and explore your data: 
+	* ```freq(yourdataframe)``` and then look through these to look for any abnormalities.
+	* Open up the code book. This is called, ```student.txt``` and it will tell you what all your data is coded with.
 
 
 ### <a id="catr"></a> Categorical Data in R
 
 
-### <a id="shift"></a> Shifting from Text to Numbers
+### <a id="shift"></a> Shifting from Text to Numbers or Vice Versa
 
 
 ### <a id="filt"></a> Filtering / Layers
