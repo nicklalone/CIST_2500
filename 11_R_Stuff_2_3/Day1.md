@@ -47,6 +47,11 @@ Mostly, we can say that there are "2" kinds of  χ² tests. These are based on t
 	* For this test, we can assume that it will be used to figure out if the variable in question actually represents the population
 1. Chi-Square Test of Independence
 	* This test is a bit more simple. It checks whether two variables are related or not.
+1. Variables
+	* CHI-Square primarily works off of categorical variables with 2 or more levels (aka choices). 
+1. Contingency Tables
+	* This is a crosstab with observed and probably expected values as well as totals/frequency totals on it. 
+	* It allows us to visualize the data we are analyzing.
 1. Next, we need degrees of freedom:
 	* For Chi-Square Goodness of Fit Test since it is 1 variable, it is calculated by: 
 	* For Chi-Square Test of Independence, this is comparing 2 variables, it is calculated by taking the row total, multiplying by the column total, and dividing by the table total for each cell. Let me write 2 tables (left is the calculations, right is the results for expected counts): 
@@ -112,13 +117,17 @@ This is then examined based on a critical value from a table on page 769-770 in 
 
 ### <a id="ticv"></a> Cramer's V
 
-Cramer's V (often denoted as φ or phi) is essentially a statistic you can generate to understand a layer past the creation of critical values and test statistics. In general, this is a number between 0-1 or 0-100. The table is generally: 
+Cramer's V (sometimes denoted as φ or phi even though this is a different formula) is essentially a statistic you can generate to understand a layer past the creation of critical values and test statistics. It is calculated with the following formula: <img src="/images/cramers.png" width="100" align=middle>.
+
+In general, this is a number between 0 to 1. The table is generally interpreted this way: 
 
 |Value|Interpretation|
 |-----|--------------|
 |.1-.3|Weak Association|
 |.4-.5|Medium Association|
 |>.6|Strong Association|
+
+There is a lot of bias in this value, in all of these values, so being mindful of what you're seeing is important. 
 
 ### <a id="gfinter"></a> Interpreting
 
@@ -155,13 +164,17 @@ And this is used everywhere.
 
 ### <a id="ticv"></a> Cramer's V
 
-Cramer's V (often denoted as φ or phi) is essentially a statistic you can generate to understand a layer past the creation of critical values and test statistics. In general, this is a number between 0-1 or 0-100. The table is generally: 
+Cramer's V (sometimes denoted as φ or phi even though this is a different formula) is essentially a statistic you can generate to understand a layer past the creation of critical values and test statistics. It is calculated with the following formula: <img src="/images/cramers.png" width="100" align=middle>.
+
+In general, this is a number between 0 to 1. The table is generally interpreted this way: 
 
 |Value|Interpretation|
 |-----|--------------|
 |.1-.3|Weak Association|
 |.4-.5|Medium Association|
 |>.6|Strong Association|
+
+There is a lot of bias in this value, in all of these values, so being mindful of what you're seeing is important. 
 
 ### <a id="tiinter"></a> Interpreting
 

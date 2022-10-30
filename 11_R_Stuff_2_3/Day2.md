@@ -160,9 +160,10 @@ This gives us all our datapoints and that's great. And yet, we do not have Crame
 
 ```cramerV(fifedu$Fedu,fifedu$higher)```
 
-And that's the dad's data done. Yet, we did not create the contingency table. Let's run the mom's first so we can get those data. 
+And that's the dad's data done. Yet, we did not create the contingency table. Let's run the mom's first so we can get those data. They are the same commands but different 
 
 ```chisq.test(fimedu$Medu,fimedu$higher)```
+
 ```cramerV(fimedu$Fedu,fimedu$higher)```
 
 And so now we ahve our dad and mom's impact. You should see something like: 
@@ -175,7 +176,7 @@ And so now we ahve our dad and mom's impact. You should see something like:
 * Mom:
 	* X-squared = 9.2181, 
 	* df = 3, 
-	* p-value = 0.02653
+	* p-value = 0.02653 (Significant)
 	* Cramer's V = .1533 (Weak)
 
 We also see a Warning message:
@@ -185,6 +186,8 @@ In chisq.test(fimedu$Medu, fimedu$higher) :
 This is based on our expected values being lower than 5. Let's talk a bit about contingency tables.
 
 ## <a id="expect"></a> Expected Values and Contingency Tables
+
+
 
 chisq.test(fimedu$Medu,fimedu$higher)$expected
 
