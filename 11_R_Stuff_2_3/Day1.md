@@ -112,7 +112,13 @@ This is then examined based on a critical value from a table on page 769-770 in 
 
 ### <a id="ticv"></a> Cramer's V
 
+Cramer's V (often denoted as φ or phi) is essentially a statistic you can generate to understand a layer past the creation of critical values and test statistics. In general, this is a number between 0-1 or 0-100. The table is generally: 
 
+|Value|Interpretation|
+|-----|--------------|
+|.1-.3|Weak Association|
+|.4-.5|Medium Association|
+|>.6|Strong Association|
 
 ### <a id="gfinter"></a> Interpreting
 
