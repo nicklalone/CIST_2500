@@ -17,8 +17,8 @@ Remember that there are 2 rules to remember for χ²:
 		1. [Filtering / Layers](#filt)
 		1. [Exporting](#export)
 	1. [χ² in R](#chir)
-		1. [Goodness of Fit Hypotheses](#gfr)
-		1. [Chi-Square Test of Independence](#toir)
+		1. [Expected Values](#expect)
+		1. [Chi-Square()](#calc)
 
 ---------------- Table of Contents ---------------- 
 
@@ -56,6 +56,6 @@ Once the data frame is loaded. Do the following:
 
 ## <a id="chir"></a> χ² in R
 
-### <a id="gfr"></a> Goodness of Fit Hypotheses
+### <a id="expect"></a> Expected Values
 
-### <a id="toir"></a> Chi-Square Test of Independence
+### <a id="calc"></a> Doing Chi-Square in R
