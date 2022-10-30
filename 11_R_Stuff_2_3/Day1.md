@@ -21,15 +21,13 @@ There are 2 rules to remember for χ²:
 
 1. [Goodness of Fit Hypotheses](#gfh)
 	1. [Degrees of Freedom](#gfdfx2)
-	1. [P-Value Approach to χ²](#gfpvap)
-	1. [Critical Value Approach to χ²](#gfcvap)
+	1. [p-values for Goodness of Fit](#pvalgf)
 	1. [Cramer's V](#gfcv)
 	1. [Interpreting](#gfinter)
 
 1. [Chi-Square Test of Independence](#hti)
 	1. [Degrees of Freedom](#tidfx2)
-	1. [P-Value Approach to χ²](#tipvap)
-	1. [Critical Value Approach to χ²](#ticvap)
+	1. [p-values for Goodness of Fit](#pvalti)
 	1. [Cramer's V](#ticv)
 	1. [Interpreting](#tiinter)
 
@@ -76,7 +74,15 @@ And so what is this doing? Well, it's messing with our box of nerds but it's als
 
 -------------
 
-## <a id="gfh"></a> Goodness of Fit Hypotheses
+## <a id="gfh"></a> Goodness of Fit Chi Square
+
+Generally, we can say that a a chi-square goodness-of-fit test is able to be conducted when there is one nominal or categorical variable with more than a couple levels. 
+
+_If there are exactly two categories, then a one proportion z test may be conducted._
+
+The levels of the nominal variable being analyzed must be mutually exclusive. In other words, each case must fit into one and only one category.
+
+What we test is if the proportions are all equal to one another or we can test any specific set of proportions.
 
 *Kinds of questions we focus on with this test:* Decide if boxes of nerds have the same number of pieces of each color or not
 
@@ -85,19 +91,26 @@ And so what is this doing? Well, it's messing with our box of nerds but it's als
 
 And so what is this doing? Well, it's messing with our box of nerds but it's also giving us a question to test what we are observing over what we would expect in terms of a proportion of different flavors of nerds.
 
+And how do we test these? Well, the test statistic is generated with this formula: 
+
+![CHI-Square Formula](/images/chiform.png)
+
+As you can see, all we're really doing is essentially calculate a rather robust standard error of sorts. This is our test statistic and after degrees of freedom, 
+we will move on to different ways to evaluate the efficacy of the CHI-Square statistic.
+
 ### <a id="gfdfx2"></a> Degrees of Freedom
 
-df=(number of categories−1)
+Degrees of freedom for these sorts of tests are relatively straight forward, To get your degrees of freedom, just take the number of categories and subtract 1. 
 
-### <a id="gfpvap"></a> P-Value Approach to χ²
+```df=(number of categories−1)```
+
+This is then examined based on a critical value from a table on page 769-770 in your textbook or Table 3, the CHI-Square Table. Note there that you're basically using the chart to see if your chi-square calculated statistic exceeds the area based on your alpha value.
+
+### <a id="pvalgf"></a> p-values for Goodness of Fit
 
 
 
-### <a id="gfcvap"></a> Critical Value Approach to χ²
-
-
-
-### <a id="ticv"></a> Cramer's 
+### <a id="ticv"></a> Cramer's V
 
 
 
@@ -130,7 +143,13 @@ Degrees of freedom, of course, come from a chart. For the Tests of Independence,
 
 And this is used everywhere.
 
-### <a id="tipvap"></a> P-Value Approach to χ²
-### <a id="ticvap"></a> Critical Value Approach to χ²
+### <a id="pvalgf"></a> p-values for Goodness of Fit
+
+
+
 ### <a id="ticv"></a> Cramer's V
+
+
+
 ### <a id="tiinter"></a> Interpreting
+
