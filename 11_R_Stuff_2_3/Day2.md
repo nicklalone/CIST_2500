@@ -80,11 +80,13 @@ So the research question I had in mind was this, "Does a student's desire to ent
 This question allows us to think about 2 specific analyses we are going to do. I'll set up the hypotheses here: 
 
 > H<sub>o</sub>: There is no association between Dad's education level and the student's desire for higher ed.
+
 > H<sub>a</sub>: There is an association between Dad's education level and the student's desire for higher ed.
 
 And so that's Dad's level. Let's set up Mom's level as well. 
 
 > H<sub>o</sub>: There is no association between Mom's education level and the student's desire for higher ed for students in a math course.
+
 > H<sub>a</sub>: There is an association between Mom's education level and the student's desire for higher ed for students in a math course.
 
 From here, we can do 2 analyses. If we were interested, we could combine FEDU and MEDU into a variable called, "parent's education level" and run just 1 analysis. However, in this way we can actually do a little bit of a comparisson. We can single out specific parent's impact on the student.
