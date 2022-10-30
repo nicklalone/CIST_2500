@@ -58,20 +58,20 @@ And to do that, we need to recode, refactor, or otherwise clean our data. But, h
 For this part of class, we're going to be working on hypotheses. In looking at this dataset, we can see 3 variables that are interesting. First, ```MEDU``` and ```FEDU```
 
 ```MEDU``` - mother's education is set up in the following way:
-* 0 - none,  
-* 1 - primary education (4th grade), 
+* 0 - No formal education,  
+* 1 - Up to 4th grade, 
 * 2 – 5th to 9th grade, 
 * 3 – secondary education or 
-* 4 – higher education)
+* 4 – higher education
 
 ```FEDU``` - father's education is set up in the same way: 
-* 0 - none,  
-* 1 - primary education (4th grade), 
+* 0 - No formal education,  
+* 1 - Up to 4th grade, 
 * 2 – 5th to 9th grade, 
 * 3 – secondary education or 
-* 4 – higher education)
+* 4 – higher education
 
-And then, we have a variable called, ```Higher``` which tells us whether the student desires to go on to higher ed or not. It is set up in the following way: 
+And then, we have a variable called, ```higher``` which tells us whether the student desires to go on to higher ed or not. It is set up in the following way: 
 * yes 
 * no
 
