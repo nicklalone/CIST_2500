@@ -139,11 +139,17 @@ In general, this is a number between 0 to 1. The table is generally interpreted 
 |.4-.5|Medium Association|
 |>.6|Strong Association|
 
-There is a lot of bias in this value, in all of these values, so being mindful of what you're seeing is important. 
+There is a lot of bias in this value, in all of these values, so being mindful of what you're seeing is important. There are other forms of this measurement to sort of cope with this and they're there for you to find if you like.
 
 ### <a id="gfinter"></a> Interpreting
 
+So after all this, how do we interpret the results?
 
+Well, first, we can compare our test statistic to a critical value. In creating the critical value, we can also seek a p-value using the chart.
+
+Then we have Cramer's V. 
+
+Let's write it out.
 
 -------------
 
@@ -189,4 +195,12 @@ In general, this is a number between 0 to 1. The table is generally interpreted 
 There is a lot of bias in this value, in all of these values, so being mindful of what you're seeing is important. 
 
 ### <a id="tiinter"></a> Interpreting
+
+So after all this, how do we interpret the results?
+
+Well, first, we can compare our test statistic to a critical value. In creating the critical value, we can also seek a p-value using the chart.
+
+Then we have Cramer's V. 
+
+Let's write it out.
 
