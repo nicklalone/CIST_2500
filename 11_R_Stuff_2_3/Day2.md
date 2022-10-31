@@ -30,7 +30,19 @@ Chi Square or χ² in R requires 2 things:
 
 ## <a id="gof"></a> Goodness of Fit in R
 
-## <a id="toi"></a> Tests of Indeopendence
+For Chi-Square Goodness of Fit Tests, we use null and alt hypotheses like:
+
+H<sub>0</sub>: A variable is a certain way.
+H<sub>a</sub>: A variable is not a certain way.
+
+> chisq.test(x, p)
+ where: x is your observed values and p is your probabilities (must have the same count as x)
+
+tulip <- c(81, 50, 27)
+res <- chisq.test(tulip, p = c(1/3, 1/3, 1/3))
+res
+
+## <a id="toi"></a> Tests of Independence
 
 ### <a id="dwd"></a> Dealing with Data
 

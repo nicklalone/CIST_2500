@@ -121,9 +121,11 @@ And quite often, we just don't bother to calculate it manually. We use software 
 
 We got these data from the test-statistic and referred to the table of our critical value. And yet, we do not know the _exact_ data point. 
 
-What is the actual value? Let's look with a stats package.
+What is the actual value? Let's look with a stats package to calculate it as we kind of...can't calculate it without uncovering the calculus that went into the table. 
 
-1-pchisq(chisquare stat, df) = p 
+> 1-pchisq(chisquare stat, df) = p 
+
+We can also use all sorts of online calculators like: https://www.statology.org/chi-square-p-value-calculator/
 
 ### <a id="ticv"></a> Cramer's V
 
