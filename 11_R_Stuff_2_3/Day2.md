@@ -20,6 +20,7 @@ Remember that there are 2 rules to remember for χ²:
 		1. [Exporting](#export)
 	1. [χ² in R](#chir)
 	1. [Expected Values and Contingency Tables](#expect)
+		* [Dealing with Stored Chi-Squared](#yarp)
 
 ---------------- Table of Contents ---------------- 
 
@@ -209,3 +210,24 @@ chisq.test(fimedu$Medu,fimedu$higher)$expected
 
 chisq.test(fifedu$Fedu,fifedu$higher)$expected
 
+### <a id="yarp"></a> Dealing with Stored Chi-Squared
+
+When we store a chi-squared analysis inside of a dataframe, some fantastic things occur. One of those things is that all of the residuals, results, expected data, and observed data exist inside of it. 
+
+To store it in a dataframe, try this: 
+
+> FiFedu_Results <- chisq.test(fifedu$Fedu, fifedu$higher)
+
+In addition, we can also store the Medu results in a dataframe: 
+
+> FiMedu_Results <- chisq.test(fiMedu$Medu, fimedu$higher)
+
+And so what does this allow us to do. Well, let's give it a look. 
+
+FiFedu_Results$expected
+
+FiFedu_Results$observed
+
+FiFedu_Results$residuals
+
+FiFedu_Results$expected
