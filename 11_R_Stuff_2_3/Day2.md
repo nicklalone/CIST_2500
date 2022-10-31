@@ -11,6 +11,8 @@ Remember that there are 2 rules to remember for χ²:
 ---------------- Table of Contents ---------------- 
 
 1. [Getting Started](#gs)
+1. [Goodness of Fit](#gof)
+1. [Tests of Independence](#toi)
 	1. [Dealing with Data](#dwd)
 		1. [Categorical Data in R](#catr)
 		1. [Shifting from Text to Numbers or Vice Versa](#shift)
@@ -25,6 +27,10 @@ Remember that there are 2 rules to remember for χ²:
 Chi Square or χ² in R requires 2 things:
 1. Data that is ready to be run.
 1. A package that runs the analysis in addition to Cramer's V.
+
+## <a id="gof"></a> Goodness of Fit in R
+
+## <a id="toi"></a> Tests of Indeopendence
 
 ### <a id="dwd"></a> Dealing with Data
 
@@ -53,7 +59,7 @@ So, one thing you'll notice is that we are working with 2 things: numbers referr
 
 And to do that, we need to recode, refactor, or otherwise clean our data. But, how do we do this? Well, we need to change the data to meet those needs. We can do that in a lot of different ways but we're going to concentrate on 1 specific way.  
 
-### Hypotheses: Mother or Father's educational attanment's impact on Higher Education Desires base
+### Hypotheses: Mother or Father's educational attainment's impact on Higher Education Desires base
 
 For this part of class, we're going to be working on hypotheses. In looking at this dataset, we can see 3 variables that are interesting. First, ```MEDU``` and ```FEDU```
 
@@ -89,7 +95,7 @@ And so that's Dad's level. Let's set up Mom's level as well.
 
 > H<sub>a</sub>: There is an association between Mom's education level and the student's desire for higher ed for students in a math course.
 
-From here, we can do 2 analyses. If we were interested, we could combine FEDU and MEDU into a variable called, "parent's education level" and run just 1 analysis. However, in this way we can actually do a little bit of a comparisson. We can single out specific parent's impact on the student.
+From here, we can do 2 analyses. If we were interested, we could combine FEDU and MEDU into a variable called, "parent's education level" and run just 1 analysis. However, in this way we can actually do a little bit of a comparison. We can single out specific parent's impact on the student.
 
 **NOTE:** I want to make a note here. I'll call it out with a quote tag: 
 
@@ -110,7 +116,7 @@ But doing this would essentially erase the numeric data that is there. So, rathe
 
 ```student$Fedu <- recode(student$Fedu,"0" = "No Formal Education", "1" = "Up to 4th Grade", "2" = "Up to 9th Grade", "3" = "Secondary Education", "4" = "Higher Ed")```
 
-And so what is happening here? Well, if we read it from to left to right, we are creating a variable called ```student$Fedu``` that will be recoded based on an existing variabled, ```student$Fedu```. This means that i'll be overwriting the data in that whatever we write will be overwritten by our full command. So what is it? Well, we work off of the ```students.txt``` codebook and using that to recode our variable from 0,1,2,3,4 to "No Formal Education, Up to 4th Grade, Up to 9th Grade, Secondary Education, and Higher Ed".
+And so what is happening here? Well, if we read it from to left to right, we are creating a variable called ```student$Fedu``` that will be re-coded based on an existing variabled, ```student$Fedu```. This means that I'll be overwriting the data in that whatever we write will be overwritten by our full command. So what is it? Well, we work off of the ```students.txt``` codebook and using that to re-code our variable from 0,1,2,3,4 to "No Formal Education, Up to 4th Grade, Up to 9th Grade, Secondary Education, and Higher Ed".
 
 And so when we run it, we can then see that our variable moves from numeric/integer to a character or chr variable/element. 
 
@@ -146,7 +152,7 @@ And this will create a csv file in your working directory. If you do not know wh
 
 And in doing this, you will at least know where on your system your csv's will write to. 
 
-So now we have recoded, separated, and evened-out our data. Let's do some Chi-Squares.
+So now we have re-coded, separated, and evened-out our data. Let's do some Chi-Squares.
 
 ------
 
@@ -156,7 +162,7 @@ So first things first, to run a χ² in R, all we need is the following command:
 
 ```chisq.test(fifedu$Medu,fifedu$higher)```
 
-This gives us all our datapoints and that's great. And yet, we do not have Cramer's V or Phi. This can be done through 2 different packages: ```lsr``` or ```rcompanion``` and i'll leave it up to you to decide which: 
+This gives us all our datapoints and that's great. And yet, we do not have Cramer's V or Phi. This can be done through 2 different packages: ```lsr``` or ```rcompanion``` and I'll leave it up to you to decide which: 
 
 ```cramerV(fifedu$Fedu,fifedu$higher)```
 
@@ -166,7 +172,7 @@ And that's the dad's data done. Yet, we did not create the contingency table. Le
 
 ```cramerV(fimedu$Fedu,fimedu$higher)```
 
-And so now we ahve our dad and mom's impact. You should see something like: 
+And so now we have our dad and mom's impact. You should see something like: 
 
 * Dad: 
 	* X-squared = 14.041, 
@@ -186,8 +192,6 @@ In chisq.test(fimedu$Medu, fimedu$higher) :
 This is based on our expected values being lower than 5. Let's talk a bit about contingency tables.
 
 ## <a id="expect"></a> Expected Values and Contingency Tables
-
-
 
 chisq.test(fimedu$Medu,fimedu$higher)$expected
 

@@ -1,12 +1,14 @@
-Today, we have 2 goals: 
-1. We will learn about CHI-Square Tests
+Today, we have 3 goals: 
+1. Talk about how this is categorical data and therefore non-normal.
+1. We will learn about CHI-Square Tests.
 1. We will learn about how to do CHI-Square analyses in R.
 
 At its most basic, the χ² test allows us to test if a specific variable derived by a sample is accurate representing a population. It tests this assertion by calculating the data we would expect to be there.
 
-There are 2 rules to remember for χ²:
+There are 3 rules to remember for χ²:
 1. Expected values are calculated with the assertion that H<sub>o</sub> is true
 1. While you are seeking a relationship, the math provides us with a variety of ways variables relate mathematically. You can use another measure to understand the impact.
+1. Expected values under 5 make χ² less accurate but that is ok most times.
 
 ---------------- Table of Contents ---------------- 
 
@@ -54,7 +56,7 @@ Mostly, we can say that there are "2" kinds of  χ² tests. These are based on t
 	* It allows us to visualize the data we are analyzing.
 1. Next, we need degrees of freedom:
 	* For Chi-Square Goodness of Fit Test since it is 1 variable, it is calculated by: 
-	* For Chi-Square Test of Independence, this is comparing 2 variables, it is calculated by taking the row total, multiplying by the column total, and dividing by the table total for each cell. Let me write 2 tables (left is the calculations, right is the results for expected counts): 
+	* For Chi-Square Test of Independence, this is comparing 2 variables, it is calculated by <img src="/images/expected.png" width="100" align=middle>. Let me write 2 tables (left is the calculations, right is the results for expected counts): 
 
 	|UG|G|Totals|-|UG|G|Total|
 	|--|-|------|-|--|-|-----|
@@ -98,7 +100,7 @@ And so what is this doing? Well, it's messing with our box of nerds but it's als
 
 And how do we test these? Well, the test statistic is generated with this formula: 
 
-![CHI-Square Formula](/images/chiform.png)
+<img src="/images/chiform.png" width="100" align=middle>
 
 As you can see, all we're really doing is essentially calculate a rather robust standard error of sorts. This is our test statistic and after degrees of freedom, 
 we will move on to different ways to evaluate the efficacy of the CHI-Square statistic.
@@ -113,11 +115,19 @@ This is then examined based on a critical value from a table on page 769-770 in 
 
 ### <a id="pvalgf"></a> p-values for Goodness of Fit
 
+For this type of test, p is essentially likelihood of obtaining a chi-square as large or larger than that in the current experiment which will still support the hypothesis. In essence, it is a probability based on how expected and observed differ based on chance.
 
+And quite often, we just don't bother to calculate it manually. We use software or we write it out longhand. For example: .05 > p-value <.10 or "The p-value of this chi-squared analysis is above .05 but below .10." And so, from the 95% CI that we've been doing, we are forced to say that this is not significant. 
+
+We got these data from the test-statistic and referred to the table of our critical value. And yet, we do not know the _exact_ data point. 
+
+What is the actual value? Let's look with a stats package.
+
+1-pchisq(chisquare stat, df) = p 
 
 ### <a id="ticv"></a> Cramer's V
 
-Cramer's V (sometimes denoted as φ or phi even though this is a different formula) is essentially a statistic you can generate to understand a layer past the creation of critical values and test statistics. It is calculated with the following formula: <img src="/images/cramers.png" width="100" align=middle>.
+Cramer's V (sometimes denoted as φ or phi even though this is just the top part of the formula) is essentially a statistic you can generate to understand a layer past the creation of critical values and test statistics. It is calculated with the following formula: <img src="/images/cramers.png" width="100" align=middle>.
 
 In general, this is a number between 0 to 1. The table is generally interpreted this way: 
 
@@ -164,7 +174,7 @@ And this is used everywhere.
 
 ### <a id="ticv"></a> Cramer's V
 
-Cramer's V (sometimes denoted as φ or phi even though this is a different formula) is essentially a statistic you can generate to understand a layer past the creation of critical values and test statistics. It is calculated with the following formula: <img src="/images/cramers.png" width="100" align=middle>.
+Cramer's V (sometimes denoted as φ or phi even though this is just the top part of the formula) is essentially a statistic you can generate to understand a layer past the creation of critical values and test statistics. It is calculated with the following formula: <img src="/images/cramers.png" width="100" align=middle>.
 
 In general, this is a number between 0 to 1. The table is generally interpreted this way: 
 
