@@ -180,7 +180,7 @@ Degrees of freedom, of course, come from a chart. For the Tests of Independence,
 
 And this is used everywhere.
 
-### <a id="pvalgf"></a> p-values for Goodness of Fit
+### <a id="pvalgf"></a> p-values for Tests of Independence
 
 
 
