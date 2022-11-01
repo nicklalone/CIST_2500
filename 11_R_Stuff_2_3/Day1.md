@@ -208,15 +208,10 @@ Then we have Cramer's V.
 
 Let's write it out.
 
-To determine whether the observed values from the sample and expected values from the specified distribution are statistically different, compare the p-value to the significance level. Usually, a significance level (denoted as α or alpha) of 0.05 works well. A significance level of 0.05 indicates a 5% risk of incorrectly rejecting the null hypothesis.
+First, we need to figure out the observed and expected values. Once this is done, we need to set a target confidence interval. When there is nothing abnormal about your sample, we tend to see α or alpha of .05 being set. This is often done to repeat that we only had a 5% chance to make a type 1 error.
 
-P-value ≤ α: The observed data are statistically different from the expected values (Reject H0)
+When we see ```P-value ≤ α``` then we can say that observed values are statistically significant and Reject H0.
 
-If the p-value is less than or equal to the significance level, you reject the null hypothesis and conclude that the data does not follow a distribution with certain proportions. Use your specialized knowledge to determine whether the difference is practically significant.
+Now, on the other hand if we see ```P-value > α```, then it is not possible to conclude that observed is significantly different from expected and so we fail to reject H0. 
 
-P-value > α: You cannot conclude that the observed data are statistically different from the expected values (Fail to reject H0)
-
-If the p-value is larger than the significance level, you fail to reject the null hypothesis because you do not have enough evidence to conclude that the data do not follow the distribution with specified proportions. However, you cannot conclude that the distributions are the same. A difference might exist, but your test might not have enough power to detect it.
-
-In these results, the p-value is 0.885. Because the p-value is greater than the chosen α value of 0.05, you fail to reject the null hypothesis. Therefore, you cannot conclude that observed proportions are significantly different from the specified proportions.
-
+It is important to note that while you cannot conclude that the distributions are the same (in that the values end up being different), then a difference might exist, but the test did not have enough power to be detectable.
