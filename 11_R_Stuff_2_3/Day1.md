@@ -45,16 +45,20 @@ We can use the phrase, "Chi-Square Test" or abbreviate it with the greek letter,
 
 ### <a id="ingreds"></a> A List of Ingredients
 Mostly, we can say that there are "2" kinds of  χ² tests. These are based on the following list of needs: 
-1. Chi-Square Goodness of Fit Test
+1. **Chi-Square Goodness of Fit Test**
 	* For this test, we can assume that it will be used to figure out if the variable in question actually represents the population
-1. Chi-Square Test of Independence
+1. **Chi-Square Test of Independence**
 	* This test is a bit more simple. It checks whether two variables are related or not.
-1. Variables
-	* CHI-Square primarily works off of categorical variables with 2 or more levels (aka choices). 
-1. Contingency Tables
+1. **Variables / Objects**
+	* CHI-Square primarily works off of categorical variables with 2 or more levels (aka choices). These will primarily be those that have multiple categories, yes/no, and other forms of these questions. 
+1. **Values**: 
+	* **Expected** - These values are essentially what we would expect to see should the null hypothesis be true. 
+	* **Observed** - These values are what respondents actually did.
+	* **Residuals** - This is derived from how far from the expected, each observation is subracted from the expected value for a variety of things.
+1. **Contingency Tables**
 	* This is a crosstab with observed and probably expected values as well as totals/frequency totals on it. 
 	* It allows us to visualize the data we are analyzing.
-1. Next, we need degrees of freedom:
+1. **Degrees of freedom**:
 	* For Chi-Square Goodness of Fit Test since it is 1 variable, it is calculated by: 
 	* For Chi-Square Test of Independence, this is comparing 2 variables, it is calculated by <img src="/images/expected.png" width="100" align=middle>. Let me write 2 tables (left is the calculations, right is the results for expected counts): 
 
@@ -204,11 +208,15 @@ Then we have Cramer's V.
 
 Let's write it out.
 
-Interpretation
 To determine whether the observed values from the sample and expected values from the specified distribution are statistically different, compare the p-value to the significance level. Usually, a significance level (denoted as α or alpha) of 0.05 works well. A significance level of 0.05 indicates a 5% risk of incorrectly rejecting the null hypothesis.
+
 P-value ≤ α: The observed data are statistically different from the expected values (Reject H0)
+
 If the p-value is less than or equal to the significance level, you reject the null hypothesis and conclude that the data does not follow a distribution with certain proportions. Use your specialized knowledge to determine whether the difference is practically significant.
+
 P-value > α: You cannot conclude that the observed data are statistically different from the expected values (Fail to reject H0)
+
 If the p-value is larger than the significance level, you fail to reject the null hypothesis because you do not have enough evidence to conclude that the data do not follow the distribution with specified proportions. However, you cannot conclude that the distributions are the same. A difference might exist, but your test might not have enough power to detect it.
+
 In these results, the p-value is 0.885. Because the p-value is greater than the chosen α value of 0.05, you fail to reject the null hypothesis. Therefore, you cannot conclude that observed proportions are significantly different from the specified proportions.
 
