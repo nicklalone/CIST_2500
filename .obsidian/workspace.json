@@ -1,0 +1,172 @@
+{
+  "main": {
+    "id": "a8df485ba316d30d",
+    "type": "split",
+    "children": [
+      {
+        "id": "e1d37ffdbddc8158",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "449480a62f3ee64a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "11_R_Stuff_2_3/Day1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "aafbb9adeb003d39",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "12_ANOVA/day1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c9f15f643d574746",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "12_ANOVA/day1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "806d41c50406c47f",
+    "type": "split",
+    "children": [
+      {
+        "id": "c6167548b7dd61a2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ce0917bef73f47d2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "4d11b95247b01269",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "c547dbe98fa08a7c",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "1fc2bc29e1ae508a",
+    "type": "split",
+    "children": [
+      {
+        "id": "684917cab9c005e2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "88fe50cc4e7d0ca7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "12_ANOVA/day1.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2035033c33691f53",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "12_ANOVA/day1.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b24ce0ccf23167f3",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "6a4ec68bd5c2263f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "12_ANOVA/day1.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "c9f15f643d574746",
+  "lastOpenFiles": [
+    "11_R_Stuff_2_3/Day1.md",
+    "11_R_Stuff_2_3/Day2.md",
+    "12_ANOVA/day1.md",
+    "12_ANOVA/day2.md",
+    "11_R_Stuff_2_3/README.md"
+  ]
+}
