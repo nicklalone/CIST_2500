@@ -145,11 +145,11 @@ Along those lines, let's take a look at the Mom and Dad education levels. One of
 
 To me, this potential answer is going to throw off a lot of data. From a frequency perspective, these are outliers and could impact the entirety of our dataset. So, I want to remove them as we cannot know what, "no formal education" really means. So let's filter these data and send them to a new dataframe: 
 
-```fifedu <- filter(student, Fedu == "Up to 4th Grade" | Fedu == "Higher Ed" | Fedu == "Up to 9th Grade" | Fedu == "Secondary Education")```
+```fifedu <- filter(student, Fedu == "Up to 4th Grade" | Fedu == "Higher Ed" | Fedu == "5th to 9th Grade" | Fedu == "Secondary Education")```
 
 and for mothers:
 
-```fimedu <- filter(student, Medu == "Up to 4th Grade" | Medu == "Higher Ed" | Fedu == "Up to 9th Grade" | Medu == "Secondary Education")```
+```fimedu <- filter(student, Medu == "Up to 4th Grade" | Medu == "Higher Ed" | Medu == "5th to 9th Grade" | Medu == "Secondary Education")```
 
 And so now we have 2 dataframes that are ready for analysis that we can then use to do our chi-square analysis. Before we do that, let's export these data so we can mess with them elsewhere or, we can make sure we have a correction point should we mess up our data.
 
