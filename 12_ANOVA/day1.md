@@ -25,7 +25,8 @@ So rather than look for statistical significance, we're essentially looking at a
 1. [Types of Statistical Studies](#types)
 2. [What is ANOVA.](#ANOVA)
 3. [A List of Ingredients]() 
-4. [Hypotheses in ANOVA](#hype)
+4. [Formulas](#formulas)
+5. [Hypotheses in ANOVA](#hype)
    
 5. [Experiment Design](#experi)
 	* [Intro](#intro)
@@ -77,6 +78,10 @@ So rather than look for statistical significance, we're essentially looking at a
 * **Single-factor experiment:** An experiment involving only one factor with k populations or treatments.
 
 * **Treatments:** Different levels of a factor.
+
+## <a id = "formulas"></a> Formulas
+![Formulas 1](/images/ANOVA-1.png)
+![Formulas 1](/images/ANOVA-2.png)
 
 ## <a id="hype"></a> Hypotheses in ANOVA
 
