@@ -8,67 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "449480a62f3ee64a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "11_R_Stuff_2_3/Day1.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "aafbb9adeb003d39",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "12_ANOVA/Day1.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c9f15f643d574746",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "12_ANOVA/Day1.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0b001c9864c9b2cc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "13_Regression_R_2_3/Day1.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "8dd382b23288e746",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "12_ANOVA/Day2.md",
+                "file": "12_ANOVA/Day1.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -134,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "12_ANOVA/Day2.md",
+                "file": "12_ANOVA/Day1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "12_ANOVA/Day2.md",
+                "file": "12_ANOVA/Day1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "12_ANOVA/Day2.md"
+                "file": "12_ANOVA/Day1.md"
               }
             }
           }
@@ -187,13 +138,14 @@
   },
   "active": "8dd382b23288e746",
   "lastOpenFiles": [
+    "11_R_Stuff_2_3/Day1.md",
+    "12_ANOVA/Day1.md",
+    "08_Hypothesis_Testing/day1.md",
+    "12_ANOVA/Day2.md",
     "12_ANOVA/README.md",
     "().md",
     "11_R_Stuff_2_3/README.md",
-    "11_R_Stuff_2_3/Day1.md",
     "11_R_Stuff_2_3/Day2.md",
-    "12_ANOVA/Day2.md",
-    "12_ANOVA/Day1.md",
     "13_Regression_R_2_3/Day1.md",
     "13_Regression_R_2_3/Day2.md"
   ]
