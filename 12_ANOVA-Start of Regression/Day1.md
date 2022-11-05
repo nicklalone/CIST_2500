@@ -4,7 +4,7 @@ The reason I bring this up is that the outcome of these two is why we discuss st
 
 So the quote is this: 
 
-> _"To exist is to differ; difference is, in a sense, the truly substantial side of things; it is at once their ownmost possession and that which they hold most in common. This must be our starting point, and we must refrain from further explaining this principle."
+> "To exist is to differ; difference is, in a sense, the truly substantial side of things; it is at once their ownmost possession and that which they hold most in common. This must be our starting point, and we must refrain from further explaining this principle."
 
 Humans are wildly varied. Whereas Durkheim believed that we could objectively understand society as an entity that directed our actions, Tarde believed that it was an entity that is manifested 1 interaction at a time. While it was easier to do what Durkheim wanted first, Tarde's proving to have a bit more foresight.
 
