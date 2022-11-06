@@ -71,9 +71,15 @@ This is perhaps what we've seen the most over class. I had you fill out data so 
 
 ## <a id = "ANOVA"></a> What is ANOVA?
 
+The easiest way to describe ANOVA is to talk about how it sees variance. At it's core, ANOVA tests if there is a statistically significant difference between subgroups or multiple samples gathered the same way. 
 
+It's history and creation is perhaps useful to illustrate the point. ANOVA appeared around  the 1920's where a dude was trying to understand how different fertilizers impacted potatoes. He created the test to analyze the differences among the crop yields. 
+
+And it worked. We have used it for similar tests since that time! 
 
 ## <a id="ingredients"></a> Ingredients
+
+This is the glossary from the appendix. Each of these terms is useful for you and useful for referring to later.
 
 * ***ANOVA table**: A table used to summarize the analysis of variance computations and results. It contains columns showing the source of variation, the sum of squares, the degrees of freedom, the mean square, the F value(s), and the p-value(s).
 
@@ -117,17 +123,40 @@ This is perhaps what we've seen the most over class. I had you fill out data so 
 
 ## <a id="howdo"></a> So How does it work?
 
+For the most part, we do the same thing we do for every test in statistics...however, since we're talking about multiple means, multiple samples, and combining them into this sort of, "uber" idea...we have to adjust and do a lot to get everything onto the same page.
+
 [The basics of ANOVA are these](https://towardsdatascience.com/anova-explained-with-an-example-4a8c9699b175): 
 
 1.  Formulate a hypothesis.
+	* These are often in the vein of: H<sub>o</a>: There is no difference between. vs H<sub>a</sub>: There is a difference between. 
+	  
 2.  Set a significance level.
+	* And much like anything we've done this semester, we set a level we're comfortable with OR that we've been asked to set it as by our client or boss. 
+	  
 3.  Compute an F-Statistic.
-4.  Use the F-Statistic to derive a p-value.
-5.  Compare the p-value and significance level to decide whether or not to reject the null hypothesis.
+	* So, we have to calculate this based on the experiment. In your chapter, there are a number of different kinds of ANOVA with differing levels of complexity and need. For our purposes, we're just going to concentrate on the F-statistic which means we will mostly work in completely randomized ANOVA. 
+	* The formula we need to work up to is this:  $$F = \frac{Mean Square due to Treatments (MSTR)}{Mean Square Due to Error (MSE)}$$
+	* However, in order to get MSTR and MSE, we need to do a bunch of work. Let's walk though some formulas. 
+**Numerator:** 
+* So the overall formula for F has 2 parts, MSTR and MSE. Let's break down MSTR first. That formula is: $$MSTR = \frac{Sum of Squares Due to Error(SSTR)}{k (number of independent groups) - 1}$$
+* Note in this formula, you are adding up all of the different groups based on treatment j and that you are essentially creating the numerator for F so you can then divide it by the total number of groups -1. This lets us bring in a metaphor for this formula, we're looking at an overall variance from the overall mean of all of the samples we're looking at. $$SSTR = \sum_{j = 1}^kn_j(\bar x_j- \bar{\bar x})^2$$
+* So now we have MSTR because we ALSO have the sample mean for treatment J (look in the parentheses for SSTR). To calculate that, we have to do calculate it this way. We essentially summup all of the values of observation i for treatment j and divide it by the number of observations for treatment j. $$\bar x_j = \frac{\sum\limits_{i=n}^\mathbb{n_j}x{_i}_j}{n^j}$$
+* You may ask yourself how you come up with the $n_j$ and that's a good question. What this essentially means is the number of observations for treatment j. You will know this based on the total number of entities, respondents, or whatever were treated. 
+  
+* Next, we need an overall sample mean. That is that weird symbol in SSTR with 2 bars above it: $\bar{\bar x}$. We calculate it using a very hard to type formula: $$\bar{\bar x} = \frac{\sum\limits_{j=1}^\mathbb{k}\sum\limits_{i=1}^\mathbb{n_j}x{_i}_j}{n_t}$$ where $n_t = n_1+n_2+n_3+n_4 ... n_k$ or you basically add up all of the representations of all the different groups / samples you have until you reach the number of total groups.
+______________________ 
+**Denominator:**
+* So we've now got the numerator! What about the denominator or "MSE." Well, that's a bit easier. What MSE is is basically, $$Mean Square Due to Error (MSE) = \frac{Sum of Squares Due to Error (SSE)}{n_t-k}$$
+* So now we know what we have to do. We have to find SSE so that we can find SSE and finish up our denominator and ultimately allow us to calculate F. What does SSE's formula look like? Well, it's like this: $$SSE = \sum\limits_{j=1}^\mathbb{k}(n_j - 1)s_j^2$$What this means is that the Sum of Squares Due to Error is equal to the summation of all people who got treatment j multiplied by the number of people in the sample -1 multiplied by the sample variance for treatment j. This means we have 1 more formula: $s_j^2$ or the sample variance for treatment J. 
+	  
+* So how do we calculate that? Well, let's look at the formula: $$s_j^2 = \frac{\sum\limits_{i=1}^\mathbb{n_j}(x{_i}_j - \bar x_j)^2}{n_j - 1}$$ So what's happening here? Well, we can say that the sample variance for our treatment is relatively straight forward. We are summoning up how everyone differs from the mean of treatment j and then dividing it by n-1. This is *exactly* the same formula as any sample variance. Remember that variance is calculated by: $$s^2 = \frac{\sum(x_i - \bar x)^2}{n-1}$$
+So we're basically doing the thing we always do but with slightly different numbers. Now, after we do all this, we go back to our F formula: $$F = \frac{MSTR}{MSE}$$
+And calculate it. This will give us a number. We can then use it to calculate a p-value. OR DO WE? That's right, there's an F-Table!  
+
+1.  Use the F-Statistic to derive a p-value.
+2.  Compare the p-value and significance level to decide whether or not to reject the null hypothesis.
 
 We can think about ANOVA in a bunch of different ways: 
-
-
 
 ### <a id="purpose"></a> What is the purpose of this test?
 
