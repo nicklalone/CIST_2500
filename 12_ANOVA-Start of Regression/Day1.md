@@ -1,4 +1,4 @@
-One of my favorite quotes about humanity is from an old sociologist named Gabriel Tarde. He was a judge in Germany and was a major opponent of Emile Durkheim. This conflict was one of the last salvos between folks who sided with Newton (Durkheim) and folks who sided with Leibniz (Tarde).
+08-0987kOne of my favorite quotes about humanity is from an old sociologist named Gabriel Tarde. He was a judge in Germany and was a major opponent of Emile Durkheim. This conflict was one of the last salvos between folks who sided with Newton (Durkheim) and folks who sided with Leibniz (Tarde).
 
 The reason I bring this up is that the outcome of these two is why we discuss statistics the way that we do. At our core, being objective about evaluating humans is something interesting that comes out of this. Durkheim believed we could (and won) while Tarde believed we could not (and he's beginning to win now). 
 
@@ -23,10 +23,18 @@ So rather than look for statistical significance, we're essentially looking at a
 ---------------- Table of Contents ---------------- 
 
 1. [Types of Statistical Studies](#types)
+	* [Experiment](#experi)
+	* [Observational](#obs)
+	  
 2. [What is ANOVA.](#ANOVA)
 3. [A List of Ingredients]() 
 4. [Formulas](#formulas)
-5. [Hypotheses in ANOVA](#hype)
+   
+5. [So How does it work?](#howwork)
+	* [What is the purpose of this test?](#purpose)
+	* [Hypotheses in ANOVA](#hype)
+	* [The F-Ratio](#f-rat)
+	* [Other Test Statistics](#other)
    
 5. [Experiment Design](#experi)
 	* [Intro](#intro)
@@ -38,8 +46,32 @@ So rather than look for statistical significance, we're essentially looking at a
 
 ## <a id="types"></a> Types of Statistical Studies
 
+In your textbook, you've read about two kinds of study: 
+1. Experimental
+2. Observational
+
+We also have some stuff related to exploratory data analysis where you run tests...just because. Getting to know your data is useful, it's basically, "the thing" in statistics. You get to know your data, its eccentricities, and then you wander off to the next date...i mean dataset. 
+
+### <a id="experi"></a>Experiment
+
+> In an experimental statistical study, an experiment is conducted to generate the data. An experiment begins with identifying a variable of interest. Then one or more other variables, thought to be related, are identified and controlled, and data are collected about how those variables influence the variable of interest.
+
+Here, we carefully decide what we want our model to be like....what we need, and then we collect it. The surprise is what the data actually says. Often, we collect this stuff for 1 of 2 reasons: 
+
+1. We have an idea of what exists and want to verify it. 
+2. We have something we want to do to humans, cats, dogs, whatever, and we need to collect data after applying that treatment. 
+
+Everything is extremely orderly, tightly controlled, and predictible. 
+
+### <a id="obs"></a>Observational
+
+> In an observational study, data are usually obtained through sample surveys and not a controlled experiment. Good design principles are still employed, but the rigorous control associated with an experimental statistical study are often not possible.
+
+This is perhaps what we've seen the most over class. I had you fill out data so that we could collect data from a survey instrument. 
 
 ## <a id = "ANOVA"></a> What is ANOVA?
+
+
 
 ## <a id="ingredients"></a> Ingredients
 
@@ -83,7 +115,39 @@ So rather than look for statistical significance, we're essentially looking at a
 ![Formulas 1](/images/ANOVA-1.png)
 ![Formulas 1](/images/ANOVA-2.png)
 
-## <a id="hype"></a> Hypotheses in ANOVA
+## <a id="howdo"></a> So How does it work?
+
+[The basics of ANOVA are these](https://towardsdatascience.com/anova-explained-with-an-example-4a8c9699b175): 
+
+1.  Formulate a hypothesis.
+2.  Set a significance level.
+3.  Compute an F-Statistic.
+4.  Use the F-Statistic to derive a p-value.
+5.  Compare the p-value and significance level to decide whether or not to reject the null hypothesis.
+
+We can think about ANOVA in a bunch of different ways: 
+
+
+
+### <a id="purpose"></a> What is the purpose of this test?
+
+> What are some ways to think about the purpose of ANOVA? What does it measure?
+> It measures whether there's more variation between groups than within groups. It examines the legitmacy of a classifcation scheme. 
+
+
+
+### <a id="hype"></a> Hypotheses in ANOVA
+### <a id="f-rat"></a> The F-Ratio
+
+> What is the F Ratio? What does it reflect? 
+> The F Ratio is the test statistic calculated for ANOVA. It is the ratio of the variation between the samples to the variation within the samples. 
+
+It is calculated by doing something seemingly simple (at first):
+
+![F-Stat Stuff](/images/fstat.png)
+
+
+### <a id="other"></a> Other tests
 
 ## <a id="experi"></a> Experiment Design
 

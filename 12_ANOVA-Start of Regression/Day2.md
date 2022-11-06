@@ -81,12 +81,13 @@
 ## <a id="hype"></a> Hypotheses in Regression
    
 ## <a id="types"></a> Types of Regression
+
 ### <a id="slr"></a> Simple Linear Regression
 ### <a id="multi"></a> Multi-Regression
 ### <a id="logis"></a> Logistic Regression
 
+
 ## <a id="comp"></a> Components
 ### <a id="least"></a> Least Squares
 ### <a id="coef"></a> Coefficient of Determination
-
 ### <a id="outliers"></a> Outliers and Other Data Issues

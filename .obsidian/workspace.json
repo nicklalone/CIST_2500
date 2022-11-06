@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "12_ANOVA-Start of Regression/Day2.md",
+                "file": "12_ANOVA-Start of Regression/Day1.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "12_ANOVA-Start of Regression/Day2.md",
+                "file": "12_ANOVA-Start of Regression/Day1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "12_ANOVA-Start of Regression/Day2.md",
+                "file": "12_ANOVA-Start of Regression/Day1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "12_ANOVA-Start of Regression/Day2.md"
+                "file": "12_ANOVA-Start of Regression/Day1.md"
               }
             }
           }
@@ -138,8 +138,8 @@
   },
   "active": "8dd382b23288e746",
   "lastOpenFiles": [
-    "12_ANOVA-Start of Regression/Day1.md",
     "12_ANOVA-Start of Regression/Day2.md",
+    "12_ANOVA-Start of Regression/Day1.md",
     "13_Regression_R_2_3/Day1.md",
     "12_ANOVA-Start of Regression/README.md",
     "13_Regression_R_2_3/README.md",
