@@ -1,4 +1,4 @@
-08-0987kOne of my favorite quotes about humanity is from an old sociologist named Gabriel Tarde. He was a judge in Germany and was a major opponent of Emile Durkheim. This conflict was one of the last salvos between folks who sided with Newton (Durkheim) and folks who sided with Leibniz (Tarde).
+One of my favorite quotes about humanity is from an old sociologist named Gabriel Tarde. He was a judge in Germany and was a major opponent of Emile Durkheim. This conflict was one of the last salvos between folks who sided with Newton (Durkheim) and folks who sided with Leibniz (Tarde).
 
 The reason I bring this up is that the outcome of these two is why we discuss statistics the way that we do. At our core, being objective about evaluating humans is something interesting that comes out of this. Durkheim believed we could (and won) while Tarde believed we could not (and he's beginning to win now). 
 
@@ -31,9 +31,11 @@ So rather than look for statistical significance, we're essentially looking at a
 4. [Formulas](#formulas)
    
 5. [So How does it work?](#howwork)
-	* [What is the purpose of this test?](#purpose)
 	* [Hypotheses in ANOVA](#hype)
 	* [The F-Ratio](#f-rat)
+		* [Numerator](#numer)
+		* [Denominator](#denom)
+	* [Degrees of Freedom](#df)
 	* [Other Test Statistics](#other)
    
 5. [Experiment Design](#experi)
@@ -123,9 +125,25 @@ This is the glossary from the appendix. Each of these terms is useful for you an
 
 ## <a id="howdo"></a> So How does it work?
 
+Before we begin, let's talk about assumptions we can make here. 
+
+1. For each population, the response variable is normally distributed.
+2. The variance of the response variable, denoted $\sigma^2$, is the same for all of the populations. 
+3. The observations must be independent. 
+
+Each of these assumptions essentially says that we can expect everything to be the same way that everything else (but categorical variables) will work the same way. 
+
+This is perhaps the most important part of understanding ole statistics. Figure out what all is referring to those all important modes of central tendency: 
+
+* mean
+* median
+* mode
+
+For ANOVA, it takes a bit of time to find this. So let's dig a bit in. 
+
 For the most part, we do the same thing we do for every test in statistics...however, since we're talking about multiple means, multiple samples, and combining them into this sort of, "uber" idea...we have to adjust and do a lot to get everything onto the same page.
 
-[The basics of ANOVA are these](https://towardsdatascience.com/anova-explained-with-an-example-4a8c9699b175): 
+[The basics of ANOVA are the following. You can find a great example here as well.](https://towardsdatascience.com/anova-explained-with-an-example-4a8c9699b175): 
 
 1.  Formulate a hypothesis.
 	* These are often in the vein of: H<sub>o</a>: There is no difference between. vs H<sub>a</sub>: There is a difference between. 
@@ -137,15 +155,22 @@ For the most part, we do the same thing we do for every test in statistics...how
 	* So, we have to calculate this based on the experiment. In your chapter, there are a number of different kinds of ANOVA with differing levels of complexity and need. For our purposes, we're just going to concentrate on the F-statistic which means we will mostly work in completely randomized ANOVA. 
 	* The formula we need to work up to is this:  $$F = \frac{Mean Square due to Treatments (MSTR)}{Mean Square Due to Error (MSE)}$$
 	* However, in order to get MSTR and MSE, we need to do a bunch of work. Let's walk though some formulas. 
-**Numerator:** 
+
+But let's get this a little more plain and common sense. The F-Ratio can be seen as a ratio of variances in how data differs.
+
+![F-Stat Stuff](/images/fstat.png)
+  
+### <a id="numer"></a> **Numerator:** 
 * So the overall formula for F has 2 parts, MSTR and MSE. Let's break down MSTR first. That formula is: $$MSTR = \frac{Sum of Squares Due to Error(SSTR)}{k (number of independent groups) - 1}$$
 * Note in this formula, you are adding up all of the different groups based on treatment j and that you are essentially creating the numerator for F so you can then divide it by the total number of groups -1. This lets us bring in a metaphor for this formula, we're looking at an overall variance from the overall mean of all of the samples we're looking at. $$SSTR = \sum_{j = 1}^kn_j(\bar x_j- \bar{\bar x})^2$$
 * So now we have MSTR because we ALSO have the sample mean for treatment J (look in the parentheses for SSTR). To calculate that, we have to do calculate it this way. We essentially summup all of the values of observation i for treatment j and divide it by the number of observations for treatment j. $$\bar x_j = \frac{\sum\limits_{i=n}^\mathbb{n_j}x{_i}_j}{n^j}$$
 * You may ask yourself how you come up with the $n_j$ and that's a good question. What this essentially means is the number of observations for treatment j. You will know this based on the total number of entities, respondents, or whatever were treated. 
   
 * Next, we need an overall sample mean. That is that weird symbol in SSTR with 2 bars above it: $\bar{\bar x}$. We calculate it using a very hard to type formula: $$\bar{\bar x} = \frac{\sum\limits_{j=1}^\mathbb{k}\sum\limits_{i=1}^\mathbb{n_j}x{_i}_j}{n_t}$$ where $n_t = n_1+n_2+n_3+n_4 ... n_k$ or you basically add up all of the representations of all the different groups / samples you have until you reach the number of total groups.
+
 ______________________ 
-**Denominator:**
+
+### <a id="denom"></a>**Denominator:**
 * So we've now got the numerator! What about the denominator or "MSE." Well, that's a bit easier. What MSE is is basically, $$Mean Square Due to Error (MSE) = \frac{Sum of Squares Due to Error (SSE)}{n_t-k}$$
 * So now we know what we have to do. We have to find SSE so that we can find SSE and finish up our denominator and ultimately allow us to calculate F. What does SSE's formula look like? Well, it's like this: $$SSE = \sum\limits_{j=1}^\mathbb{k}(n_j - 1)s_j^2$$What this means is that the Sum of Squares Due to Error is equal to the summation of all people who got treatment j multiplied by the number of people in the sample -1 multiplied by the sample variance for treatment j. This means we have 1 more formula: $s_j^2$ or the sample variance for treatment J. 
 	  
@@ -153,27 +178,24 @@ ______________________
 So we're basically doing the thing we always do but with slightly different numbers. Now, after we do all this, we go back to our F formula: $$F = \frac{MSTR}{MSE}$$
 And calculate it. This will give us a number. We can then use it to calculate a p-value. OR DO WE? That's right, there's an F-Table!  
 
-1.  Use the F-Statistic to derive a p-value.
-2.  Compare the p-value and significance level to decide whether or not to reject the null hypothesis.
+### <a id="df"></a> Degrees of Freedom: 
 
-We can think about ANOVA in a bunch of different ways: 
+> The test statistic follows an F distribution with $k - 1$ degrees of freedom in the numerator and $n_t - k$ degrees of freedom in the denominator.
 
-### <a id="purpose"></a> What is the purpose of this test?
+* Use the F-Statistic to derive a p-value.
 
-> What are some ways to think about the purpose of ANOVA? What does it measure?
-> It measures whether there's more variation between groups than within groups. It examines the legitmacy of a classifcation scheme. 
+You can see the table here: [F-Distribution Table](http://www.socr.ucla.edu/Applets.dir/F_Table.html)
 
+![Contingency Table](/images/at-1.png)
+So in order to organize ANOVA, it's sometimes useful to fill out a table. And there's a whole structured thing that your textbook shows you. Check out the above! It structures all of your data, all of your formulas, and all of your results. Now, let's look at it filled out. 
 
+![F-Table Filled out](/images/at-2.png)
+Here, we can see all sorts of things. The question that derived these numbers is from table 13.1 in your textbook. 
 
-### <a id="hype"></a> Hypotheses in ANOVA
-### <a id="f-rat"></a> The F-Ratio
+![Numbers from the above table](/images/chemitech.png)
+And so these are what we need to calculate to generate the table above. So we can plug the numbhers into the formula and go to town. 
 
-> What is the F Ratio? What does it reflect? 
-> The F Ratio is the test statistic calculated for ANOVA. It is the ratio of the variation between the samples to the variation within the samples. 
-
-It is calculated by doing something seemingly simple (at first):
-
-![F-Stat Stuff](/images/fstat.png)
+* Compare the p-value and significance level to decide whether or not to reject the null hypothesis.
 
 
 ### <a id="other"></a> Other tests
