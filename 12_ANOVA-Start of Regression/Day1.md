@@ -31,7 +31,6 @@ So rather than look for statistical significance, we're essentially looking at a
 4. [Formulas](#formulas)
    
 5. [So How does it work?](#howwork)
-	* [Hypotheses in ANOVA](#hype)
 	* [The F-Ratio](#f-rat)
 		* [Numerator](#numer)
 		* [Denominator](#denom)
@@ -43,6 +42,7 @@ So rather than look for statistical significance, we're essentially looking at a
 	* [Randomized](#random)
 	* [Multiple](#multi)
 	* [Random Block](#random)
+6. [An Example](#example)
 
 ---------------- Table of Contents ---------------- 
 
@@ -141,9 +141,21 @@ This is perhaps the most important part of understanding ole statistics. Figure 
 
 For ANOVA, it takes a bit of time to find this. So let's dig a bit in. 
 
+_____________
+
+#### A Collection of Terms to Worry About
+There are...so many terms to worry about here. 
+
+* $x{_i}_j$ = value of observation i for treatment j
+* $n_j$ = number of observations for treatment j
+* $\bar x_j$ = sample mean for treatment j
+* $s_j^2$ = sample variance for treatment j
+* $s_j$ = sample standard deviation for treatment j
+
 For the most part, we do the same thing we do for every test in statistics...however, since we're talking about multiple means, multiple samples, and combining them into this sort of, "uber" idea...we have to adjust and do a lot to get everything onto the same page.
 
 [The basics of ANOVA are the following. You can find a great example here as well.](https://towardsdatascience.com/anova-explained-with-an-example-4a8c9699b175): 
+
 
 1.  Formulate a hypothesis.
 	* These are often in the vein of: H<sub>o</a>: There is no difference between. vs H<sub>a</sub>: There is a difference between. 
@@ -151,7 +163,7 @@ For the most part, we do the same thing we do for every test in statistics...how
 2.  Set a significance level.
 	* And much like anything we've done this semester, we set a level we're comfortable with OR that we've been asked to set it as by our client or boss. 
 	  
-3.  Compute an F-Statistic.
+3.  Compute an <a id="f-stat"></a>F-Statistic.
 	* So, we have to calculate this based on the experiment. In your chapter, there are a number of different kinds of ANOVA with differing levels of complexity and need. For our purposes, we're just going to concentrate on the F-statistic which means we will mostly work in completely randomized ANOVA. 
 	* The formula we need to work up to is this:  $$F = \frac{Mean Square due to Treatments (MSTR)}{Mean Square Due to Error (MSE)}$$
 	* However, in order to get MSTR and MSE, we need to do a bunch of work. Let's walk though some formulas. 
@@ -161,20 +173,23 @@ But let's get this a little more plain and common sense. The F-Ratio can be seen
 ![F-Stat Stuff](/images/fstat.png)
   
 ### <a id="numer"></a> **Numerator:** 
-* So the overall formula for F has 2 parts, MSTR and MSE. Let's break down MSTR first. That formula is: $$MSTR = \frac{Sum of Squares Due to Error(SSTR)}{k (number of independent groups) - 1}$$
-* Note in this formula, you are adding up all of the different groups based on treatment j and that you are essentially creating the numerator for F so you can then divide it by the total number of groups -1. This lets us bring in a metaphor for this formula, we're looking at an overall variance from the overall mean of all of the samples we're looking at. $$SSTR = \sum_{j = 1}^kn_j(\bar x_j- \bar{\bar x})^2$$
-* So now we have MSTR because we ALSO have the sample mean for treatment J (look in the parentheses for SSTR). To calculate that, we have to do calculate it this way. We essentially summup all of the values of observation i for treatment j and divide it by the number of observations for treatment j. $$\bar x_j = \frac{\sum\limits_{i=n}^\mathbb{n_j}x{_i}_j}{n^j}$$
-* You may ask yourself how you come up with the $n_j$ and that's a good question. What this essentially means is the number of observations for treatment j. You will know this based on the total number of entities, respondents, or whatever were treated. 
+1.  So the overall formula for F has 2 parts, MSTR and MSE. Let's break down MSTR first. That formula is: $$MSTR = \frac{Sum of Squares Due to Error(SSTR)}{k (number of independent groups) - 1}$$
+2. Note in this formula, you are adding up all of the different groups based on treatment j and that you are essentially creating the numerator for F so you can then divide it by the total number of groups -1. This lets us bring in a metaphor for this formula, we're looking at an overall variance from the overall mean of all of the samples we're looking at. $$SSTR = \sum_{j = 1}^kn_j(\bar x_j- \bar{\bar x})^2$$
+3. So now we have MSTR because we ALSO have the sample mean for treatment J (look in the parentheses for SSTR). To calculate that, we have to do calculate it this way. We essentially summup all of the values of observation i for treatment j and divide it by the number of observations for treatment j. $$\bar x_j = \frac{\sum\limits_{i=n}^\mathbb{n_j}x{_i}_j}{n^j}$$
+4. You may ask yourself how you come up with the $n_j$ and that's a good question. What this essentially means is the number of observations for treatment j. You will know this based on the total number of entities, respondents, or whatever were treated. 
   
-* Next, we need an overall sample mean. That is that weird symbol in SSTR with 2 bars above it: $\bar{\bar x}$. We calculate it using a very hard to type formula: $$\bar{\bar x} = \frac{\sum\limits_{j=1}^\mathbb{k}\sum\limits_{i=1}^\mathbb{n_j}x{_i}_j}{n_t}$$ where $n_t = n_1+n_2+n_3+n_4 ... n_k$ or you basically add up all of the representations of all the different groups / samples you have until you reach the number of total groups.
+5. Next, we need an overall sample mean. That is that weird symbol in SSTR with 2 bars above it: $\bar{\bar x}$. We calculate it using a very hard to type formula: $$\bar{\bar x} = \frac{\sum\limits_{j=1}^\mathbb{k}\sum\limits_{i=1}^\mathbb{n_j}x{_i}_j}{n_t}$$ where $n_t = n_1+n_2+n_3+n_4 ... n_k$ or you basically add up all of the representations of all the different groups / samples you have until you reach the number of total groups.
 
 ______________________ 
 
 ### <a id="denom"></a>**Denominator:**
-* So we've now got the numerator! What about the denominator or "MSE." Well, that's a bit easier. What MSE is is basically, $$Mean Square Due to Error (MSE) = \frac{Sum of Squares Due to Error (SSE)}{n_t-k}$$
-* So now we know what we have to do. We have to find SSE so that we can find SSE and finish up our denominator and ultimately allow us to calculate F. What does SSE's formula look like? Well, it's like this: $$SSE = \sum\limits_{j=1}^\mathbb{k}(n_j - 1)s_j^2$$What this means is that the Sum of Squares Due to Error is equal to the summation of all people who got treatment j multiplied by the number of people in the sample -1 multiplied by the sample variance for treatment j. This means we have 1 more formula: $s_j^2$ or the sample variance for treatment J. 
-	  
-* So how do we calculate that? Well, let's look at the formula: $$s_j^2 = \frac{\sum\limits_{i=1}^\mathbb{n_j}(x{_i}_j - \bar x_j)^2}{n_j - 1}$$ So what's happening here? Well, we can say that the sample variance for our treatment is relatively straight forward. We are summoning up how everyone differs from the mean of treatment j and then dividing it by n-1. This is *exactly* the same formula as any sample variance. Remember that variance is calculated by: $$s^2 = \frac{\sum(x_i - \bar x)^2}{n-1}$$
+
+6. So we've now got the numerator! What about the denominator or "MSE." Well, that's a bit easier. What MSE is is basically, $$Mean Square Due to Error (MSE) = \frac{Sum of Squares Due to Error (SSE)}{n_t-k}$$
+7. So now we know what we have to do. We have to find SSE so that we can find SSE and finish up our denominator and ultimately allow us to calculate F. What does SSE's formula look like? Well, it's like this: $$SSE = \sum\limits_{j=1}^\mathbb{k}(n_j - 1)s_j^2$$What this means is that the Sum of Squares Due to Error is equal to the summation of all people who got treatment j multiplied by the number of people in the sample -1 multiplied by the sample variance for treatment j. This means we have 1 more formula: $s_j^2$ or the sample variance for treatment J. 
+  
+7. So how do we calculate that? Well, let's look at the formula: $$s_j^2 = \frac{\sum\limits_{i=1}^\mathbb{n_j}(x{_i}_j - \bar x_j)^2}{n_j - 1}$$ So what's happening here? Well, we can say that the sample variance for our treatment is relatively straight forward. We are summoning up how everyone differs from the mean of treatment j and then dividing it by n-1. This is *exactly* the same formula as any sample variance. Remember that variance is calculated by: $$s^2 = \frac{\sum(x_i - \bar x)^2}{n-1}$$
+____________
+
 So we're basically doing the thing we always do but with slightly different numbers. Now, after we do all this, we go back to our F formula: $$F = \frac{MSTR}{MSE}$$
 And calculate it. This will give us a number. We can then use it to calculate a p-value. OR DO WE? That's right, there's an F-Table!  
 
@@ -197,15 +212,35 @@ And so these are what we need to calculate to generate the table above. So we ca
 
 * Compare the p-value and significance level to decide whether or not to reject the null hypothesis.
 
-
-### <a id="other"></a> Other tests
-
-## <a id="experi"></a> Experiment Design
+### <a id="experi"></a> Experiment Design
 
 ### <a id="intro"></a> Intro
+
+### <a id="factor"></a> Factorial Experiment
+The experimental designs we have considered thus far enable us to draw statistical conclusions about one factor. However, in some experiments we want to draw conclusions about more than one variable or factor. A factorial experiment is an experimental design that allows simultaneous conclusions about two or more factors. The term factorial is used because the experimental conditions include all possible combinations of the factors. For example, for a levels of factor A and b levels of factor B, the experiment will involve collecting data on ab treatment combinations. In this section we will show the analysis for a two-factor factorial experiment. The basic approach can be extended to experiments involving more than two factors.
+
+![Factorial Experiment](/images/anova-factor.png)
+Let's see the table for this Factorial Design: 
+![ANOVA Factor Table for Factorial Experiments](/images/anova-factor-2.png)
 
 ### <a id = "random"></a> Randomized
 
 ### <a id = "multi"></a> Multiple
+From your textbook: 
+
+> When we use analysis of variance to test whether the means of k populations are equal, rejection of the null hypothesis allows us to conclude only that the population means are not all equal. In some cases we will want to go a step further and determine where the differences among means occur. The purpose of this section is to show how multiple comparison procedures can be used to conduct statistical comparisons between pairs of population means.
 
 ### <a id = "random"></a> Random Block
+From your textbook: 
+
+> A problem can arise whenever differences due to extraneous factors (ones not considered in the experiment) cause the MSE term in this ratio to become large. In such cases, the F value in equation (13.20) can become small, signaling no difference among treatment means when in fact such a difference exists. In this section we present an experimental design known as a randomized block design. Its purpose is to control some of the extraneous sources of variation by removing such variation from the MSE term. This design tends to provide a better estimate of the true error variance and leads to a more powerful hypothesis test in terms of the ability to detect differences among treatment means. To illustrate, let us consider a stress study for air traffic controllers.
+
+## <a id="example"></a> Exercises
+||A|B|C|
+| _ | _ | _ | _ |
+||162|142|126|
+||162|142|126|
+||162|142|126|
+||162|142|126|
+||162|142|126|
+
