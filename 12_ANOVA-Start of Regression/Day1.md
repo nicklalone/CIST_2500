@@ -236,8 +236,8 @@ From your textbook:
 > A problem can arise whenever differences due to extraneous factors (ones not considered in the experiment) cause the MSE term in this ratio to become large. In such cases, the F value in equation (13.20) can become small, signaling no difference among treatment means when in fact such a difference exists. In this section we present an experimental design known as a randomized block design. Its purpose is to control some of the extraneous sources of variation by removing such variation from the MSE term. This design tends to provide a better estimate of the true error variance and leads to a more powerful hypothesis test in terms of the ability to detect differences among treatment means. To illustrate, let us consider a stress study for air traffic controllers.
 
 ## <a id="example"></a> Exercises
-| |A|B|C|
-| _ | _ | _ | _ |
+| | A | B | C |
+|--|--|--|--|
 | |162|142|126|
 | |162|142|126|
 | |162|142|126|
