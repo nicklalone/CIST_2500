@@ -236,11 +236,62 @@ From your textbook:
 > A problem can arise whenever differences due to extraneous factors (ones not considered in the experiment) cause the MSE term in this ratio to become large. In such cases, the F value in equation (13.20) can become small, signaling no difference among treatment means when in fact such a difference exists. In this section we present an experimental design known as a randomized block design. Its purpose is to control some of the extraneous sources of variation by removing such variation from the MSE term. This design tends to provide a better estimate of the true error variance and leads to a more powerful hypothesis test in terms of the ability to detect differences among treatment means. To illustrate, let us consider a stress study for air traffic controllers.
 
 ## <a id="example"></a> Exercises
-| | A | B | C |
+
+This is a completely randomized design: 
+
+| | **A** | **B** | **C** |
 |--|--|--|--|
 | |162|142|126|
-| |162|142|126|
-| |162|142|126|
-| |162|142|126|
-| |162|142|126|
+| |142|156|122|
+| |165|124|138|
+| |145|142|140|
+| |148|136|150|
+| |174|152|128|
+|**Sample Mean** |156|142|134|
+|**Sample Variance**|164.4|131.2|110.4|
 
+a. Compute the sum of squares between treatments.
+
+The formula for this problem is: $$SSTR = \sum_{j = 1}^kn_j(\bar x_j- \bar{\bar x})^2$$
+And this formula once we plug our numbers in looks a bit nuts. We need to do a few things here, namely we need to get all of the material for SSTR including means, overall means, and other things.  Note the formula for the Sum of Squares between treatments. 
+
+So, this formula is essentially multiplying the number of observations of treatment j $n_j$. This is found by And yet, we do not have the overall mean. That formula is: $$\bar{\bar x} = \frac{156+142+134}{3}$$
+$$\bar{\bar x} = \frac{156+142+134}{3}$$
+Or, 144. So $\bar{\bar x} = 144$. Next, we need to come back to SSTR. It should look like this: $$SSTR = 6(156-144)^2+6(142-144)^2+6(134-144)^2$$
+$$SSTR = 3(12)^2+3(-2)^2+3(-10)^2$$
+And so, we get into this formula more directly. $$SSTR = 1488$$
+b. Compute the mean square between treatments.
+$MSTR = SSTR /(k – 1) = 1488/2 = 744$
+
+c. Compute the sum of squares due to error.
+$SSE: = 5(164.4) + 5(131.2) +5(110.4) = 2030$
+
+d. Compute the mean square due to error.
+$MSE = SSE /(n_T – k) = 2030/(18 – 3) = 135.3$
+
+e. Set up the $ANOVA$ table for this problem.
+
+An ANOVA table, if you remember, looks a bit like this: 
+|**Source of Variation**|**Sum of Squares**|**Df**|**Mean Square**|**F**|**p**|
+|-------------------|---------------|--|--------------|--|--|
+|Treatments|SSTR|k-1|$MSTR = \frac{SSTR}{k-1}$|$\frac{MSTR}{MSE}$||
+|Error|SSE|$n_r - k$|$MSE = \frac{SSE}{n_r-k}$|||
+|Total|SST|$n_t -1$||||
+
+And if we actually perform all of these formulas, we end up with a table that looks like this. 
+|**Source of Variation**|**Sum of Squares**|**Df**|**Mean Square**|**F**|**p**|
+|-------------------|---------------|--|--------------|--|--|
+|Treatments|1488|2|744|5.50|.0162|
+|Error|2030|15|135.3|||
+|Total|3518|17||||
+
+f. At the $\alpha = .05$ level of significance, test whether the means for the three treatments are equal.
+
+$H_0: µ_1 = µ_2 = µ_3$
+$H_a$: Not all the treatment population means are equal
+$F = MSTR /MSE = 744/135.3 = 5.50$ 
+
+Using F table (2 degrees of freedom numerator and 15 denominator), p-value is between .01 and .025
+
+The _p_-value corresponding to $F = 5.50 = F.DIST.RT(5.5,2,15) = .0162$
+Because _p_-value  = .05, we reject the hypothesis that the means for the three treatments are equal.
