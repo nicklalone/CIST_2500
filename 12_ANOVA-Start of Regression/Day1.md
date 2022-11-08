@@ -35,7 +35,7 @@ So rather than look for statistical significance, we're essentially looking at a
 		* [Numerator](#numer)
 		* [Denominator](#denom)
 	* [Degrees of Freedom](#df)
-	* [Other Test Statistics](#other)
+	* [Example Studies](#examples)
    
 5. [Experiment Design](#experi)
 	* [Intro](#intro)
@@ -72,6 +72,8 @@ Everything is extremely orderly, tightly controlled, and predictible.
 This is perhaps what we've seen the most over class. I had you fill out data so that we could collect data from a survey instrument. 
 
 ## <a id = "ANOVA"></a> What is ANOVA?
+
+> ANOVA is appropriate for situations involving 3 or more samples and a variable measured at the interval/ratio level.
 
 The easiest way to describe ANOVA is to talk about how it sees variance. At it's core, ANOVA tests if there is a statistically significant difference between subgroups or multiple samples gathered the same way. 
 
@@ -211,6 +213,14 @@ Here, we can see all sorts of things. The question that derived these numbers is
 And so these are what we need to calculate to generate the table above. So we can plug the numbhers into the formula and go to town. 
 
 * Compare the p-value and significance level to decide whether or not to reject the null hypothesis.
+
+### <a id="examples"></a> Example Cases
+Here, i'll put a brief collection of examples of ANOVA. There are more all over the internet.
+
+* Students in a psychology program being experimented on in 1 of 3 feedback styles (positive reinforcement, negative reinforcement, neutral reinforcement)
+* Growth of 4 different kinds of cities as exemplified by: manufacturing centers, government centers, retail centers, financial centers. 
+* The difference between and within students in home schooling, public schooling, and private schooling as they take standard tests. 
+* The effect of different kinds of fertilizers on crop yeild (this is the test that ANOVA was created for).
 
 ### <a id="experi"></a> Experiment Design
 
