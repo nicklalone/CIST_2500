@@ -77,15 +77,52 @@
 
 ![Regression 2](/images/reg-2.png)
 ![Regression 3](/images/reg-3.png)
+## What is Regression? 
+The easiest way to think about regression is in what it's doing. What regression does is attempt to predict the outcome of a single independent variable, ($\hat{y}$) where we are trying to predict it based on a constant: ($= A$) as seen from the perspective of deprendent variables.( $+ b_1 x$). or: $$\hat{y} = A + \beta_1 x$$ Another way to think about regression is how your book defines it: 
 
-## <a id="hype"></a> Hypotheses in Regression
-   
-## <a id="types"></a> Types of Regression
+> In this chapter we consider the simplest type of regression analysis involving one independent variable and one dependent variable in which the relationship between the variables is approximated by a straight line. It is called simple linear regression. Regression analysis involving two or more independent variables is called multiple regression analysis.
+
+What's this straight line business? Well, it is based on the data you are trying to model. It helps to visualize the data and then fit a line to it, the regression line. It looks a bit like this: 
+
+![Regression line Gif](/images/reg_line.gif)
+
+### Examples of Regression: 
+
+
+### <a id="types"></a> Types of Regression
+
 
 ### <a id="slr"></a> Simple Linear Regression
+
+
 ### <a id="multi"></a> Multi-Regression
+
+
 ### <a id="logis"></a> Logistic Regression
 
+
+## How does it work?
+
+[I pulled these steps from this post and adjusted them to match what we're doing.](https://medium.datadriveninvestor.com/steps-for-linear-regression-algorithm-simplified-daf685dcceee)
+
+1. Reading and understanding the data
+   
+2. Visualizing the data (Exploratory Data Analysis)
+   
+3. Data Preparation
+   
+4. Splitting the data into training and test sets
+   
+5. Building a linear model
+   
+6. Residual analysis of the train data
+   
+7. Making predictions using the final model and evaluation
+
+
+
+
+### <a id="hype"></a> Hypotheses in Regression   
 
 ## <a id="comp"></a> Components
 ### <a id="least"></a> Least Squares
