@@ -1,6 +1,6 @@
 ---------------- Table of Contents ---------------- 
 
-1. [Regression](#regr)
+1. [Regression and Correlation](#regr)
 
 3. [What is Regression?](#whatis)
 4. [A List of Ingredients](#ingred) 
@@ -22,9 +22,51 @@
 
 ---------------- Table of Contents ---------------- 
 
-## <a id="regr"></a> Regression
+## <a id="regr"></a> Regression and Correlation
+Humans are complicated, obsessively so. There are numerous songs, poems, books, movies, and other artifacts of pop culture devoted to this concept. Statistics is a way through which to understand the world of humans but all we've really done is: 
+
+1. Gather a bunch of data. 
+2. Analyze that data about what it says about humanity. 
+3. Calculate a statistic that indicates the probability that we are correct.
+
+What if we could actually use our data to predict something's occurance? What if we could use our data to create a model that affords us the ability to actually represent the influence of certain kinds of beliefs and behaviors on certain kinds of outcomes? Well, in this last section of class, we'll be dealing with just that!
 
 ## <a id="whatis"></a> What is Regression?
+Regression is a singular equation, $\hat{y} = A + \beta{X_1}...$ wherein you are predicting a value for variable $\hat{y}$ by 1, or more, variables $x$. But what is that weird B there? That $\beta$ symbol is beta, or the symbol for slope. 
+
+So yes, Regression is also an algebraic formula for a line. When we graphically show it, it looks a bit like this: 
+![Regression Model](/images/regre.jpeg)
+The above image is from an amazing post on [Toward Data Science](https://towardsdatascience.com/linear-regression-explained-1b36f97b7572). I use this group of Medium quite a bit because I have written articles for this collection over the years. They're good folks! 
+
+So along these lines, you might also notice that the word, "correlation" shows up there. And it is indeed a thing we should probably talk about. So, correlation and regression are related. You cannot understand how things can predict other things if you aren't sure of the relationship. 
+
+As such, correlation is a way for us to understand, visualize, and calculate just how related, how correlated, variables can be. Let's look at the 3 ways correlation can exist: 
+
+![Correlation](/images/corr.png)
+
+The line is essentially the thing that regression's slopes are all about. As one vaiable changes, there is a change in a different variable. This model is simple, but it shows us so, so much. 
+
+The thing that we calculate are called a correlation coefficient $r$ and $r^2$ which indicates the strength of a regression equation. It is indicative of just how much the variables in question form a straight line. When we are reading them, anything over 0 indicates a positive correlation whereas anything under zero indicates a negative correlation. But it gets better! 
+
+If we end up with an $r$ of –1, this is called a perfect negative correlation. A way to think about this is that as one variable goes up, the other goes down. On the other hand, an $r$ of 1 is called a perfect positive correlation. And you are correct, as one variable goes up, the other variable goes up.
+
+I haven't said this yet, but $r$ is also called, "Pearson's Correlation Coefficient" and is named after....a guy named Pearson. So, if we're looking for slope and a line and correlation and it's all tied to a letter, what does it look like?
+![Images of correlation coefficients](/images/r.png)
+Being able to see your data like this, in a histogram, will be incredibly useful. Let's see a few examples. 
+
+## <a id = "examp"></a> Examples
+So at its core, regression is about a variable that depends on 1 or more other variables. The thing being regressed, is the Dependent Variable. The thing doing the regressing is the Independent Variable. So what could this look like? 
+
+Well, consider this: 
+![Regression Equations](/images/birthpov.png)
+
+I come from a very small town in the rustbelt of Ohio. One of the things that stuck out about it was that my graduating class of around 129 saw approximately 80% of the women in the class pregnant, and not always with just 1 child. One class member had 3 kids before she graduated. 1 for sophmore, junior, and senior years. 
+
+The above dataset gets into the why. It is a plot where birth rates are predicted by poverty. There are so many things interesting here. First, note that the $R-Sq$ is at .533 or that poverty explains 53.3% of the variance in Birthrates. This means that as poverty goes up, birth rates also go up. The item that is interesting here though is the equation itself. $$Birth15to17 = 4.267 + 1.373(Poverty Percentage)$$
+So how do you read this? Well, we can say that the birth rate of 15-17 year olds can be predictied by everything to the right of the =. That first number, 4.267 is a constant or noise indicator. We refer to it as A sometimes, $b_o$ in others. In both circumstances it is also called, "the intercept" and is best defined as, "the intercept (often labeled the constant) is the expected mean value of Y when all X=0" which I [grabbed from here](https://www.theanalysisfactor.com/interpreting-the-intercept-in-a-regression-model/#:~:text=Here's%20the%20definition%3A%20the%20intercept,of%20Y%20at%20that%20value.). 
+
+So from the above, look on the Scatterplot. If Y = 4.267, that looks dangerously close to where the poverty percentage would be if birth rate was 0. It is essentially the "constant" poverty we could expect. 
+
 ## <a id="ingred"></a> A List of Ingredients 
 
 * ***ANOVA table:** The analysis of variance table used to summarize the computations associated with the F test for significance.

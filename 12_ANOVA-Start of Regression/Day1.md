@@ -42,6 +42,7 @@ So rather than look for statistical significance, we're essentially looking at a
 	* [Randomized](#random)
 	* [Multiple](#multi)
 	* [Random Block](#random)
+	  
 6. [An Example](#example)
 
 ---------------- Table of Contents ---------------- 
