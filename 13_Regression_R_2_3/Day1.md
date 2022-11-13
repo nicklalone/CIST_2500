@@ -14,55 +14,169 @@
 
 ---------------- Table of Contents ---------------- 
 
-Our dataset is about how to predict an employee's capabilities. We have Emotional Intelligence, Proactivity, Performance, and Turnover. SJT (IV) is situational judgement test. We are going to work on predicting performance (DV) with JUST SJT. 
+## <a id="regr"></a> Regression and Correlation
+Humans are complicated, obsessively so. There are endless songs, poems, books, movies, and other artifacts of pop culture devoted to this concept. 
 
-1. Read Data in - why do we do this every time? Because of app culture, many students have not had to actually organize their information on a machine. Getting used to this is an essential soft skill. (library{reader})
-	1. Call it main.
-	2. 300 observations, 6 variables
-	3. Go over ID.
-	4. All interval / ratio
-2. Exploratory analysis
-	1. nrow(df) - what is n?
-	2. names(df) - what are the variables
-	3. freq table
-	4. desc table
-3. Getting started with making a model.
-	1. library(lessR) - allows us to do all sorts of things with regression. 
-	2. Scatterplot(SJT, Performance, data = df, ellipse = TRUE) - look into the ellipse. It provides it around our scatterplot. It allows us to visualize if the data is linearly associated. Seems to be a positive correlation. We want to see a football shape. 
-		1. You can explore the different plots with the back and forward buttons. 
-		2. We still mostly exploring. We can see some outliers. 
-		3. We can see the correlation variables (r). From this correlation, we can see that this is statistically significant and correlated strongly (41.7).
-		4. So we could stop here if we chose. Talk about why. 
-	3. plot() - explore this.
-4. Making the model (positive correlation): 
-	1. Regression(outcome variable ~ Predictor variable)
-	2. Regression(Performance ~ SJT, data = df) - this is all we need to do to run our model.
-	3. Explore the plots.
-		1. Residual plot (histogram) - we can see a normalized residual distribution. Residuals are the error of prediction.  Met assumption of normalized residuals.
-			1. Close to normal.
-		2. Fitted values - predicted values of performance based on SJT. This allows us to see how close our residuals are to 0. # met assumption that residual error is zero for each level of predictor. Plot is residuals v fitted. 
-		3. Variances of the residuals are equal across the various fitted values. We do not want to see a funnel, but a relatively flat line. 
-		4. See that item 233 - case number as outlier. 
-	4. Examination of the regression.
-		1. Table with Cook's distance. Higher values = outliers and allows us to understand different ways that data differs. 
-		2. Background: top to bottom. 
-		3. Basic Analysis Section: 
-			1. Get our estimated regression. We actually get Intercept and slope. So, A = 6.939 and X = .682. P-value < .05. Confidence Intervals. It also gives us a confidence interval. 
-			2. For every 1 unit increase in SJT, performance increases by .682. 
-			3. $\hat{y} = Intercept + .\beta{x_1}$ or $Performance = 6.39 + (.682*SJT)$ 
-			4. We can use the above to predict performance. 
-				1. There are additional steps to understand if this model is indeed accurate. 
-		4. Model Fit Section: 
-			1. R-Squared, Adjusted R. It also gives us F-stat, df, p-value. 
-			2. SJT explains about 17% of the variance in performance. 
-		5. ANOVA section: 
-			1. Same value as F above. 
-		6. Correlation Section. 
-			1. Effect Size - find this chart. 
-			2. If you square Correlation, you'll get r^2'd for regression. 
-	5. Can use LM function from base_r which is useful for other things in R because it follows the internal logic. 
-		1. Remove an outlier. 
-			1. Regression(Performance ~ SJT, data = df, filter=(ID != 233)
-			2. Go through and re-evaluate the model. 
-		2. Standardized Regression Coefficient. 
-			1. reg_brief(Performance ~ SJT, data = df, standardize = TRUE) (now new_scale = "z")
+Statistics is a way we can generally understand the world of humans but all we've really done is: 
+
+1. Gather a bunch of data. 
+2. Analyze that data about what it says about humanity. 
+3. Calculate a statistic that indicates the probability that we are correct.
+
+What if we could actually use our data to predict something's occurrence? What if we could use our data to create a model that affords us the ability to actually represent the influence of certain kinds of beliefs and behaviors on certain kinds of outcomes? Well, in this last section of class, we'll be dealing with just that!
+
+## <a id="whatis"></a> What is Regression?
+Regression is a singular equation, $\hat{y} = A + \beta{X_1}...$ wherein you are predicting a value for variable $\hat{y}$ by 1, or more, variables $x$. But what is that weird B there? That $\beta$ symbol is beta, or the symbol for slope.
+
+So yes, Regression is also an algebraic formula for a line. When we graphically show it, it looks a bit like this: 
+![Regression Model](/images/regre.jpeg)
+The above image is from an amazing post on [Toward Data Science](https://towardsdatascience.com/linear-regression-explained-1b36f97b7572). I use this group of Medium quite a bit because I have written articles for this collection over the years. They're good folks! 
+
+So along these lines, you might also notice that the word, "correlation" shows up there. And it is indeed a thing we should probably talk about. Correlation and regression are related, you can see that they are from their coefficient of determination and strength: $r|r^2$. 
+
+Both are essentially novel uses of Z-scores in an effort to understand how 2 variables in one sample might differ from one another. This is also where ANOVA comes in at times as we will calculate an F-Ratio like ANOVA but mostly it's there to let us see a few more details about the relationship two variables have.
+
+Let's look at the 3 ways correlation (and regression) can exist: 
+
+![Correlation](/images/corr.png)
+
+While these are correlation visualizations, the line is where regression resides. The line is essentially visualizing the slope we calculate in the equation: $\hat{y}=A-\beta{x}_1$ regression's slopes are all about. As one independent variable changes ($\beta{x}_1$), there is a change in a variable that depends on the independent variable. While this model is simple, it shows us so, so much.
+
+$r$ and $r^2$ indicates the direction and strength of a relationship between variables. It is indicative of just how much the variables in question form a straight line. When we are reading them, anything over 0 indicates a positive correlation whereas anything under zero indicates a negative correlation. But it gets better! 
+
+If we end up with an $r$ of $–1$, this is called a perfect negative correlation. A way to think about this is that as one variable goes up, the other goes down. On the other hand, an $r$ of $1$ is called a perfect positive correlation. And you are correct, as one variable goes up, the other variable goes up.
+
+I haven't said this yet, but $r$ is also called, "Pearson's Correlation Coefficient" and is named after....a guy named Pearson. So, if we're looking for slope and a line and correlation and it's all tied to a letter, what does it look like?
+
+![Images of correlation coefficients](/images/r.png)
+Being able to see your data like this, in a histogram, will be incredibly useful. Let's see a few examples. 
+
+## <a id = "examp"></a> Examples
+So at its core, regression is about a variable that depends on 1 or more other variables. The thing being regressed, is the Dependent Variable. The thing doing the regressing is the Independent Variable. So what could this look like? 
+
+Well, consider this: 
+![Regression Equations](/images/birthpov.png)
+
+I come from a very small town in the rustbelt of Ohio. One of the things that stuck out about it was that my graduating class of around 129 saw approximately 80% of the women in the class pregnant, and not always with just 1 child. One class member had 3 kids before she graduated. 1 for sophmore, junior, and senior years. 
+
+The above dataset gets into the why. It is a plot where birth rates are predicted by poverty. There are so many things interesting here. First, note that the $R-Sq$ is at .533 or that poverty explains 53.3% of the variance in Birthrates. This means that as poverty goes up, birth rates also go up. The item that is interesting here though is the equation itself. $$Birth15to17 = 4.267 + 1.373(Poverty Percentage)$$
+So how do you read this? Well, we can say that the birth rate of 15-17 year olds can be predictied by everything to the right of the =. That first number, 4.267 is a constant or noise indicator. We refer to it as A sometimes, $b_o$ in others. In both circumstances it is also called, "the intercept" and is best defined as, "the intercept (often labeled the constant) is the expected mean value of Y when all X=0" which I [grabbed from here](https://www.theanalysisfactor.com/interpreting-the-intercept-in-a-regression-model/#:~:text=Here's%20the%20definition%3A%20the%20intercept,of%20Y%20at%20that%20value.). 
+
+So from the above, look on the Scatterplot. If Y = 4.267, that looks dangerously close to where the poverty percentage would be if birth rate was 0. It is essentially the "constant" poverty we could expect. 
+
+## <a id="ingred"></a> A List of Ingredients 
+
+* ***ANOVA table:** The analysis of variance table used to summarize the computations associated with the F test for significance.
+
+* **Coefficient of determination:** A measure of the goodness of fit of the estimated regression equation. It can be interpreted as the proportion of the variability in the dependent variable y that is explained by the estimated regression equation.
+
+* ***Confidence interval:** The interval estimate of the mean value of y for a given value of x.
+
+* ***Correlation coefficient:** A measure of the strength of the linear relationship between two variables (previously discussed in Chapter 3).
+
+* ***Dependent variable:** The variable that is being predicted or explained. It is denoted by y.
+
+* **Estimated regression equation:** The estimate of the regression equation developed from sample data by using the least squares method. For simple linear regression, the estimated regression equation is y⁄ 5 b0 1 b1x.
+
+* ***High leverage points:** Observations with extreme values for the independent variables. Independent variable The variable that is doing the predicting or explaining. It is denoted by x.
+
+* **Influential observation:** An observation that has a strong influence or effect on the regression results.
+
+* ****i*th residual:** The difference between the observed value of the dependent variable and the value predicted using the estimated regression equation; for the ith observation the ith residual is yi 2 y⁄i.
+
+* **Least squares method:** A procedure used to develop the estimated regression equation. The objective is to minimize o( yi 2 y⁄i)2.
+
+* **Mean square error:** The unbiased estimate of the variance of the error term 2. It is denoted by MSE or s2.
+
+* **Normal probability plot:** A graph of the standardized residuals plotted against values of the normal scores. This plot helps determine whether the assumption that the error term has a normal probability distribution appears to be valid.
+
+* **Outlier:** A data point or observation that does not fit the trend shown by the remaining data.
+
+* **Prediction interval:** The interval estimate of an individual value of y for a given value of x.
+
+* **Regression equation:** The equation that describes how the mean or expected value of the dependent variable is related to the independent variable; in simple linear regression, E( y) 5 b0 1 b1x.
+
+* **Regression model:** The equation that describes how y is related to x and an error term; in simple linear regression, the regression model is y 5 b0 1 b1x 1 e.
+
+* **Residual analysis:** The analysis of the residuals used to determine whether the assumptions made about the regression model appear to be valid. Residual analysis is also used to identify outliers and influential observations.
+
+* **Residual plot:** Graphical representation of the residuals that can be used to determine whether the assumptions made about the regression model appear to be valid.
+
+* **Scatter diagram:** A graph of bivariate data in which the independent variable is on the horizontal axis and the dependent variable is on the vertical axis.
+
+* **Simple linear regression:** Regression analysis involving one independent variable and one dependent variable in which the relationship between the variables is approximated by a straight line.
+
+* **Standard error of the estimate:** The square root of the mean square error, denoted by s. It is the estimate of , the standard deviation of the error term e.
+
+* **Standardized residual:** The value obtained by dividing a residual by its standard deviation.
+
+## <a id="formulas"></a> Formulas
+
+![Regression 1](/images/reg-1.png)
+
+![Regression 2](/images/reg-2.png)
+![Regression 3](/images/reg-3.png)
+## What is Regression? 
+The easiest way to think about regression is in what it's doing. What regression does is attempt to predict the outcome of a single independent variable, ($\hat{y}$) where we are trying to predict it based on a constant: ($= A$) as seen from the perspective of deprendent variables.( $+ b_1 x$). or: $$\hat{y} = A + \beta_1 x$$ Another way to think about regression is how your book defines it: 
+
+> In this chapter we consider the simplest type of regression analysis involving one independent variable and one dependent variable in which the relationship between the variables is approximated by a straight line. It is called simple linear regression. Regression analysis involving two or more independent variables is called multiple regression analysis.
+
+What's this straight line business? Well, it is based on the data you are trying to model. It helps to visualize the data and then fit a line to it, the regression line. It looks a bit like this: 
+
+![Regression line Gif](/images/reg_line.gif)
+
+### <a id="types"></a> Types of Regression
+There are a bunch of different kinds of regression. Much of the difference between the various kinds of regression depend on two things: our variable types and our model. 
+
+The model is relatively straight forward. We have an outcome variable, this is the variable that depends on everything to the right of the =. Those variables that are doing the predicting, the ones upon which the dependent variable depends, are called independent variables. 
+
+We cannot just throw things together, we have to suss out a collection of variables that make sense. So for example, we can't just throw together Nicolas Cage movies and Ice Cream Sales. It doesn't make sense (maybe it does, but I cannot see it). For many of you, you'll think about the word, "subjective" for this. And in some ways it is, in some ways it is not. We are trying to understand a wide swathe of humanity. In this case, we're using our perspective and training as a researcher to gather and disseminate replicable and generalizable facts about a population. 
+
+So think of it like this, you're using your perspective to gather a ton of perspectives and report how, once they're all added up, a certain portion of humanity feels. 
+
+We're taking our subjectivity, summing up a lot of other subjectivities, and letting folks calculate it as well (in that we'll share our data as long as I don't work for a corporation or am engaged in privileged information (easier way to refer to this is, "top secret") as they are not required to share their data). 
+
+The kinds of Regression we'll discuss here are: 
+1. Simple Linear Regression
+2. Multiple Regression
+3. Logistic Regression
+
+### <a id="slr"></a> Simple Linear Regression & <a id="multi"></a>Multiple Regression
+> the simplest type of regression analysis involving one independent variable and one dependent variable in which the relationship between the variables is approximated by a straight line. It is called simple linear regression. Regression analysis involving two or more independent variables is called multiple regression analysis.
+
+### <a id="logis"></a> Logistic Regression
+
+
+## How does it work?
+Before we talk about regression, let's talk about the r coefficient. It has a pretty daunting formula: 
+$$r = \frac{n\sum{XY} - (\sum{X})(\sum{Y})}{\sqrt{[n\sum{x^2}-(\sum{x})^2][n\sum{y^2}-(\sum{y})^2]}}$$
+
+Does it look familiar? Well, like all of statistics, it is based on a much simpler formula. You've actually been doing it for a while. Does this look familiar? $$z = \frac{Raw Score - Mean}{Standard Deviation}$$
+Can you see it? Since we're working with 2 variables, we're having to make some adjustments. Let's look at the formula for Mean and the formula for standard deviation and stick them together: 
+
+
+
+[I pulled these steps from this post and adjusted them to match what we're doing.](https://medium.datadriveninvestor.com/steps-for-linear-regression-algorithm-simplified-daf685dcceee)
+1. Reading and understanding the data
+   
+2. Visualizing the data (Exploratory Data Analysis)
+   
+3. Data Preparation
+   
+4. Splitting the data into training and test sets
+   
+5. Building a linear model
+   
+6. Residual analysis of the data
+   
+7. Making predictions using the final model and evaluation
+
+
+
+
+### <a id="hype"></a> Hypotheses in Regression   
+
+## <a id="comp"></a> Components
+### <a id="least"></a> Least Squares
+### <a id="coef"></a> Coefficient of Determination
+### <a id="outliers"></a> Outliers and Other Data Issues
