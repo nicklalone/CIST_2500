@@ -1,16 +1,26 @@
 ---------------- Table of Contents ---------------- 
 
-1. [Regression](#regr)
+1. [Regression and Correlation](#regr)
 2. [What is Regression?](#whatis)
 3. [A List of Ingredients](#ingred) 
 4. [Formulas](#formulas)
 5. [Hypotheses in Regression](#hype)
-   
-5. [Types of Regression](#types)
+
+6. [Types of Regression](#types)
 	* [Simple Linear Regression](#slr)
 	* [Least Squares](#least)
 	* [Coefficient of Determination](#coef)
-6.  [Outliers and Other Data Issues](#outliers)
+	  
+7. [How does it work?](#how)
+   
+8. [Doing Regression](#doing)
+	* [Reading and understanding the data](#step1)
+	* [Visualizing the data (Exploratory Data Analysis)](#step2)
+	* [Data Preparation](#step3)
+	* [Splitting the data into training and test sets](#step4)
+	* [Building a linear model](#step5)
+	* [Residual analysis of the data](#step6)
+	* [Making predictions using the final model and evaluation](#step7)
 
 ---------------- Table of Contents ---------------- 
 
@@ -116,7 +126,7 @@ So from the above, look on the Scatterplot. If Y = 4.267, that looks dangerously
 
 ![Regression 2](/images/reg-2.png)
 ![Regression 3](/images/reg-3.png)
-## What is Regression? 
+## <a id="what"></a> What is Regression? 
 The easiest way to think about regression is in what it's doing. What regression does is attempt to predict the outcome of a single independent variable, ($\hat{y}$) where we are trying to predict it based on a constant: ($= A$) as seen from the perspective of deprendent variables.( $+ b_1 x$). or: $$\hat{y} = A + \beta_1 x$$ Another way to think about regression is how your book defines it: 
 
 > In this chapter we consider the simplest type of regression analysis involving one independent variable and one dependent variable in which the relationship between the variables is approximated by a straight line. It is called simple linear regression. Regression analysis involving two or more independent variables is called multiple regression analysis.
@@ -145,38 +155,50 @@ The kinds of Regression we'll discuss here are:
 > the simplest type of regression analysis involving one independent variable and one dependent variable in which the relationship between the variables is approximated by a straight line. It is called simple linear regression. Regression analysis involving two or more independent variables is called multiple regression analysis.
 
 ### <a id="logis"></a> Logistic Regression
+This is essentially regression with categorical data. 
 
+______________________
 
-## How does it work?
+## <a id="how"></a> How does it work?
 Before we talk about regression, let's talk about the r coefficient. It has a pretty daunting formula: 
 $$r = \frac{n\sum{XY} - (\sum{X})(\sum{Y})}{\sqrt{[n\sum{x^2}-(\sum{x})^2][n\sum{y^2}-(\sum{y})^2]}}$$
 
 Does it look familiar? Well, like all of statistics, it is based on a much simpler formula. You've actually been doing it for a while. Does this look familiar? $$z = \frac{Raw Score - Mean}{Standard Deviation}$$
-Can you see it? Since we're working with 2 variables, we're having to make some adjustments. Let's look at the formula for Mean and the formula for standard deviation and stick them together: 
+Can you see it? Since we're working with 2 variables, we're having to make some adjustments. Let's look at the formula for Mean and the formula for standard deviation and stick them together: $$s = \sqrt\frac{\sum(x-\bar{x})^2}{n-1}$$
+So what's happening here? 
 
+Well, if you look at the **numerator**, we're basically taking total number of observations, summing them together while multiplying, and then subtracting the summation of all of X and all of Y. 
 
+If you look at the denominator, that's basically standard deviation. We're taking and multiplying the two samples together after performing the top of the numerator portion of standard deviation. As we calculate it, we are not dividing, but multiplying and taking care of the potential for negative numbers.
+
+It's not an exact science, but we can basically see where Pearson began and then fiddled long enough to to get everything standardized. It's this creation of ways to standardize numbers, get them into a stable form, that really helps us connect the dots of statistics. 
+
+So after calculating all of this, we basically get a value that allows us to understand how much $Y$ is being influenced by $X$. And in doing this, we'll end up with a number somewhere between -1 and 1. 
+
+You might as yourself about a negative number. Well, look at the numerator. That is taking $x - \bar{x}$ or if we want to be accurate, $n\sum{XY} - (\sum{X})(\sum{Y})$. As such, if the sum of all X multiplied by all Y is greater than the sum of XY multiplied together, then you'll end up with a negative number.
+
+And that means that the association between these variables is negative. 
+
+However, there's also p-values, ANOVA, and Correlation that are all part and parcel of a complete analysis. 
+
+So how do we *actually do* a regression? Well, let's check it out!
+
+______________
+## <a id="doing"></a>Doing Regression
 
 [I pulled these steps from this post and adjusted them to match what we're doing.](https://medium.datadriveninvestor.com/steps-for-linear-regression-algorithm-simplified-daf685dcceee)
-1. Reading and understanding the data
-   
-2. Visualizing the data (Exploratory Data Analysis)
-   
-3. Data Preparation
-   
-4. Splitting the data into training and test sets
-   
-5. Building a linear model
-   
-6. Residual analysis of the data
-   
-7. Making predictions using the final model and evaluation
+#### <a id="step1"></a>1. Reading and understanding the data
 
+read.csv()
 
-
-
-### <a id="hype"></a> Hypotheses in Regression   
-
-## <a id="comp"></a> Components
-### <a id="least"></a> Least Squares
-### <a id="coef"></a> Coefficient of Determination
-### <a id="outliers"></a> Outliers and Other Data Issues
+#### <a id="Step2"></a>2. Visualizing the data (Exploratory Data Analysis)
+   
+#### <a id="Step3"></a>3. Data Preparation
+   
+#### <a id="Step4"></a>4. Splitting the data into training and test sets
+   
+#### <a id="Step5"></a>5. Building a linear model
+   
+#### <a id="Step6"></a>6. Residual analysis of the data
+   
+#### <a id="Step7"></a>7. Making predictions using the final model and evaluation
