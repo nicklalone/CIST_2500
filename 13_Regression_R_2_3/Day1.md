@@ -13,7 +13,7 @@
 	  
 7. [How does it work?](#how)
    
-8. [Doing Regression](#doing)
+8. [Doing Regression - For the Homework](#doing)
 	* [Reading and understanding the data](#step1)
 	* [Visualizing the data (Exploratory Data Analysis)](#step2)
 	* [Data Preparation](#step3)
@@ -184,21 +184,46 @@ However, there's also p-values, ANOVA, and Correlation that are all part and par
 So how do we *actually do* a regression? Well, let's check it out!
 
 ______________
-## <a id="doing"></a>Doing Regression
+## <a id="doing"></a>Doing Regression - For the homework
 
 [I pulled these steps from this post and adjusted them to match what we're doing.](https://medium.datadriveninvestor.com/steps-for-linear-regression-algorithm-simplified-daf685dcceee)
 #### <a id="step1"></a>1. Reading and understanding the data
+So the very first thing we need to do is to read the data and get it into the program we're using. 
 
-read.csv()
+At this point, you might as why do we do this every time. And to that i'll say that because of app culture, many students have not had to actually organize their information on a machine. As a result, many of our organizational skills for files are a massive mess. As IT professionals (regardless of the industry), organization is a must. 
+
+So, getting used to this is an essential soft skill. 
+
+For this, we do this the same way we always have. We import it and make sure to place it into an easy to remember dataframe. 
+
+> library(readr)
+> main <- read_csv("~/Desktop/R-Tutorial-Data-Files-master/SelectionExercise.csv")      
+
+What you'll notice is the following: 
+* 300 observations, 6 variables
+	* ID
+	* SJT - Situational Judgement Test or Training - Independent
+	* EmotionalIntelligence - Independent
+	* Proactivity - Independent
+	* Performance - Dependent
+	* Turnover - Extra / Ancillary
+* One thing to note is that 1 of the variables is ID
+* All of the data is interval / ratio
+
+For the first time, we don't really have to do anything with the data (that we know of.)
 
 #### <a id="Step2"></a>2. Visualizing the data (Exploratory Data Analysis)
+
+Exploratory Data Analysis is the act of literally poking around at your data. 
    
-#### <a id="Step3"></a>3. Data Preparation
+#### <a id="Step5"></a>3. Building a linear model
+library(lessR) - allows us to do all sorts of things with regression. 
+	2. Scatterplot(SJT, Performance, data = df, ellipse = TRUE) - look into the ellipse. It provides it around our scatterplot. It allows us to visualize if the data is linearly associated. Seems to be a positive correlation. We want to see a football shape. 
+		1. You can explore the different plots with the back and forward buttons. 
+		2. We still mostly exploring. We can see some outliers. 
+		3. We can see the correlation variables (r). From this correlation, we can see that this is statistically significant and correlated strongly (41.7).
+		4. So we could stop here if we chose. Talk about why. 
    
-#### <a id="Step4"></a>4. Splitting the data into training and test sets
+#### <a id="Step6"></a>4. Residual analysis of the data
    
-#### <a id="Step5"></a>5. Building a linear model
-   
-#### <a id="Step6"></a>6. Residual analysis of the data
-   
-#### <a id="Step7"></a>7. Making predictions using the final model and evaluation
+#### <a id="Step7"></a>5. Making predictions using the final model and evaluation
