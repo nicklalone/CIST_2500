@@ -4,28 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "e1d37ffdbddc8158",
+        "id": "4f670f7c68554a30",
         "type": "tabs",
         "children": [
           {
-            "id": "8dd382b23288e746",
+            "id": "cfb7e55b43eeddeb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "13_Regression_R_2_3/Day1.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ae036a7e1b2ac974",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "13_Regression_R_2_3/Day2.md",
+                "file": "01_Introduction/day1.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "13_Regression_R_2_3/Day1.md",
+                "file": "01_Introduction/day1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "13_Regression_R_2_3/Day1.md",
+                "file": "01_Introduction/day1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "13_Regression_R_2_3/Day1.md"
+                "file": "01_Introduction/day1.md"
               }
             }
           }
@@ -149,8 +137,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "8dd382b23288e746",
+  "active": "cfb7e55b43eeddeb",
   "lastOpenFiles": [
+    "01_Introduction/README.md",
     "13_Regression_R_2_3/Day2.md",
     "13_Regression_R_2_3/Day1.md",
     "12_ANOVA-Start of Regression/Day2.md",
@@ -159,7 +148,6 @@
     "11_R_Stuff_2_3/Day1.md",
     "13_Regression_R_2_3/README.md",
     "08_Hypothesis_Testing/day1.md",
-    "().md",
-    "11_R_Stuff_2_3/README.md"
+    "().md"
   ]
 }
