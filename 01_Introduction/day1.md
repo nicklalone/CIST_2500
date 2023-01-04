@@ -6,7 +6,7 @@ You may say to yourself, "Oh god, why's he talking about history?" And to this i
 
 And so what?
 
-Well, the so what of statistics is that we can use this to determine the likelihood that you as a person will succeed in life. We can know the likelihood that you'll get a disease in some circumstances. Or, we can know about how long you'll live.
+Well, the so what of statistics is that we can use this to determine the likelihood that you as a person will succeed in life. We can know the likelihood that you'll get a disease in some circumstances. Or, we can know about how long you'll live, how well your local economy is going, and more.
 
 All of these things about you, in the present, are based on those things we know about all those folks who came before you. So, we can say that statistics is the use of the past to predict the future which is currently the present. 
 
@@ -18,9 +18,18 @@ And we're going to pull back all of the fantasy around all of that and get into 
 
 ---------------- Table of Contents ---------------- 
 
-
+1. Who I am
+2. How the class works
+3. What you'll know how to do
+4. How to get an A
 
 ---------------- Table of Contents ---------------- 
 
-## <a id="gs"></a> Getting Started
+## Who I am
+
+## How the class works
+
+## What you'll know how to do
+
+## How to get an A
 
