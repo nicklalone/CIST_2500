@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_Introduction/day1.md",
+                "file": "09_Inferencing_Multi_Variances/day1-2.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01_Introduction/day1.md",
+                "file": "09_Inferencing_Multi_Variances/day1-2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01_Introduction/day1.md",
+                "file": "09_Inferencing_Multi_Variances/day1-2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01_Introduction/day1.md"
+                "file": "09_Inferencing_Multi_Variances/day1-2.md"
               }
             }
           }
@@ -139,15 +139,15 @@
   },
   "active": "cfb7e55b43eeddeb",
   "lastOpenFiles": [
-    "05_Probability/Day1.md",
-    "04_R_Stuff-Intro/day1.md",
-    "02_Descriptives/day1.md",
-    "01_Introduction/day1.md",
-    "01_Introduction/README.md",
-    "13_Regression_R_2_3/Day2.md",
-    "13_Regression_R_2_3/Day1.md",
-    "12_ANOVA-Start of Regression/Day2.md",
-    "12_ANOVA-Start of Regression/README.md",
-    "12_ANOVA-Start of Regression/Day1.md"
+    "07_Sampling/07_thursday.md",
+    "README.md",
+    "().md",
+    "01_What_is_Stats/README.md",
+    "01_What_is_Stats/day2.md",
+    "01_What_is_Stats/day1.md",
+    "04_Test_1/day2.md",
+    "04_Test_1/README.md",
+    "05_R_Week/Readme.md",
+    "05_R_Week/Day1.md"
   ]
 }
