@@ -20,18 +20,45 @@ Slidedeck: https://docs.google.com/presentation/d/1YeyfR9C_HpAzcurfyglyCQ-q_6zag
 
 ---------------- Table of Contents ---------------- 
 
-1. Who I am
-2. How the class works
-3. What you'll know how to do
-4. How to get an A
+1. [Who I am](#who)
+2. [How the class works](#how)
+3. [What you'll know how to do](#learn)
+4. [How to get an A](#geta)
 
 ---------------- Table of Contents ---------------- 
 
-## Who I am
+## <a id="who"></a>Who I am
+Dr. Nick LaLone is a first generation researcher of the socio-technical at the University of Nebraska at Omaha. His research interests include social network analysis, emergency management, Disaster Science, Play, Games, and the sociology of race, gender and ethnicity. He has presented at ACM Conferences like CHI, DIS, and CSCW and is a current program committee chair for ISCRAM, the FEMA Higher Education Symposium, and the Conference Planning Committee of the international Association of Emergency Management (IAEM). 
 
-## How the class works
+Nick’s research focuses on how emergency managers understand and use technology, how play and games factor into that technology integration, and how location-based services need to be developed to better assist emergency managers in the midst of a response. Recent publications include a discussion of, “The Technology Crisis in US-based Emergency Management: Toward a Well-Connected Future” at HICSS earlier this month which came as the result of a long-asked question about how emergency management understands technology. He highlighted that regardless of any and all education, age, or socio-economic background, the bulk of emergency management understands and uses technology in the same way, they do not use it at all. He is currently engaged in the development of trainings, policy, and white papers that will engage this issue and hopefully foster a new tech industry focused on use-cases in the midst of disaster. 
 
-## What you'll know how to do
+While at the University of Nebraska at Omaha, Nick has been teaching (online and in-person) core courses focused on introductory statistics, management, and how technology works. In the past, Nick has developed an successful Data Science Masters Program for a small online University in Omaha, taught introductory programming to people who have never touched their computers with the intent to code before, and introductions to game design and game programming using the PICO-8 fantasy game console. 
 
-## How to get an A
+In his spare time, Nick can be found writing and reading everything he can find, playing low-stress video games like Chained Echoes, Animal Crossing: New Horizons, and Stardew Valley, designing socially awkward games no one should play, and helping new game designers find the resources and audience they need. In addition to these things, Nick is recovering from an achilles tendon injury or he would be continuing with his partner Kristen (a veterinarian) to prepare for marathons, ultra marathons, and other kinds of sporting things no one in their right mind should do. When not doing any of the above, he can be found searching for early relics in the creation of Dungeons and Dragons as part of a research team for a series of documentaries.
 
+## <a id="how"></a>How the class works
+There are 1000 points in class. We gather them in one of the following ways: homeworks, tests, and analyses. Analyses will almost all use R. The distribution of points:
+
+|item|#|points per|point total| overall total | \% of total|
+|-|-|----------|-----------|------------|----------|
+|Homeworks|10|30|300|300|30\%|
+|Tests|4|100|400|700|40\%|
+|Analysis|3|100|300|1000|30\%|
+
+### Homework
+
+### Tests
+
+	### Analyses
+
+## <a id="learn"></a>What you'll know how to do
+
+## <a id="geta"></a>How to get an A
+It's really pretty simple. 
+
+1. Come to Class.
+2. Participate.
+3. Ask questions. 
+4. Take responsibility for your future.
+
+If you fail this course or get less than an A, that is because you did not do one of the above.
