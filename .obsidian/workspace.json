@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_What_is_Stats/README.md",
+                "file": "01_What_is_Stats/day1.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01_What_is_Stats/README.md",
+                "file": "01_What_is_Stats/day1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01_What_is_Stats/README.md",
+                "file": "01_What_is_Stats/day1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01_What_is_Stats/README.md"
+                "file": "01_What_is_Stats/day1.md"
               }
             }
           }
@@ -139,6 +139,7 @@
   },
   "active": "cfb7e55b43eeddeb",
   "lastOpenFiles": [
+    "01_What_is_Stats/README.md",
     "01_What_is_Stats/day2.md",
     "01_What_is_Stats/day1.md",
     "11_ANOVA/Day1.md",
@@ -147,7 +148,6 @@
     "05_Probability/Day1.md",
     "04_R_Stuff-Intro/day1.md",
     "02_Descriptives/day1.md",
-    "01_Introduction/README.md",
-    "13_Test_3/Day2.md"
+    "01_Introduction/README.md"
   ]
 }

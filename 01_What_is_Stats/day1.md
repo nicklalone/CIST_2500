@@ -16,6 +16,8 @@ Statistics is used almost everywhere these days. From home loans to discount car
 
 And we're going to pull back all of the fantasy around all of that and get into the reality.
 
+Slidedeck: https://docs.google.com/presentation/d/1YeyfR9C_HpAzcurfyglyCQ-q_6zagRYpu7Bb2lIsh-E/edit?usp=sharing 
+
 ---------------- Table of Contents ---------------- 
 
 1. Who I am
