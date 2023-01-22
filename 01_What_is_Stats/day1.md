@@ -46,10 +46,13 @@ There are 1000 points in class. We gather them in one of the following ways: hom
 |Analysis|3|100|300|1000|30\%|
 
 ### Homework
+It's obnoxious but the key to figuring out math stuff is to do math stuff. I know this is a surprise. So what we will do each week is a collection of exercises from the relevant readings of that week. As your textbook gives you half of the answers, each of you should begin at a 50\% meaning all you can do is go up! There are 14 homeworks in 16 weeks of class but also 3 tests meaning that 13 weeks are available. Well, let me tell you a secret...you all get a free 20 points for homeworks. And what this means is that there's actually 12 homeworks...
 
 ### Tests
+Ah, tests. Each test will be open-note, open-book, and you can ask me questions about the questions if you're stuck. You may say after reading this, ``oh man, this'll be easy!`` But open-note, open-book, also means that I can make the questions as hard and weird as I want to. Will I follow through on that threat?  We will see.
 
-	### Analyses
+### Analyses
+Because I am a mean person, you have to actually perform a few analyses. These analyses will be of real datasets. The first will use Excel but the last 2 will use R. Mostly what you'll do here is either answer questions I ask you OR (especially in the later part of the course) identify something you'd like to know and then do it. These will be done in a small essay format. 5 paragraphs, just tell me what you see.
 
 ## <a id="learn"></a>What you'll know how to do
 
