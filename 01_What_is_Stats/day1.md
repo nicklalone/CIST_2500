@@ -57,11 +57,11 @@ Because I am a mean person, you have to actually perform a few analyses. These a
 ## <a id="learn"></a>What you'll know how to do
 
 ## <a id="geta"></a>How to get an A
-It's really pretty simple. 
+It's really pretty simple. I will do everything I can to protect you from me, from the college, and from yourselves. However, I can't be everything and so for you, in order to get an A you need to:
 
 1. Come to Class.
 2. Participate.
 3. Ask questions. 
 4. Take responsibility for your future.
 
-If you fail this course or get less than an A, that is because you did not do one of the above.
+If you fail this course or get less than an A, that is because you did not do one of the above. 
