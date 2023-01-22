@@ -1,5 +1,5 @@
 # CIST_2500
 A collection of lectures, exercises, and resources for an introduction to statistics. 
 
-* [Day 1](13_Regression_R_2_3/Day1.md)
-* [Day 2](13_Regression_R_2_3/Day2.md)
+* [Tuesday or Day 1](08_Spring_Break/day1.md)
+* [Thursday or Day 2](08_Spring_Break/day2.md)

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "().md",
+                "file": "01_What_is_Stats/README.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "().md",
+                "file": "01_What_is_Stats/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "().md",
+                "file": "01_What_is_Stats/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "().md"
+                "file": "01_What_is_Stats/README.md"
               }
             }
           }
@@ -139,15 +139,15 @@
   },
   "active": "cfb7e55b43eeddeb",
   "lastOpenFiles": [
+    "01_What_is_Stats/day2.md",
+    "01_What_is_Stats/day1.md",
+    "11_ANOVA/Day1.md",
+    "().md",
     "01_Introduction/day1.md",
     "05_Probability/Day1.md",
     "04_R_Stuff-Intro/day1.md",
     "02_Descriptives/day1.md",
     "01_Introduction/README.md",
-    "13_Regression_R_2_3/Day2.md",
-    "13_Regression_R_2_3/Day1.md",
-    "12_ANOVA-Start of Regression/Day2.md",
-    "12_ANOVA-Start of Regression/README.md",
-    "12_ANOVA-Start of Regression/Day1.md"
+    "13_Test_3/Day2.md"
   ]
 }
