@@ -1,10 +1,10 @@
 ---------------- Table of Contents ---------------- 
 
-2. [How Does Statistics Work?](#howwork)
-3. [Description](#describe)
-4. [Comparison](#compare)
-5. [Relation](#relate)
-6. [Fun Things Stats Has Done](#fun)
+1. [How Does Statistics Work?](#howwork)
+2. [Description](#describe)
+3. [Comparison](#compare)
+4. [Relation](#relate)
+5. [Fun Things Stats Has Done](#fun)
 
 ---------------- Table of Contents ---------------- 
 
