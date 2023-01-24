@@ -4,29 +4,29 @@
 
 ---------------- Table of Contents ---------------- 
 
-1. What do we mean, "Descriptives?"
-2. Modes of Central Tendency
-	* Mean
-	* Median
-	* Mode
-	* Standard Deviation
-3. What does this allow us to do?
+1. [What do we mean, "Descriptives?"](#whatmean)
+2. [Modes of Central Tendency](#modes)
+	* [Mean](#mean)
+	* [Median](#median)
+	* [Mode](#mode)
+	* [Standard Deviation](#std)
+3. [What does this allow us to do?](#whatdo)
 
 ---------------- Table of Contents ---------------- 
 
 ## <a id="whatmean"></a>What do we mean, "Descriptives?"
 
 
-## Modes of Central Tendency
+## <a id="modes"></a>Modes of Central Tendency
 
-### Mean
+### <a id="mean"></a>Mean
 
-### Median
+### <a id="median"></a>Median
 
-### Mode
+### <a id="mode"></a>Mode
 
-### Standard Deviation
+### <a id="std"></a>Standard Deviation
 
 
-## What does this allow us to do?
+## <a id="whatdo"></a>What does this allow us to do?
 
