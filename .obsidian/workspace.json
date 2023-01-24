@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_What_is_Stats/day2.md",
+                "file": "02_Descriptives/day2.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01_What_is_Stats/day2.md",
+                "file": "02_Descriptives/day2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01_What_is_Stats/day2.md",
+                "file": "02_Descriptives/day2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01_What_is_Stats/day2.md"
+                "file": "02_Descriptives/day2.md"
               }
             }
           }
@@ -140,8 +140,8 @@
   "active": "10af26ecef72528e",
   "lastOpenFiles": [
     "02_Descriptives/day1.md",
-    "02_Descriptives/day2.md",
     "01_What_is_Stats/day2.md",
+    "02_Descriptives/day2.md",
     "07_Hypothesis_Testing/07_thursday.md",
     "05_R_Week/Day1.md",
     "09_Test_2/day1-2.md",
