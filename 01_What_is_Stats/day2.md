@@ -1,3 +1,11 @@
+In this class, I will be summarizing your textbook and condensing it into what I hope are bite-sized pieces. The way it should work is that we will have: 
+
+1. A Github Entry on each day of each week.
+2. A powerpoint presentation that bridges the book, class, and entries
+3. A quiz, an analysis, or a test.
+
+And so, this is the introduction of those things. We won't really have a powerpoint this week, but i'll make one with basic words for those of you who use them for notes.
+
 ---------------- Table of Contents ---------------- 
 
 1. [How Does Statistics Work?](#howwork)
