@@ -62,11 +62,11 @@ Mostly, we can say that there are "2" kinds of  χ² tests. These are based on t
 	* For Chi-Square Goodness of Fit Test since it is 1 variable, it is calculated by: 
 	* For Chi-Square Test of Independence, this is comparing 2 variables, it is calculated by <img src="/images/expected.png" width="100" align=middle>. Let me write 2 tables (left is the calculations, right is the results for expected counts): 
 
-	|UG|G|Totals|-|UG|G|Total|
-	|--|-|------|-|--|-|-----|
-	|(55 * 60)/100|(55 * 40)/100|55|-|33|22|55| 
-	|(45 * 60)/100|(45 * 40)/100|45|-|33|22|45| 
-	|60|40|100|-|60|40|100|
+|UG|G|Totals|-|UG|G|Total|
+|--|-|------|-|--|-|-----|
+|(55 * 60)/100|(55 * 40)/100|55|-|33|22|55| 
+|(45 * 60)/100|(45 * 40)/100|45|-|33|22|45| 
+|60|40|100|-|60|40|100|
 
 And so, we will be using these data to compare to our observed data.
 
