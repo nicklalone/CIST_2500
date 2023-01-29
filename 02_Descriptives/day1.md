@@ -62,7 +62,7 @@ Taken together, these three concepts form the basis of why statistics works. We 
 ### <a id="mean"></a>Mean:
 This is essentially an average of all the cases of numeric data and it is *the* most used measure of central tendency. From this simple calculation, we can start to understand what our dataset actually looks like and from there, what sorts of tests or cleaning we might have to do.
 
-*One important note is that the Mean is very susceptible to EXTREME VALUES* and in this case, EXTREME are what we call outliers. So take this set of data: (88+86+88+90+95+88+54). In this case, 54 is an outlier because it is far smaller than any of the other scores (because the scores are out of 100). So, we might actually remove this score before calculating which is essentially a decision about how to clean our data. 
+*One important note is that the Mean is very susceptible to EXTREME VALUES* and in this case, EXTREME are what we call outliers. So take this set of data: $(88+86+88+90+95+88+54)$. In this case, 54 is an outlier because it is far smaller than any of the other scores (because the scores are out of 100). So, we might actually remove this score before calculating which is essentially a decision about how to clean our data. 
 
 #### <a id="othermeans"></a>Other types of means:
 In general, we will only be using arithmetic mean in this class; however, it's good to know that the others exist. These are covered in your textbook but I find [(this article from the NIH to be super useful](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3127352/#:~:text=Mean%20is%20the%20most%20commonly,and%20harmonic%20mean%20(HM).)).
@@ -70,7 +70,7 @@ In general, we will only be using arithmetic mean in this class; however, it's g
 * **arithmetic mean**
 This is the mean we are all used to. Think of it like this: $\bar{x} or \mu = \frac{\Sigma{x}}{n}$ but what is that? Well, think of this distribution of data: $88, 86, 88, 90, 95, 88, 54$. This is basically a list of scores from some assignment or test. Sigma, or $\Sigma$ tells us to "Sum those numbers", so we could consider the formula as:  $88+86+88+90+95+88+54$ but what is that n? Well, that's just the number of cases. So in this case it would be: 7. 
 
-So the full formula from: $\bar{x} or \mu = \frac{\Sigma{x}}{n}$ would look like: $(88+86+88+90+95+88+54)/7$ or 84.12. The arithmetic mean of the (is this a population or sample? Let's say it is a population) population is basically: $\mu = 84.12$.
+So the full formula from: $\bar{x} \ or \mu = \frac{\Sigma{x}}{n}$ would look like: $(88+86+88+90+95+88+54)/7$ or 84.12. The arithmetic mean of the (is this a population or sample? Let's say it is a population) population is basically: $\mu = 84.12$.
 
 * **weighted mean**
 Weighted mean is calculated when certain values in a data set are more important than the others. A weight ($w_i$) is attached to each of the values ($x_i$) to reflect this importance. 
@@ -110,11 +110,21 @@ This is for populations. For samples, the formula is the same (mostly) save for 
 What do you notice here? If you are unsure, the s, the $\bar{x}$ which is the mean of a sample, and the n-1. We take n-1 as we want to diminish the potential for errors so we basically say we collected fewer cases than we did so the numbers are more powerful and representative.
 
 ## <a id="whatdo"></a>What does this allow us to do?
-Taken together, the measures of central tendency let us know how our data are shaped. What is this shape I keep talking about? Well, think of it like this: 
+Taken together, the measures of central tendency let us know how our data are shaped. It also will tell us a lot that is dependent on how that numeric variable is actually measured. For example, if it's a test score from 0-100 and the Mean is a 43, there's something bad going on there. If the Mean is 100, there is also something going on there (and bad in this case is mostly about how difficult a course is from a promotion or continuing appointment perspective.). We could also be getting values at a glance of height of people aged 20-25 in Omaha. If the value is 2'5", there's something funky going on there because who is 2' high? Also, if the mean is 10'7", wouldn't everyone in Omaha be a professional basketball player?
+
+What is this shape I keep talking about? Well, think of it like this: 
 
 ![Data Skew](/images/skew.jpg)
 
 What this allows us to see, to understand about our data is if we need to worry about outliers. Depending on the severity of the skew, you might need to do quite a bit to get it right with "right" meaning symmetric enough to do inferential tests on. Notice above that central tendency is literally pointing to symmetry meaning mean, median, and mode are all the same value so if the mean is the most likely value to be impacted by outliers, most of what we'll see in terms of skew begins there.
+
+I will mention this again in the future but remember this about Skew (and Kurtosis which I haven't mentioned at all) [From Here](https://community.gooddata.com/metrics-and-maql-kb-articles-43/normality-testing-skewness-and-kurtosis-241): 
+
+> As a general rule of thumb: If skewness is less than -1 or greater than 1, the distribution is highly skewed. If skewness is between -1 and -0.5 or between 0.5 and 1, the distribution is moderately skewed. **If skewness is between -0.5 and 0.5, the distribution is approximately symmetric**.
+
+So modes of central tendency allow us to basically, "get started."
+
+Consider us started then.
 
 ## <a id="concepts"></a>Formulas, Greek Letters, and Concepts
 * Mean = This is essentially *the average* of your numeric distribution. To find this, sum all of your values and divide by total cases (n).
