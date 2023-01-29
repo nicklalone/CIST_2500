@@ -31,7 +31,7 @@ This will probably not make a huge amount of sense until we get into actual infe
 
 ## <a id="whatmean"></a>What do we mean, "Descriptives?"
 
-Descriptive data is essentially a set of summary statistics that describe their "centrality." This is essentially how "normal" your data is and in the case of normality, we can call back to the standard normal curve: 
+Descriptive data is essentially a set of summary statistics that describe their "centrality." This is essentially how "normal" your data is and in the case of normality, we can call back to the standard normal curve (don't worry about the z-line for right now.): 
 
 ![Standard Normal Curve](/images/normal.png)
 When your data is symmetric or essentially normal, we can do just about any kind of test on it depending on the types of "variables" we have. A variable, in this case and in most cases we use this word is essentially some thing that varies. We could count sheep, count the thickness of toe nails, number of books in an a person's home, or the number of colors we can see. 
@@ -60,7 +60,9 @@ And so, we have a few concepts to think about:
 Taken together, these three concepts form the basis of why statistics works. We know that if we take a sample, that it will be part of the population and that if we keep taking samples and average them, that as we keep taking samples, we will keep getting closer to the actual population average. 
 
 ### <a id="mean"></a>Mean:
+This is essentially an average of all the cases of numeric data and it is *the* most used measure of central tendency. From this simple calculation, we can start to understand what our dataset actually looks like and from there, what sorts of tests or cleaning we might have to do.
 
+*One important note is that the Mean is very susceptible to EXTREME VALUES* and in this case, EXTREME are what we call outliers. So take this set of data: (88+86+88+90+95+88+54). In this case, 54 is an outlier because it is far smaller than any of the other scores (because the scores are out of 100). So, we might actually remove this score before calculating which is essentially a decision about how to clean our data. 
 
 #### <a id="othermeans"></a>Other types of means:
 In general, we will only be using arithmetic mean in this class; however, it's good to know that the others exist. These are covered in your textbook but I find [(this article from the NIH to be super useful](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3127352/#:~:text=Mean%20is%20the%20most%20commonly,and%20harmonic%20mean%20(HM).)).
@@ -95,20 +97,37 @@ There are a ton of complicated formulas for median though so if you are working 
 Is simply the number that is repeated the most often. Let's look back at the example from arithmetic mean: $(88+86+88+90+95+88+54)/7$ or 84.12. 
 
 Note here that we have a range (smallest to largest number) of 54 - 95. This is what I would release when giving back a large test. We know that the arithmetic mean is 84.12 and that the median 
+____
+
+We will not be calculating these until next week but they are important descriptors so consider this a primer or preview of what we'll talk about.
 
 ### <a id="std"></a>Standard Deviation:
+Standard deviation is not a mode of central tendency; however, it is a very helpful value to help us describe our data. What the value is is essentially, "a measure of dispersion or variability." It is the square root of variance. 
 
+### <a id="variance"></a>Variance:
+This also measures dispersion or how different our data are from themselves; however, this is a raw value and is not standardized by taking its square root. The formula for variance is: $$\sigma = \sqrt{\frac{\Sigma(x_i-\mu)^2}{N}}$$
+This is for populations. For samples, the formula is the same (mostly) save for a few letters and something in the numerator. $$s = \sqrt{\frac{\Sigma(x_i-\bar{x})^2}{n-1}}$$
+What do you notice here? If you are unsure, the s, the $\bar{x}$ which is the mean of a sample, and the n-1. We take n-1 as we want to diminish the potential for errors so we basically say we collected fewer cases than we did so the numbers are more powerful and representative.
 
 ## <a id="whatdo"></a>What does this allow us to do?
+Taken together, the measures of central tendency let us know how our data are shaped. What is this shape I keep talking about? Well, think of it like this: 
 
+![Data Skew](/images/skew.jpg)
+
+What this allows us to see, to understand about our data is if we need to worry about outliers. Depending on the severity of the skew, you might need to do quite a bit to get it right with "right" meaning symmetric enough to do inferential tests on. Notice above that central tendency is literally pointing to symmetry meaning mean, median, and mode are all the same value so if the mean is the most likely value to be impacted by outliers, most of what we'll see in terms of skew begins there.
 
 ## <a id="concepts"></a>Formulas, Greek Letters, and Concepts
-* Mean
-* Median
-* Mode
+* Mean = This is essentially *the average* of your numeric distribution. To find this, sum all of your values and divide by total cases (n).
+* Median = the middle value once all values are in order. You can find this with an even numbered distribution by taking $\frac{n+1}{2}$ where n = the total number of cases.
+* Mode = the most repeated number of your dataset (as long as it is numeric.)
+* Total Cases = n
+* Outlier
+* Skew
+  
 * Greek Letters
 	* Sigma (sum) = $\Sigma$ 
 	* sigma (standard deviation of a population) = $\sigma$
+	* standard deviation of a sample = s
 	* Average (population) = $\mu$
 	* Average (sample) = $\bar{x}$
 	* Pi (multiply everything) = $\Pi$ (note that this is different that pi or $\pi$)
