@@ -15,8 +15,6 @@ The most important concept to carry forward from this week is this:
 
 This will probably not make a huge amount of sense until we get into actual inferences, but just keep it in mind for now and I apologize for not explaining it right away but we need to get a few other things in order first. 
 
-
-
 ---------------- Table of Contents ---------------- 
 
 1. [What do we mean, "Descriptives?"](#whatmean)
@@ -59,7 +57,7 @@ And so, we have a few concepts to think about:
   
 * **Modes of Central Tendency** - The center or typicality of a distribution. The three most common measures of central tendency are the [mean](#mean), [median](#median), and [mode](#mode). 
 
-Taken together, these three concepts form the basis of why statistics works. We know that if we take a sample, that it will be part
+Taken together, these three concepts form the basis of why statistics works. We know that if we take a sample, that it will be part of the population and that if we keep taking samples and average them, that as we keep taking samples, we will keep getting closer to the actual population average. 
 
 ### <a id="mean"></a>Mean:
 
@@ -109,6 +107,8 @@ Mean
 Median
 Mode
 
-Sigma = $\Sigma$ 
-Mu = $\mu$
-
+Sigma (sum) = $\Sigma$ 
+sigma (standard deviation of a population) = $\sigma$
+Average (population) = $\mu$
+Average (sample) = $\bar{x}$
+Pi (multiply everything) = $\Pi$ (note that this is different that pi or $\pi$)

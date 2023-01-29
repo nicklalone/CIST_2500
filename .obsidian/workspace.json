@@ -11,8 +11,12 @@
             "id": "10af26ecef72528e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "02_Descriptives/day1.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "02_Descriptives/day1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "02_Descriptives/day1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "02_Descriptives/day1.md"
+              }
             }
           }
         ],
@@ -129,8 +137,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "ce0917bef73f47d2",
+  "active": "10af26ecef72528e",
   "lastOpenFiles": [
+    "Pasted image 20230123172643.png",
     "02_Descriptives/day1.md",
     "01_What_is_Stats/day2.md",
     "01_What_is_Stats/day1.md",
@@ -139,7 +148,6 @@
     "03_Z-Scores/day1.md",
     "07_Hypothesis_Testing/07_thursday.md",
     "05_R_Week/Day1.md",
-    "09_Test_2/day1-2.md",
-    "images/process.png"
+    "09_Test_2/day1-2.md"
   ]
 }
