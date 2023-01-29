@@ -106,8 +106,9 @@ Note here that we have a range (smallest to largest number) of 54 - 95. This is 
 * Mean
 * Median
 * Mode
-* Sigma (sum) = $\Sigma$ 
-* sigma (standard deviation of a population) = $\sigma$
-* Average (population) = $\mu$
-* Average (sample) = $\bar{x}$
-* Pi (multiply everything) = $\Pi$ (note that this is different that pi or $\pi$)
+* Greek Letters
+	* Sigma (sum) = $\Sigma$ 
+	* sigma (standard deviation of a population) = $\sigma$
+	* Average (population) = $\mu$
+	* Average (sample) = $\bar{x}$
+	* Pi (multiply everything) = $\Pi$ (note that this is different that pi or $\pi$)
