@@ -11,7 +11,7 @@ The shape of data is deceptive.
 
 The most important concept to carry forward from this week is this: 
 
-	The centrality, the shape of your data will often determine what sorts of tests can actually be performed on said data. 
+>The centrality, the shape of your data will often determine what sorts of tests can actually be performed on your data. 
 
 This will probably not make a huge amount of sense until we get into actual inferences, but just keep it in mind for now and I apologize for not explaining it right away but we need to get a few other things in order first. 
 
