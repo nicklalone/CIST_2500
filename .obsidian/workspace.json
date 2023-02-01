@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02_Descriptives/day2.md",
+                "file": "03_Z-Scores/day1.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 259.5004348754883
+    "width": 200
   },
   "right": {
     "id": "1fc2bc29e1ae508a",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02_Descriptives/day2.md",
+                "file": "03_Z-Scores/day1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "02_Descriptives/day2.md",
+                "file": "03_Z-Scores/day1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02_Descriptives/day2.md"
+                "file": "03_Z-Scores/day1.md"
               }
             }
           }
@@ -137,22 +137,12 @@
     "width": 300,
     "collapsed": true
   },
-  "left-ribbon": {
-    "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false
-    }
-  },
   "active": "10af26ecef72528e",
   "lastOpenFiles": [
-    "02_Descriptives/day1.md",
     "03_Z-Scores/day2.md",
     "03_Z-Scores/day1.md",
     "02_Descriptives/day2.md",
+    "02_Descriptives/day1.md",
     "01_What_is_Stats/day1.md",
     "02_Descriptives/readme.md",
     "images/dbar.png",
