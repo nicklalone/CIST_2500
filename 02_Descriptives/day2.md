@@ -11,9 +11,9 @@
 ---------------- Table of Contents ---------------- 
 
 ## <a id="formulas"></a>Formulas
-Mean: $\bar{x} \ or \mu = \frac{\Sigma{x}}{n}$ 
-Median: $\frac{N+1}{2}$
-Mode: Is simply the most repeated number. 
+* Mean: $\bar{x} \ or \mu = \frac{\Sigma{x}}{n}$ 
+* Median: $\frac{N+1}{2}$
+* Mode: Is simply the most repeated number. 
 
 These should be the 3 formula you need for today.
 
