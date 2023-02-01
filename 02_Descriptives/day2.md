@@ -62,7 +62,3 @@ The current times I have achieved are:
 We need to get these data into Excel and so let's try that out.
 
 We also need to get some summary statistics, let's try those out.
-
-## <a id="jpr"></a>Job Placement Rates
-
-## <a id="shn"></a>Super Huge Numbers
