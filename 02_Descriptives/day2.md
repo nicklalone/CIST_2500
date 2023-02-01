@@ -20,7 +20,11 @@ Mode: Is simply the most repeated number.
 These should be the 3 formula you need for today.
 
 ## <a id="excel"></a>Getting Excel Up and Running
+For the most part, there's just one link to worry about. That link is this: 
 
+https://support.microsoft.com/en-us/office/load-the-analysis-toolpak-in-excel-6a63e598-cd6d-42e3-9317-6b40ba1a66b4#OfficeVersion=Windows
+
+The Data Analysis Toolkit / Tool Pack is super useful. You may tell yourself that you can get away with never using this and you might, but the tradeoff is to do more work, manually, than you have to. The tradeoff is up to you.
 
 ## <a id="ts"></a>Test Scores
 Every test, homework, assignment, quiz, or other kind of skill check is useful for understanding a few different things. For example, if the scores are all low, then looking more into the questions that were missed the most can be useful to see if it was your lectures or the outside reading that matters. If the test is super high, then either you're doing a good job or you're not pushing your students hard enough but this is a delicate thing so it can be tricky to get right. 
