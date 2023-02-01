@@ -7,8 +7,6 @@
 3. [Test Scores](#ts)
 4. [House Prices](#hp)
 5. [Speedrun Times](#st)
-6. [Job Placement Rates](#jpr)
-7. [Super Huge Numbers](#shn)
 
 ---------------- Table of Contents ---------------- 
 
