@@ -111,11 +111,15 @@ Let's talk a bit about z-scores.
 So we have the shape and dispersion of our data. NICE! We have completed the very first stage in the initial look at our data before cleaning begins. Remember back in the discussion about the normal curve? Let's get that pic out again: 
 
 ![normal curve](/images/normal.png)
+Only this time, look at the bottom line where it has a giant $\color{red}{Z:}$ with -3 to 3 on it. Note that this also corresponds to $\sigma$ or the number of standard deviations. 
+
+
 
 ### <a id = "zvstd"></a>Z-Scores v. Standard Scores
-We need standardized scores so we can actually calculate z-scores.
+We need standardized scores so we can actually calculate z-scores. 
 
 ### <a id="letusdo"></a>What does this let us do?
-Think of it like this, we have a standardized model of our data we can use to understand the population. Within this, we can use it to really dig into what our data mean.
+What a z-score tells you is exactly how many standard deviations exist between your value (x) and the mean. 
 
 ### <a id="z-doforme"></a>And what does that do for me?
+While we are really only checking one value, this will have huge uses later.
