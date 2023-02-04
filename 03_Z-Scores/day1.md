@@ -19,9 +19,11 @@ In this, week 3, the last week before test, we move from descriptive measures to
 > The extent to which the scores in a distribution are spread around the mean value or throughout the distribution. The most commonly used measures of dispersion are the variance and the standard deviation. 
 
 And so we have a pretty unsatisfactory definition. Like, what does this actually mean? Well, let's think about it like this: 
+
 1. Our data vary because the thing we're measuring is probably humans and so from this, we can say that humans are varied. 
 2. How they vary is slightly predictable and it is this predictability with regard to variance that forms the basis of statistics. 
 3. That predictability forms the basis of the normal curve. The space where the  most representation is is around the center, the mean. As we move out from the mean, we see fewer and fewer pieces of data until they become outliers. 
+
 Up until now, we have mostly just been doing means, medians, and modes. This allows us to see how our data are shaped, but it doesn't tell us how varied our data are. Now, we can see it. We can see it super well; however, we cannot really *KNOW* how varied they are. 
 
 So let's do something about that. 
@@ -112,8 +114,6 @@ So we have the shape and dispersion of our data. NICE! We have completed the ver
 
 ![normal curve](/images/normal.png)
 Only this time, look at the bottom line where it has a giant $\color{red}{Z:}$ with -3 to 3 on it. Note that this also corresponds to $\sigma$ or the number of standard deviations. 
-
-
 
 ### <a id = "zvstd"></a>Z-Scores v. Standard Scores
 We need standardized scores so we can actually calculate z-scores. 
