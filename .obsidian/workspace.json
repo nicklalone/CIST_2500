@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03_Z-Scores/day1.md",
+                "file": "04_Test_1/day2.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "03_Z-Scores/day1.md",
+                "file": "04_Test_1/day2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "03_Z-Scores/day1.md",
+                "file": "04_Test_1/day2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03_Z-Scores/day1.md"
+                "file": "04_Test_1/day2.md"
               }
             }
           }
@@ -149,15 +149,15 @@
   },
   "active": "711437947abc5e71",
   "lastOpenFiles": [
-    "images/normal.jpg.md",
+    "04_Test_1/day1.md",
     "03_Z-Scores/day1.md",
+    "images/normal.jpg.md",
     "03_Z-Scores/day2.md",
     "02_Descriptives/day2.md",
     "02_Descriptives/day1.md",
     "02_Descriptives/readme.md",
     "01_What_is_Stats/day1.md",
     "images/dbar.png",
-    "images/cramers.png",
-    "images/corr.png"
+    "images/cramers.png"
   ]
 }
