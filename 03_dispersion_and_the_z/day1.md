@@ -125,7 +125,7 @@ Much of statistics is getting your values, the numeric data you possess, into a 
 
 https://www.youtube.com/watch?v=AjI_LcQOOs4&ab_channel=%E7%9B%A7%E6%A8%82
 
-We need standardized scores so we can actually calculate z-scores. And from the above, we can see a % likelihood that your values will end up on any of the 
+We need standardized scores so we can actually calculate z-scores. And from the above, we can see a % likelihood that your values will end up on any of the x-axis. While we have a % chance here and there. This lets us see it better.
 
 ### <a id="letusdo"></a>What does this let us do?
 What a z-score tells you is exactly how many standard deviations exist between your value (x) and the mean. 

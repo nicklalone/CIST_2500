@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03_dispersion_and_the_z/day1.md",
+                "file": "05_R_Week/Day1.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "03_dispersion_and_the_z/day1.md",
+                "file": "05_R_Week/Day1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "03_dispersion_and_the_z/day1.md",
+                "file": "05_R_Week/Day1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03_dispersion_and_the_z/day1.md"
+                "file": "05_R_Week/Day1.md"
               }
             }
           }
@@ -147,17 +147,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ce0917bef73f47d2",
+  "active": "10af26ecef72528e",
   "lastOpenFiles": [
+    "05_R_Week/Readme.md",
+    "03_dispersion_and_the_z/day1.md",
     "03_dispersion_and_the_z/day2.md",
     "02_Descriptives/day2.md",
     "02_Descriptives/day1.md",
-    "03_dispersion_and_the_z/day1.md",
     "01_What_is_Stats/day1.md",
     "02_Descriptives/readme.md",
     "images/dbar.png",
     "images/cramers.png",
-    "images/corr.png",
-    "images/comple.png"
+    "images/corr.png"
   ]
 }
