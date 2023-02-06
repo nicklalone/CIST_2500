@@ -6,7 +6,7 @@ Another way to think about this week is how we begin to move from description to
 2. [Formulas](#formulas)
 3. [Example 1: Test Scores](#ts)
 4. [Example 2: House Prices](#hp)
-5. [Example 3: Speedrun Times](#sr)
+5. [Example 3: Speeds](#speeds)
 
 ---------------- Table of Contents ---------------- 
 
@@ -40,11 +40,4 @@ We need to get these data into Excel and so let's try that out.
 
 We also need to get some summary statistics, let's try those out.
 
-## <a id="sr"></a>Example 3: Speedrun Times
-I really enjoy watching folks speedrun games and lately, i've been enamored with Ninja Gaiden 2 which is a game I worked really hard at beating when I was a kid and was the first game I ever finished. 
-
-The world record of this game can be found at: https://www.speedrun.com/ng2nes?h=Any&x=vdo4e92p
-
-The current times I have achieved are: 
-00:14:54,00:12:24,00:24:51,00:34:04,00:15:14,00:19:34,00:40:04,00:24:24,00:34:19,00:19:15,00:30:59,00:22:22,00:18:16,00:16:00,01:12:14,00:54:04,00:24:18,00:29:34,00:22:33
-
+## <a id="sr"></a>Example 3: Speeds

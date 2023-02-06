@@ -1,4 +1,6 @@
-Another way to think about this week is how we begin to move from description to inferences.
+Another way to think about this week is how we begin to move from description to inferences. We can describe the shape of our data; however, we do not really have the proper terminology to describe how varied our data is, how dispersed, even along a single axis. 
+
+And so here we are for week 3, dispersion.
 
 ---------------- Table of Contents ---------------- 
 
@@ -16,6 +18,7 @@ Another way to think about this week is how we begin to move from description to
 
 ## <a id="gs"></a> Getting Started
 In this, week 3, the last week before test, we move from descriptive measures to measures of dispersion. What is dispersion, you might ask, well...let's take a definition from your textbook: 
+
 > The extent to which the scores in a distribution are spread around the mean value or throughout the distribution. The most commonly used measures of dispersion are the variance and the standard deviation. 
 
 And so we have a pretty unsatisfactory definition. Like, what does this actually mean? Well, let's think about it like this: 
@@ -115,8 +118,14 @@ So we have the shape and dispersion of our data. NICE! We have completed the ver
 ![normal curve](/images/normal.png)
 Only this time, look at the bottom line where it has a giant $\color{red}{Z:}$ with -3 to 3 on it. Note that this also corresponds to $\sigma$ or the number of standard deviations. 
 
+
+
 ### <a id = "zvstd"></a>Z-Scores v. Standard Scores
-We need standardized scores so we can actually calculate z-scores. 
+Much of statistics is getting your values, the numeric data you possess, into a standardized format so that we can do our analyses. You might be a little hesitant to believe that a collection of standardized tests can be useful but let's think about the above in conjunction with: 
+
+https://www.youtube.com/watch?v=AjI_LcQOOs4&ab_channel=%E7%9B%A7%E6%A8%82
+
+We need standardized scores so we can actually calculate z-scores. And from the above, we can see a % likelihood that your values will end up on any of the 
 
 ### <a id="letusdo"></a>What does this let us do?
 What a z-score tells you is exactly how many standard deviations exist between your value (x) and the mean. 
