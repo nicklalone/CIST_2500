@@ -39,7 +39,9 @@ Can you guess where the mean is? Well, we have an n of 34 or so. The average or 
 But what does that mean? Well, we need to understand a little bit about how varied our data are and how to plot them properly. Let's run these data through the data analysis tool. What does that get us?
 
 ### <a id="std"></a>So what do we mean by standard deviation (aka $\sqrt{Variance}$)?
-So all datasets vary. It could be that they differ by .1, .001, 1, 10, 1000, or more. It all depends on how the thing you're measuring is actually measured. In addition, variance will depend on who or what is actually providing the data. If this is a sample, then we will inevitably have to do something else to the data to make it make sense but we'll get into that a little bit more directly later. For right now, we'll just sort of worry about the introduction of measuring how our data vary.
+So all datasets vary. It could be that they differ by .1, .001, 1, 10, 1000, or more. It all depends on how the thing you're measuring is actually measured. In addition, variance will depend on who or what is actually providing the data. We end up, "standardizing" our variables because it allows us to take any and all data and test it in a verifiable way. While there is a lot more context to this term historically, this is why we call it a standard deviation.
+
+If this is a sample, then we will inevitably have to do something else to the data to make it make sense but we'll get into that a little bit more directly later. For right now, we'll just sort of worry about the introduction of measuring how our data vary.
 
 Let's introduce a couple letters we'll need for this: 
 * ***$\sigma \ or \ \sigma^2$** is for the standard deviation of a population. Again, we use population when all potential members of a population can be accessed. 
@@ -113,7 +115,13 @@ So, this is what I was hinting at with regard to essentially modeling your distr
 Let's talk a bit about z-scores.
 
 ## <a id="zscore"></a> Let's introduce z-scores
-So we have the shape and dispersion of our data. NICE! We have completed the very first stage in the initial look at our data before cleaning begins. Remember back in the discussion about the normal curve? Let's get that pic out again: 
+So we have the shape and dispersion of our data. NICE! We have completed the very first stage in the initial look at our data before cleaning begins. This next phase of class is going to slowly drive us toward making assertions about society, about populations, about trends in that we can discuss as true and real. The first ingredient is a z-score.
+
+What is a z-score?
+
+> For the most part, we can say that a z-score is basically a representation of how far a raw score is from the mean of the population.  
+
+Remember back in the discussion about the normal curve? Let's get that curve out again:
 
 ![normal curve](/images/normal.png)
 Only this time, look at the bottom line where it has a giant $\color{red}{Z:}$ with -3 to 3 on it. Note that this also corresponds to $\sigma$ or the number of standard deviations. 

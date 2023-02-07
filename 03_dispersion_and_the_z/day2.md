@@ -6,7 +6,7 @@ Another way to think about this week is how we begin to move from description to
 2. [Formulas](#formulas)
 3. [Example 1: Test Scores](#ts)
 4. [Example 2: House Prices](#hp)
-5. [Example 3: Speeds](#speeds)
+5. [Example 3: Speeds](#speed)
 
 ---------------- Table of Contents ---------------- 
 
@@ -40,4 +40,5 @@ We need to get these data into Excel and so let's try that out.
 
 We also need to get some summary statistics, let's try those out.
 
-## <a id="sr"></a>Example 3: Speeds
+## <a id="speed"></a>Example 3: Speeds
+Every time i'm on I-80, I get to witness a bunch of folks in cars that shouldn't be on the road going at speeds beyond what they should be capable of. So, let's look at the impact of these speed demons on the standard deviation of speeds on I-80.
