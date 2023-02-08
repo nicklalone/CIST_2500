@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "2611f9632d2c554a",
+        "id": "3b61fb304ec06e50",
         "type": "tabs",
         "children": [
           {
-            "id": "711437947abc5e71",
+            "id": "10af26ecef72528e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03_dispersion_and_the_z/day1.md",
+                "file": "03_dispersion_and_the_z/day2.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "03_dispersion_and_the_z/day1.md",
+                "file": "03_dispersion_and_the_z/day2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "03_dispersion_and_the_z/day1.md",
+                "file": "03_dispersion_and_the_z/day2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03_dispersion_and_the_z/day1.md"
+                "file": "03_dispersion_and_the_z/day2.md"
               }
             }
           }
@@ -147,17 +147,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "711437947abc5e71",
+  "active": "10af26ecef72528e",
   "lastOpenFiles": [
-    "03_dispersion_and_the_z/day2.md",
-    "03_dispersion_and_the_z/day1.md",
     "04_Test_1/day2.md",
     "04_Test_1/day1.md",
-    "03_Z-Scores/day1.md",
-    "images/normal.jpg.md",
-    "03_Z-Scores/day2.md",
+    "05_R_Week/Day1.md",
+    "05_R_Week/Day2.md",
+    "05_R_Week/Readme.md",
+    "03_dispersion_and_the_z/day1.md",
+    "03_dispersion_and_the_z/day2.md",
     "02_Descriptives/day2.md",
     "02_Descriptives/day1.md",
-    "02_Descriptives/readme.md"
+    "01_What_is_Stats/day1.md"
   ]
 }
