@@ -122,6 +122,24 @@ View(homework_5)
 
 These commands are basically, "Load the library and commands for the readr package." Once this is done, we write out a command that is essentially, "create a memory object called homework_5" that contains a csv (read_csv) called this string, "homework_5.csv". Once this is done, in the "Environment" pane, you should see your object called, "homework_5" appear with a blue arrow to the left of it. 
 
+Datatypes in R are a little weird at times. For example, the list is: 
+
+1.  Double - Number with decimals
+2.  Integer - Whole Numbers
+3.  Character - Text Strings
+4.  Logical - TRUE or FALSE
+5.  Date - Times, Dates, and it can be configured all sorts of ways.
+6.  Complex - real + imaginary numbers (i)
+7.  Raw - A raw data type is used to holds raw bytes.
+
+There are also: 
+
+* NA as in, nothing is here. 
+* NaN - Not a Number
+* Inf - infinite values
+
+For the most part, we will always be using 1,2,3. Sometimes we will use 5 and 4. In class, we won't usually use complex or raw unless i've broken something.
+
 It is now in memory and we can start calling on it!
 
 ### <a id = "install"></a>Installing Packages
@@ -220,7 +238,7 @@ Remember that when you filter some data, you create what is called a "Data Frame
 
 So to add data together into a new dataset, what do we do? 
 
-Well, first we need to create a variable or a dataframe or a column of data in memory. For our purposes, we will use our zscore example from previous work: 
+Well, first we need to create a variable or a memory object or a column of data in memory. For our purposes, we will use our zscore example from previous work: 
 
 ```R 
 zscore_age <- ((data$Age)-Mean(data$Age))/sd(data$Age)
