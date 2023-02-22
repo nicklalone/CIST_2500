@@ -44,6 +44,16 @@ the 3 Data Types we have to worry about are: nominal, ordinal, and interval/rati
 ### <a id="nc"></a> Nominal / Categorical
 This is data that we often will not use in this introductory course as we will be concentrating on primarily numeric data. This type of data is essentially a collection of categories. For example, types of bear, types of beer, gender expressions, names, models of car, and basically any sort of categorical type of data we can think of. 
 
+* Nominal Data examples: 
+	* Hair Color
+	* Mode of Transportation to Work
+	* What cell phone model do you have?
+	* Type of animal
+	* Eye Color
+	* Genre
+	* Game Type
+	* Owned Consoles
+
 Where this data type doesn't work is when there is a notion of order but don't worry, we have a different type of data for that.
 
 ### <a id="ord"></a> Ordinal
