@@ -18,8 +18,43 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "be91584199600591",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.1.15"
+              }
+            }
+          },
+          {
+            "id": "77be91b211a4a49b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "06_Sampling_Intervals/Day1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fccdf5e887cf1070",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "06_Sampling_Intervals/Day1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -69,7 +104,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 259.5004348754883
+    "width": 200
   },
   "right": {
     "id": "1fc2bc29e1ae508a",
@@ -85,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "05_R_Week/Day2.md",
+                "file": "06_Sampling_Intervals/Day1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "05_R_Week/Day2.md",
+                "file": "06_Sampling_Intervals/Day1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "05_R_Week/Day2.md"
+                "file": "06_Sampling_Intervals/Day1.md"
               }
             }
           }
@@ -147,8 +182,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9917339287480995",
+  "active": "fccdf5e887cf1070",
   "lastOpenFiles": [
+    "06_Sampling_Intervals/Day2.md",
+    "06_Sampling_Intervals/Day1.md",
     "05_R_Week/Day2.md",
     "05_R_Week/Day1.md",
     "05_R_Week/Readme.md",
