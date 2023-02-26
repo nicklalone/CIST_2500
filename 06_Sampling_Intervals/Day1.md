@@ -35,7 +35,9 @@ In this part of the class, we're going to concentrate not on the experiment, but
 ---------------- Table of Contents ---------------- 
 ## <a id="pe"></a>Point Estimation
 In general, we can say that within frequentist statistics we can generally do 2 things, describe and make an inference. In this section of class, we will be generally approaching single values and those single values are called Point Estimates. In the future, we will be taking this idea of point estimation and expand it into, "interval estimation."
+
 We should connect this back to the normal curve since this is our home now. It is where we live. And so, one of the easiest ways to describe point estimation is to use a different definition of the same thing: central tendency. 
+
 Do you remember calculating all of the modes of central tendency? Mean, Median, Mode? These are all estimates of population parameters.
 
 Why? What? Huh?
@@ -76,18 +78,24 @@ This might be easier to describe with pictures.
 ![An image of populations vs samples](/images/infinite.png)
 ## <a id="df"></a>Data Frames
 Data Frames are simple to define yet obsesively difficult to understand. This is maybe one of those concepts that will be easily overthought. In light of that, I wanted to offer a few different definitions. 
+
 Elements: 
+
 > A unit of data for which the definition, identification, representation, and permissible values are specified by means of a set of attributes. [OECD](https://stats.oecd.org/glossary/detail.asp?ID=538#:~:text=A%20data%20element%20is%20a,of%20a%20set%20of%20attributes.)
 
 The definition of the population elements is its explicit definition so that members of a field crew can determine whether the site visited is a member of the target population. [Salmon Monitoring](https://groups.nceas.ucsb.edu/monitoring-kb/resources/statistical-definitions/element-of-a-population.html)
 
 > A basic unit of information that has a unique meaning and subcategories (data items) of distinct value. Examples of data elements include gender, race, and geographic location. [NIST](https://csrc.nist.gov/glossary/term/data_element)
+
 Data Frame: A list of elements from which the sample will be selected.
-Elements are basically that thing you are studying. You have to be mindful of this concept as this could be a source of potential errors. Speaking of errors, lets talk a little about this. 
+
+Elements are basically that thing you are studying. You have to be mindful of this concept as this could be a source of potential errors. Speaking of errors, lets talk a little about this.
+
 ## <a id="samper"></a>Sampling Error
 ![This is the easiest way to consider things](/images/samper.png)
 ## <a id="st"></a>Sampling Types
 How we approach our sample is all over the place in terms of wisdom. For the most part, we just sort of allow the population to dictate how we can access them. For example, if I wanted to access y'all, I just survey all of you and I can make you do it for class points if I want. For some, like those in jail, getting access to this population takes so much effort that whole careers can be made with access to just 1 jail population.
+
 So what do we mean by sampling types?
 
 ### <a id="srs"></a>Simple Random Sample - Finite Population
