@@ -47,7 +47,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "06_Sampling_Intervals/Day1.md",
+                "file": "06_Sampling_Intervals/examples.md",
                 "mode": "source",
                 "source": false
               }
@@ -120,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "06_Sampling_Intervals/Day1.md",
+                "file": "06_Sampling_Intervals/examples.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "06_Sampling_Intervals/Day1.md",
+                "file": "06_Sampling_Intervals/examples.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "06_Sampling_Intervals/Day1.md"
+                "file": "06_Sampling_Intervals/examples.md"
               }
             }
           }
@@ -184,8 +184,8 @@
   },
   "active": "fccdf5e887cf1070",
   "lastOpenFiles": [
-    "06_Sampling_Intervals/Day2.md",
     "06_Sampling_Intervals/Day1.md",
+    "06_Sampling_Intervals/Day2.md",
     "05_R_Week/Day2.md",
     "05_R_Week/Day1.md",
     "05_R_Week/Readme.md",

@@ -4,7 +4,7 @@ For the following, you will need these formulas.
 
 ![Formulas you'll need for this](/images/ci-forms.png)
 
-Each of these should be relatively straight forward but I will mark what formula goes where. You can refer to the thursday notes for a bit more context in addition to chapter 7&8.
+Each of these should be relatively straight forward but I will mark what formula goes where. You can refer to the thursday notes for a bit more context.
 
 ---------------- Table of Contents ---------------- 
 
