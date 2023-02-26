@@ -17,7 +17,7 @@ In this part of the class, we're going to concentrate not on the experiment, but
 
 ---------------- Table of Contents ---------------- 
 1. [Point Estimation](#pe)
-	* Parameter vs Statistic(#pvs)
+	* [Parameter vs Statistic](#pvs)
 1. [Population Type](#pt)
 	* [Differences Between Finite and Infinite Populations](#fin-infin)
 1. [Data Frames](#df)
@@ -28,7 +28,7 @@ In this part of the class, we're going to concentrate not on the experiment, but
 	* [Stratified Random Sampling](#strs)
 	* [Cluster Sampling](#cs)
 	* [Systematic Sampling](#ss)
-1. Non-probabilistic Sampling(#nps)
+1. [Non-probabilistic Sampling](#nps)
 	* [Convenience Sampling](#cons)
 	* [Judgement Sampling](#js)
 
@@ -92,7 +92,7 @@ So what do we mean by sampling types?
 
 ### <a id="srs"></a>Simple Random Sample - Finite Population
 ![Simple Random Sample](/images/srs.jpg)
-So simple random sample sounds simple but...it can be nuts. The issue at hand is this, the basic nature of SRS is to ensure that *everyone* in the population has an *equal* probability of being selected. Given the infinite variance of humanity, how cna you ensure this? Consider [the following](https://www.investopedia.com/terms/s/simple-random-sample.asp): "A sampling error can occur with a simple random sample if the sample does not end up accurately reflecting the population it is supposed to represent." 
+So simple random sample sounds simple but...it can be nuts. The issue at hand is this, the basic nature of SRS is to ensure that *everyone* in the population has an *equal* probability of being selected. Given the infinite variance of humanity, how can you ensure this? Consider [the following](https://www.investopedia.com/terms/s/simple-random-sample.asp): "A sampling error can occur with a simple random sample if the sample does not end up accurately reflecting the population it is supposed to represent." 
 
 How do you approach this in a way to ensure equitable distribution?
 
