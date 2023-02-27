@@ -47,7 +47,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "06_Sampling_Intervals/examples.md",
+                "file": "06_Sampling_Intervals/Day1.md",
                 "mode": "source",
                 "source": false
               }
@@ -120,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "06_Sampling_Intervals/examples.md",
+                "file": "06_Sampling_Intervals/Day1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "06_Sampling_Intervals/examples.md",
+                "file": "06_Sampling_Intervals/Day1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "06_Sampling_Intervals/examples.md"
+                "file": "06_Sampling_Intervals/Day1.md"
               }
             }
           }
@@ -184,6 +184,7 @@
   },
   "active": "fccdf5e887cf1070",
   "lastOpenFiles": [
+    "06_Sampling_Intervals/examples.md",
     "06_Sampling_Intervals/Day1.md",
     "06_Sampling_Intervals/Day2.md",
     "05_R_Week/Day2.md",
@@ -192,9 +193,6 @@
     "02_Descriptives/day1.md",
     "04_Test_1/day1.md",
     "03_dispersion_and_the_z/day1.md",
-    "03_dispersion_and_the_z/day2.md",
-    "04_Test_1/day2.md",
-    "03_Z-Scores/day1.md",
-    "images/normal.jpg.md"
+    "03_dispersion_and_the_z/day2.md"
   ]
 }
