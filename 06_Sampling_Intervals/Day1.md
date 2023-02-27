@@ -75,12 +75,13 @@ We have to have a bit of a discussion about populations. Populations can be infi
 This might be easier to describe with pictures.
 
 ![An image of populations vs samples](/images/finite.jpg)
+
 ![An image of populations vs samples](/images/infinite.png)
+
 ## <a id="df"></a>Data Frames
-Data Frames are simple to define yet obsesively difficult to understand. This is maybe one of those concepts that will be easily overthought. In light of that, I wanted to offer a few different definitions. 
+Data Frames are simple to define yet obsessively difficult to understand. This is maybe one of those concepts that will be easily overthought. In light of that, I wanted to offer a few different definitions. 
 
 Elements: 
-
 > A unit of data for which the definition, identification, representation, and permissible values are specified by means of a set of attributes. [OECD](https://stats.oecd.org/glossary/detail.asp?ID=538#:~:text=A%20data%20element%20is%20a,of%20a%20set%20of%20attributes.)
 
 The definition of the population elements is its explicit definition so that members of a field crew can determine whether the site visited is a member of the target population. [Salmon Monitoring](https://groups.nceas.ucsb.edu/monitoring-kb/resources/statistical-definitions/element-of-a-population.html)
@@ -93,6 +94,7 @@ Elements are basically that thing you are studying. You have to be mindful of th
 
 ## <a id="samper"></a>Sampling Error
 ![This is the easiest way to consider things](/images/samper.png)
+
 ## <a id="st"></a>Sampling Types
 How we approach our sample is all over the place in terms of wisdom. For the most part, we just sort of allow the population to dictate how we can access them. For example, if I wanted to access y'all, I just survey all of you and I can make you do it for class points if I want. For some, like those in jail, getting access to this population takes so much effort that whole careers can be made with access to just 1 jail population.
 
@@ -146,13 +148,14 @@ This is a sampling method that is used quite a bit and is appropriate when your 
 Your book defines this concept as: 
 
 > a non-probability method of sampling whereby elements are selected for the sample on the basis of convenience.
+
 But this is an unsatisfying definition as it uses the term to define itself. We could replace that word 'convenience' with a different phrase that might help it make more sense. For example: 
 
 > a non-probability method of sampling whereby elements are selected for the sample based on the population that is close at hand.
+
 This is often how we test alphas or betas in software design. We find some folks we know, or other designers, and have them test our product not because it's rigorous, but because it's easier. Often for convenience sampling, it's about ease moreso than dealing with math. 
 
 ### <a id="js"></a>Judgement Sampling
-
 This last one sounds pretty straight forward. We essentially, "select based on the opinion of an expert." For example, for my survey of technology use in emergency management, my survey was intentionally based on judgement. As a practitioner in this space, I needed to understand how and why certain kinds of people are the way that they are. And so, I went around a variety of cities, states, regions, and federal agencies intentionally sampling from the population until I had a wide enough group that I could say it was representative. 
 
-No one else in my field could replicate this survey because i've spent a good 5-6 years establishing my pressence in the field. This is perhaps an important aspect of this type of sampling, your judgement and your capacity need to be known in the field in order for folks to accept their part in the survey.
+No one else in my field could replicate this survey because i've spent a good 5-6 years establishing my presence in the field. This is perhaps an important aspect of this type of sampling, your judgement and your capacity need to be known in the field in order for folks to accept their part in the survey.

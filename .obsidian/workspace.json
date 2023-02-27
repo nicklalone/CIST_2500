@@ -35,7 +35,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "07_Hypothesis_Testing/Day1.md",
+                "file": "06_Sampling_Intervals/Day1.md",
                 "mode": "source",
                 "source": false
               }
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "07_Hypothesis_Testing/Day1.md",
+                "file": "06_Sampling_Intervals/Day1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "07_Hypothesis_Testing/Day1.md",
+                "file": "06_Sampling_Intervals/Day1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "07_Hypothesis_Testing/Day1.md"
+                "file": "06_Sampling_Intervals/Day1.md"
               }
             }
           }
@@ -170,11 +170,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ce0917bef73f47d2",
+  "active": "77be91b211a4a49b",
   "lastOpenFiles": [
+    "07_Hypothesis_Testing/Day1.md",
     "07_Hypothesis_Testing/Day2.md",
     "08_Spring_Break/day2.md",
-    "07_Hypothesis_Testing/Day1.md",
     "08_Spring_Break/day1.md",
     "06_Sampling_Intervals/Day2.md",
     "06_Sampling_Intervals/examples.md",
