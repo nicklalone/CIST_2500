@@ -35,26 +35,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "06_Sampling_Intervals/Day1.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fccdf5e887cf1070",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "06_Sampling_Intervals/Day1.md",
+                "file": "06_Sampling_Intervals/Day2.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -120,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "06_Sampling_Intervals/Day1.md",
+                "file": "06_Sampling_Intervals/Day2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "06_Sampling_Intervals/Day1.md",
+                "file": "06_Sampling_Intervals/Day2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "06_Sampling_Intervals/Day1.md"
+                "file": "06_Sampling_Intervals/Day2.md"
               }
             }
           }
@@ -182,17 +170,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fccdf5e887cf1070",
+  "active": "77be91b211a4a49b",
   "lastOpenFiles": [
     "06_Sampling_Intervals/examples.md",
-    "06_Sampling_Intervals/Day1.md",
     "06_Sampling_Intervals/Day2.md",
+    "ppts/06 - Tuesday.pptx",
+    "ppts/~$06 - Tuesday.pptx",
+    "06_Sampling_Intervals/Day1.md",
     "05_R_Week/Day2.md",
     "05_R_Week/Day1.md",
     "05_R_Week/Readme.md",
     "02_Descriptives/day1.md",
     "04_Test_1/day1.md",
     "03_dispersion_and_the_z/day1.md",
-    "03_dispersion_and_the_z/day2.md"
+    "03_dispersion_and_the_z/day2.md",
+    "04_Test_1/day2.md",
+    "03_Z-Scores/day1.md",
+    "images/normal.jpg.md"
   ]
 }
