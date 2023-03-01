@@ -35,7 +35,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "06_Sampling_Intervals/Day1.md",
+                "file": "03_dispersion_and_the_z/day2.md",
                 "mode": "source",
                 "source": false
               }
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "06_Sampling_Intervals/Day1.md",
+                "file": "03_dispersion_and_the_z/day2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "06_Sampling_Intervals/Day1.md",
+                "file": "03_dispersion_and_the_z/day2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "06_Sampling_Intervals/Day1.md"
+                "file": "03_dispersion_and_the_z/day2.md"
               }
             }
           }
@@ -172,6 +172,7 @@
   },
   "active": "77be91b211a4a49b",
   "lastOpenFiles": [
+    "06_Sampling_Intervals/Day1.md",
     "ppts/Week 06 - Tuesday.pptx",
     "ppts/~$Week 06 - Tuesday.pptx",
     "07_Hypothesis_Testing/Day1.md",
@@ -182,7 +183,6 @@
     "06_Sampling_Intervals/examples.md",
     "ppts/06 - Tuesday.pptx",
     "ppts/~$06 - Tuesday.pptx",
-    "06_Sampling_Intervals/Day1.md",
     "05_R_Week/Day2.md",
     "05_R_Week/Day1.md",
     "05_R_Week/Readme.md",
