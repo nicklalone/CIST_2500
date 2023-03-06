@@ -1,6 +1,6 @@
 # Hypothesis Testing - Ho's and Ha's 
 
-In chapters 7 and 8 (last week), we did some work in and around expanding our toolkit. However, we don't really have anything to put all of our tools into. As a result, we have a giant mess to think about. 
+Last week, we did some work in and around expanding our toolkit. However, we don't really have anything to put all of our tools into. As a result, we have a giant mess to think about. 
 
 We have all this data sitting around. It's raw, it is untamed, and yet all we can do is explore, poke around. 
 
