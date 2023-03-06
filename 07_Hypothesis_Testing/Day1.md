@@ -70,7 +70,8 @@ We often define the alternate hypothesis as:
 
 > an theory inverse to the null that a researcher is testing.
 
-We basically cannot really just sit down and write a research statement or a thing we're going to do. Instead, we have to: 
+We basically cannot really just sit down and write a research statement or a thing we're going to do. Instead, we have to:
+
 * Think about the data we need to collect.
 * Think about how we asked those questions.
 * Think about the ethics of what you are doing.
