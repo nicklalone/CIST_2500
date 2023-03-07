@@ -4,11 +4,33 @@
     "type": "split",
     "children": [
       {
-        "id": "75acd068ff7e9fdc",
+        "id": "9343e2cf222fa0e0",
         "type": "tabs",
         "children": [
           {
-            "id": "3d0cb22eb1365ba7",
+            "id": "9917339287480995",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "05_R_Week/Day2.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "be91584199600591",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.1.15"
+              }
+            }
+          },
+          {
+            "id": "77be91b211a4a49b",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -19,7 +41,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -147,29 +170,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ce0917bef73f47d2",
+  "active": "77be91b211a4a49b",
   "lastOpenFiles": [
-    "ppts/ppt1267.tmp",
-    "ppts/pptB42.tmp",
-    "ppts/pptB725.tmp",
-    "ppts/ppt653F.tmp",
-    "ppts/pptD88E.tmp",
-    "ppts/ppt2832.tmp",
     "ppts/~$Week 07 - Tuesday.pptx",
-    "06_Sampling_Intervals/Day1.md",
-    "05_R_Week/Day1.md",
-    "05_R_Week/Day2.md",
-    "07_Hypothesis_Testing/Day1.md",
-    "07_Hypothesis_Testing/Day2.md",
-    "06_Sampling_Intervals/Day2.md",
     "ppts/Week 07 - Tuesday.pptx",
     "ppts/08 - Tuesday.pptx",
+    "07_Hypothesis_Testing/Day2.md",
+    "07_Hypothesis_Testing/Day1.md",
     "03_dispersion_and_the_z/day2.md",
+    "06_Sampling_Intervals/Day1.md",
     "ppts/Week 06 - Tuesday.pptx",
     "ppts/~$Week 06 - Tuesday.pptx",
     "08_Spring_Break/day2.md",
     "08_Spring_Break/day1.md",
+    "06_Sampling_Intervals/Day2.md",
     "06_Sampling_Intervals/examples.md",
+    "ppts/06 - Tuesday.pptx",
+    "ppts/~$06 - Tuesday.pptx",
+    "05_R_Week/Day2.md",
+    "05_R_Week/Day1.md",
     "05_R_Week/Readme.md",
     "02_Descriptives/day1.md",
     "04_Test_1/day1.md",
