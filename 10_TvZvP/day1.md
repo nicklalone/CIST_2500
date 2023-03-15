@@ -92,7 +92,7 @@ We'll consider the steps here and we'll be moving from left to right:
 1. The very first thing is to get what your book refers to as the "point estimate of the difference between the two populations" or: x̄<sub>1</sub> - x̄<sub>2</sub>. This is the start of your interval. We then need to fill out the stuff to the right of the formula.
 1. Calculate standard error of x̄<sub>1</sub> - x̄<sub>2</sub> which is essentially: <img src="/images/std-bet.png" width="100" align=middle>. When we assemble this fully, we need a critical value or z score that corresponds to our confidence level.
 1. What we need here is a z-score that is based on your confidence level (90, 95, 99, etc). The common values are 1.96 (95) and 2.58 (99).
-1. And finally we assemble our whole and Calculate the Interval Estimate of the Difference Between 2 Population Means. The formula is: <img src="/images/iedb2pm.png" width="100" align=middle>
+1. And finally we assemble our whole and Calculate the Interval Estimate of the Difference Between 2 Population Means. The formula is: ![](/images/iedb2pm.png)
 
 So this is all about a general interval estimate. Sometimes, you need to actually calculate a test statistic and this is an important concept. To do that, we have a formula!
 
