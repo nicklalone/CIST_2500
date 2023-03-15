@@ -67,7 +67,7 @@ Below, I will walk through a number of problems. Each problem will be explained 
 
 Use this handy flow chart!
 
-<img src="/images/zort.png" width="250" align=middle>
+![Flow Chart](/images/zort.png)
 
 And so we can boil this down pretty quickly.
 * Is n > 30 and do we know σ? If so, that's a z!
