@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10_TvZvP/day1.md",
+                "file": "06_Sampling_Intervals/Day1.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "10_TvZvP/day1.md",
+                "file": "06_Sampling_Intervals/Day1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "10_TvZvP/day1.md",
+                "file": "06_Sampling_Intervals/Day1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "10_TvZvP/day1.md"
+                "file": "06_Sampling_Intervals/Day1.md"
               }
             }
           }
@@ -149,9 +149,9 @@
   },
   "active": "9917339287480995",
   "lastOpenFiles": [
+    "10_TvZvP/day1.md",
     "05_R_Week/Day2.md",
     "images/zort.png",
-    "10_TvZvP/day1.md",
     "10_TvZvP/day2.md",
     "09_Test_2/Test Hints and Tricks.md",
     "10_TvZvP/README.md",

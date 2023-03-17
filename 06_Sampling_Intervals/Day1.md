@@ -21,14 +21,15 @@ In this part of the class, we're going to concentrate not on the experiment, but
 1. [Population Type](#pt)
 	* [Differences Between Finite and Infinite Populations](#fin-infin)
 1. [Data Frames](#df)
-1. [Samping Error](#samper)
-1. [Sampling Types](#st)
+2. [Sampling Frame](#sampfram)
+3. [Samping Error](#samper)
+4. [Sampling Types](#st)
 	* [Simple Random Sample](#srs)
 	* [Random Sample](#rs)
 	* [Stratified Random Sampling](#strs)
 	* [Cluster Sampling](#cs)
 	* [Systematic Sampling](#ss)
-1. [Non-probabilistic Sampling](#nps)
+5. [Non-probabilistic Sampling](#nps)
 	* [Convenience Sampling](#cons)
 	* [Judgement Sampling](#js)
 
@@ -91,6 +92,11 @@ The definition of the population elements is its explicit definition so that mem
 Data Frame: A list of elements from which the sample will be selected.
 
 Elements are basically that thing you are studying. You have to be mindful of this concept as this could be a source of potential errors. Speaking of errors, lets talk a little about this.
+
+## <a id = "sa,pfram"></a>Sampling Frame
+Sometimes, we need to lop off some part of the population in order to delimit them into a sample. This is often called the "sampling frame" which is best defined as: Any list, material or device that delimits, identifies, and allows access to the elements of the population. Another, perhaps more simple way to define a sampling frame is that it is a complete list of everyone or everything you want to study.
+
+You can read more about it here: https://www.statisticshowto.com/probability-and-statistics/statistics-definitions/sampling-frame/
 
 ## <a id="samper"></a>Sampling Error
 ![This is the easiest way to consider things](/images/samper.png)
