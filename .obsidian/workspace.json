@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "06_Sampling_Intervals/Day1.md",
+                "file": "10_TvZvP/day1.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "06_Sampling_Intervals/Day1.md",
+                "file": "10_TvZvP/day1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "06_Sampling_Intervals/Day1.md",
+                "file": "10_TvZvP/day1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "06_Sampling_Intervals/Day1.md"
+                "file": "10_TvZvP/day1.md"
               }
             }
           }
@@ -149,6 +149,8 @@
   },
   "active": "9917339287480995",
   "lastOpenFiles": [
+    "06_Sampling_Intervals/Day2.md",
+    "06_Sampling_Intervals/Day1.md",
     "10_TvZvP/day1.md",
     "05_R_Week/Day2.md",
     "images/zort.png",
@@ -163,11 +165,9 @@
     "ppts/08 - Tuesday.pptx",
     "07_Hypothesis_Testing/Day2.md",
     "03_dispersion_and_the_z/day2.md",
-    "06_Sampling_Intervals/Day1.md",
     "ppts/Week 06 - Tuesday.pptx",
     "ppts/~$Week 06 - Tuesday.pptx",
     "08_Spring_Break/day2.md",
-    "06_Sampling_Intervals/Day2.md",
     "06_Sampling_Intervals/examples.md",
     "ppts/06 - Tuesday.pptx",
     "ppts/~$06 - Tuesday.pptx",
