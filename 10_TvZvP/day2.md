@@ -1,6 +1,6 @@
-# Chapter 10 - Inferences about Means and Proportions with Two Populations
+# Inferences about Means and Proportions with Two Populations
 
-Up until this chapter, we have been primarily concerned with the test statistics applied to a single population. This is a powerful concept and one that affords us the capacity to make very wide-reaching assertions and inferences about populations. 
+Up until this module, we have been primarily concerned with the test statistics applied to a single population. This is a powerful concept and one that affords us the capacity to make very wide-reaching assertions and inferences about populations. 
 
 And yet, humans are complex and if we've learned anything over COVID, that complexity can be overwhelming. 
 
@@ -18,8 +18,8 @@ And that freshness is matched-sample t-tests. YAY! Let's walk through these.
 
 ---------------- Table of Contents ---------------- 
 
-1. [Terms for the Chapter](#terms)
-1. [Formulas for this chapter](#formulas)
+1. [Terms](#terms)
+1. [Formulas](#formulas)
 1. [T or Z? How do you decide?](#torz)
 1. [One or Two Tailed: How do you decide?](#1or2)
 1. [Inferences about two populations with parameters known](#inf2kno)
@@ -34,7 +34,7 @@ And that freshness is matched-sample t-tests. YAY! Let's walk through these.
 
 ---------------- Table of Contents ---------------- 
 
-## <a id="terms"></a> Terms for the Chapter
+## <a id="terms"></a> Terms
 
 * **Independent Random Samples**: Samples selected from two populations in such a way that the elements making up one sample are chosen indepdently of the elements making up the other sample.
 
@@ -42,7 +42,7 @@ And that freshness is matched-sample t-tests. YAY! Let's walk through these.
 
 * **Pooled Estimator of p**: An estimator of a population proportion obtained by computing a weighted average of the point estimators obtained from two independent samples.
 
-## <a id="formulas"></a> Formulas for this chapter
+## <a id="formulas"></a> Formulas 
 
 Generally this chapter is all about how to compare 2 populations. Everything inside of this chapter is just an augmentation of what we've already been doing. Like I said above, each of the last few chapters tend to correspond with: 
 

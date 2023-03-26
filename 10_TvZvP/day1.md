@@ -1,25 +1,25 @@
-# Chapter 10 - Inferences about Means and Proportions with Two Populations
+# Inferences about Means and Proportions with Two Populations
 
-Up until this chapter, we have been primarily concerned with the test statistics applied to a single population. This is a powerful concept and one that affords us the capacity to make very wide-reaching assertions and inferences about populations. 
+Up until this module, we have been primarily concerned with the basics of stats, point estimation, variance, and more recently, interval estimation. This is a powerful concept and one that affords us the capacity to make very wide-reaching assertions and inferences about populations from those simple spaces alone.
 
 And yet, humans are complex and if we've learned anything over COVID, that complexity can be overwhelming. 
 
-In this section, we're going to concern ourselves with interval estimates about 2 populations. There are tests for more than 3, but that is beyond the scope of the class.
+In this section, we're going to concern ourselves with comparisons. In short, we're going to busy ourselves thinking about interval estimates about 2 different samples or populations. 
 
-For the most part, we've basically been nailing this down to 3 specific instances: 
+Before I begin, just know that there are tests for more than 3, but that is beyond the scope of the class.
 
-1. Inferences with population parameters known.
-1. Inferences with only sample statistics.
-1. Inferences with only proportions.
+In an effort to center ourselves, we will keep this to 3 specific kinds of comparison: 
 
-That trend continues but we add something new, something fresh!
+1. Inferences with population parameters known or $\mu \ and\ \sigma$
+1. Inferences with only sample statistics or $\bar{x}\ and\  s$.
+1. Inferences with only proportions or a complete lack of population or sample points.
 
-And that freshness is matched-sample t-tests. YAY! Let's walk through these.
+For this section, we will be doing, "t-tests" which are best defined as comparing means in an effort to understand how the populations differ.
 
 ---------------- Table of Contents ---------------- 
 
-1. [Terms for the Chapter](#terms)
-1. [Formulas for this chapter](#formulas)
+1. [Terms for the Module](#terms)
+1. [Formulas for this module](#formulas)
 1. [T or Z? How do you decide?](#torz)
 1. [One or Two Tailed: How do you decide?](#1or2)
 1. [Inferences about two populations with parameters known](#inf2kno)
@@ -36,7 +36,7 @@ And that freshness is matched-sample t-tests. YAY! Let's walk through these.
 
 ## <a id="terms"></a> Terms for the Chapter
 
-* **Independent Random Samples**: Samples selected from two populations in such a way that the elements making up one sample are chosen indepdently of the elements making up the other sample.
+* **Independent Random Samples**: Samples selected from two populations in such a way that the elements making up one sample are chosen independently of the elements making up the other sample.
 
 * **Matched Samples**: Samples in which each data value of one sample is matched with a corresponding data value of the other sample.
 
@@ -44,8 +44,9 @@ And that freshness is matched-sample t-tests. YAY! Let's walk through these.
 
 ## <a id="formulas"></a> Formulas for this chapter
 
-Generally this chapter is all about how to compare 2 populations. Everything inside of this chapter is just an augmentation of what we've already been doing. Like I said above, each of the last few chapters tend to correspond with: 
+Generally this module is all about how to compare 2 populations. It is essentially augmenting what we've already been doing. 
 
+We will basically be making:
 1. Inferences with population parameters known.
 1. Inferences with only sample statistics.
 1. Inferences with only proportions.
@@ -53,7 +54,7 @@ Generally this chapter is all about how to compare 2 populations. Everything ins
 Or if we think about this another way: 
 
 1. Inferences when you are sampling a known population.
-1. Inferences from just a sample/
+1. Inferences from just a sample
 1. Inferences with just a sample statistic or ratio.
 
 You will see the same concepts here as all the others: z, t, standard error, test statistics, degrees of freedom, and p values. In each circumstance, there is a corresponding formula. 
@@ -78,10 +79,11 @@ And so we can boil this down pretty quickly.
 For the most part, deciding what sorts of test to perform is perhaps the most important aspect of the school.
 
 The question here that is important is, "How do I decide between One-sample, two-sample, or paired t-test?" and to this, we can state the following: 
+
 * If your samples come from a single population (e.g. measuring before and after an experimental treatment), then the recommended concept is a matched sample t-test.
-	* One-tailed or two-tailed t-test?
-* If you only care whether the two populations are different from one another, perform a two-tailed t-test.
-* If you want to know whether one population mean is greater than or less than the other, perform a one-tailed t-test.
+* One-tailed or two-tailed t-test?
+	* If you only care whether the two populations are different from one another, perform a two-tailed t-test.
+	* If you want to know whether one population mean is greater than or less than the other, perform a one-tailed t-test.
 
 ## <a id="inf2kno"></a>Inferences about two populations with parameters known
 
@@ -89,15 +91,17 @@ This is our first collection to consider. We're comparing 2 populations and actu
 
 We'll consider the steps here and we'll be moving from left to right: 
 
-1. The very first thing is to get what your book refers to as the "point estimate of the difference between the two populations" or: x̄<sub>1</sub> - x̄<sub>2</sub>. This is the start of your interval. We then need to fill out the stuff to the right of the formula.
-1. Calculate standard error of x̄<sub>1</sub> - x̄<sub>2</sub> which is essentially: <img src="/images/std-bet.png" width="100" align=middle>. When we assemble this fully, we need a critical value or z score that corresponds to our confidence level.
+1. The very first thing is we need to concern ourselves with is the "point estimate of the difference between the two populations" or: $\bar{x_1}-\bar{x_2}$. This is the start of your interval. We then need to fill out the stuff to the right of the formula.
+   
+1. Calculate standard error of $\bar{x_1}-\bar{x_2}$ which is essentially: $\sigma_{\bar{x_1}-\bar{x_2}}=\sqrt{\frac{\sigma^2_1}{n_1}+{\frac{\sigma^2_2}{n_2}}}$. When we assemble this fully, we need a critical value or z score that corresponds to our confidence level.
+   
 1. What we need here is a z-score that is based on your confidence level (90, 95, 99, etc). The common values are 1.96 (95) and 2.58 (99).
-1. And finally we assemble our whole and Calculate the Interval Estimate of the Difference Between 2 Population Means. The formula is: ![](/images/iedb2pm.png)
-
+   
+1. And finally we assemble our whole and Calculate the Interval Estimate of the Difference Between 2 Population Means. The formula is: $\bar{x}_1-\bar{x}_2\pm z_\frac{\alpha}{_2}\sqrt{\frac{\sigma^2_1}{n_1}+{\frac{\sigma^2_2}{n_2}}}$  
+ 
 So this is all about a general interval estimate. Sometimes, you need to actually calculate a test statistic and this is an important concept. To do that, we have a formula!
 
-1. From here, we need to consider our confident coefficient. Of note, there is a new concept that shows up, D<sub>o</sub> or the "hypothesized difference between means. We use 0 as it is being fed by the null. At times, you may not be saying, "no change" though if that is the case, I cannot think of an example at the moment. And so, if you need to calculate more, use this formula: <img src="/images/tsdbm.png" width="100" align=middle>
-
+1. From here, we need to consider our confident coefficient. Of note, there is a new concept that shows up, D<sub>o</sub> or the "hypothesized difference between means. We use 0 as it is being fed by the null. At times, you may not be saying, "no change" though if that is the case, I cannot think of an example at the moment. And so, if you need to calculate more, use this formula: $$z=\frac{\bar{x}_1-\bar{x}_2-D_0}{\sqrt{\frac{\sigma^2_1}{n_1}+{\frac{\sigma^2_2}{n_2}}}}$$
 So let's do 2 problems.
 
 ### <a id="ppk-1"></a> Problem 1, a problem without Context.
@@ -112,20 +116,20 @@ We will first try an problem without any context at all. After that, we'll add s
 
 1. What is the point estimate of the difference between the two populations?
 
-	* x̄<sub>1</sub> - x̄<sub>2</sub> = 13.6 – 11.6 = 2
+$\bar{x}_1-\bar{x}_2=13.6-11.6=2$
 
 1. Provide a 90% CI for the difference between the two population means.
 
 	* Z<sub>σ/2</sub> = 1.645 (90% CI results in this.)
-	* x̄<sub>1</sub> - x̄<sub>2</sub> ± 1.645√((σ<sub>1</sub>)<sup>2</sup>/n<sub>1</sub>)+((σ<sub>2</sub>)<sup>2</sup>/n<sub>2</sub>) 
-	* 2 ± 1.645√((2.2)<sup>2</sup>/50)+((3)<sup>2</sup>/35)
+	* $\bar{x}_1-\bar{x}_2\pm1.645{\sqrt{\frac{\sigma^2_1}{n_1}+{\frac{\sigma^2_2}{n_2}}}}$ 
+	* $2\pm1.645\sqrt{\frac{2.2^2}{50}+\frac{3^2}{35}}$ 
 	* 2 ± .98 or 1.02 to 2.98
 
 1. Provide a 95% CU for the difference between the two population means.
 
 	* Z<sub>σ/2</sub> = 1.96 (95% CI results in this.)
-	* x̄<sub>1</sub> - x̄<sub>2</sub> ± 1.96√((σ<sub>1</sub>)<sup>2</sup>/n<sub>1</sub>)+((σ<sub>2</sub>)<sup>2</sup>/n<sub>2</sub>) 
-	* 2±1.96√((2.2)<sup>2</sup>/50)+((3)<sup>2</sup>/35)
+	* $\bar{x}_1-\bar{x}_2\pm1.96\sqrt{\frac{\sigma_1^2}{n_2}+\frac{\sigma_2^2}{n_2}}$
+	* $2\pm1.96\sqrt{\frac{2.2^2}{50}+\frac{3^2}{35}}$ 
 	* 2±1.17 or .83 to 3.17
 
 ### <a id="ppk-2"></a> Problem 2: Let's Connect this to an actual example with consequences.
@@ -139,35 +143,33 @@ We will first try an problem without any context at all. After that, we'll add s
 	* H<sub>a</sub>: µ<sub>1</sub> ≠ µ<sub>2</sub>
 
 * **Step 1**: Gather your datapoints
-	* x̄<sub>1</sub> = 82, σ<sub>1</sub> = 2.4, n<sub>1</sub> = 35
-	* x̄<sub>2</sub> = 84, σ<sub>2</sub> = 1.7, n<sub>2</sub> = 46
+	* $\bar{x}_1=82,\sigma_1=2.4,n_1=35$
+	* $\bar{x}_2=84,\sigma_2=1.7,n_2=46$
 
 * **Step 2**: Grab your critical values: In this case, it's 5% or 95% or 1.96
 
-* **Step 3**: Fill out your formula: <img src="/images/iedb2pm.png" width="100" align=middle>
-	* x̄<sub>1</sub> - x̄<sub>2</sub> ± 1.96√((σ<sub>1</sub>)<sup>2</sup>/n<sub>1</sub>)+((σ<sub>2</sub>)<sup>2</sup>/n<sub>2</sub>)
-	* 82-84 ± 1.96√((2.4)<sup>2</sup>/35)+((1.7)<sup>2</sup>/46)
-
-	<!-- Calculate this question multiple times -->
+* **Step 3**: Fill out your formula: 
+	* $\bar{x}_1-\bar{x}_2\pm1.96{\sqrt{\frac{\sigma^2_1}{n_1}+{\frac{\sigma^2_2}{n_2}}}}$ 
+	* $2\pm1.96\sqrt{\frac{2.4^2}{35}+\frac{1.7^2}{46}}$
 
 ## <a id="inf2unkno"></a>Inferences about two populations with parameters unknown
 
 ### <a id="unkno-1"></a> 
-
 > A business owner is in the process of deciding whether or not to invest in a new factory that refines oil in order to meet the high demand for that commodity. A test showed that the old factor refines oil at a mean rate of 3.1L per second at a std of 1.0 using a sample size of 40. The new factor was measured to refine oil at a mean rate of 3.8L per second at a standard deviation of 1.5 using sample size of 36. 
 
 * Determine if there is any major difference at the 10% significance level.
 
 1.  **Step 1**: Gather your datapoints
-	* x̄<sub>1</sub> = 3.1, s<sub>1</sub> = 1.0, n<sub>1</sub> = 40
-	* x̄<sub>2</sub> = 3.8, s<sub>2</sub> = 1.5, n<sub>2</sub> = 36
+	* $\bar{x}_1=3.1,\sigma_1=1.0,n_1=40$
+	* $\bar{x}_2=3.8,\sigma_2=1.5,n_2=36$
+
 1. **Step 2: Determine your critical value:** 
-Determine what test you're going for. In this case, we don't really need a df because why? This is a 2-tailed test and is seeking *any* difference. As a result, we would expect to use: <img src="/images/tsdbm.png" width="100" align=middle>
+Determine what test you're going for. In this case, we don't really need a df because why? This is a 2-tailed test and is seeking *any* difference. As a result, we would expect to use: $$z=\frac{\bar{x}_1-\bar{x}_2-D_0}{\sqrt{\frac{\sigma^2_1}{n_1}+{\frac{\sigma^2_2}{n_2}}}}$$
 1. And then we move forward.
 
 <a id="unkno-2"></a> **Problem 2: Test Scores but this time we pretend its just sample stats.**
 
-> A test was confucted on two difference classes to see if there was any significant difference between the performance of two teachers. The final exam scores of 15 students were sampled in the 1st class yielding a mean of 82 and a std of 2.4. The mean final exam score of the 2nd class was 84 with a std of 1.7 with a sample of 12 students. 
+> A test was conducted on two different classes to see if there was any significant difference between the performance of two teachers. The final exam scores of 15 students were sampled in the 1st class yielding a mean of 82 and a std of 2.4. The mean final exam score of the 2nd class was 84 with a std of 1.7 with a sample of 12 students. 
 
 * Determine if there is any major difference at a 5% signficance level.
 
@@ -184,7 +186,7 @@ Determine what test you're going for. In this case, we don't really need a df be
 
 ## <a id="inf2pop"></a> Inferences about two populations with only proportions
 
-So much like the other chapters, we have run in to the issue of only having proportion data. 
+So much like the other modules, we have run in to the issue of only having proportion data. 
 
 ### <a id="inf2pop-1"></a> Problem 1: Quantum Computing
 
@@ -259,10 +261,10 @@ It's important here to look at these. Since the question is about weight *loss* 
 
 But this isn't *only* what the question asks, is it? It also says, "calculate the margin of error."
 
-We haven't really done this too much but if you remember back to chapter 8, we did a bunch of work on Interval Estimation. 
+We haven't really done this too much but if you remember back to last time, we did a bunch of work on Interval Estimation. 
 
 * Calculate our Margin of Error:
-<img src="/images/tmoe.png" width="100" align=middle>
+![](/images/tmoe.png)
 
 While we use x-bar here, we can also write it as d-bar, and your book does.
 
@@ -270,7 +272,7 @@ Once calculated, this stat is: -13.1 ± 7.55.
 
 So while we reject the null, we can talk a lot about the MoE. That MoE basically says that at a little over half of the value itself, we need to think about just how robust that MoE is. It is also repeating the issue that the standard error provided. While this error is essentially saying that the weight loss *could* be as such to negate the statistical significance, we have to do more work to understand it.
 
-* We can actually use the Margin of Error to make more sense of our data. We'll call this, "Weight." For the cases of matched sample t-tests, we can say that the the margin of error component can teach us a bit about what our data are saying. For example, if we take the mean difference and place it next to our t-critical value and standard error, we have something like this: <img src="/images/moe-match.PNG" width="100" align=middle>.
+* We can actually use the Margin of Error to make more sense of our data. We'll call this, "Weight." For the cases of matched sample t-tests, we can say that the the margin of error component can teach us a bit about what our data are saying. For example, if we take the mean difference and place it next to our t-critical value and standard error, we have something like this: ![][/images/moe-match.PNG]
 
 And from that, we can use this formula to seed the value of our sample statistic of -1.833. That is: d-bar - 1.833(13.025/3.1622) or d-bar-1.833(4.11). Interpreting this, we can make a claim that d-bar - 7.53363 or take our mean difference and slap it in there, -13.1 + 7.533 or that our critical value of -1.833 corresponds to a value of -5.567lbs lost needs to be expected at a .05 level.
 
