@@ -20,21 +20,24 @@ For this section, we will be doing, "t-tests" which are best defined as comparin
 
 1. [Terms for the Module](#terms)
 1. [Formulas for this module](#formulas)
-1. [T or Z? How do you decide?](#torz)
-1. [One or Two Tailed: How do you decide?](#1or2)
-1. [Inferences about two populations with parameters known](#inf2kno)
+	1. [On d-bar](#dbar)
+2. [T or Z? How do you decide?](#torz)
+3. [One or Two Tailed: How do you decide?](#1or2)
+4. [Inferences about two populations with parameters known](#inf2kno)
 	* [Problem 1 - Test Scores](#ppk-1)
 	* [Problem 2 - Test Scores](#ppk-2)
-1. [Inferences about two populations with parameters unknown](#inf2unkno)
+5. [Inferences about two populations with parameters unknown](#inf2unkno)
 	* [Problem 1 - Test Scores](#unkno-1)
-1. [Inferences about two populations with only proportions](#inf2pop)
+6. [Inferences about two populations with only proportions](#inf2pop)
 	* [Problem 1 - Quantum Computing](#inf2pop-1)
-1. [Matched Sample t-tests](#matsampt)
+7. [Matched Sample t-tests](#matsampt)
 	* [Problem 1 - Weight Loss](#matsampt-1)
 
 ---------------- Table of Contents ---------------- 
 
-## <a id="terms"></a> Terms for the Chapter
+## <a id="terms"></a> Terms for this module
+
+* **Degrees of Freedom**: These are essentially the number of values within a dataset that could vary from one another. We tend to take n-1 because all numbers can vary aside from the very last one.
 
 * **Independent Random Samples**: Samples selected from two populations in such a way that the elements making up one sample are chosen independently of the elements making up the other sample.
 
@@ -42,7 +45,7 @@ For this section, we will be doing, "t-tests" which are best defined as comparin
 
 * **Pooled Estimator of p**: An estimator of a population proportion obtained by computing a weighted average of the point estimators obtained from two independent samples.
 
-## <a id="formulas"></a> Formulas for this chapter
+## <a id="formulas"></a> Formulas for this module
 
 Generally this module is all about how to compare 2 populations. It is essentially augmenting what we've already been doing. 
 
@@ -59,7 +62,10 @@ Or if we think about this another way:
 
 You will see the same concepts here as all the others: z, t, standard error, test statistics, degrees of freedom, and p values. In each circumstance, there is a corresponding formula. 
 
-Below, I will walk through a number of problems. Each problem will be explained in class.
+Below, I will walk through  number of problems. Each problem will be explained in class.
+
+#### <a id="dbar"></a>on $\bar{d}$
+One thing I should add here is that there is not a formula for $\bar{d}$. This letter is basically, "mean difference" in a matched pair t-test and it is calculated (as you can see below) according to the formula, $\frac{\bar{d}=\Sigma{d}}{n}$. Or in essence, we take the matched samples, subtract the after from before, and average that.
 
 ![Formulas for this Chapter](/images/dbm-1.png)
 ![Formulas for this Chapter](/images/dbm-2.png)
@@ -71,23 +77,31 @@ Use this handy flow chart!
 ![Flow Chart](/images/zort.png)
 
 And so we can boil this down pretty quickly.
-* Is n > 30 and do we know σ? If so, that's a z!
+* Is n > 30 and do we know $\sigma$? If so, that's a z!
 * If either of these are false, then it's a t!
 
+**But ultimately, what's the difference?** Much of the difference can be boiled down to math. With regard to knowing population parameters, we set up ourselves on a z-table and get a value based on whatever our critical value is. When we don't know those things, the math is even more unsure. And so, we set our value up to be based on how much our sample actually contains given the surety we want.
+
 ## <a id="1or2"></a>One or Two Tailed: How do you decide?
+For the most part, deciding what sorts of test to perform is perhaps the most important part of this module. It is important because the data in front of you dictate what maneuvers you can perform and so doing the wrong maneuver will ultimately result in incorrect inferences.
 
-For the most part, deciding what sorts of test to perform is perhaps the most important aspect of the school.
+You will hear here the terms, 1-tailed and 2-tailed. There's so much to deal with here but: 
 
-The question here that is important is, "How do I decide between One-sample, two-sample, or paired t-test?" and to this, we can state the following: 
+![[1v2tail.png]]
 
-* If your samples come from a single population (e.g. measuring before and after an experimental treatment), then the recommended concept is a matched sample t-test.
-* One-tailed or two-tailed t-test?
+I highly recommend this super good video: https://www.youtube.com/watch?v=XHPIEp-3yC0&ab_channel=TheOrganicChemistryTutor
+
+But the question here that is important is, "How do I decide between One-sample, two-sample, or paired t-test?" and to this, we can state the following: 
+
+* If your samples come from a single population (e.g. measuring before and after an experimental treatment), then the recommended concept is a **matched sample t-test**.
+  
+* How do we decide between a one-tailed or two-tailed t-test?
 	* If you only care whether the two populations are different from one another, perform a two-tailed t-test.
 	* If you want to know whether one population mean is greater than or less than the other, perform a one-tailed t-test.
 
 ## <a id="inf2kno"></a>Inferences about two populations with parameters known
 
-This is our first collection to consider. We're comparing 2 populations and actually know some of the population parameters. We'll do a problem that doesn't have any context, and then we'll try one with context. 
+This is our first problem to consider. We're comparing 2 populations and actually know some of the population parameters. We'll do a problem that doesn't have any context, and then we'll try one with context. 
 
 We'll consider the steps here and we'll be moving from left to right: 
 
@@ -101,18 +115,20 @@ We'll consider the steps here and we'll be moving from left to right:
  
 So this is all about a general interval estimate. Sometimes, you need to actually calculate a test statistic and this is an important concept. To do that, we have a formula!
 
-1. From here, we need to consider our confident coefficient. Of note, there is a new concept that shows up, D<sub>o</sub> or the "hypothesized difference between means. We use 0 as it is being fed by the null. At times, you may not be saying, "no change" though if that is the case, I cannot think of an example at the moment. And so, if you need to calculate more, use this formula: $$z=\frac{\bar{x}_1-\bar{x}_2-D_0}{\sqrt{\frac{\sigma^2_1}{n_1}+{\frac{\sigma^2_2}{n_2}}}}$$
+From here, we need to consider our confident coefficient. Of note, there is a new concept that shows up, D<sub>o</sub> or the "hypothesized difference between means. We use 0 as it is being fed by the null. 
+
+At times, you may not be saying, "no change" though if that is the case, I cannot think of an example at the moment. 
+
+And so, if you need to calculate more, use this formula: $$z=\frac{\bar{x}_1-\bar{x}_2-D_0}{\sqrt{\frac{\sigma^2_1}{n_1}+{\frac{\sigma^2_2}{n_2}}}}$$
 So let's do 2 problems.
 
 ### <a id="ppk-1"></a> Problem 1, a problem without Context.
-
 We will first try an problem without any context at all. After that, we'll add some humans in there.
-
 |Sample 1|Sample 2|
 |--------|--------|
-|n<sub>1</sub> = 50|n<sub>2</sub> = 35|
-|x̄<sub>1</sub> = 13.6|x̄<sub>2</sub> = 11.6|
-|σ<sub>1</sub> = 2.2|σ<sub>2</sub> = 3.0|
+|$n_1$ = 50|$n_2$ = 35|
+|$\bar{x}_1$ = 13.6|$\bar{x}_2$ = 11.6|
+|$\sigma_1$ = 2.2|$\sigma_2$ = 3.0|
 
 1. What is the point estimate of the difference between the two populations?
 
@@ -132,28 +148,50 @@ $\bar{x}_1-\bar{x}_2=13.6-11.6=2$
 	* $2\pm1.96\sqrt{\frac{2.2^2}{50}+\frac{3^2}{35}}$ 
 	* 2±1.17 or .83 to 3.17
 
+So we end up with an interval here but we don't really have any sort of hypotheses to worry about. Let's try an actual problem with actual data.
+
 ### <a id="ppk-2"></a> Problem 2: Let's Connect this to an actual example with consequences.
 
 > A test was conducted on two different classes to see if there was any significant difference between the performance of two teachers. The final exam scores of 35 students in the 1st class yielding a mean of 82 and a σ of 2.4. The mean final exam score of the 2nd class was 84 with a σ of 1.7 with a sample of 46 students. 
 
-* Determine if there is any major difference at a 5% signficance level.
+This is **not** a matched sample because the same students are not taking the same class from 2 different instructors.
+
+* Determine if there is any major difference at a 5% significance level.
 
 * **Step 0**: Write your hypotheses. For this one, we are looking for a difference and so we're working on = or ≠. 
 	* H<sub>o</sub>: µ<sub>1</sub> = µ<sub>2</sub>
 	* H<sub>a</sub>: µ<sub>1</sub> ≠ µ<sub>2</sub>
 
-* **Step 1**: Gather your datapoints
+* **Step 1**: Select your formula / test. 
+$$z=\frac{\bar{x}_1-\bar{x}_2-D_0}{\sqrt{\frac{\sigma_1}{n_1}+\frac{\sigma_2}{n_2}}}$$
+* **Step 2:** Gather your datapoints
 	* $\bar{x}_1=82,\sigma_1=2.4,n_1=35$
 	* $\bar{x}_2=84,\sigma_2=1.7,n_2=46$
 
-* **Step 2**: Grab your critical values: In this case, it's 5% or 95% or 1.96
+Big thing here, let's do our check to verify what formula. Is n over 30? yes. Do we know population parameters? yes! So, z is correct.
 
-* **Step 3**: Fill out your formula: 
-	* $\bar{x}_1-\bar{x}_2\pm1.96{\sqrt{\frac{\sigma^2_1}{n_1}+{\frac{\sigma^2_2}{n_2}}}}$ 
-	* $2\pm1.96\sqrt{\frac{2.4^2}{35}+\frac{1.7^2}{46}}$
+* **Step 3: Grab your critical values: In this case, it's 5% or 95% or 1.96
+
+You may wonder here why we call this a critical value. Well, let's go back to that one image: 
+![[1v2tail.png]]
+We set a critical value because we want to make sure we are being accurate with our assertion. Another way to think about this is that the area on the left picture is a 1-tailed test and that means if the value we calculate results in that region, we reject the null hypothesis. At times, this is referred to as the "Zone of rejection." This is versus the area to the right of the shaded region wherein that is the fail to reject region.
+
+Once we have these things, we then to nuts.
+
+* **Step 4: Fill out your formula: 
+* $z=\frac{\bar{x}_1-\bar{x}_2-D_0}{\sqrt{\frac{\sigma_1}{n_1}+\frac{\sigma_2}{n_2}}}$
+* $z=\frac{2}{\sqrt{\frac{2.4}{35}+\frac{1.7}{46}}}$
+
+We end up with a value of: 
+* $\frac{2}{\sqrt{.07+.037}}$ 
+* $\frac{2}{\sqrt{.07+.037}}$ 
+* $\frac{2}{\sqrt{.1}}$ 
+* $\frac{2}{.316}$ 
+* z = 6.3 or -6.3
+
+And so we can say that there is a significant difference between the two teachers.
 
 ## <a id="inf2unkno"></a>Inferences about two populations with parameters unknown
-
 ### <a id="unkno-1"></a> 
 > A business owner is in the process of deciding whether or not to invest in a new factory that refines oil in order to meet the high demand for that commodity. A test showed that the old factor refines oil at a mean rate of 3.1L per second at a std of 1.0 using a sample size of 40. The new factor was measured to refine oil at a mean rate of 3.8L per second at a standard deviation of 1.5 using sample size of 36. 
 
@@ -171,18 +209,21 @@ Determine what test you're going for. In this case, we don't really need a df be
 
 > A test was conducted on two different classes to see if there was any significant difference between the performance of two teachers. The final exam scores of 15 students were sampled in the 1st class yielding a mean of 82 and a std of 2.4. The mean final exam score of the 2nd class was 84 with a std of 1.7 with a sample of 12 students. 
 
-* Determine if there is any major difference at a 5% signficance level.
+* Determine if there is any major difference at a 5% significance level.
 
 * **Step 1**: Gather your datapoints
 	* x̄<sub>1</sub> = 82, s<sub>1</sub> = 2.4, n<sub>1</sub> = 15
 	* x̄<sub>2</sub> = 84, s<sub>2</sub> = 1.7, n<sub>2</sub> = 12
-* **Step 2**: Get your degrees of freedom: <img src="/images/df2st.png" width="100" align=middle>.
+* **Step 2**: Get your degrees of freedom: n-2.
 	* In this case, df = 25, t-value = 2.0595
-* Step 2: Generate your critical values with the formula if needed: <img src="/images/tspu.png" width="100" align=middle>
+* Step 2: Generate your critical values with the formula if needed: 
 	* for this problem, it is not needed as we're using df.
-* **Step 3**: Fill out your formula: <img src="/images/iepu.png" width="100" align=middle>
-	* x̄<sub>1</sub> - x̄<sub>2</sub> ± t√((σ<sub>1</sub>)<sup>2</sup>/n<sub>1</sub>)+((σ<sub>2</sub>)<sup>2</sup>/n<sub>2</sub>)
-	* numbers here.
+* **Step 3**: Fill out your formula: $t=\frac{\bar{x}_1-\bar{x}_2-D_0}{\sqrt{\frac{s_1}{n_1}+\frac{s_2}{n_2}}}$
+* $t=\frac{82-84}{\sqrt{\frac{2.4}{15}+\frac{1.7}{12}}}$
+* $t=\frac{-2}{\sqrt{.16+.14}}$
+* $t=\frac{-2}{\sqrt{.3}}$
+* $t=\frac{-2}{.56}$
+* t=3.57 which is larger than our CV and so we reject the null.
 
 ## <a id="inf2pop"></a> Inferences about two populations with only proportions
 
