@@ -65,7 +65,7 @@ You will see the same concepts here as all the others: z, t, standard error, tes
 Below, I will walk through  number of problems. Each problem will be explained in class.
 
 #### <a id="dbar"></a>on $\bar{d}$
-One thing I should add here is that there is not a formula for $\bar{d}$. This letter is basically, "mean difference" in a matched pair t-test and it is calculated (as you can see below) according to the formula, $\frac{\bar{d}=\Sigma{d}}{n}$. Or in essence, we take the matched samples, subtract the after from before, and average that.
+One thing I should add here is that there is not a formula for $\bar{d}$. This letter is basically, "mean difference" in a matched pair t-test and it is calculated (as you can see below) according to the formula, $\bar{d}=\frac{\Sigma{d}}{n}$. Or in essence, we take the matched samples, subtract the after from before, and average that.
 
 ![Formulas for this Chapter](/images/dbm-1.png)
 ![Formulas for this Chapter](/images/dbm-2.png)
@@ -189,7 +189,7 @@ We end up with a value of:
 * $\frac{2}{.316}$ 
 * z = 6.3 or -6.3
 
-And so we can say that there is a significant difference between the two teachers.
+And so we can say that there is a significant difference between the two teachers. What that actually means will require more study.
 
 ## <a id="inf2unkno"></a>Inferences about two populations with parameters unknown
 ### <a id="unkno-1"></a> 
@@ -223,7 +223,7 @@ Determine what test you're going for. In this case, we don't really need a df be
 * $t=\frac{-2}{\sqrt{.16+.14}}$
 * $t=\frac{-2}{\sqrt{.3}}$
 * $t=\frac{-2}{.56}$
-* t=3.57 which is larger than our CV and so we reject the null.
+* t=3.57 which is larger than our CV and so we reject the null. Again, we  can say that the refinery is statistically significant but what that means requires more study.
 
 ## <a id="inf2pop"></a> Inferences about two populations with only proportions
 
@@ -235,35 +235,43 @@ So much like the other modules, we have run in to the issue of only having propo
 
 * Is the difference between the two groups significant? Use 95%.
 
-* So now we need to set up our nulls:
-	* p̂<sub>1</sub> = p̂<sub>2</sub>
-	* p̂<sub>1</sub> ≠ p̂<sub>2</sub>
+* So now we need to set up our nulls and see that this is a 2-tailed test:
+	* $H_o:\ \hat{p}_1=\hat{p}_2$
+	* $H_a:\ \hat{p}_1\neq\hat{p}_2$
 
 * Now we need our proportions we'll be using to calculate things: 
-	* p̂<sub>1</sub> = 32/800 = p̂<sub>1</sub> = .04 or 4%
-	* p̂<sub>2</sub> = 30/500 = p̂<sub>2</sub> = .06 or 6%
+	* $\hat{p}_1=32/800\ or\ .04$ 
+	* $\hat{p}_2=30/500\ or\ .06$ 
+* Find our area / z-score to care about: $\alpha=100-95\ or\ .05/2$ which results in a value of 1.96.
 
-* Find our area / z-score to care about: α = 100-95 = (.05/2) = A<sub>L</sub> = .975 or 1.96
+* Next, we need to find our "Pool Estimator" or the correction we make to deal with the fact that we need to standardize our calculations. That formula is interesting because it's basically helping us get our numbers into a similar way as non-proportions. The formula for pool estimation is: $$\bar{p}=\frac{n_1p_1+n_2p_2}{n_1+n_2}$$
+For this problem then, the calculation looks like this: 
+* $\bar{p}=\frac{n_1p_1+n_2p_2}{n_1+n_2}$
+* $\bar{p}=\frac{32+30}{800+500}$
+* $\bar{p}=\frac{62}{1300}$
+* $\bar{p}=.047$
+  
+So we've basically got a proportion further adjusted by the number within the sample. Next, we get into our test statistics:
 
-* Next, we need to find our "Pool Estimator" or the correction we make to deal with the fact that we need to standardize our calculations. You can notice that in the formula in the next bullet that doesn't have a <sub>1</sub> or <sub>2</sub>. That formula can be found: <img src="/images/pestimator.png" width="100" align=middle>
-
-It is important to note that wherein you see us re-inflating the proportions on the top row, we can also just use X<sub>1</sub> and X<sub>2</sub>.
-
-* and now we consider the formula for p̂ vs z. That formula is: <img src="/images/propvz.png" width="100" align=middle>
-
-So what does it look like? Well, we plug the numbers in. 
-
-* And here I need to write it up in markdown...
+* and now we consider the formula for $\hat{p}$ vs z. That formula is: $$z=\frac{\bar{p}_1-\bar{p}_2}{\sqrt{p(1-p)(\frac{1}{n_1}+\frac{1}{n_2})}}$$
+So what does it look like after we plug in our values? Well, we plug the numbers in. 
+* $z=\frac{\bar{p}_1-\bar{p}_2}{\sqrt{p(1-p)(\frac{1}{n_1}+\frac{1}{n_2})}}$
+* $z=\frac{.04-.06}{\sqrt{p(1-p)(\frac{1}{n_1}+\frac{1}{n_2})}}$
+* $z=\frac{-.02}{\sqrt{.047(1-.047)(\frac{1}{800}+\frac{1}{500})}}$
+* $z=\frac{-.02}{\sqrt{.045(.00325)}}$
+* $z=\frac{-.02}{.278}$
+* $z=\frac{-.02}{.278}$
+* z = .0256 - we would fail to reject. There is no significant difference.
 
 ## <a id="matsampt"></a>Matched Sample t-tests - Weight Loss
 
-A t-test allows us to compare two groups that are engaged in the same activity. We could do something like evaluate two groups taking the same test or two students with the same teachers. In this case below, we're looking at the impact of a weight loss prograrm. We follow many of the same processes as the previous tests, but adjust ourselves in looking specifically at differences rather than others.
+A t-test allows us to compare two groups that are engaged in the same activity. We could do something like evaluate two groups taking the same test or two students with the same teachers. In this case below, we're looking at the impact of a weight loss program. We follow many of the same processes as the previous tests, but adjust ourselves in looking specifically at differences rather than others.
 
 ### <a id="matsampt-1"></a> Problem 1 - Weight Loss
 
 > A study was conducted to determine the effectiveness of a weight loss program. The table below shows the before and after weights of 10 subjects in the program. Is this program effective for reducing weight? 95% CI/MoE.
 
-|No|Before|After|A-B|
+|No|Before|After|After-Before|
 |--|------|-----|---|
 |01|185|169|-16|
 |02|192|187|-5|
@@ -278,9 +286,14 @@ A t-test allows us to compare two groups that are engaged in the same activity. 
 
 * Getting Started: 
 	* Our first order of business is to generate our important data: Mean, Std, our critical value, and our test statistic. 
-	* x̄<sub>d</sub> is going to be related to the impact of the program. We need to add up the differences between A and B. Since we want to measure how much of a change the after has had, we are doing A (after) - B (before). This will give us the amount of change and its direction. The change is in the column (A-B). Add those up and divide by 10. It gives us a value of about -13.1. 
+	  
+	* $\bar{x}_d$ is going to be related to the impact of the program. We need to add up the differences between A and B. 
+	  
+	  **Since we want to measure how much of a change the after has had, we are doing A (after) - B (before).** This will give us the amount of change and its direction. The change is in the column (A-B). The formula for the average difference is: $\bar{d}=\frac{\Sigma{d}}{n}$. So, add those differences up and divide by 10. It gives us a value of about -13.1. 
+	  
 	* In this way, we can say that the average difference after the program is -13.1 lbs. 
-	* s is added up just as normal (remember back to modes of central tendency). Take each difference, subtract it from the mean, and square it. Then add all of those up and divide by n. The formula for this is: <img src="/images/stddif.png" width="100" align=middle>
+	  
+	* s is referred to as the standard deviation of the difference between means. It is added up just as normal standard deviation is (remember back to point estimates and dispersion). Take each difference, subtract it from the mean difference, square it and then add all of those up and divide by n. The formula for this is: $s_d=\sqrt{\frac{\Sigma({x_d}-\bar{x}_d)^2}{n-1}}$
 
 * Write our hypotheses: 
 
@@ -290,32 +303,26 @@ It's important here to look at these. Since the question is about weight *loss* 
 * H<sub>a</sub>: µ<sub>d</sub> < µ<sub>d</sub>
 
 * Assembling the Data Points: 
-	* x̄<sub>d</sub> (sometimes referred to as d-bar): -13.1
-	* s<sub>d</sub>: 13.025
-	* 95% CI which means α = .05/2 or α = .025 or whatever the df dictate.
+	* $\bar{x}_d$ (sometimes referred to as d-bar or $\bar{d}$): -13.1
+	* $s_d$: 13.025
+	* 95% CI which means $\alpha$ = .05/2 or $\alpha$ = .025 or whatever the df dictate.
 	* df = 9
 	* t<sub>d</sub>: -1.833 (This is found on our chart and we're calculating it this way because of our sample). 
 
 * Calculate our t-statistic. 
-	* The formula we need to use for this is: <img src="/images/dbar.png" width="100" align=middle>
+	* The formula we need to use for this is: $t_c=\frac{\bar{d}-\mu_d}{s_d\sqrt{n}}$
 	* The value we calculate is: -3.18 so we can say we reject the null.
 
-But this isn't *only* what the question asks, is it? It also says, "calculate the margin of error."
+But this isn't *only* what the question asks, is it? It also says, "calculate the confidence level."
 
 We haven't really done this too much but if you remember back to last time, we did a bunch of work on Interval Estimation. 
 
-* Calculate our Margin of Error:
+* Calculate our confidence level with the following formula:
 ![](/images/tmoe.png)
 
 While we use x-bar here, we can also write it as d-bar, and your book does.
 
-Once calculated, this stat is: -13.1 ± 7.55.
-
-So while we reject the null, we can talk a lot about the MoE. That MoE basically says that at a little over half of the value itself, we need to think about just how robust that MoE is. It is also repeating the issue that the standard error provided. While this error is essentially saying that the weight loss *could* be as such to negate the statistical significance, we have to do more work to understand it.
-
-* We can actually use the Margin of Error to make more sense of our data. We'll call this, "Weight." For the cases of matched sample t-tests, we can say that the the margin of error component can teach us a bit about what our data are saying. For example, if we take the mean difference and place it next to our t-critical value and standard error, we have something like this: ![][/images/moe-match.PNG]
-
-And from that, we can use this formula to seed the value of our sample statistic of -1.833. That is: d-bar - 1.833(13.025/3.1622) or d-bar-1.833(4.11). Interpreting this, we can make a claim that d-bar - 7.53363 or take our mean difference and slap it in there, -13.1 + 7.533 or that our critical value of -1.833 corresponds to a value of -5.567lbs lost needs to be expected at a .05 level.
+Once calculated, this stat is: -13.1 ± 7.55. or -5.55 to -20.65.
 
 * Write it out.
 

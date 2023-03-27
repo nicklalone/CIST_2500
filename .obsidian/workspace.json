@@ -6,7 +6,6 @@
       {
         "id": "d721bc29430392fd",
         "type": "tabs",
-        "dimension": 66.996699669967,
         "children": [
           {
             "id": "d46c26f392f49f99",
@@ -17,36 +16,6 @@
                 "file": "10_TvZvP/day1.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "85cc7ed875241613",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "10_TvZvP/day1.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "bf3ff2d0f7cc9a6f",
-        "type": "tabs",
-        "dimension": 33.003300330033,
-        "children": [
-          {
-            "id": "aea2a1c8aff68e2e",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "images/tspu.png"
               }
             }
           }
@@ -178,10 +147,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "85cc7ed875241613",
+  "active": "d46c26f392f49f99",
   "lastOpenFiles": [
-    "images/tspu.png",
+    "images/dbar.png",
     "10_TvZvP/day1.md",
+    "images/stddif.png",
+    "images/dbm-2.png",
+    "images/tspu.png",
     "images/1v2tail.png",
     "images/tsdbm.png",
     "images/std-bet.png",
