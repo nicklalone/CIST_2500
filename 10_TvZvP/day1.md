@@ -89,7 +89,7 @@ You will hear here the terms, 1-tailed and 2-tailed. There's so much to deal wit
 
 ![[1v2tail.png]]
 
-I highly recommend this super good video: https://www.youtube.com/watch?v=XHPIEp-3yC0&ab_channel=TheOrganicChemistryTutor
+I highly recommend this super fantastic video: https://www.youtube.com/watch?v=XHPIEp-3yC0&ab_channel=TheOrganicChemistryTutor
 
 But the question here that is important is, "How do I decide between One-sample, two-sample, or paired t-test?" and to this, we can state the following: 
 
@@ -150,7 +150,7 @@ $\bar{x}_1-\bar{x}_2=13.6-11.6=2$
 
 So we end up with an interval here but we don't really have any sort of hypotheses to worry about. Let's try an actual problem with actual data.
 
-### <a id="ppk-2"></a> Problem 2: Let's Connect this to an actual example with consequences.
+### <a id="ppk-2"></a>Problem 2: Let's Connect this to an actual example with consequences.
 
 > A test was conducted on two different classes to see if there was any significant difference between the performance of two teachers. The final exam scores of 35 students in the 1st class yielding a mean of 82 and a σ of 2.4. The mean final exam score of the 2nd class was 84 with a σ of 1.7 with a sample of 46 students. 
 
@@ -179,21 +179,24 @@ We set a critical value because we want to make sure we are being accurate with 
 Once we have these things, we then to nuts.
 
 * **Step 4: Fill out your formula: 
-* $z=\frac{\bar{x}_1-\bar{x}_2-D_0}{\sqrt{\frac{\sigma_1}{n_1}+\frac{\sigma_2}{n_2}}}$
-* $z=\frac{2}{\sqrt{\frac{2.4}{35}+\frac{1.7}{46}}}$
+* $z=\frac{\bar{x}_1-\bar{x}_2-D_0}{\sqrt{\frac{\sigma_1^2}{n_1}+\frac{\sigma_2}{n_2^2}}}$
+* $z=\frac{2}{\sqrt{\frac{2.4^2}{35}+\frac{1.7^2}{46}}}$
 
 We end up with a value of: 
 * $\frac{2}{\sqrt{.07+.037}}$ 
 * $\frac{2}{\sqrt{.07+.037}}$ 
-* $\frac{2}{\sqrt{.1}}$ 
-* $\frac{2}{.316}$ 
+* $\frac{2}{\sqrt{.17}}$ 
+* $\frac{2}{.41}$ 
 * z = 6.3 or -6.3
 
-And so we can say that there is a significant difference between the two teachers. What that actually means will require more study.
+And so we can say that there is a significant difference between the two teachers. What that actually means will require more study but we *can* check a little something in the form of margin of error. 
+
+That formula is: $CI=z\pm C_v\sqrt{\frac{s_1^2}{n_1}+\frac{s_2^2}{n_2}}$
+* 
 
 ## <a id="inf2unkno"></a>Inferences about two populations with parameters unknown
 ### <a id="unkno-1"></a> 
-> A business owner is in the process of deciding whether or not to invest in a new factory that refines oil in order to meet the high demand for that commodity. A test showed that the old factor refines oil at a mean rate of 3.1L per second at a std of 1.0 using a sample size of 40. The new factor was measured to refine oil at a mean rate of 3.8L per second at a standard deviation of 1.5 using sample size of 36. 
+> A business owner is in the process of deciding whether or not to invest in a new factory that refines oil in order to meet the high demand for that commodity. A test showed that the old factor refines oil at a mean rate of 3.1L per second at a std of 1.0 using a sample size of 40. The new factory was measured to refine oil at a mean rate of 3.8L per second at a standard deviation of 1.5 using sample size of 36. 
 
 * Determine if there is any major difference at the 10% significance level.
 
@@ -218,12 +221,12 @@ Determine what test you're going for. In this case, we don't really need a df be
 	* In this case, df = 25, t-value = 2.0595
 * Step 2: Generate your critical values with the formula if needed: 
 	* for this problem, it is not needed as we're using df.
-* **Step 3**: Fill out your formula: $t=\frac{\bar{x}_1-\bar{x}_2-D_0}{\sqrt{\frac{s_1}{n_1}+\frac{s_2}{n_2}}}$
-* $t=\frac{82-84}{\sqrt{\frac{2.4}{15}+\frac{1.7}{12}}}$
-* $t=\frac{-2}{\sqrt{.16+.14}}$
-* $t=\frac{-2}{\sqrt{.3}}$
-* $t=\frac{-2}{.56}$
-* t=3.57 which is larger than our CV and so we reject the null. Again, we  can say that the refinery is statistically significant but what that means requires more study.
+* **Step 3**: Fill out your formula: $t=\frac{\bar{x}_1-\bar{x}_2-D_0}{\sqrt{\frac{s_1^2}{n_1}+\frac{s_2^2}{n_2}}}$
+* $t=\frac{82-84}{\sqrt{\frac{2.4^2}{15}+\frac{1.7^2}{12}}}$ with 5.76/15 and 2.89/12 respectively in the numerator.
+* $t=\frac{-2}{\sqrt{.384+.240}}$
+* $t=\frac{-2}{\sqrt{.624}}$
+* $t=\frac{-2}{.789}$
+* t=2.53 which is larger than our CV and so we reject the null. Again, we  can say that the refinery is statistically significant but what that means requires more study.
 
 ## <a id="inf2pop"></a> Inferences about two populations with only proportions
 
@@ -253,7 +256,7 @@ For this problem then, the calculation looks like this:
   
 So we've basically got a proportion further adjusted by the number within the sample. Next, we get into our test statistics:
 
-* and now we consider the formula for $\hat{p}$ vs z. That formula is: $$z=\frac{\bar{p}_1-\bar{p}_2}{\sqrt{p(1-p)(\frac{1}{n_1}+\frac{1}{n_2})}}$$
+* and now we consider the formula for $\hat{p}$ vs z. That formula is: $$z=\frac{\hat{p}_1-\hat{p}_2}{\sqrt{p(1-p)(\frac{1}{n_1}+\frac{1}{n_2})}}$$
 So what does it look like after we plug in our values? Well, we plug the numbers in. 
 * $z=\frac{\bar{p}_1-\bar{p}_2}{\sqrt{p(1-p)(\frac{1}{n_1}+\frac{1}{n_2})}}$
 * $z=\frac{.04-.06}{\sqrt{p(1-p)(\frac{1}{n_1}+\frac{1}{n_2})}}$
@@ -328,5 +331,5 @@ Once calculated, this stat is: -13.1 ± 7.55. or -5.55 to -20.65.
 
 For the above, we could write something like:
 
-> We reject the null hypothesis (H<sub>o</sub>) that the mean of the before/after weight differences is zero. The test statistic and *d* are both beyond t<sub>crit</sub> for df = 9. Therefore based on this data it appears the diet works.
+> We reject the null hypothesis (H<sub>o</sub>) that the mean of the before/after weight differences is zero. The test statistic is beyond t<sub>crit</sub> for df = 9. Therefore based on this data it appears the diet works.
 
