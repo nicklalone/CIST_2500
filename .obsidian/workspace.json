@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10_TvZvP/day1.md",
+                "file": "12_CHI_Square/Day1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ba31289c03029325",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -65,8 +78,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "10_TvZvP/day1.md",
+                "file": "Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "10_TvZvP/day1.md",
+                "file": "Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "10_TvZvP/day1.md"
+                "file": "Untitled.md"
               }
             }
           }
@@ -148,17 +160,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d46c26f392f49f99",
+  "active": "ba31289c03029325",
   "lastOpenFiles": [
-    "images/dbar.png",
+    "12_CHI_Square/Day1.md",
+    "Untitled.md",
+    "11_ANOVA/README.md",
+    "11_ANOVA/Day2.md",
+    "11_ANOVA/Day1.md",
+    "10_TvZvP/day2.md",
+    "().md",
     "10_TvZvP/day1.md",
+    "images/dbar.png",
     "images/stddif.png",
     "images/dbm-2.png",
     "images/tspu.png",
     "images/1v2tail.png",
     "images/tsdbm.png",
     "images/std-bet.png",
-    "10_TvZvP/day2.md",
     "06_Sampling_Intervals/Day2.md",
     "06_Sampling_Intervals/Day1.md",
     "05_R_Week/Day2.md",
@@ -185,7 +203,6 @@
     "04_Test_1/day1.md",
     "03_dispersion_and_the_z/day1.md",
     "04_Test_1/day2.md",
-    "03_Z-Scores/day1.md",
-    "images/normal.jpg.md"
+    "03_Z-Scores/day1.md"
   ]
 }
