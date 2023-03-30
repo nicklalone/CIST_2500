@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled.md",
+                "file": "10_TvZvP/day1.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.md",
+                "file": "10_TvZvP/day1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled.md",
+                "file": "10_TvZvP/day1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.md"
+                "file": "10_TvZvP/day1.md"
               }
             }
           }
@@ -160,10 +160,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ba31289c03029325",
+  "active": "ce0917bef73f47d2",
   "lastOpenFiles": [
-    "12_CHI_Square/Day1.md",
     "Untitled.md",
+    "10_TvZvP/ttest-class 1.r",
+    "10_TvZvP/ttest-class.r",
+    "12_CHI_Square/Day1.md",
     "11_ANOVA/README.md",
     "11_ANOVA/Day2.md",
     "11_ANOVA/Day1.md",
@@ -202,7 +204,6 @@
     "02_Descriptives/day1.md",
     "04_Test_1/day1.md",
     "03_dispersion_and_the_z/day1.md",
-    "04_Test_1/day2.md",
-    "03_Z-Scores/day1.md"
+    "04_Test_1/day2.md"
   ]
 }
