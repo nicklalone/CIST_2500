@@ -132,7 +132,7 @@ We can also use all sorts of online calculators like: https://www.statology.org/
 
 ### <a id="ticv"></a> Cramer's V
 
-Cramer's V (sometimes denoted as φ or phi even though this is just the top part of the formula) is essentially a statistic you can generate to understand a layer past the creation of critical values and test statistics. It is calculated with the following formula: $$V=\sqrt{\frac{\chi^2/n}{min(k-1)(r-1)}}$$
+Cramer's V (sometimes denoted as φ or phi even though this is just the top part of the formula) is essentially a statistic you can generate to understand a layer past the creation of critical values and test statistics. It is calculated with the following formula (read the bottom line as, "multiply N by whichever is smaller, columns or rows"): $$V=\sqrt{\frac{\chi^2/n}{min(N(k-1)OR(r-1))}}$$
 In general, this is a number between 0 to 1. The table is generally interpreted this way: 
 
 |Value|Interpretation|
