@@ -60,7 +60,9 @@ Mostly, we can say that there are "2" kinds of  χ² tests. These are based on t
 	* It allows us to visualize the data we are analyzing.
 1. **Degrees of freedom**:
 	* For Chi-Square Goodness of Fit Test since it is 1 variable, it is calculated by: 
-	* For Chi-Square Test of Independence, this is comparing 2 variables, it is calculated by <img src="/images/expected.png" width="100" align=middle>. Let me write 2 tables (left is the calculations, right is the results for expected counts): 
+	* For Chi-Square Test of Independence, this is comparing 2 variables, it is calculated by $E=\frac{Row_t*Column_t}{N}$. 
+
+Let me write 2 tables (left is the calculations, right is the results for expected counts): 
 
 |UG|G|Totals|-|UG|G|Total|
 |--|-|------|-|--|-|-----|
@@ -103,11 +105,8 @@ What we test is if the proportions are all equal to one another or we can test a
 And so what is this doing? Well, it's messing with our box of nerds but it's also giving us a question to test what we are observing over what we would expect in terms of a proportion of different flavors of nerds.
 
 And how do we test these? Well, the test statistic is generated with this formula: 
-
-<img src="/images/chiform.png" width="100" align=middle>
-
-As you can see, all we're really doing is essentially calculate a rather robust standard error of sorts. This is our test statistic and after degrees of freedom, 
-we will move on to different ways to evaluate the efficacy of the CHI-Square statistic.
+$$\chi^2=\Sigma{\frac{(Observed-Expected)^2}{Expected}}$$
+As you can see, all we're really doing is essentially calculate a rather robust standard error of sorts. This is our test statistic and after degrees of freedom, we will move on to different ways to evaluate the efficacy of the $\chi^2$ statistic.
 
 ### <a id="gfdfx2"></a> Degrees of Freedom
 
@@ -133,8 +132,7 @@ We can also use all sorts of online calculators like: https://www.statology.org/
 
 ### <a id="ticv"></a> Cramer's V
 
-Cramer's V (sometimes denoted as φ or phi even though this is just the top part of the formula) is essentially a statistic you can generate to understand a layer past the creation of critical values and test statistics. It is calculated with the following formula: <img src="/images/cramers.png" width="100" align=middle>.
-
+Cramer's V (sometimes denoted as φ or phi even though this is just the top part of the formula) is essentially a statistic you can generate to understand a layer past the creation of critical values and test statistics. It is calculated with the following formula: $$V=\sqrt{\frac{\chi^2/n}{min(k-1)(r-1)}}$$
 In general, this is a number between 0 to 1. The table is generally interpreted this way: 
 
 |Value|Interpretation|
