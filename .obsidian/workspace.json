@@ -8,31 +8,43 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d46c26f392f49f99",
+            "id": "ba31289c03029325",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "12_CHI_Square/Day1.md",
+                "file": "13_Regression/Day1.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "ba31289c03029325",
+            "id": "2f4396c51bb8192c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10_TvZvP/day1.md",
+                "file": "13_Regression/Day2.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "03b40858f3f8a0b5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "14_Regress_More/Day2.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "10_TvZvP/day1.md",
+                "file": "14_Regress_More/Day2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "10_TvZvP/day1.md",
+                "file": "14_Regress_More/Day2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "10_TvZvP/day1.md"
+                "file": "14_Regress_More/Day2.md"
               }
             }
           }
@@ -162,16 +174,22 @@
   },
   "active": "ce0917bef73f47d2",
   "lastOpenFiles": [
+    "14_Regress_More/Day1.md",
+    "14_Regress_More/Day2.md",
+    "13_Regression/Day2.md",
+    "13_Regression/Day1.md",
+    "14_Regress_More",
+    "12_Test_3/README.md",
+    "11_CHI_Square/Day1.md",
+    "01_What_is_Stats/day1.md",
+    "10_TvZvP/day1.md",
     "Untitled.md",
     "10_TvZvP/ttest-class 1.r",
     "10_TvZvP/ttest-class.r",
-    "12_CHI_Square/Day1.md",
-    "11_ANOVA/README.md",
-    "11_ANOVA/Day2.md",
-    "11_ANOVA/Day1.md",
+    "11_CHI_Square/README.md",
+    "11_CHI_Square/Day2.md",
     "10_TvZvP/day2.md",
     "().md",
-    "10_TvZvP/day1.md",
     "images/dbar.png",
     "images/stddif.png",
     "images/dbm-2.png",
@@ -198,12 +216,7 @@
     "08_Spring_Break/day2.md",
     "06_Sampling_Intervals/examples.md",
     "ppts/06 - Tuesday.pptx",
-    "ppts/~$06 - Tuesday.pptx",
     "05_R_Week/Day1.md",
-    "05_R_Week/Readme.md",
-    "02_Descriptives/day1.md",
-    "04_Test_1/day1.md",
-    "03_dispersion_and_the_z/day1.md",
-    "04_Test_1/day2.md"
+    "05_R_Week/Readme.md"
   ]
 }
