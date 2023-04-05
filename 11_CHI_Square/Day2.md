@@ -1,8 +1,18 @@
-Today, we have a few goals but will mostly concentrate on doing the homework. I'll leave the previous semester's tutorial data in here. In that class, we did the following: 
+Today, we have a few goals but will mostly concentrate on doing the homework. I'll leave the previous semester's tutorial data in here. 
+
+In that class, we did the following: 
 1. Import, Refactor, Filter, and take some steps to clean data in R itself.
 1. Once imported, we need to perform a few CHI-Square Tests in R, Append Crammer's V, and export those results to a csv so we can write up a report.
 
-At its most basic, the χ² test allows us to test if a 1 or more categorical or nominal variables from a sample is accurate representing a population or are associated. It tests this assertion by calculating the data we would expect to be there if the null hypothesis were true and testing what we actually observed.
+For data, we used the files here: https://github.com/davidcaughlin/R-Tutorial-Data-Files
+
+And this tutorial: https://www.youtube.com/watch?v=l8v3kx6zNuQ&ab_channel=DavidCaughlin
+
+I highly suggest going through this day's content as well as the tutorials above. It will make you feel good (I think) and provide you with workable knowledge about R in terms of data frames, arrays, refactoring, filtering, and basic data manipulation.
+
+At its most basic, the χ² test allows us to test if a 1 or more categorical or nominal variables from a sample is accurate representing a population or are associated (goodness of fit). It tests this assertion by calculating the data we would expect to be there if the null hypothesis were true and testing what we actually observed. 
+
+At its most useful, it allows us to test hypotheses of relation between 2 variables in 1 dataset.
 
 Remember that there are 2 rules to remember for χ²:
 1. Expected values are calculated with the assertion that H<sub>o</sub> is true
