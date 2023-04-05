@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "13_Regression/Day2.md",
+                "file": "11_CHI_Square/Day2.md",
                 "mode": "source",
                 "source": false
               }
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "13_Regression/Day2.md",
+                "file": "11_CHI_Square/Day2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "13_Regression/Day2.md",
+                "file": "11_CHI_Square/Day2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "13_Regression/Day2.md"
+                "file": "11_CHI_Square/Day2.md"
               }
             }
           }
@@ -172,6 +172,7 @@
   },
   "active": "e213d73b1d8e2e28",
   "lastOpenFiles": [
+    "13_Regression/Day2.md",
     "13_Regression/Day1.md",
     "11_CHI_Square/Day2.md",
     "12_Test_3/README.md",
@@ -182,7 +183,6 @@
     "images/expected.png",
     "14_Regress_More/Day2.md",
     "14_Regress_More/Day1.md",
-    "13_Regression/Day2.md",
     "14_Regress_More",
     "01_What_is_Stats/day1.md",
     "10_TvZvP/day1.md",
