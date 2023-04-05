@@ -160,8 +160,18 @@
   },
   "active": "3505e54d5f100bd4",
   "lastOpenFiles": [
+<<<<<<< Updated upstream
     "images/1v2tail.png",
     "Untitled.md",
+=======
+    "12_Test_3/README.md",
+    "11_CHI_Square/README.md",
+    "11_CHI_Square/Day2.md",
+    "11_CHI_Square/Day1.md",
+    "images/cramers.png",
+    "images/chiform.png",
+    "images/expected.png",
+>>>>>>> Stashed changes
     "14_Regress_More/Day2.md",
     "14_Regress_More/Day1.md",
     "14_Regress_More",

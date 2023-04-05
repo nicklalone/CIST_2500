@@ -54,8 +54,8 @@ For Chi-Square Goodness of Fit Tests, we use null and alt hypotheses like:
 H<sub>0</sub>: A variable is a certain way.
 H<sub>a</sub>: A variable is not a certain way.
 
-> chisq.test(x, p)
- where: x is your observed values and p is your probabilities (must have the same count as x. Alternatively, you can create a xtabs, that is done like this: 
+chisq.test(x, p)
+where: x is your observed values and p is your probabilities (must have the same count as x. Alternatively, you can create a xtabs, that is done like this: 
 
 tbl <- xtabs(~ hours + gender, data=a)
 chisq.test(tbl)
@@ -89,7 +89,9 @@ So, one thing you'll notice is that we are working with 2 things: numbers referr
 
 And to do that, we need to recode, refactor, or otherwise clean our data. But, how do we do this? Well, we need to change the data to meet those needs. We can do that in a lot of different ways but we're going to concentrate on 1 specific way.  
 
-### Hypotheses: Mother or Father's educational attainment's impact on Higher Education Desires base
+### Hypotheses: Mother or Father's educational attainment's impact on Higher Education Desires
+
+A different tutorial for this dataset is here: http://rstudio-pubs-static.s3.amazonaws.com/239994_35cdbafe9de74fc3b7a41b63d249f9f3.html
 
 For this part of class, we're going to be working on hypotheses. In looking at this dataset, we can see 3 variables that are interesting. First, ```MEDU``` and ```FEDU```
 
@@ -116,13 +118,11 @@ So the research question I had in mind was this, "Does a student's desire to ent
 This question allows us to think about 2 specific analyses we are going to do. I'll set up the hypotheses here: 
 
 > H<sub>o</sub>: There is no association between Dad's education level and the student's desire for higher ed.
-
 > H<sub>a</sub>: There is an association between Dad's education level and the student's desire for higher ed.
 
 And so that's Dad's level. Let's set up Mom's level as well. 
 
 > H<sub>o</sub>: There is no association between Mom's education level and the student's desire for higher ed for students in a math course.
-
 > H<sub>a</sub>: There is an association between Mom's education level and the student's desire for higher ed for students in a math course.
 
 From here, we can do 2 analyses. If we were interested, we could combine FEDU and MEDU into a variable called, "parent's education level" and run just 1 analysis. However, in this way we can actually do a little bit of a comparison. We can single out specific parent's impact on the student.
@@ -156,8 +156,7 @@ We can also run this for ```Medu``` with this command:
 
 And so now we have a variable set up for FEDU, a variable set up for MEDU and HIGHER is all ready. And yet, if we try and run a chi-square for this, we may see an error like, "must be the same size" or something similar. This basically means that one of the variables has a different N than others.
 
-### <a id="filt"></a> Filtering / Layers
-
+### <a id="filt"></a>Filtering / Layers
 Along those lines, let's take a look at the Mom and Dad education levels. One of the things that stands out for me is that "0" or "none". 
 
 To me, this potential answer is going to throw off a lot of data. From a frequency perspective, these are outliers and could impact the entirety of our dataset. So, I want to remove them as we cannot know what, "no formal education" really means. So let's filter these data and send them to a new dataframe: 
@@ -182,12 +181,9 @@ And this will create a csv file in your working directory. If you do not know wh
 
 And in doing this, you will at least know where on your system your csv's will write to. 
 
-So now we have re-coded, separated, and evened-out our data. Let's do some Chi-Squares.
-
 ------
 
 ## <a id="chir"></a> χ² in R
-
 So first things first, to run a χ² in R, all we need is the following command: 
 
 ```chisq.test(fifedu$Medu,fifedu$higher)```
@@ -224,7 +220,6 @@ This is based on our expected values being lower than 5. Let's talk a bit about 
 ## <a id="expect"></a> Expected Values and Contingency Tables
 
 chisq.test(fimedu$Medu,fimedu$higher)$expected
-
 chisq.test(fifedu$Fedu,fifedu$higher)$expected
 
 ### <a id="yarp"></a> Dealing with Stored Chi-Squared
@@ -244,4 +239,15 @@ And so what does this allow us to do. Well, mostly we can store in memory the co
 * FiFedu_Results$residuals
 * FiFedu_Results$expected
 
-And so that's all the R fun we can have!
+And so that's all the R fun we can have for right now but you should now be dangerous.
+
+Commands from class: 
+chisq.test(tbl)$residuals
+chisq.test(tbl)$observed
+print(tbl)
+work <- chisq.test(tbl)
+work$residuals
+tbl_2 <- xtabs(~ hours + gender, data=a)
+cramerV(tbl)
+library(rcompanion)
+tbl_2 <- xtabs(~ hours + gender, data=a)
