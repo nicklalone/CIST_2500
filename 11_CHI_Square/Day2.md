@@ -8,6 +8,16 @@ Remember that there are 2 rules to remember for χ²:
 1. Expected values are calculated with the assertion that H<sub>o</sub> is true
 1. While you are seeking a relationship, the math provides us with a variety of ways variables relate mathematically. You can use another measure to understand the impact.
 
+### 5 Steps for Any Stats Test 
+1. Define your null and alternative hypotheses before collecting your data.
+	* As this is a college class, and an introduction, data will usually be provided.
+2. Decide on the alpha value.
+	* For the most part, check the question; however, most of the time it will be .05
+3. Check the data for errors.
+	* I may hide errors in your data but i'll give you a hint about this if I do.
+4. Check the assumptions for the test.
+5. Perform the test and draw your conclusion.
+
 ---------------- Table of Contents ---------------- 
 
 1. [Getting Started](#gs)
@@ -37,13 +47,12 @@ H<sub>0</sub>: A variable is a certain way.
 H<sub>a</sub>: A variable is not a certain way.
 
 > chisq.test(x, p)
- where: x is your observed values and p is your probabilities (must have the same count as x)
+ where: x is your observed values and p is your probabilities (must have the same count as x. Alternatively, you can create a xtabs, that is done like this: 
 
-tulip <- c(81, 50, 27)
-res <- chisq.test(tulip, p = c(1/3, 1/3, 1/3))
-res
+tbl <- xtabs(~ hours + gender, data=a)
+chisq.test(tbl)
 
-## <a id="toi"></a> Tests of Independence
+## <a id="toi"></a>Tests of Independence
 
 ### <a id="dwd"></a> Dealing with Data
 
@@ -153,7 +162,7 @@ and for mothers:
 
 And so now we have 2 dataframes that are ready for analysis that we can then use to do our chi-square analysis. Before we do that, let's export these data so we can mess with them elsewhere or, we can make sure we have a correction point should we mess up our data.
 
-### <a id="export"></a> Exporting
+### <a id="export"></a>Exporting
 
 Exporting a dataframe is relatively easy. All it takes is the following command: 
 
@@ -222,12 +231,8 @@ In addition, we can also store the Medu results in a dataframe:
 
 > FiMedu_Results <- chisq.test(fiMedu$Medu, fimedu$higher)
 
-And so what does this allow us to do. Well, let's give it a look. 
-
-FiFedu_Results$expected
-
-FiFedu_Results$observed
-
-FiFedu_Results$residuals
-
-FiFedu_Results$expected
+And so what does this allow us to do. Well, mostly we can store in memory the contingency table which then allows us to do the following: 
+* FiFedu_Results$expected
+* FiFedu_Results$observed
+* FiFedu_Results$residuals
+* FiFedu_Results$expected

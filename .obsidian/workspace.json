@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "11_CHI_Square/Day1.md",
+                "file": "11_CHI_Square/Day2.md",
                 "mode": "source",
                 "source": false
               }
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "11_CHI_Square/Day1.md",
+                "file": "11_CHI_Square/Day2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "11_CHI_Square/Day1.md",
+                "file": "11_CHI_Square/Day2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "11_CHI_Square/Day1.md"
+                "file": "11_CHI_Square/Day2.md"
               }
             }
           }
@@ -172,9 +172,10 @@
   },
   "active": "e213d73b1d8e2e28",
   "lastOpenFiles": [
+    "11_CHI_Square/Day1.md",
+    "11_CHI_Square/Day2.md",
     "12_Test_3/README.md",
     "11_CHI_Square/README.md",
-    "11_CHI_Square/Day1.md",
     "images/cramers.png",
     "images/chiform.png",
     "images/expected.png",
@@ -188,7 +189,6 @@
     "Untitled.md",
     "10_TvZvP/ttest-class 1.r",
     "10_TvZvP/ttest-class.r",
-    "11_CHI_Square/Day2.md",
     "10_TvZvP/day2.md",
     "().md",
     "images/dbar.png",
