@@ -1,4 +1,4 @@
-Today, we have 2 goals: 
+Today, we have a few goals but will mostly concentrate on doing the homework. I'll leave the previous semester's tutorial data in here. In that class, we did the following: 
 1. Import, Refactor, Filter, and take some steps to clean data in R itself.
 1. Once imported, we need to perform a few CHI-Square Tests in R, Append Crammer's V, and export those results to a csv so we can write up a report.
 
@@ -232,7 +232,8 @@ In addition, we can also store the Medu results in a dataframe:
 > FiMedu_Results <- chisq.test(fiMedu$Medu, fimedu$higher)
 
 And so what does this allow us to do. Well, mostly we can store in memory the contingency table which then allows us to do the following: 
-* FiFedu_Results$expected
 * FiFedu_Results$observed
 * FiFedu_Results$residuals
 * FiFedu_Results$expected
+
+And so that's all the R fun we can have!
