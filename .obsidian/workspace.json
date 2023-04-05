@@ -4,40 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "d721bc29430392fd",
+        "id": "75acd068ff7e9fdc",
         "type": "tabs",
         "children": [
           {
-            "id": "03b40858f3f8a0b5",
+            "id": "3d0cb22eb1365ba7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "11_CHI_Square/README.md",
+                "file": "07_Hypothesis_Testing/Day1.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "e213d73b1d8e2e28",
+            "id": "3505e54d5f100bd4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "release-notes",
               "state": {
-                "file": "11_CHI_Square/Day2.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6cbcf10919b5784f",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "images/cramers.png"
+                "currentVersion": "1.1.16"
               }
             }
           }
@@ -108,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "11_CHI_Square/Day2.md",
+                "file": "07_Hypothesis_Testing/Day1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "11_CHI_Square/Day2.md",
+                "file": "07_Hypothesis_Testing/Day1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "11_CHI_Square/Day2.md"
+                "file": "07_Hypothesis_Testing/Day1.md"
               }
             }
           }
@@ -170,52 +158,43 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e213d73b1d8e2e28",
+  "active": "3505e54d5f100bd4",
   "lastOpenFiles": [
-    "11_CHI_Square/Day1.md",
-    "11_CHI_Square/Day2.md",
-    "12_Test_3/README.md",
-    "11_CHI_Square/README.md",
-    "images/cramers.png",
-    "images/chiform.png",
-    "images/expected.png",
+    "images/1v2tail.png",
+    "Untitled.md",
     "14_Regress_More/Day2.md",
     "14_Regress_More/Day1.md",
+    "14_Regress_More",
+    "13_Regression/README.md",
     "13_Regression/Day2.md",
     "13_Regression/Day1.md",
-    "14_Regress_More",
-    "01_What_is_Stats/day1.md",
-    "10_TvZvP/day1.md",
-    "Untitled.md",
-    "10_TvZvP/ttest-class 1.r",
+    "13_Regression",
+    "12_Test_3/README.md",
+    "12_Test_3",
+    "11_CHI_Square/README.md",
+    "11_CHI_Square/Day2.md",
+    "11_CHI_Square/Day1.md",
+    "11_CHI_Square",
+    "10_TvZvP/README.md",
     "10_TvZvP/ttest-class.r",
     "10_TvZvP/day2.md",
-    "().md",
-    "images/dbar.png",
-    "images/stddif.png",
-    "images/dbm-2.png",
-    "images/tspu.png",
-    "images/1v2tail.png",
-    "images/tsdbm.png",
-    "images/std-bet.png",
-    "06_Sampling_Intervals/Day2.md",
-    "06_Sampling_Intervals/Day1.md",
-    "05_R_Week/Day2.md",
-    "09_Test_2/Test Hints and Tricks.md",
-    "10_TvZvP/README.md",
-    "08_Spring_Break/day1.md",
+    "10_TvZvP/day1.md",
     "10_TvZvP",
-    "07_Hypothesis_Testing/Day1.md",
+    "09_Test_2/Test Hints and Tricks.md",
     "ppts/~$Week 07 - Tuesday.pptx",
-    "ppts/Week 07 - Tuesday.pptx",
-    "ppts/08 - Tuesday.pptx",
+    "ppts/ppt1267.tmp",
+    "ppts/pptB42.tmp",
+    "ppts/pptB725.tmp",
+    "06_Sampling_Intervals/Day1.md",
+    "05_R_Week/Day1.md",
+    "05_R_Week/Day2.md",
+    "07_Hypothesis_Testing/Day1.md",
     "07_Hypothesis_Testing/Day2.md",
+    "06_Sampling_Intervals/Day2.md",
     "03_dispersion_and_the_z/day2.md",
-    "ppts/Week 06 - Tuesday.pptx",
-    "ppts/~$Week 06 - Tuesday.pptx",
     "08_Spring_Break/day2.md",
+    "08_Spring_Break/day1.md",
     "06_Sampling_Intervals/examples.md",
-    "ppts/06 - Tuesday.pptx",
-    "05_R_Week/Day1.md"
+    "05_R_Week/Readme.md"
   ]
 }
