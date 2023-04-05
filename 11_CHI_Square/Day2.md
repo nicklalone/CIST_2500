@@ -4,9 +4,7 @@ In that class, we did the following:
 1. Import, Refactor, Filter, and take some steps to clean data in R itself.
 1. Once imported, we need to perform a few CHI-Square Tests in R, Append Crammer's V, and export those results to a csv so we can write up a report.
 
-For data, we used the files here: https://github.com/davidcaughlin/R-Tutorial-Data-Files
-
-And this tutorial: https://www.youtube.com/watch?v=l8v3kx6zNuQ&ab_channel=DavidCaughlin
+For data, we used the files here: https://github.com/davidcaughlin/R-Tutorial-Data-Files and specifically, we will use the ```student.zip``` file in the "files" section of Canvas or the ```ChiSquareTurnover.csv``` in the following tutorial: and this tutorial: https://www.youtube.com/watch?v=l8v3kx6zNuQ&ab_channel=DavidCaughlin
 
 I highly suggest going through this day's content as well as the tutorials above. It will make you feel good (I think) and provide you with workable knowledge about R in terms of data frames, arrays, refactoring, filtering, and basic data manipulation.
 
