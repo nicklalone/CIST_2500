@@ -146,7 +146,7 @@ But doing this would essentially erase the numeric data that is there. So, rathe
 
 ```student$Fedu <- recode(student$Fedu,"0" = "No Formal Education", "1" = "Up to 4th Grade", "2" = "Up to 9th Grade", "3" = "Secondary Education", "4" = "Higher Ed")```
 
-And so what is happening here? Well, if we read it from to left to right, we are creating a variable called ```student$Fedu``` that will be re-coded based on an existing variabled, ```student$Fedu```. This means that I'll be overwriting the data in that whatever we write will be overwritten by our full command. So what is it? Well, we work off of the ```students.txt``` codebook and using that to re-code our variable from 0,1,2,3,4 to "No Formal Education, Up to 4th Grade, Up to 9th Grade, Secondary Education, and Higher Ed".
+And so what is happening here? Well, if we read it from to left to right, we are creating a variable called ```student$Fedu``` that will be re-coded based on an existing variable, ```student$Fedu```. This means that I'll be overwriting the data in that whatever we write will be overwritten by our full command. So what is it? Well, we work off of the ```students.txt``` codebook and using that to re-code our variable from 0,1,2,3,4 to "No Formal Education, Up to 4th Grade, Up to 9th Grade, Secondary Education, and Higher Ed".
 
 And so when we run it, we can then see that our variable moves from numeric/integer to a character or chr variable/element. 
 
