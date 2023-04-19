@@ -1,39 +1,62 @@
 {
   "main": {
-    "id": "cf66272a3d3a4597",
+    "id": "a8df485ba316d30d",
     "type": "split",
     "children": [
       {
-        "id": "8545dec55af290a4",
+        "id": "d721bc29430392fd",
         "type": "tabs",
         "children": [
           {
-            "id": "c676f64a501a11d4",
+            "id": "03b40858f3f8a0b5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "13_Regression/Day1.md",
+                "file": "11_CHI_Square/README.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "e213d73b1d8e2e28",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "13_Regression/Day2.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6cbcf10919b5784f",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "images/cramers.png"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "0aa65a619ab23ef6",
+    "id": "806d41c50406c47f",
     "type": "split",
     "children": [
       {
-        "id": "d00542052bd37210",
+        "id": "c6167548b7dd61a2",
         "type": "tabs",
         "children": [
           {
-            "id": "113c255c14b4fccf",
+            "id": "ce0917bef73f47d2",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,7 +66,7 @@
             }
           },
           {
-            "id": "8fdb8c3ea0cfd182",
+            "id": "4d11b95247b01269",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -58,7 +81,7 @@
             }
           },
           {
-            "id": "1d17b2bbe9d74083",
+            "id": "c547dbe98fa08a7c",
             "type": "leaf",
             "state": {
               "type": "starred",
@@ -69,23 +92,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
-    "id": "f2e936bd4d250671",
+    "id": "1fc2bc29e1ae508a",
     "type": "split",
     "children": [
       {
-        "id": "9d96d174a5e75f2d",
+        "id": "684917cab9c005e2",
         "type": "tabs",
         "children": [
           {
-            "id": "e1d01bb97da7fb62",
+            "id": "88fe50cc4e7d0ca7",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "13_Regression/Day1.md",
+                "file": "13_Regression/Day2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,19 +120,19 @@
             }
           },
           {
-            "id": "0e13a777152fa3b7",
+            "id": "2035033c33691f53",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "13_Regression/Day1.md",
+                "file": "13_Regression/Day2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "44cf843c85af69e6",
+            "id": "b24ce0ccf23167f3",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -120,16 +143,17 @@
             }
           },
           {
-            "id": "3cb3a7a987788062",
+            "id": "6a4ec68bd5c2263f",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "13_Regression/Day1.md"
+                "file": "13_Regression/Day2.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -146,8 +170,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c676f64a501a11d4",
+  "active": "e213d73b1d8e2e28",
   "lastOpenFiles": [
-    "13_Regression/Day2.md"
+    "13_Regression/Demo.md",
+    "13_Regression/Day2.md",
+    "13_Regression/Day1.md",
+    "10_TvZvP/day2.md",
+    "12_Test_3/README.md",
+    "11_CHI_Square/Day2.md",
+    "11_CHI_Square/README.md",
+    "11_CHI_Square/Day1.md",
+    "images/cramers.png",
+    "images/chiform.png",
+    "images/expected.png",
+    "14_Regress_More/Day2.md",
+    "14_Regress_More/Day1.md",
+    "14_Regress_More",
+    "01_What_is_Stats/day1.md",
+    "10_TvZvP/day1.md",
+    "Untitled.md",
+    "10_TvZvP/ttest-class 1.r",
+    "10_TvZvP/ttest-class.r",
+    "().md",
+    "images/dbar.png",
+    "images/stddif.png",
+    "images/dbm-2.png",
+    "images/tspu.png",
+    "images/1v2tail.png",
+    "images/tsdbm.png",
+    "images/std-bet.png",
+    "06_Sampling_Intervals/Day2.md",
+    "06_Sampling_Intervals/Day1.md",
+    "05_R_Week/Day2.md",
+    "09_Test_2/Test Hints and Tricks.md",
+    "10_TvZvP/README.md",
+    "08_Spring_Break/day1.md",
+    "10_TvZvP",
+    "07_Hypothesis_Testing/Day1.md",
+    "ppts/~$Week 07 - Tuesday.pptx",
+    "ppts/Week 07 - Tuesday.pptx",
+    "ppts/08 - Tuesday.pptx",
+    "07_Hypothesis_Testing/Day2.md",
+    "03_dispersion_and_the_z/day2.md",
+    "ppts/Week 06 - Tuesday.pptx",
+    "ppts/~$Week 06 - Tuesday.pptx",
+    "08_Spring_Break/day2.md",
+    "06_Sampling_Intervals/examples.md",
+    "ppts/06 - Tuesday.pptx",
+    "05_R_Week/Day1.md"
   ]
 }
