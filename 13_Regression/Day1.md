@@ -21,6 +21,8 @@
 	* [Building a linear model](#step5)
 	* [Residual analysis of the data](#step6)
 	* [Making predictions using the final model and evaluation](#step7)
+	  
+9. [Additional Tutorials](#tuts)
 
 ---------------- Table of Contents ---------------- 
 
@@ -67,10 +69,10 @@ So at its core, regression is about a variable that depends on 1 or more other v
 Well, consider this: 
 ![Regression Equations](/images/birthpov.png)
 
-I come from a very small town in the rustbelt of Ohio. One of the things that stuck out about it was that my graduating class of around 129 saw approximately 80% of the women in the class pregnant, and not always with just 1 child. One class member had 3 kids before she graduated. 1 for sophmore, junior, and senior years. 
+I come from a very small town in the rustbelt of Ohio. One of the things that stuck out about it was that my graduating class of around 129 saw approximately 80% of the women in the class pregnant, and not always with just 1 child. One class member had 3 kids before she graduated. 1 for sophomore, junior, and senior years. 
 
-The above dataset gets into the why. It is a plot where birth rates are predicted by poverty. There are so many things interesting here. First, note that the $R-Sq$ is at .533 or that poverty explains 53.3% of the variance in Birthrates. This means that as poverty goes up, birth rates also go up. The item that is interesting here though is the equation itself. $$Birth15to17 = 4.267 + 1.373(Poverty Percentage)$$
-So how do you read this? Well, we can say that the birth rate of 15-17 year olds can be predictied by everything to the right of the =. That first number, 4.267 is a constant or noise indicator. We refer to it as A sometimes, $b_o$ in others. In both circumstances it is also called, "the intercept" and is best defined as, "the intercept (often labeled the constant) is the expected mean value of Y when all X=0" which I [grabbed from here](https://www.theanalysisfactor.com/interpreting-the-intercept-in-a-regression-model/#:~:text=Here's%20the%20definition%3A%20the%20intercept,of%20Y%20at%20that%20value.). 
+The above dataset gets into the why. It is a plot where birth rates are predicted by poverty. There are so many things interesting here. First, note that the $R^2$ is at .533 or that poverty explains 53.3% of the variance in Birthrates. This means that as poverty goes up, birth rates also go up. The item that is interesting here though is the equation itself. $$Birth15to17 = 4.267 + 1.373(Poverty Percentage)$$
+So how do you read this? Well, we can say that the birth rate of 15-17 year olds can be predicted by everything to the right of the =. That first number, 4.267 is a constant or noise indicator. We refer to it as A sometimes, $b_o$ in others. In both circumstances it is also called, "the intercept" and is best defined as, "the intercept (often labeled the constant) is the expected mean value of Y when all X=0" which I [grabbed from here](https://www.theanalysisfactor.com/interpreting-the-intercept-in-a-regression-model/#:~:text=Here's%20the%20definition%3A%20the%20intercept,of%20Y%20at%20that%20value.). 
 
 So from the above, look on the Scatterplot. If Y = 4.267, that looks dangerously close to where the poverty percentage would be if birth rate was 0. It is essentially the "constant" poverty we could expect. 
 
@@ -197,7 +199,7 @@ So, getting used to this is an essential soft skill.
 For this, we do this the same way we always have. We import it and make sure to place it into an easy to remember dataframe. 
 
 > library(readr)
-> main <- read_csv("~/Desktop/R-Tutorial-Data-Files-master/SelectionExercise.csv")      
+> main <- read_csv("~/~path~/SelectionExercise.csv")      
 
 What you'll notice is the following: 
 * 300 observations, 6 variables
@@ -225,5 +227,16 @@ library(lessR) - allows us to do all sorts of things with regression.
 		4. So we could stop here if we chose. Talk about why. 
    
 #### <a id="Step6"></a>4. Residual analysis of the data
+So, one of the things we need to focus on in this sort of analysis is that the residuals really do mean something. 
+
+
+
    
 #### <a id="Step7"></a>5. Making predictions using the final model and evaluation
+
+
+## <a id="tuts"></a>Additional Tutorials
+* Simple Linear: https://www.youtube.com/watch?v=Qe6LLJAmJ6c&list=PLKkRkURCtPjCJOZHskCoyJCPb8wMDs2CW&index=41&ab_channel=DavidCaughlin
+* Simple Linear: https://www.youtube.com/watch?v=-mGXnm0fHtI&ab_channel=RProgramming101
+* Multiple Linear: https://www.youtube.com/watch?v=zyEZop-5K9Q&t=544s&ab_channel=DavidCaughlin
+* Logistic Regression: https://www.youtube.com/watch?v=O7gRceyeyT8&list=PLKkRkURCtPjCJOZHskCoyJCPb8wMDs2CW&index=43&ab_channel=DavidCaughlin

@@ -83,7 +83,7 @@ So, at this point we're heading in to tests, experiments and things that are com
 * Geek's Lesson's playlist on Stats (also the R playlist is great!): https://www.youtube.com/watch?v=hjZJIVWHnPE&list=PLmAuaUS7wSOOI9LXA5mqh3SEX6SZF7TNd&ab_channel=Geek%27sLesson
 
 **Fantastic Tutorials:**
-* asd
+* https://www.theopeneducator.com/doe/hypothesis-Testing-Inferential-Statistics-Analysis-of-Variance-ANOVA/Two-Sample-Population-Proportion-Test
 * asd
 * asd
 * ads
