@@ -57,7 +57,7 @@ Let's talk about what we'd like to see with $R^2$:
 This will produce 3 visualizations and a bunch of stuff: 
 * Plot 1 is residuals (or errors in prediction), you want these to look mostly normal. For this example, we can see that our data is mostly normal. 
 * Plot 2 is what values are actually fitted to the line. This is basically a plot of residuals vs fitted values or error vs the data used for those errors. We want a very straight line here.  
-* Plot 3 is 
+* Plot 3 focuses on models with a single predictor variable. This plot is a scatterplot of the data is produced, which also includes the regression line and corresponding confidence and prediction intervals.
 
 # 5. Interpret Results
 
