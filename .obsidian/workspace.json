@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "13_Regression/Demo.md",
+                "file": "07_Hypothesis_Testing/Day1.md",
                 "mode": "source",
                 "source": false
               }
@@ -64,6 +64,14 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "64b3c80997ffc17a",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
@@ -85,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "13_Regression/Demo.md",
+                "file": "07_Hypothesis_Testing/Day1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "13_Regression/Demo.md",
+                "file": "07_Hypothesis_Testing/Day1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "13_Regression/Demo.md"
+                "file": "07_Hypothesis_Testing/Day1.md"
               }
             }
           }
@@ -148,8 +156,11 @@
   },
   "active": "c676f64a501a11d4",
   "lastOpenFiles": [
-    "13_Regression/Day1.md",
+    "04_Test_1/day2.md",
+    "04_Test_1/day1.md",
+    "01_What_is_Stats/day1.md",
     "13_Regression/Demo.md",
+    "13_Regression/Day1.md",
     "13_Regression/Day2.md"
   ]
 }
