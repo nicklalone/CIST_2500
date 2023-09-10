@@ -1,22 +1,18 @@
 {
   "main": {
-    "id": "cf66272a3d3a4597",
+    "id": "a8df485ba316d30d",
     "type": "split",
     "children": [
       {
-        "id": "8545dec55af290a4",
+        "id": "3c512f07f5814500",
         "type": "tabs",
         "children": [
           {
-            "id": "c676f64a501a11d4",
+            "id": "b6f936bf4d30c841",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "07_Hypothesis_Testing/Day1.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -25,15 +21,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "0aa65a619ab23ef6",
+    "id": "806d41c50406c47f",
     "type": "split",
     "children": [
       {
-        "id": "d00542052bd37210",
+        "id": "c6167548b7dd61a2",
         "type": "tabs",
         "children": [
           {
-            "id": "113c255c14b4fccf",
+            "id": "ce0917bef73f47d2",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,7 +39,7 @@
             }
           },
           {
-            "id": "8fdb8c3ea0cfd182",
+            "id": "4d11b95247b01269",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -58,18 +54,10 @@
             }
           },
           {
-            "id": "1d17b2bbe9d74083",
+            "id": "c547dbe98fa08a7c",
             "type": "leaf",
             "state": {
               "type": "starred",
-              "state": {}
-            }
-          },
-          {
-            "id": "64b3c80997ffc17a",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
               "state": {}
             }
           }
@@ -77,23 +65,22 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 259.5004348754883
   },
   "right": {
-    "id": "f2e936bd4d250671",
+    "id": "1fc2bc29e1ae508a",
     "type": "split",
     "children": [
       {
-        "id": "9d96d174a5e75f2d",
+        "id": "684917cab9c005e2",
         "type": "tabs",
         "children": [
           {
-            "id": "e1d01bb97da7fb62",
+            "id": "88fe50cc4e7d0ca7",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "07_Hypothesis_Testing/Day1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,19 +92,18 @@
             }
           },
           {
-            "id": "0e13a777152fa3b7",
+            "id": "2035033c33691f53",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "07_Hypothesis_Testing/Day1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "44cf843c85af69e6",
+            "id": "b24ce0ccf23167f3",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -128,21 +114,19 @@
             }
           },
           {
-            "id": "3cb3a7a987788062",
+            "id": "6a4ec68bd5c2263f",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "07_Hypothesis_Testing/Day1.md"
-              }
+              "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -154,13 +138,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c676f64a501a11d4",
+  "active": "b6f936bf4d30c841",
   "lastOpenFiles": [
-    "04_Test_1/day2.md",
-    "04_Test_1/day1.md",
+    "Untitled 1.canvas",
+    "Untitled.canvas",
+    "03_Z-Scores/day2.md",
+    "03_Z-Scores/day1.md",
+    "02_Descriptives/day2.md",
+    "02_Descriptives/day1.md",
     "01_What_is_Stats/day1.md",
-    "13_Regression/Demo.md",
-    "13_Regression/Day1.md",
-    "13_Regression/Day2.md"
+    "02_Descriptives/readme.md",
+    "images/dbar.png",
+    "images/cramers.png"
   ]
 }
